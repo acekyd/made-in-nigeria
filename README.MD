@@ -39,6 +39,8 @@
 
 ## <a name="K"> </a>K
 
+* [KhaledBot](https://github.com/ireade/khaledbot) - Delivering Major Keys to your Slack Team  **By @ireade**
+
 ## <a name="L"> </a>L
 
 ## <a name="M"> </a>M
@@ -51,6 +53,8 @@
 * [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By @neoighodaro**
 
 ## <a name="O"> </a>O
+
+* [OpenWriter](https://github.com/ireade/openwriter) - A free theme for Ghost. **By @ireade**
 
 ## <a name="P"> </a>P
 
@@ -70,6 +74,8 @@
 
 
 ## <a name="T"> </a>T
+
+* [Toast.js](https://github.com/ireade/Toast.js) - A library for Toast messages  **By @ireade**
 
 ## <a name="U"> </a>U
 
