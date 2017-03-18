@@ -12,6 +12,7 @@
 ## <a name="C"> </a>C
 
 * [Caniuse-embed](https://github.com/ireade/caniuse-embed) - The (unofficial) embed for caniuse. **By @ireade**
+* [Composer-git-hook](https://github.com/BrainMaestro/composer-git-hooks) - Easily manage git hooks in your composer config **By @BrainMaestro**
 
 ## <a name="D"> </a>D
 
@@ -20,7 +21,7 @@
 ## <a name="F"> </a>F
 
 * [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By @ireade**
-
+* [Face-detector](https://github.com/moyheen/face-detector) - is application contains all the code from her article on the FaceDetector API. **By @moyheen**
 
 ## <a name="G"> </a>G
 
@@ -37,6 +38,9 @@
 
 ## <a name="J"> </a>J
 
+* [Jollof](https://github.com/isocroft/Jollof) - A lightweight PHP framework for developers who love smart work. **By @isocroft**
+
+
 ## <a name="K"> </a>K
 
 * [KhaledBot](https://github.com/ireade/khaledbot) - Delivering Major Keys to your Slack Team  **By @ireade**
@@ -46,6 +50,7 @@
 ## <a name="M"> </a>M
 
 * [MarkedIt](https://github.com/christiannwamba/markedit) - Simple markdown editor widget. **By @christiannwamba**
+* [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By @andela-cdaniel**
 
 
 ## <a name="N"> </a>N
@@ -59,6 +64,7 @@
 ## <a name="P"> </a>P
 
 * [Product-Tour](https://github.com/Robophil/Product-Tour) - A responsive tour snippet, with a step-by-step guide(onboarding) **By @Robophil**
+* [PackageHub](https://github.com/BrainMaestro/packagehub) - An extension for displaying dependencies for many package managers on GitHub **By @BrainMaestro**
 
 
 ## <a name="Q"> </a>Q
@@ -67,10 +73,9 @@
 
 ## <a name="S"> </a>S
 
+* [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By @shalvah**
 * [Slackword](https://github.com/larikraun/slackword) - Dictionary in your slack....additionally, you can get random words. **By @larikraun**
-
 * [SlidingSquaresLoader](https://github.com/biodunalfet/SlidingSquaresLoader) - A simple progress loader **By @biodunalfet**
-
 * [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By @tdscientist**
 
 
