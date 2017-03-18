@@ -17,6 +17,9 @@
 
 ## <a name="D"> </a>D
 
+* [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. **By @acekyd**
+
+
 ## <a name="E"> </a>E
 
 ## <a name="F"> </a>F
