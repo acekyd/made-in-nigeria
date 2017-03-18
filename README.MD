@@ -71,6 +71,8 @@
 
 * [SlidingSquaresLoader](https://github.com/biodunalfet/SlidingSquaresLoader) - A simple progress loader **By @biodunalfet**
 
+* [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By @tdscientist**
+
 
 
 ## <a name="T"> </a>T
