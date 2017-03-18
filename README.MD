@@ -12,6 +12,7 @@
 ## <a name="C"> </a>C
 
 * [Caniuse-embed](https://github.com/ireade/caniuse-embed) - The (unofficial) embed for caniuse. **By @ireade**
+* [Client_manager](https://github.com/timigod/client_manager) - API Client Manager is a mountable Rails (engine) gem that helps identify and authenticate your API clients' requests. **By @timigod**
 * [Composer-git-hook](https://github.com/BrainMaestro/composer-git-hooks) - Easily manage git hooks in your composer config **By @BrainMaestro**
 
 ## <a name="D"> </a>D
@@ -33,6 +34,7 @@
 ## <a name="I"> </a>I
 
 * [Icicle](https://github.com/segunfamisa/icicle) - An annotation based tool for saving and restoring instance states. **By @segunfamisa**
+* [ImgR](https://github.com/mykeels/ImgR) - ImgR.NET aims at automating the process of serving Images dynamically based on the client device. **By @mykeels**
 * [Inlinetweetjs](https://github.com/ireade/inlinetweetjs) - InlineTweet.js allows you to easily create tweetable links out of any text on a webpage. **By @ireade**
 
 
@@ -47,15 +49,24 @@
 
 ## <a name="L"> </a>L
 
+* [Laravel-hackathon-starter](https://github.com/unicodeveloper/laravel-hackathon-starter) - A hackathon/MVP boilerplate for laravel web applications. Start your hackathons without hassle.  **By @unicodeveloper**
+* [Laravel-emoji](https://github.com/unicodeveloper/laravel-emoji) - Laravel 5 Package that harnesses the power of PHP 7 unicode features to provide emojis in your laravel app.  **By @unicodeveloper**
+* [Laravel-mentions](https://github.com/unicodeveloper/laravel-mentions) - Laravel 5 Package for enabling facebook type of mentions in your application.  **By @unicodeveloper**
+* [Laravel-password](https://github.com/unicodeveloper/laravel-password) - Guard your users against entering dumb passwords in your Laravel 5 apps.  **By @unicodeveloper**
+* [Laravel-identify](https://github.com/unicodeveloper/laravel-identify) - Laravel 5 Package to Detect Users Browsers, Devices, Languages and Operating Systems.  **By @unicodeveloper**
+
+
 ## <a name="M"> </a>M
 
 * [MarkedIt](https://github.com/christiannwamba/markedit) - Simple markdown editor widget. **By @christiannwamba**
+* [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By @mykeels**
 * [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By @andela-cdaniel**
 
 
 ## <a name="N"> </a>N
 
 * [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By @neoighodaro**
+* [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By @ifedapoolarewaju**
 
 ## <a name="O"> </a>O
 
@@ -71,12 +82,16 @@
 
 ## <a name="R"> </a>R
 
+* [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By @ifedapoolarewaju**
+
+
 ## <a name="S"> </a>S
 
 * [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By @shalvah**
 * [Slackword](https://github.com/larikraun/slackword) - Dictionary in your slack....additionally, you can get random words. **By @larikraun**
 * [SlidingSquaresLoader](https://github.com/biodunalfet/SlidingSquaresLoader) - A simple progress loader **By @biodunalfet**
 * [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By @tdscientist**
+* [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel **By @ammezie**
 
 
 
