@@ -5,6 +5,7 @@
 
 * [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By @ireade**
 * [APX](https://github.com/othreecodes/APX) - A Javafx Library for building MVC Applications. **By @othreecodes**
+* [Atom-Go-Imports](https://atom.io/packages/go-imports) A plugin for Atom Editor to add import statements to Go codes. **By @abiosoft**
 * [AppFramer](https://github.com/olucurious/AppFramer) - AppFramer helps to put your app screenshots in beautiful device frames with annotations by running a simple command **By @olucurious**
 
 
@@ -12,6 +13,7 @@
 
 ## <a name="C"> </a>C
 
+* [Caddy-Git](https://github.com/abiosoft/caddy-git) - Git plugin for Caddy web server. **By @abiosoft**
 * [Caniuse-embed](https://github.com/ireade/caniuse-embed) - The (unofficial) embed for caniuse. **By @ireade**
 * [Client_manager](https://github.com/timigod/client_manager) - API Client Manager is a mountable Rails (engine) gem that helps identify and authenticate your API clients' requests. **By @timigod**
 * [Composer-git-hook](https://github.com/BrainMaestro/composer-git-hooks) - Easily manage git hooks in your composer config **By @BrainMaestro**
@@ -19,6 +21,7 @@
 ## <a name="D"> </a>D
 
 * [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. **By @acekyd**
+* [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By @abiosoft**
 
 
 ## <a name="E"> </a>E
@@ -32,6 +35,7 @@
 
 * [Gulp-Email-Workflow](https://github.com/ireade/gulp-email-workflow) - A Gulp workflow for building HTML emails. **By @ireade**
 * [Google Dictionary](https://github.com/chizoba/google-dictionary) - An android library that provides easy access to meanings of any word, phrase, or slang via Google, within any application. **By @chizoba**
+* [graceful-terminate](https://github.com/abiosoft/node-graceful) - Gracefully shutdown your node app. **By @abiosoft**
 
 ## <a name="H"> </a>H
 
@@ -40,6 +44,7 @@
 * [Icicle](https://github.com/segunfamisa/icicle) - An annotation based tool for saving and restoring instance states. **By @segunfamisa**
 * [ImgR](https://github.com/mykeels/ImgR) - ImgR.NET aims at automating the process of serving Images dynamically based on the client device. **By @mykeels**
 * [Inlinetweetjs](https://github.com/ireade/inlinetweetjs) - InlineTweet.js allows you to easily create tweetable links out of any text on a webpage. **By @ireade**
+* [iShell](https://github.com/abiosoft/ishell) - Library for creating interactive CLI applications with Go. **By @abiosoft**
 
 
 ## <a name="J"> </a>J
@@ -88,11 +93,13 @@
 ## <a name="R"> </a>R
 
 * [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By @ifedapoolarewaju**
+* [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By @abiosoft**
 
 
 ## <a name="S"> </a>S
 
 * [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By @shalvah**
+* [Simplistic Syntax](https://atom.io/themes/simplistic-syntax) - Simple theme for Atom Editor. **By @abiosoft**
 * [Slackword](https://github.com/larikraun/slackword) - Dictionary in your slack....additionally, you can get random words. **By @larikraun**
 * [SlidingSquaresLoader](https://github.com/biodunalfet/SlidingSquaresLoader) - A simple progress loader **By @biodunalfet**
 * [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By @tdscientist**
