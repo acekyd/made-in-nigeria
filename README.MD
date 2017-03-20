@@ -6,6 +6,7 @@
 * [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By @ireade**
 * [APX](https://github.com/othreecodes/APX) - A Javafx Library for building MVC Applications. **By @othreecodes**
 * [Atom-Go-Imports](https://atom.io/packages/go-imports) A plugin for Atom Editor to add import statements to Go codes. **By @abiosoft**
+* [AppFramer](https://github.com/olucurious/AppFramer) - AppFramer helps to put your app screenshots in beautiful device frames with annotations by running a simple command **By @olucurious**
 
 
 ## <a name="B"> </a>B
@@ -84,6 +85,7 @@
 
 * [Product-Tour](https://github.com/Robophil/Product-Tour) - A responsive tour snippet, with a step-by-step guide(onboarding) **By @Robophil**
 * [PackageHub](https://github.com/BrainMaestro/packagehub) - An extension for displaying dependencies for many package managers on GitHub **By @BrainMaestro**
+* [PyFCM](https://github.com/olucurious/PyFCM) - Python client for FCM - Firebase Cloud Messaging (Android & iOS) **By @olucurious**
 
 
 ## <a name="Q"> </a>Q
