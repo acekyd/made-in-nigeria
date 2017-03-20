@@ -65,6 +65,7 @@
 * [Laravel-mentions](https://github.com/unicodeveloper/laravel-mentions) - Laravel 5 Package for enabling facebook type of mentions in your application.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel-password](https://github.com/unicodeveloper/laravel-password) - Guard your users against entering dumb passwords in your Laravel 5 apps.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel-identify](https://github.com/unicodeveloper/laravel-identify) - Laravel 5 Package to Detect Users Browsers, Devices, Languages and Operating Systems.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel-paystack](https://github.com/unicodeveloper/laravel-paystack) - Laravel 5 Paystack Package.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 
 
 ## <a name="M"> </a>M
