@@ -69,6 +69,7 @@
 * [Laravel-paystack](https://github.com/unicodeveloper/laravel-paystack) - Laravel 5 Paystack Package.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel-jusibe](https://github.com/unicodeveloper/laravel-jusibe) - Laravel 5 package for Jusibe SMS Service.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People et.c **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Wikipedia](https://github.com/unicodeveloper/laravel-wikipedia) -  A Wikipedia Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 
 
 ## <a name="M"> </a>M
