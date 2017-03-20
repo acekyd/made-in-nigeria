@@ -61,18 +61,19 @@
 
 ## <a name="L"> </a>L
 
-* [Laravel-hackathon-starter](https://github.com/unicodeveloper/laravel-hackathon-starter) - A hackathon/MVP boilerplate for laravel web applications. Start your hackathons without hassle.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel-emoji](https://github.com/unicodeveloper/laravel-emoji) - Laravel 5 Package that harnesses the power of PHP 7 unicode features to provide emojis in your laravel app.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel-mentions](https://github.com/unicodeveloper/laravel-mentions) - Laravel 5 Package for enabling facebook type of mentions in your application.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel-password](https://github.com/unicodeveloper/laravel-password) - Guard your users against entering dumb passwords in your Laravel 5 apps.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel-identify](https://github.com/unicodeveloper/laravel-identify) - Laravel 5 Package to Detect Users Browsers, Devices, Languages and Operating Systems.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel-paystack](https://github.com/unicodeveloper/laravel-paystack) - Laravel 5 Paystack Package.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel-jusibe](https://github.com/unicodeveloper/laravel-jusibe) - Laravel 5 package for Jusibe SMS Service.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Hackathon Starter](https://github.com/unicodeveloper/laravel-hackathon-starter) - A hackathon/MVP boilerplate for laravel web applications. Start your hackathons without hassle.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Emoji](https://github.com/unicodeveloper/laravel-emoji) - Laravel 5 Package that harnesses the power of PHP 7 unicode features to provide emojis in your laravel app.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Mentions](https://github.com/unicodeveloper/laravel-mentions) - Laravel 5 Package for enabling facebook type of mentions in your application.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Password](https://github.com/unicodeveloper/laravel-password) - Guard your users against entering dumb passwords in your Laravel 5 apps.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Identify](https://github.com/unicodeveloper/laravel-identify) - Laravel 5 Package to Detect Users Browsers, Devices, Languages and Operating Systems.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Paystack](https://github.com/unicodeveloper/laravel-paystack) - Laravel 5 Paystack Package.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Jusibe](https://github.com/unicodeveloper/laravel-jusibe) - Laravel 5 package for Jusibe SMS Service.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People et.c **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Wikipedia](https://github.com/unicodeveloper/laravel-wikipedia) -  A Wikipedia Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Exam](https://github.com/unicodeveloper/laravel-exam) -  A Laravel exam with questions from beginner to expert curated **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Feeder](https://github.com/unicodeveloper/laravel-feeder) -  Laravel 5 Package to extract atom and rss feeds from any website in a very good readable format **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Email Validator](https://github.com/unicodeveloper/laravel-email-validator) - Validate email addresses on the fly in Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Codepen](https://github.com/unicodeveloper/laravel-codepen) - A Codepen Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 
 
 ## <a name="M"> </a>M
