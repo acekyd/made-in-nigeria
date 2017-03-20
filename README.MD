@@ -50,10 +50,12 @@
 
 ## <a name="J"> </a>J
 
-* [Jollof](https://github.com/isocroft/Jollof) - A lightweight PHP framework for developers who love smart work. **By [@isocroft](https://twitter.com/isocroft)**
+* [Jollof](https://github.com/isocroft/Jollof) - A library for using the [Jusibe SMS Service](https://jusibe.com) **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 
 
 ## <a name="K"> </a>K
+
+* [Jusibe PHP Libarary](https://github.com/unicodeveloper/jusibe-php-lib) - Delivering Major Keys to your Slack Team  **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
 * [KhaledBot](https://github.com/ireade/khaledbot) - Delivering Major Keys to your Slack Team  **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
