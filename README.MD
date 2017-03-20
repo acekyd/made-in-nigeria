@@ -111,6 +111,7 @@
 ## <a name="T"> </a>T
 
 * [Toast.js](https://github.com/ireade/Toast.js) - A library for Toast messages  **By @ireade**
+* [TweetThreader](https://github.com/Udokah/tweet-threader) - A tool to create threads on Twitter  **By @thisisudo**
 
 ## <a name="U"> </a>U
 
