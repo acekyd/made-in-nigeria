@@ -68,6 +68,7 @@
 * [Laravel-identify](https://github.com/unicodeveloper/laravel-identify) - Laravel 5 Package to Detect Users Browsers, Devices, Languages and Operating Systems.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel-paystack](https://github.com/unicodeveloper/laravel-paystack) - Laravel 5 Paystack Package.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel-jusibe](https://github.com/unicodeveloper/laravel-jusibe) - Laravel 5 package for Jusibe SMS Service.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People et.c **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 
 
 ## <a name="M"> </a>M
