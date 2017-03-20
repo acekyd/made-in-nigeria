@@ -30,7 +30,7 @@
 ## <a name="G"> </a>G
 
 * [Gulp-Email-Workflow](https://github.com/ireade/gulp-email-workflow) - A Gulp workflow for building HTML emails. **By @ireade**
-
+* [Google Dictionary](https://github.com/chizoba/google-dictionary) - An android library that provides easy access to meanings of any word, phrase, or slang via Google, within any application. **By @chizoba**
 
 ## <a name="H"> </a>H
 
