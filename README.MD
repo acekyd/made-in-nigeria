@@ -57,6 +57,7 @@
 
 * [Jollof](https://github.com/isocroft/Jollof) - A lightweight PHP framework for developers who love smart work. **By [@isocroft](https://twitter.com/isocroft)**
 * [Jusibe PHP Library](https://github.com/unicodeveloper/jusibe-php-lib) - A library for [Jusibe SMS Service](https://jusibe.com)  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Jusibe JavaScript Library](https://github.com/azemoh/jusibe) - A JavaScript library for [Jusibe SMS Service](https://jusibe.com)  **By [@azemoh](https://twitter.com/josh_azemoh)**
 
 
 ## <a name="K"> </a>K
@@ -120,7 +121,7 @@
 * [SlidingSquaresLoader](https://github.com/biodunalfet/SlidingSquaresLoader) - A simple progress loader **By [@biodunalfet](https://twitter.com/biodunalfet)**
 * [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**
 * [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel **By [@ammezie](https://twitter.com/ammezie)**
-
+* [Squareone](https://github.com/codaye/squareone) - Jekyll starter site generator, setup with gulp task automation workflow **By [@azemoh](https://twitter.com/josh_azemoh)**
 
 
 ## <a name="T"> </a>T
@@ -131,6 +132,7 @@
 ## <a name="U"> </a>U
 
 ## <a name="V"> </a>V
+* [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
 
 ## <a name="W"> </a>W
 
