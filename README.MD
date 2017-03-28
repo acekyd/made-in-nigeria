@@ -4,6 +4,7 @@
 ## <a name="A"> </a>A
 
 * [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
+* [Angular-tag] (https://github.com/theo4u/angular-tag) - Tags input directive for AngularJS. **By @theo4u**
 * [APX](https://github.com/othreecodes/APX) - A Javafx Library for building MVC Applications. **By @othreecodes**
 * [Atom-Go-Imports](https://atom.io/packages/go-imports) A plugin for Atom Editor to add import statements to Go codes. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [AppFramer](https://github.com/olucurious/AppFramer) - AppFramer helps to put your app screenshots in beautiful device frames with annotations by running a simple command **By [@olucurious](https://twitter.com/olucurious)**
@@ -115,6 +116,7 @@
 
 ## <a name="S"> </a>S
 
+* [Php-Serializable](https://github.com/theo4u/php-serializable) - this helps to serialize php object(best phpclass award november 2016). **By @theo4u**
 * [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By @shalvah**
 * [Simplistic Syntax](https://atom.io/themes/simplistic-syntax) - Simple theme for Atom Editor. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Slackword](https://github.com/larikraun/slackword) - Dictionary in your slack....additionally, you can get random words. **By [@_larikraun](https://twitter.com/_larikraun)**
