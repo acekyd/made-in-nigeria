@@ -117,6 +117,8 @@
 
 ## <a name="S"> </a>S
 
+* [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken **By [@robophil_](https://twitter.com/robophil_)**
+* [sails-hook-datatable](https://github.com/Robophil/sails-hook-datatable) - A sails hook for working with Jquery datatables **By [@robophil_](https://twitter.com/robophil_)**
 * [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By @shalvah**
 * [Simplistic Syntax](https://atom.io/themes/simplistic-syntax) - Simple theme for Atom Editor. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Slackword](https://github.com/larikraun/slackword) - Dictionary in your slack....additionally, you can get random words. **By [@_larikraun](https://twitter.com/_larikraun)**
