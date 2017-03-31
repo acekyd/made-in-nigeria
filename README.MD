@@ -6,8 +6,8 @@
 * [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Angular-tag] (https://github.com/theo4u/angular-tag) - Tags input directive for AngularJS. **By @theo4u**
 * [APX](https://github.com/othreecodes/APX) - A Javafx Library for building MVC Applications. **By @othreecodes**
-* [Atom-Go-Imports](https://atom.io/packages/go-imports) A plugin for Atom Editor to add import statements to Go codes. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [AppFramer](https://github.com/olucurious/AppFramer) - AppFramer helps to put your app screenshots in beautiful device frames with annotations by running a simple command **By [@olucurious](https://twitter.com/olucurious)**
+* [Atom-Go-Imports](https://atom.io/packages/go-imports) A plugin for Atom Editor to add import statements to Go codes. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Atom Aurelia snippets](https://github.com/unicodeveloper/atom-aurelia-snippets) - A plugin for Atom Editor to autocomplete aurelia snippets when working with Aurelia.**By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 
 
@@ -68,20 +68,19 @@
 
 ## <a name="L"> </a>L
 
-* [Laravel Hackathon Starter](https://github.com/unicodeveloper/laravel-hackathon-starter) - A hackathon/MVP boilerplate for laravel web applications. Start your hackathons without hassle.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Codepen](https://github.com/unicodeveloper/laravel-codepen) - A Codepen Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Email Validator](https://github.com/unicodeveloper/laravel-email-validator) - Validate email addresses on the fly in Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Emoji](https://github.com/unicodeveloper/laravel-emoji) - Laravel 5 Package that harnesses the power of PHP 7 unicode features to provide emojis in your laravel app.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel Mentions](https://github.com/unicodeveloper/laravel-mentions) - Laravel 5 Package for enabling facebook type of mentions in your application.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel Password](https://github.com/unicodeveloper/laravel-password) - Guard your users against entering dumb passwords in your Laravel 5 apps.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel Identify](https://github.com/unicodeveloper/laravel-identify) - Laravel 5 Package to Detect Users Browsers, Devices, Languages and Operating Systems.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel Paystack](https://github.com/unicodeveloper/laravel-paystack) - Laravel 5 Paystack Package.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel Jusibe](https://github.com/unicodeveloper/laravel-jusibe) - Laravel 5 package for Jusibe SMS Service.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People et.c **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel Wikipedia](https://github.com/unicodeveloper/laravel-wikipedia) -  A Wikipedia Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Exam](https://github.com/unicodeveloper/laravel-exam) -  A Laravel exam with questions from beginner to expert curated **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Feeder](https://github.com/unicodeveloper/laravel-feeder) -  Laravel 5 Package to extract atom and rss feeds from any website in a very good readable format **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel Email Validator](https://github.com/unicodeveloper/laravel-email-validator) - Validate email addresses on the fly in Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Laravel Codepen](https://github.com/unicodeveloper/laravel-codepen) - A Codepen Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-
+* [Laravel Hackathon Starter](https://github.com/unicodeveloper/laravel-hackathon-starter) - A hackathon/MVP boilerplate for laravel web applications. Start your hackathons without hassle.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Identify](https://github.com/unicodeveloper/laravel-identify) - Laravel 5 Package to Detect Users Browsers, Devices, Languages and Operating Systems.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Jusibe](https://github.com/unicodeveloper/laravel-jusibe) - Laravel 5 package for Jusibe SMS Service.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Mentions](https://github.com/unicodeveloper/laravel-mentions) - Laravel 5 Package for enabling facebook type of mentions in your application.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Password](https://github.com/unicodeveloper/laravel-password) - Guard your users against entering dumb passwords in your Laravel 5 apps.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Paystack](https://github.com/unicodeveloper/laravel-paystack) - Laravel 5 Paystack Package.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Wikipedia](https://github.com/unicodeveloper/laravel-wikipedia) -  A Wikipedia Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People et.c **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 
 ## <a name="M"> </a>M
 
@@ -102,9 +101,9 @@
 
 ## <a name="P"> </a>P
 
+* [PackageHub](https://github.com/BrainMaestro/packagehub) - An extension for displaying dependencies for many package managers on GitHub **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
 * [Php-Serializable](https://github.com/theo4u/php-serializable) - this helps to serialize php object(best phpclass award november 2016). **By @theo4u**
 * [Product-Tour](https://github.com/Robophil/Product-Tour) - A responsive tour snippet, with a step-by-step guide(onboarding) **By [@robophil_](https://twitter.com/robophil_)**
-* [PackageHub](https://github.com/BrainMaestro/packagehub) - An extension for displaying dependencies for many package managers on GitHub **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
 * [PyFCM](https://github.com/olucurious/PyFCM) - Python client for FCM - Firebase Cloud Messaging (Android & iOS) **By [@olucurious](https://twitter.com/olucurious)**
 
 
@@ -120,11 +119,11 @@
 
 * [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken **By [@robophil_](https://twitter.com/robophil_)**
 * [sails-hook-datatable](https://github.com/Robophil/sails-hook-datatable) - A sails hook for working with Jquery datatables **By [@robophil_](https://twitter.com/robophil_)**
+* [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**
 * [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By @shalvah**
 * [Simplistic Syntax](https://atom.io/themes/simplistic-syntax) - Simple theme for Atom Editor. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Slackword](https://github.com/larikraun/slackword) - Dictionary in your slack....additionally, you can get random words. **By [@_larikraun](https://twitter.com/_larikraun)**
 * [SlidingSquaresLoader](https://github.com/biodunalfet/SlidingSquaresLoader) - A simple progress loader **By [@biodunalfet](https://twitter.com/biodunalfet)**
-* [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**
 * [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel **By [@ammezie](https://twitter.com/ammezie)**
 * [Squareone](https://github.com/codaye/squareone) - Jekyll starter site generator, setup with gulp task automation workflow **By [@azemoh](https://twitter.com/josh_azemoh)**
 
