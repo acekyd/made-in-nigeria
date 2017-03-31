@@ -34,8 +34,9 @@
 
 ## <a name="F"> </a>F
 
-* [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Face-detector](https://github.com/moyheen/face-detector) - is application contains all the code from her article on the FaceDetector API. **By [@moyheen](https://twitter.com/moyheen)**
+* [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**
+* [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
 ## <a name="G"> </a>G
 
