@@ -5,8 +5,8 @@
 
 * [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Angular-tag] (https://github.com/theo4u/angular-tag) - Tags input directive for AngularJS. **By @theo4u**
-* [APX](https://github.com/othreecodes/APX) - A Javafx Library for building MVC Applications. **By @othreecodes**
 * [AppFramer](https://github.com/olucurious/AppFramer) - AppFramer helps to put your app screenshots in beautiful device frames with annotations by running a simple command **By [@olucurious](https://twitter.com/olucurious)**
+* [APX](https://github.com/othreecodes/APX) - A Javafx Library for building MVC Applications. **By @othreecodes**
 * [Atom-Go-Imports](https://atom.io/packages/go-imports) A plugin for Atom Editor to add import statements to Go codes. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Atom Aurelia snippets](https://github.com/unicodeveloper/atom-aurelia-snippets) - A plugin for Atom Editor to autocomplete aurelia snippets when working with Aurelia.**By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 
