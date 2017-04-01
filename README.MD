@@ -51,6 +51,7 @@
 * [Icicle](https://github.com/segunfamisa/icicle) - An annotation based tool for saving and restoring instance states. **By [@segunfamisa](https://twitter.com/segunfamisa)**
 * [ImgR](https://github.com/mykeels/ImgR) - ImgR.NET aims at automating the process of serving Images dynamically based on the client device. **By [@mykeels](https://twitter.com/mykeels)**
 * [Inlinetweetjs](https://github.com/ireade/inlinetweetjs) - InlineTweet.js allows you to easily create tweetable links out of any text on a webpage. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
+* [IntentManip](https://github.com/KingsMentor/IntentManip) - Gives more control over implicit intents creation and the way it is presented to users.. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
 * [Instaword](https://github.com/acekyd/instaword) - InstaWord is a Chrome and Opera browser plugin that makes learning new words much easier. **By [@ace_kyd](https://twitter.com/ace_kyd)**
 * [iShell](https://github.com/abiosoft/ishell) - Library for creating interactive CLI applications with Go. **By [@abiosoft](https://twitter.com/abiosoft)**
 
@@ -85,7 +86,9 @@
 ## <a name="M"> </a>M
 
 * [MarkedIt](https://github.com/christiannwamba/markedit) - Simple markdown editor widget. **By [@codebeast](https://twitter.com/codebeast)**
+* [MediumUnooficialSDK](https://github.com/KingsMentor/medium-android-sdk-unofficial) - Unoffical implementation of medium api for android .Support Medium Oauth Sign in, retrieve users post, make publications and other medium supported features. **By [@kingsmentor](https://twitter.com/kingsmentor)**
 * [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By [@mykeels](https://twitter.com/mykeels)**
+* [MobileVisionBarcodeScanner](https://github.com/KingsMentor/MobileVisionBarcodeScanner) - Mobile Vission Barcode Scanner  **By [@kingsmentor](https://twitter.com/kingsment)**
 * [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**
 * [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 
@@ -110,7 +113,7 @@
 ## <a name="Q"> </a>Q
 
 ## <a name="R"> </a>R
-
+* [Rationale](https://github.com/KingsMentor/Rationale) - Android permission rationale helper dialog. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
 * [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By @ifedapoolarewaju**
 * [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By [@abiosoft](https://twitter.com/abiosoft)**
 
