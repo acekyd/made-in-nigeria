@@ -97,6 +97,7 @@
 
 * [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
 * [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By @ifedapoolarewaju**
+* [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in   Nigeria. **By [@seyi__adeleke](https://twitter.com/seyi__adeleke)**
 
 ## <a name="O"> </a>O
 
