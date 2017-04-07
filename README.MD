@@ -35,6 +35,7 @@
 ## <a name="F"> </a>F
 
 * [Face-detector](https://github.com/moyheen/face-detector) - is application contains all the code from her article on the FaceDetector API. **By [@moyheen](https://twitter.com/moyheen)**
+* [Fave](https://github.com/kehers/fave) - Send links in tweets you fav to your Pocket account. **By [@kehers](https://twitter.com/kehers)**
 * [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**
 * [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
@@ -106,6 +107,7 @@
 ## <a name="P"> </a>P
 
 * [PackageHub](https://github.com/BrainMaestro/packagehub) - An extension for displaying dependencies for many package managers on GitHub **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
+* [Paystack wrapper](https://github.com/kehers/paystack) - Nodejs API wrapper for Paystack. **By [@kehers](https://twitter.com/kehers)**
 * [Php-Serializable](https://github.com/theo4u/php-serializable) - this helps to serialize php object(best phpclass award november 2016). **By @theo4u**
 * [Product-Tour](https://github.com/Robophil/Product-Tour) - A responsive tour snippet, with a step-by-step guide(onboarding) **By [@robophil_](https://twitter.com/robophil_)**
 * [PyFCM](https://github.com/olucurious/PyFCM) - Python client for FCM - Firebase Cloud Messaging (Android & iOS) **By [@olucurious](https://twitter.com/olucurious)**
@@ -134,6 +136,7 @@
 
 ## <a name="T"> </a>T
 
+* [TinyPress](https://github.com/kehers/tinypress) - Create and easily manage your blog on Github. **By [@kehers](https://twitter.com/kehers)**
 * [Toast.js](https://github.com/ireade/Toast.js) - A library for Toast messages  **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [TweetThreader](https://github.com/Udokah/tweet-threader) - A tool to create threads on Twitter  **By [@thisisudo](https://twitter.com/thisisudo)**
 
