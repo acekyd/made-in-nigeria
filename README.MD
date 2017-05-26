@@ -40,6 +40,7 @@
 * [Face-detector](https://github.com/moyheen/face-detector) - is application contains all the code from her article on the FaceDetector API. **By [@moyheen](https://twitter.com/moyheen)**
 * [Fave](https://github.com/kehers/fave) - Send links in tweets you fav to your Pocket account. **By [@kehers](https://twitter.com/kehers)**
 * [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**
+* [Flask-extension-cookicutter](https://github.com/Olamyy/flask-extension-cookiecutter) - A cookiecutter template for writing flask extensions.
 * [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
 ## <a name="G"> </a>G
