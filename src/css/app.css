@@ -1,0 +1,86 @@
+@import "fonts.css";
+
+* {
+    color: #373D3F;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #F2F3F4;
+}
+
+a {
+    color: #1A82BF;
+    cursor: pointer;
+    transition: color 200ms ease-out;
+}
+
+a:hover {
+    color: #0E4061;
+}
+
+.container {
+    margin: 50px auto;
+    width: 70%;
+}
+
+.page-header {
+    height: 50px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#search-input {
+    background-color: #F2F3F4;
+    border: 1px solid #A7AFB2;
+    border-radius: 5px;
+    float: right;
+    font-size: 1.1rem;
+    height: 40px;
+    padding: 0 20px;
+    position: relative;
+    width: 300px;
+}
+
+#search-input:focus {
+    outline: none;
+}
+
+#tools-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    width: 100%;
+}
+
+#tools-table td, th {
+    padding: 0 10px;
+}
+
+#tools-table thead {
+    background-color: #DADEDF;
+}
+
+#tools-table thead tr {
+    border-bottom: 3px solid #A7AFB2;
+    height: 60px;
+}
+
+#tools-table tbody tr {
+    border-bottom: 1px solid #A7AFB2;
+    cursor: pointer;
+    height: 50px;
+    transition: background-color 200ms ease-out;
+}
+
+#tools-table tbody tr:hover {
+    background-color: #DADEDF;
+}
+
+#tools-table a {
+    text-decoration: none;
+}
+
+.no-display {
+    display: none;
+}
