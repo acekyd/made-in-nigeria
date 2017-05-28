@@ -35,6 +35,8 @@
 
 ## <a name="E"> </a>E
 
+* [EDD Paga](https://github.com/collizo4sky/EDD-Paga) - Accept Credit Card payments in your Easy Digital Downloads store via Paga. **By [@w3guy](https://twitter.com/w3guy)**
+
 ## <a name="F"> </a>F
 
 * [Face-detector](https://github.com/moyheen/face-detector) - is application contains all the code from her article on the FaceDetector API. **By [@moyheen](https://twitter.com/moyheen)**
@@ -105,17 +107,21 @@
 ## <a name="N"> </a>N
 
 * [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
+* [No-CAPTCHA-reCAPTCHA](https://github.com/collizo4sky/No-CAPTCHA-reCAPTCHA) - Protect WordPress login, registration and comment form from spam with the new No CAPTCHA reCAPTCHA. **By [@w3guy](https://twitter.com/w3guy)**
 * [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By @ifedapoolarewaju**
 * [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in   Nigeria. **By [@seyi__adeleke](https://twitter.com/seyi__adeleke)**
 
 ## <a name="O"> </a>O
 
 * [OpenWriter](https://github.com/ireade/openwriter) - A free theme for Ghost. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
+* [Omnipay 2Checkout](https://github.com/collizo4sky/omnipay-2checkout) - 2Checkout driver for the Omnipay PHP payment processing library. **By [@w3guy](https://twitter.com/w3guy)**
+* [Omnipay WePay](https://github.com/collizo4sky/omnipay-wepay) - WePay driver for the Omnipay PHP payment processing library. **By [@w3guy](https://twitter.com/w3guy)**
 
 ## <a name="P"> </a>P
 
 * [PackageHub](https://github.com/BrainMaestro/packagehub) - An extension for displaying dependencies for many package managers on GitHub **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
 * [Paystack wrapper](https://github.com/kehers/paystack) - Nodejs API wrapper for Paystack. **By [@kehers](https://twitter.com/kehers)**
+* [WordPress Persist Admin Notices Dismissal](https://github.com/collizo4sky/persist-admin-notices-dismissal) - Simple plugin that persists dismissal of admin notices across pages in WordPress dashboard. **By [@w3guy](https://twitter.com/w3guy)**
 * [Php-Serializable](https://github.com/theo4u/php-serializable) - this helps to serialize php object(best phpclass award november 2016). **By @theo4u**
 * [Product-Tour](https://github.com/Robophil/Product-Tour) - A responsive tour snippet, with a step-by-step guide(onboarding) **By [@robophil_](https://twitter.com/robophil_)**
 * [PyFCM](https://github.com/olucurious/PyFCM) - Python client for FCM - Firebase Cloud Messaging (Android & iOS) **By [@olucurious](https://twitter.com/olucurious)**
