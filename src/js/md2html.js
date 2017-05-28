@@ -32,7 +32,7 @@ var md2html = (function (markdownit, $) {
 
   var populateToolsTable = function ($toolsList) {
 
-    var $tableRows = $toolsTable.find('tbody');
+    var $tableRows = $toolsTable.find('tbody').detach();
 
     $toolsList.each(function () {
 
