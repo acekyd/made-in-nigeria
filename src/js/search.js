@@ -6,13 +6,15 @@ var search = (function ($) {
 
   var init = function () {
 
-    $searchInput.on('keyup', function () {
+    $searchInput.on('keyup', handleKeyUpEvent);
+  };
 
-      var searchQuery = $searchInput.val().toLowerCase();
-      var $searchDomain = $('#tools-table').find('tbody > tr');
+  var handleKeyUpEvent = function () {
 
-      doSearch(searchQuery, $searchDomain);
-    });
+    var searchQuery = $searchInput.val().toLowerCase();
+    var $searchDomain = $('#tools-table').find('tbody > tr');
+
+    doSearch(searchQuery, $searchDomain);
   };
 
   var doSearch = function (searchQuery, $searchDomain) {
