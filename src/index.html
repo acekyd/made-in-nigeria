@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Made In Nigeria</title>
+
+    <link href="css/app.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <input id="search-input" type="text" name="searchQuery" placeholder="Search tools">
+        </div>
+
+        <div class="page-body">
+            <table id="tools-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Creator</th>
+                    </tr>
+                </thead>
+                <tbody><!-- Table rows are dynamically loaded here. --></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Domify transformed HTML -->
+    <div id="shadow-dom"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.3.1/markdown-it.min.js" type="text/javascript"></script>
+    <script src="js/md2html.js" type="text/javascript"></script>
+    <script src="js/search.js" type="text/javascript"></script>
+</body>
+</html>
