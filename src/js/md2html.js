@@ -13,7 +13,7 @@ var md2html = (function (markdownit, $) {
 
   var init = function () {
 
-    /$.get('https://raw.githubusercontent.com/acekyd/made-in-nigeria/master/README.MD', function (mdContent) {
+    $.get('https://raw.githubusercontent.com/acekyd/made-in-nigeria/master/README.MD', function (mdContent) {
 
       // Convert markdown file content to html string.
       var htmlStrData = md.render(mdContent);
