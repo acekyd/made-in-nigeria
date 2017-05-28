@@ -2,12 +2,9 @@ var search = (function ($) {
 
   'use strict';
 
-  var $searchInput = null;
+  var $searchInput = $('#search-input');
 
   var init = function () {
-
-    // Do some prep.
-    setup();
 
     $searchInput.on('keyup', function () {
 
@@ -30,11 +27,6 @@ var search = (function ($) {
         $(this).hide();
       }
     });
-  };
-
-  var setup = function () {
-
-    $searchInput = $('#search-input');
   };
 
   // Expose Public API.

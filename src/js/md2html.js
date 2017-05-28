@@ -8,13 +8,10 @@ var md2html = (function (markdownit, $) {
     typographer: true
   });
 
-  var $shadowDom = null;
-  var $toolsTable = null;
+  var $shadowDom = $('#shadow-dom').addClass('no-display');
+  var $toolsTable = $('#tools-table');
 
   var init = function () {
-
-    // Do some prep.
-    setup();
 
     $.get('../README.MD', function (mdContent) {
 
@@ -27,31 +24,30 @@ var md2html = (function (markdownit, $) {
       // node.
       $shadowDom.append($(htmlStrData));
 
-      var toolsList = $shadowDom.find('ul > li');
+      var $toolsList = $shadowDom.find('ul > li');
 
-      populateToolsTable(toolsList);
+      populateToolsTable($toolsList);
     });
   };
 
-  var populateToolsTable = function (toolsList) {
+  var populateToolsTable = function ($toolsList) {
 
-    var tableRows = $toolsTable.find('tbody');
+    var $tableRows = $toolsTable.find('tbody');
 
-    toolsList.each(function () {
+    $toolsList.each(function () {
 
-      var listItem = $(this);
+      var $listItem = $(this);
 
-      var tableRow = $('<tr/>');
+      var $tableRow = $('<tr/>');
 
-      var cell1 = $('<td/>').html(listItem.find('> a:first-child'));
-      var cell2 = $('<td/>').html(getDescription(listItem));
-      var cell3 = $('<td/>').html(listItem.find('> strong > a'));
+      var $toolName = $('<td/>').html($listItem.find('> a:first-child'));
+      var $toolDesc = $('<td/>').html(getDescription($listItem));
+      var $toolCreator = $('<td/>').html($listItem.find('> strong > a'));
 
-      var cells = [cell1, cell2, cell3];
+      var $tableRowCells = [$toolName, $toolDesc, $toolCreator];
 
-      tableRow.html(cells);
-
-      tableRows.append(tableRow);
+      $tableRow.html($tableRowCells);
+      $tableRows.append($tableRow);
     });
   };
 
@@ -63,12 +59,6 @@ var md2html = (function (markdownit, $) {
       .end()
       .text()
       .replace(/-/, '');
-  };
-
-  var setup = function () {
-
-    $shadowDom = $('#shadow-dom').addClass('no-display');
-    $toolsTable = $('#tools-table');
   };
 
   // Expose Public API.
