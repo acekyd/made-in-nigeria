@@ -48,8 +48,9 @@ var md2html = (function (markdownit, $) {
 
       $tableRow.html($tableRowCells);
       $tableRows.append($tableRow);
-      $tableRows.appendTo($toolsTable);
     });
+
+    $tableRows.appendTo($toolsTable);
   };
 
   var getDescription = function (elem) {
