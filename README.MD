@@ -166,7 +166,5 @@
 * [wtfoperamini](https://github.com/ireade/wtfoperamini) - Development features not supported in Opera Mini, and some crowsourced workarounds for them. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
 ## <a name="X"> </a>X
-
 ## <a name="Y"> </a>Y
-
 ## <a name="Z"> </a>Z

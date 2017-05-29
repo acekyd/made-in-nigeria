@@ -1,12 +1,12 @@
 @import "fonts.css";
 
 * {
-    color: #373D3F;
     font-family: 'Lato', sans-serif;
 }
 
 body {
     background-color: #F2F3F4;
+    margin: 0;
 }
 
 a {
@@ -19,9 +19,27 @@ a:hover {
     color: #0E4061;
 }
 
+.hero {
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    padding: 10px;
+}
+
+.hero .message {
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    line-height: 2em;
+    padding-bottom: 20%;
+}
+
 .container {
     margin: 50px auto;
     width: 70%;
+    margin-top: -15%;
+    color: #000;
 }
 
 .page-header {
@@ -34,7 +52,6 @@ a:hover {
     background-color: #F2F3F4;
     border: 1px solid #A7AFB2;
     border-radius: 5px;
-    float: right;
     font-size: 1.1rem;
     height: 40px;
     padding: 0 20px;
@@ -50,7 +67,10 @@ a:hover {
     border-collapse: collapse;
     border-spacing: 0;
     text-align: left;
-    width: 100%;
+    width: 80%;
+    background: #fff;
+    margin:auto;
+    border-radius: 5px;
 }
 
 #tools-table td, th {
@@ -58,7 +78,7 @@ a:hover {
 }
 
 #tools-table thead {
-    background-color: #DADEDF;
+    background-color: #FFF;
 }
 
 #tools-table thead tr {
@@ -84,3 +104,37 @@ a:hover {
 .no-display {
     display: none;
 }
+
+.effect7
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect7:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
