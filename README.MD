@@ -146,6 +146,7 @@
 * [SlidingSquaresLoader](https://github.com/biodunalfet/SlidingSquaresLoader) - A simple progress loader **By [@biodunalfet](https://twitter.com/biodunalfet)**
 * [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel **By [@ammezie](https://twitter.com/ammezie)**
 * [Squareone](https://github.com/codaye/squareone) - Jekyll starter site generator, setup with gulp task automation workflow **By [@azemoh](https://twitter.com/josh_azemoh)**
+* [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By @kizitonwose**
 
 
 ## <a name="T"> </a>T
