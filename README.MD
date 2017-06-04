@@ -86,6 +86,7 @@
 * [Laravel Identify](https://github.com/unicodeveloper/laravel-identify) - Laravel 5 Package to Detect Users Browsers, Devices, Languages and Operating Systems.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Jusibe](https://github.com/unicodeveloper/laravel-jusibe) - Laravel 5 package for Jusibe SMS Service.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Mentions](https://github.com/unicodeveloper/laravel-mentions) - Laravel 5 Package for enabling facebook type of mentions in your application.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [LocalGoogle](https://github.com/kodejuice/localgoogle) - A search engine built for offline websites on your local machine.  **By [@KodeJuice](https://twitter.com/kodejuice)**
 * [Laravel Password](https://github.com/unicodeveloper/laravel-password) - Guard your users against entering dumb passwords in your Laravel 5 apps.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Paystack](https://github.com/unicodeveloper/laravel-paystack) - Laravel 5 Paystack Package.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel-PDF-Viewer](https://github.com/goodnesskay/LARAVEL-PDF-VIEWER) - A Laravel Package for viewing PDF files or documents on the web without leaving your Web Application.  **By [@goodnesskay](https://twitter.com/goodnesskayode)**
