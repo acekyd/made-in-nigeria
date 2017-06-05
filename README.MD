@@ -73,6 +73,8 @@
 
 ## <a name="K"> </a>K
 
+
+* [Kanary](https://github.com/SeunAdelekan/Kanary) - A minimalist🔬 Kotlin web framework for building🔩⚙ scalable📈 and expressive🎨 RESTful APIs  **By [@IyanuAdelekan](https://twitter.com/IyanuAdelekan)**
 * [KhaledBot](https://github.com/ireade/khaledbot) - Delivering Major Keys to your Slack Team  **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
 ## <a name="L"> </a>L
