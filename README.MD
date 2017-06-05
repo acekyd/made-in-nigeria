@@ -77,6 +77,8 @@
 
 ## <a name="L"> </a>L
 
+* [Linda ORM](https://github.com/solutionstack/Linda) -A light weight and fast Active-record based ORM for PHP   **By [@solutionsack]
+
 * [Laravel Codepen](https://github.com/unicodeveloper/laravel-codepen) - A Codepen Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Email Validator](https://github.com/unicodeveloper/laravel-email-validator) - Validate email addresses on the fly in Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Emoji](https://github.com/unicodeveloper/laravel-emoji) - Laravel 5 Package that harnesses the power of PHP 7 unicode features to provide emojis in your laravel app.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
@@ -155,6 +157,7 @@
 * [TinyPress](https://github.com/kehers/tinypress) - Create and easily manage your blog on Github. **By [@kehers](https://twitter.com/kehers)**
 * [Toast.js](https://github.com/ireade/Toast.js) - A library for Toast messages  **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [TweetThreader](https://github.com/Udokah/tweet-threader) - A tool to create threads on Twitter  **By [@thisisudo](https://twitter.com/thisisudo)**
+* [TigerJS JavaScript Library](https://github.com/solutionstack/tigerjs) - A general purpose javascript framework provideing numerous modules and abstractions including for XHR , DOM, Widgets, Date, String methods and much more to enhance Javascript application development   **By [@solutionsack]
 
 ## <a name="U"> </a>U
 
