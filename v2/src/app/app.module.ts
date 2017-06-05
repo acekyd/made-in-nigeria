@@ -6,6 +6,7 @@ import {ClarityModule} from 'clarity-angular';
 
 import {AppComponent} from './app.component';
 import { MainComponent } from './main/main.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { MainComponent } from './main/main.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpModule,
     ClarityModule.forRoot()
