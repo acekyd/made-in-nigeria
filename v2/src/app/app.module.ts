@@ -5,10 +5,12 @@ import {HttpModule} from '@angular/http';
 import {ClarityModule} from 'clarity-angular';
 
 import {AppComponent} from './app.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
