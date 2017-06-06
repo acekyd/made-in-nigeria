@@ -3,6 +3,7 @@
 
 ## <a name="A"> </a>A
 
+* [ACM](https://github.com/DOkwufulueze/ACM) - An Automated Counselling Machine [ACM] that intelligently suggests areas of study to student users by interacting with them. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
 * [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Angular-tag](https://github.com/theo4u/angular-tag) - Tags input directive for AngularJS. **By [@theo4me](https://twitter.com/theo4me)**
 * [AppFramer](https://github.com/olucurious/AppFramer) - AppFramer helps to put your app screenshots in beautiful device frames with annotations by running a simple command **By [@olucurious](https://twitter.com/olucurious)**
@@ -10,6 +11,8 @@
 * [Atom-Go-Imports](https://atom.io/packages/go-imports) A plugin for Atom Editor to add import statements to Go codes. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Atom Aurelia snippets](https://github.com/unicodeveloper/atom-aurelia-snippets) - A plugin for Atom Editor to autocomplete aurelia snippets when working with Aurelia.**By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Atom Material Palenight Syntax](https://github.com/whizkydee/atom-material-palenight-syntax) - :new_moon: An elegant and minimal material syntax theme for Atom. **By [@whizkydee](https://github.com/whizkydee)**
+* [AutoStartup](https://github.com/DOkwufulueze/AutoStartup) - Shell Script to automate terminal tab opening and custom command execution. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
+* [auto-startupd](https://github.com/DOkwufulueze/auto-startupd) - A daemon that executes custom commands automatically in the background and makes them stay alive even after the terminal is exited. It sends command output to either nohup.out, the /dev/null black hole, or a custom file, depending on the option selected by the user. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
 
 
 
@@ -27,7 +30,7 @@
 * [csv49](https://github.com/stigwue/csv49) - Comma Separated Values For Nigeria. **Maintained by [@stigwue](https://github.com/stigwue)**
 
 ## <a name="D"> </a>D
-
+* [date-selection-manager](https://github.com/DOkwufulueze/date-selection-manager) - This manager takes care of date entries via select elements. It prevents the entry of invalid dates like February 30, June 31, or February 29 on a non-leap year. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
 * [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. **By [@ace_kyd](https://twitter.com/ace_kyd)**
 * [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [dumb_password_rails](https://github.com/arinzeokeke/dumb_password_rails) - Rails Password Validator. Validate your user passwords and prevent them from using vulnerable passwords. **By [@arinzeokeke](https://www.github.com/arinzeokeke)**
