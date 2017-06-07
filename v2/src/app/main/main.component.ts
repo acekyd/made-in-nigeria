@@ -3,7 +3,8 @@ import {IRepository} from "../interfaces/irepository";
 import {SearchService} from "../services/search.service";
 import {Subscription, Observable} from "rxjs";
 import {MarkDownDataService} from "../services/mark-down-data.service";
-
+import 'rxjs/add/operator/debounceTime';
+import 'rxjs/add/operator/distinctUntilChanged';
 
 @Component({
   selector: 'app-main',
@@ -27,10 +28,17 @@ export class MainComponent implements OnDestroy {
     //let's get our observable of record here #repos
     this.repositories = this._mdService.data;
 
-    //let's subscribe to our search source, so we listen for any changes and inturn filter our view based on the term
-    this._searchSubscription = this._searchService.getSource().subscribe((term: string)=> {
-      this.searchTerm = term;
-    });
+    /**
+     * let's subscribe to our search source, so we listen for any changes
+     * and in turn filter our view based on the term.
+     * we don't waste time to always filter our list
+     */
+    this._searchSubscription = this._searchService.getSource()
+      .debounceTime(300)
+      .distinctUntilChanged()
+      .subscribe((term: string)=> {
+        this.searchTerm = term;
+      });
   }
 
 
