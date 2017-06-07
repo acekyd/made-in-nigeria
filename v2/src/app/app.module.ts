@@ -9,6 +9,7 @@ import {MainComponent} from './main/main.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {RepositoryComponent} from './repository/repository.component';
 import {SearchService} from "./services/search.service";
+import {MarkDownDataService} from "./services/mark-down-data.service";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,7 @@ import {SearchService} from "./services/search.service";
     HttpModule,
     ClarityModule.forRoot()
   ],
-  providers: [SearchService],
+  providers: [SearchService, MarkDownDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

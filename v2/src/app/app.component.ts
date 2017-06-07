@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {SearchService} from "./services/search.service";
 import {Subscription} from "rxjs";
+import {MarkDownDataService} from "./services/mark-down-data.service";
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,7 @@ import {Subscription} from "rxjs";
 export class AppComponent {
   showInfo: boolean = true;
 
-  constructor(private _searchService: SearchService) {
+  constructor(private _searchService: SearchService, private _mdService: MarkDownDataService) {
   }
 
   /**
