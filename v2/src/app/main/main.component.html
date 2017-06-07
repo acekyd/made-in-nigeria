@@ -1,30 +1,5 @@
 <div class="row">
   <div class="col-md-5 push-md-1" *ngFor="let item of repositories">
-
-    <div class="naija-card">
-      <div class="naija-header">
-        <img src="https://avatars0.githubusercontent.com/u/10440327?v=3">
-        <a href="#" target="_blank">{{item.name}}</a>
-
-        <a href="#" target="_blank" role="tooltip" aria-haspopup="true"
-           class="tooltip tooltip-sm tooltip-left pull-right"
-           style="font-size:12px">
-          <clr-icon shape="user"></clr-icon>
-          {{item.creator}}
-          <span class="tooltip-content">Creator</span>
-        </a>
-
-        <p>
-          {{item.description}}
-        </p>
-      </div>
-      <div class="naija-card-footer">
-        <a *ngFor="let stack of item.stacks" style="text-decoration: none"
-           href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
-          <img class="stack-icon" src="assets/{{stack}}.svg"
-               alt="js"></a>
-      </div>
-    </div><!--/naija-card-->
+    <repository [repo]="item"></repository>
   </div> <!--/ col 5-->
-
 </div><!--/ row-->
