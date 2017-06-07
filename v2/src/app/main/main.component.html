@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-md-5 push-md-1" *ngFor="let item of repositories | async">
+  <div class="col-md-5 push-md-1" *ngFor="let item of repositories | async | searchFilter:searchTerm">
     <repository [repo]="item"></repository>
   </div> <!--/ col 5-->
 </div><!--/ row-->

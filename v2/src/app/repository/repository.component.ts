@@ -12,7 +12,7 @@ import {IRepository} from "../interfaces/irepository";
            class="tooltip tooltip-sm tooltip-left pull-right"
            style="font-size:12px">
             <clr-icon shape="user"></clr-icon>
-            {{repo.creator.name | slice:1}} <!-- this is just to remove @ from the creator -->
+            {{repo.creator.name | slice:1}} <!-- this is just to remove @ from the creator not all from twitter -->
             <span class="tooltip-content">Creator</span>
         </a>
 

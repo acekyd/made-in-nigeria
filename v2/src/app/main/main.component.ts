@@ -13,6 +13,7 @@ import {MarkDownDataService} from "../services/mark-down-data.service";
 export class MainComponent implements OnDestroy {
   //hold up all our naija repos
   repositories: Observable<IRepository[]>;
+  searchTerm: string;
 
   /**
    * this our subscription is here to help listen for our search input on our header, so we can filter our
@@ -23,11 +24,12 @@ export class MainComponent implements OnDestroy {
 
   constructor(private _searchService: SearchService, private _mdService: MarkDownDataService) {
 
+    //let's get our observable of record here #repos
     this.repositories = this._mdService.data;
 
     //let's subscribe to our search source, so we listen for any changes and inturn filter our view based on the term
     this._searchSubscription = this._searchService.getSource().subscribe((term: string)=> {
-      console.log("Your typed", term);
+      this.searchTerm = term;
     });
   }
 
