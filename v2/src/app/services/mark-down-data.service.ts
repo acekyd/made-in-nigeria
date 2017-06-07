@@ -1,6 +1,9 @@
 import {Injectable} from '@angular/core';
 import {Http} from "@angular/http";
 import {Observable} from "rxjs";
+import "rxjs/add/observable/of";
+import 'rxjs/add/operator/mergeMap';
+import 'rxjs/add/operator/map';
 
 declare var markdownit;
 
@@ -13,7 +16,7 @@ interface IRepository {
 
 @Injectable()
 export class MarkDownDataService {
-  private data: Observable<IRepository>;
+  data: Observable<IRepository[]>;
 
   private _md;
 
@@ -25,7 +28,7 @@ export class MarkDownDataService {
       typographer: true
     });
 
-    this.parseMarkDown();
+    this.data = this._parseMarkDown();
   }
 
   /**
@@ -35,11 +38,11 @@ export class MarkDownDataService {
    * just parse our markdown here to html element
    *
    */
-  parseMarkDown() {
-    this._http
+  private _parseMarkDown(): Observable<IRepository[]> {
+    return this._http
       .get('https://raw.githubusercontent.com/acekyd/made-in-nigeria/master/README.MD')
       .map(data=>data.text())
-      .do((mdContent: string)=> {
+      .mergeMap((mdContent: string)=> {
 
         // Convert markdown file content to html string.
         let htmlStrData: string = this._md.render(mdContent);
@@ -52,8 +55,8 @@ export class MarkDownDataService {
         let html: HTMLElement = document.createElement('div');
         html.innerHTML = htmlStrData;
 
-        this.prepareData(<NodeListOf<HTMLLIElement>> html.querySelectorAll('ul >li'));
-      }).subscribe();
+        return this._prepareData(<NodeListOf<HTMLLIElement>> html.querySelectorAll('ul >li'));
+      });
   }
 
 
@@ -63,7 +66,7 @@ export class MarkDownDataService {
    *
    * @param list
    */
-  prepareData(list: NodeListOf<HTMLLIElement>) {
+  private _prepareData(list: NodeListOf<HTMLLIElement>): Observable<IRepository[]> {
 
 
     let record: IRepository[] = [];
@@ -84,18 +87,15 @@ export class MarkDownDataService {
 
       let item: IRepository = {
         name: {name: nameAnchor.text, link: nameAnchor.href},
-        description: this.getDiscription(li),
+        description: this._getDiscription(li),
         creator: {name: creatorAnchor.text, link: creatorAnchor.href}
       };
-
-
-      console.log(item);
 
 
       record.push(item);
     }
 
-
+    return Observable.of(record);
   }
 
   /**
@@ -103,7 +103,7 @@ export class MarkDownDataService {
    * description entered by devs directly
    * @param li
    */
-  getDiscription(li: HTMLLIElement): string {
+  private _getDiscription(li: HTMLLIElement): string {
     li.removeChild(li.lastChild);//remove the creator we don't need it here
     let text = li.innerText;
     //not nice to use regexp for such a simple task
