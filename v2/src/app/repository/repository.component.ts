@@ -28,7 +28,7 @@ import {error} from "util";
 
         <a *ngFor="let stack of repo.stacks" style="text-decoration: none"
            href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
-            <img class="stack-icon" src="assets/{{stack.key | lowercase}}.svg"
+            <img class="stack-icon" src="https://codetrace.io/static/images/groups/{{stack.key | lowercase}}.svg"
                  alt="js"></a>
     </div>
 </div><!--/naija-card-->
