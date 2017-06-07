@@ -70,20 +70,25 @@ export class MarkDownDataService {
 
     for (let i = 0; i < list.length; i++) {
       let li: HTMLLIElement = list[i];
-      let nameAnchor:any = <HTMLAnchorElement>li.querySelector('a:first-child');
-      let creatorAnchor:any = <HTMLAnchorElement>li.querySelector('strong > a');
+      let nameAnchor: any = <HTMLAnchorElement>li.querySelector('a:first-child');
+      let creatorAnchor: any = <HTMLAnchorElement>li.querySelector('strong > a');
 
-      //in case creatorAnchor or nameAnchor is empty or null do this
+
+      /**
+       *   in case creatorAnchor or nameAnchor is empty or null do this
+       *   for our niggas that missed the pattern of <a>repo name</a> - description - <a>creator</a>
+       */
       nameAnchor = nameAnchor || {text: '', href: ''};
       creatorAnchor = creatorAnchor || {text: '', href: ''};
 
+
       let item: IRepository = {
         name: {name: nameAnchor.text, link: nameAnchor.href},
-        description: this.getDiscription(li.innerText),
+        description: this.getDiscription(li),
         creator: {name: creatorAnchor.text, link: creatorAnchor.href}
       };
 
-      
+
       console.log(item);
 
 
@@ -96,9 +101,11 @@ export class MarkDownDataService {
   /**
    * this is used to get our description from our mark down
    * description entered by devs directly
-   * @param text
+   * @param li
    */
-  getDiscription(text: string): string {
+  getDiscription(li: HTMLLIElement): string {
+    li.removeChild(li.lastChild);//remove the creator we don't need it here
+    let text = li.innerText;
     //not nice to use regexp for such a simple task
     return text.substring(text.lastIndexOf('-') + 1).trim();
   }
