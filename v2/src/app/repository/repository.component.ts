@@ -5,7 +5,7 @@ import {IRepository} from "../interfaces/irepository";
   selector: 'repository',
   template: `<div class="naija-card">
     <div class="naija-header">
-        <img src="https://avatars0.githubusercontent.com/u/10440327?v=3">
+        <img src="https://avatars.githubusercontent.com/{{repo.name.link | githubUsername}}?size=40">
         <a [href]="repo.name.link" target="_blank">{{repo.name.name}}</a>
 
         <a [href]="repo.creator.link" target="_blank" role="tooltip" aria-haspopup="true"
