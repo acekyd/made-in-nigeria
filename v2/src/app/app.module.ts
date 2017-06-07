@@ -5,9 +5,10 @@ import {HttpModule} from '@angular/http';
 import {ClarityModule} from 'clarity-angular';
 
 import {AppComponent} from './app.component';
-import { MainComponent } from './main/main.component';
+import {MainComponent} from './main/main.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
-import { RepositoryComponent } from './repository/repository.component';
+import {RepositoryComponent} from './repository/repository.component';
+import {SearchService} from "./services/search.service";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { RepositoryComponent } from './repository/repository.component';
     HttpModule,
     ClarityModule.forRoot()
   ],
-  providers: [],
+  providers: [SearchService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
