@@ -10,8 +10,8 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {RepositoryComponent} from './repository/repository.component';
 import {SearchService} from "./services/search.service";
 import {MarkDownDataService} from "./services/mark-down-data.service";
-import { SearchFilterPipe } from './pipes/search-filter.pipe';
-import { GithubUsernamePipe } from './pipes/github-username.pipe';
+import {SearchFilterPipe} from './pipes/search-filter.pipe';
+import {GithubUsernamePipe} from './pipes/github-username.pipe';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,7 @@ import { GithubUsernamePipe } from './pipes/github-username.pipe';
     HttpModule,
     ClarityModule.forRoot()
   ],
-  providers: [SearchService, MarkDownDataService],
+  providers: [SearchService, MarkDownDataService, GithubUsernamePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule {

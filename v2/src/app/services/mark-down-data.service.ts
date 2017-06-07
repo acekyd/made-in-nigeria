@@ -5,6 +5,7 @@ import "rxjs/add/observable/of";
 import 'rxjs/add/operator/mergeMap';
 import 'rxjs/add/operator/map';
 import {IRepository} from "../interfaces/irepository";
+import {GithubUsernamePipe} from "../pipes/github-username.pipe";
 
 declare var markdownit;
 
@@ -15,7 +16,7 @@ export class MarkDownDataService {
 
   private _md;
 
-  constructor(private _http: Http) {
+  constructor(private _http: Http, private _githubUsername: GithubUsernamePipe) {
     console.log("am in, should see this once #singleton");
     this._md = markdownit({
       html: true,
@@ -86,7 +87,6 @@ export class MarkDownDataService {
         creator: {name: creatorAnchor.text, link: creatorAnchor.href}
       };
 
-
       record.push(item);
     }
 
@@ -104,5 +104,27 @@ export class MarkDownDataService {
     //not nice to use regexp for such a simple task
     return text.substring(text.lastIndexOf('-') + 1).trim();
   }
+
+  /**
+   *  this is used to get the languages used by each repo
+   *  sort by the highest number of code lines
+   * @param repo
+   * @returns {Observable<R>}
+   */
+  getLanguages(repo: IRepository): Observable<[{key: string, value: number}]> {
+    return this._http.get(`https://api.github.com/repos/${this._githubUsername.transform(repo.name.link)}/${repo.name.name}/languages`)
+      .map(res=> {
+        let obj: any = res.json();
+
+        //convert to array of key and value pair instead of object
+        return Object.keys(obj).map((key)=> {
+          return {key: key, value: obj[key]}
+        });
+      })
+      .map((languages: [{key: string, value: number}])=> {
+        return languages.sort((a, b)=>(b.value - a.value));
+      });
+  }
+
 
 }

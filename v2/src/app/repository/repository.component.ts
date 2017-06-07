@@ -1,5 +1,7 @@
 import {Component, OnInit, Input} from '@angular/core';
 import {IRepository} from "../interfaces/irepository";
+import {MarkDownDataService} from "../services/mark-down-data.service";
+import {error} from "util";
 
 @Component({
   selector: 'repository',
@@ -21,9 +23,12 @@ import {IRepository} from "../interfaces/irepository";
         </p>
     </div>
     <div class="naija-card-footer">
+    <!--show button when we have not loaded the languages-->
+    <button *ngIf="!repo.stacks" class="btn btn-success-outline btn-sm" (click)="loadLanguage(repo)"  [clrLoading]="repo.loader">Load Language(s)</button>
+
         <a *ngFor="let stack of repo.stacks" style="text-decoration: none"
            href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
-            <img class="stack-icon" src="assets/{{stack}}.svg"
+            <img class="stack-icon" src="assets/{{stack.key | lowercase}}.svg"
                  alt="js"></a>
     </div>
 </div><!--/naija-card-->
@@ -33,10 +38,33 @@ import {IRepository} from "../interfaces/irepository";
 export class RepositoryComponent implements OnInit {
   @Input() repo: IRepository;
 
-  constructor() {
+  constructor(private _mdDataService: MarkDownDataService) {
   }
 
   ngOnInit() {
   }
+
+  /**
+   * this is used to load each repo language
+   * @param repo
+   */
+  loadLanguage(repo): void {
+    if (repo.loader) //if loading before don't reload again
+      return;
+
+
+    repo.loader = true;
+
+    this._mdDataService.getLanguages(repo)
+      .subscribe((languages)=> {
+        repo.loader = false;
+        repo.stacks = languages;
+      }, (error)=> {
+        repo.loader = false;
+        console.error(error);
+      });
+
+  }
+
 
 }

@@ -6,3 +6,10 @@ body {
 .pull-right {
   float: right;
 }
+
+.spinner.spinner-inline, .spinner.spinner-sm {
+  min-height: 14px;
+  min-width: 14px;
+  height: 14px;
+  width: 14px;
+}
