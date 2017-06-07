@@ -1,6 +1,8 @@
+import {Observable} from "rxjs";
+
 export interface IRepository {
-  creator: string;
-  name: string;
+  name: {name: string, link: string};
   description: string;
-  stacks: string[];
+  creator: {name: string, link: string};
+  stacks?: Array<Observable<string>>
 }

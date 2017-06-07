@@ -6,13 +6,13 @@ import {IRepository} from "../interfaces/irepository";
   template: `<div class="naija-card">
     <div class="naija-header">
         <img src="https://avatars0.githubusercontent.com/u/10440327?v=3">
-        <a href="#" target="_blank">{{repo.name}}</a>
+        <a [href]="repo.name.link" target="_blank">{{repo.name.name}}</a>
 
-        <a href="#" target="_blank" role="tooltip" aria-haspopup="true"
+        <a [href]="repo.creator.link" target="_blank" role="tooltip" aria-haspopup="true"
            class="tooltip tooltip-sm tooltip-left pull-right"
            style="font-size:12px">
             <clr-icon shape="user"></clr-icon>
-            {{repo.creator}}
+            {{repo.creator.name | slice:1}} <!-- this is just to remove @ from the creator -->
             <span class="tooltip-content">Creator</span>
         </a>
 

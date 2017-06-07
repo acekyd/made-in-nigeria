@@ -4,15 +4,10 @@ import {Observable} from "rxjs";
 import "rxjs/add/observable/of";
 import 'rxjs/add/operator/mergeMap';
 import 'rxjs/add/operator/map';
+import {IRepository} from "../interfaces/irepository";
 
 declare var markdownit;
 
-interface IRepository {
-  name: {name: string, link: string};
-  description: string;
-  creator: {name: string, link: string};
-  stacks?: Array<Observable<string>>
-}
 
 @Injectable()
 export class MarkDownDataService {
