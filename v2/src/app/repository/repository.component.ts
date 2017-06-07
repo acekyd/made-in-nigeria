@@ -25,11 +25,14 @@ import {error} from "util";
     <div class="naija-card-footer">
     <!--show button when we have not loaded the languages-->
     <button *ngIf="!repo.stacks" class="btn btn-success-outline btn-sm" (click)="loadLanguage(repo)"  [clrLoading]="repo.loader">Load Language(s)</button>
-
+       
+        <div style="padding-top: 6px;">
         <a *ngFor="let stack of repo.stacks" style="text-decoration: none"
            href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
-            <img class="stack-icon" src="https://codetrace.io/static/images/groups/{{stack.key | lowercase}}.svg"
-                 alt="js"></a>
+           <i class="stack-icon devicon-{{stack.key | lowercase}}-plain colored"></i>
+            <!--<img class="stack-icon" src="https://codetrace.io/static/images/groups/{{stack.key | lowercase}}.svg" alt="js">-->
+            </a>
+            </div>
     </div>
 </div><!--/naija-card-->
 `,

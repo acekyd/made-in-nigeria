@@ -26,6 +26,7 @@
     "clarity-icons": "^0.9.7",
     "clarity-ui": "^0.9.7",
     "core-js": "^2.4.1",
+    "devicon": "^2.0.0",
     "mutationobserver-shim": "^0.3.2",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"

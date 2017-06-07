@@ -118,6 +118,9 @@ export class MarkDownDataService {
 
         //convert to array of key and value pair instead of object
         return Object.keys(obj).map((key)=> {
+          if(key=="CSS") key = "CSS3";
+          if(key=="HTML") key = "HTML5";
+
           return {key: key, value: obj[key]}
         });
       })
