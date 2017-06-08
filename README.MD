@@ -5,6 +5,7 @@
 
 * [ACM](https://github.com/DOkwufulueze/ACM) - An Automated Counselling Machine [ACM] that intelligently suggests areas of study to student users by interacting with them. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
 * [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
+* [Altair](https://github.com/imolorhe/altair) - A sleek graphQL client app for querying GraphQL servers, like Postman for graphQL. It also comes as a Chrome extension. **By [@imolorhe](https://twitter.com/imolorhe)**
 * [Angular2-Sails-starter-pack](https://github.com/Mozartted/Angular2-Sails-starter-pack) - A starter pack for angular2 based projects using sails backend, integrating hot reload functionalities. **By [@mozartted](https://twitter.com/mozartted)**
 * [Angular-tag](https://github.com/theo4u/angular-tag) - Tags input directive for AngularJS. **By [@theo4me](https://twitter.com/theo4me)**
 * [AppFramer](https://github.com/olucurious/AppFramer) - AppFramer helps to put your app screenshots in beautiful device frames with annotations by running a simple command **By [@olucurious](https://twitter.com/olucurious)**
@@ -169,6 +170,7 @@
 ## <a name="U"> </a>U
 
 ## <a name="V"> </a>V
+* [VSCode Java Imports](https://github.com/tushortz/vscode-Java-Imports) - Visual Studio Code extension that makes it easy to import Java classes and packages **By [@taiwo_krm](https://twitter.com/taiwo_krm)**
 * [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
 
 ## <a name="W"> </a>W
