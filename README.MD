@@ -54,7 +54,7 @@
 * [Gulp-Email-Workflow](https://github.com/ireade/gulp-email-workflow) - A Gulp workflow for building HTML emails. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Google Dictionary](https://github.com/chizoba/google-dictionary) - An android library that provides easy access to meanings of any word, phrase, or slang via Google, within any application. **By [@its_tobie](https://twitter.com/its_tobie)**
 * [graceful-terminate](https://github.com/abiosoft/node-graceful) - Gracefully shutdown your node app. **By [@abiosoft](https://twitter.com/abiosoft)**
-* [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay 
+* [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay
 
 ## <a name="H"> </a>H
 
@@ -139,7 +139,7 @@
 
 ## <a name="R"> </a>R
 * [Rationale](https://github.com/KingsMentor/Rationale) - Android permission rationale helper dialog. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
-* [react-webpack-starter](https://github.com/temilaj/react-webpack-starter) - A boiler plate for creating react applications bundled by webpack (using ES6, Babel, SASS and the webpack development server). **By [@temilaj](https://twitter.com/temilaj)** 
+* [react-webpack-starter](https://github.com/temilaj/react-webpack-starter) - A boiler plate for creating react applications bundled by webpack (using ES6, Babel, SASS and the webpack development server). **By [@temilaj](https://twitter.com/temilaj)**
 * [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By @ifedapoolarewaju**
 * [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By [@abiosoft](https://twitter.com/abiosoft)**
 
@@ -156,6 +156,7 @@
 * [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel **By [@ammezie](https://twitter.com/ammezie)**
 * [Squareone](https://github.com/codaye/squareone) - Jekyll starter site generator, setup with gulp task automation workflow **By [@azemoh](https://twitter.com/josh_azemoh)**
 * [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By @kizitonwose**
+* [Size](https://github.com/akinjide/size) - Tiny file size wrapper. **By [@_akinjide](https://twitter.com/_akinjide)**
 
 
 ## <a name="T"> </a>T
