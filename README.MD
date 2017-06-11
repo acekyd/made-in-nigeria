@@ -171,6 +171,7 @@
 
 ## <a name="V"> </a>V
 * [VSCode Java Imports](https://github.com/tushortz/vscode-Java-Imports) - Visual Studio Code extension that makes it easy to import Java classes and packages **By [@taiwo_krm](https://twitter.com/taiwo_krm)**
+* [VSCode Material Palenight Theme](https://github.com/whizkydee/vscode-material-palenight-theme) - :new_moon: An elegant and minimal material syntax theme for VSCode. **By [@whizkydee](https://twitter.com/whizkydee)**
 * [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
 
 ## <a name="W"> </a>W
