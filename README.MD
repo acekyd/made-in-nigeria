@@ -12,7 +12,7 @@
 * [APX](https://github.com/othreecodes/APX) - A Javafx Library for building MVC Applications. **By [@othreecodes](https://twitter.com/othreecodes)**
 * [Atom-Go-Imports](https://atom.io/packages/go-imports) A plugin for Atom Editor to add import statements to Go codes. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Atom Aurelia snippets](https://github.com/unicodeveloper/atom-aurelia-snippets) - A plugin for Atom Editor to autocomplete aurelia snippets when working with Aurelia.**By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Atom Material Palenight Syntax](https://github.com/whizkydee/atom-material-palenight-syntax) - :new_moon: An elegant and minimal material syntax theme for Atom. **By [@whizkydee](https://github.com/whizkydee)**
+* [Atom Material Palenight Syntax](https://github.com/whizkydee/atom-material-palenight-syntax) - :new_moon: An elegant and minimal material syntax theme for Atom. **By [@whizkydee](https://twitter.com/whizkydee)**
 * [AutoStartup](https://github.com/DOkwufulueze/AutoStartup) - Shell Script to automate terminal tab opening and custom command execution. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
 * [auto-startupd](https://github.com/DOkwufulueze/auto-startupd) - A daemon that executes custom commands automatically in the background and makes them stay alive even after the terminal is exited. It sends command output to either nohup.out, the /dev/null black hole, or a custom file, depending on the option selected by the user. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
 
@@ -171,6 +171,7 @@
 
 ## <a name="V"> </a>V
 * [VSCode Java Imports](https://github.com/tushortz/vscode-Java-Imports) - Visual Studio Code extension that makes it easy to import Java classes and packages **By [@taiwo_krm](https://twitter.com/taiwo_krm)**
+* [VSCode Material Palenight Theme](https://github.com/whizkydee/vscode-material-palenight-theme) - :new_moon: An elegant and minimal material syntax theme for VSCode. **By [@whizkydee](https://twitter.com/whizkydee)**
 * [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
 
 ## <a name="W"> </a>W
