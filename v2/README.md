@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
+## DEMO
+ [DEMO](https://theo4u.github.io/made-in-nigeria/)
+
 ## Resources
 - [Clarity UI](https://vmware.github.io/clarity)
 - [DEVICONS](http://konpa.github.io/devicon)
