@@ -159,7 +159,7 @@
 * [Squareone](https://github.com/codaye/squareone) - Jekyll starter site generator, setup with gulp task automation workflow **By [@azemoh](https://twitter.com/josh_azemoh)**
 * [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By @kizitonwose**
 * [Size](https://github.com/akinjide/size) - Tiny file size wrapper. **By [@_akinjide](https://twitter.com/_akinjide)**
-
+* [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
 
 ## <a name="T"> </a>T
 
