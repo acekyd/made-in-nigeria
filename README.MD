@@ -41,6 +41,8 @@
 ## <a name="E"> </a>E
 
 * [EDD Paga](https://github.com/collizo4sky/EDD-Paga) - Accept Credit Card payments in your Easy Digital Downloads store via Paga. **By [@w3guy](https://twitter.com/w3guy)**
+* [Elegant Atom UI](https://github.com/codehakase/elegant-atom-ui) - A simple and intuitive Atom Theme focused on giving warmth while coding **By [@codehakase](https://twitter.com/codehakase)**
+* [Elegant Syntax Theme](https://github.com/codehakase/elegant-atom-syntax) - A Mild Atom Editor Syntax package (works well with the Elegant Atom UI theme) **By [@codehakase](https://twitter.com/codehakase)**
 
 ## <a name="F"> </a>F
 
@@ -160,7 +162,7 @@
 * [Squareone](https://github.com/codaye/squareone) - Jekyll starter site generator, setup with gulp task automation workflow **By [@azemoh](https://twitter.com/josh_azemoh)**
 * [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By @kizitonwose**
 * [Size](https://github.com/akinjide/size) - Tiny file size wrapper. **By [@_akinjide](https://twitter.com/_akinjide)**
-
+* [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
 
 ## <a name="T"> </a>T
 
