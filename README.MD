@@ -98,6 +98,7 @@
 * [Laravel Jusibe](https://github.com/unicodeveloper/laravel-jusibe) - Laravel 5 package for Jusibe SMS Service.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Mentions](https://github.com/unicodeveloper/laravel-mentions) - Laravel 5 Package for enabling facebook type of mentions in your application.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Password](https://github.com/unicodeveloper/laravel-password) - Guard your users against entering dumb passwords in your Laravel 5 apps.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+* [Laravel Payant](https://github.com/olaoluwa-98/laravel-payant) - Laravel 5 Payant Package.  **By [@olaoluwa_98](https://twitter.com/olaoluwa_98)**
 * [Laravel Paystack](https://github.com/unicodeveloper/laravel-paystack) - Laravel 5 Paystack Package.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel-PDF-Viewer](https://github.com/goodnesskay/LARAVEL-PDF-VIEWER) - A Laravel Package for viewing PDF files or documents on the web without leaving your Web Application.  **By [@goodnesskay](https://twitter.com/goodnesskayode)**
 * [Laravel-Slack](https://github.com/goodnesskay/laravel-slack) - A Laravel Package that makes Automatic Invitation to Slack Channels or team seamless.  **By [@goodnesskay](https://twitter.com/goodnesskayode)**
