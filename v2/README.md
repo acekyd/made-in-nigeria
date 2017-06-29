@@ -1,6 +1,6 @@
 # V2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0. Read global installation and then cd to our folder and do `npm install`
 
 ## DEMO
  [DEMO](https://theo4u.github.io/made-in-nigeria/)
@@ -31,21 +31,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 Before running the tests make sure you are serving the app via `ng serve`.
 
 
-## Deploy 
-- ng build --prod from `master` inside **v2** folder 
-- switch branch to `gh-pages` then copy the content inside `v2/dist/` to root of `gh-pages` branch
-- lastly open the index.html update all the **src** to point to `made-in-nigeria/file_name.js` and for css it is **href**
-**E.G**
-    ``` js
-      <script type="text/javascript" src="made-in-nigeria/inline.3114fcf398949fd8a0ef.bundle.js"></script>
-      <script type="text/javascript" src="made-in-nigeria/polyfills.2024f3f29aec2a67603a.bundle.js"></script>
-      <script type="text/javascript" src="made-in-nigeria/scripts.5ad9e1a61eb239e66cf7.bundle.js"></script>
-      <script type="text/javascript" src="made-in-nigeria/vendor.edc6374f91918c26c471.bundle.js"></script>
-      <script type="text/javascript" src="made-in-nigeria/main.2cd2971b9534a9ad1afe.bundle.js"></script>
-    ``` 
-for css this `<link href="made-in-nigeria/styles.172773fea1a6459f0d71.bundle.css" rel="stylesheet"/>`   
- 
-    
+## Deploy  
+- ng build -prod --base-href "/made-in-nigeria/" inside **v2** folder
+- then perform this `git add -A && git commit -m "base url updated for deployment"`
+- Run `git push` to update **master** with **dist**
+- Run **git push origin `git subtree split --prefix dist master`:gh-pages --force**
 
 ## Further help
 
