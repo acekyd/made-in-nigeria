@@ -1,6 +1,6 @@
 # V2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0. Read global installation and then cd to our folder and do `npm install`
 
 ## DEMO
  [DEMO](https://theo4u.github.io/made-in-nigeria/)
