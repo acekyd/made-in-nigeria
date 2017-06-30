@@ -1,4 +1,4 @@
-#Moderator Guidelines for the Made in Nigeria Github Collection
+# Moderator Guidelines for the Made in Nigeria Github Collection
 
 Hey there! Are you interested in being a moderator of this repo and ensure the quality and authenticity of projects and repos added here.
 
@@ -6,7 +6,7 @@ It is required for us to monitor and review projects added to the repo in order 
 
 There'd only be maximum of 3 moderators at a time.
 
-##Responsibilities
+## Responsibilities
 
 * Go through projects currently added to the repo, clean up to ensure each one match the requirements in the contributing.md file. If they don't, remove and submit a PR so I can validate and merge.
 
@@ -17,7 +17,7 @@ There'd only be maximum of 3 moderators at a time.
 * Constant availability.
 
 
-##Requirements
+## Requirements
 
 * Clearly, interested persons must be comfortable using Git and Github :D
 

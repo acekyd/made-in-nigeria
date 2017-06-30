@@ -1,4 +1,4 @@
-#Made in Nigeria Github collection Guidelines
+# Made in Nigeria Github collection Guidelines
 
 ## Contributing a Project
 
@@ -19,7 +19,7 @@ To add a new project to the collection, please ensure they meet the following re
 More requirements may be added as time goes on.
 
 
-##Contributing to Repo showcase website
+## Contributing to Repo showcase website
 
 There is a webpage that has been developed by awesome members of the community used to view the contents of this repo in a very pleasing manner. If you'd like to contribute to this website, please try to follow these:
 
