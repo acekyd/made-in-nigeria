@@ -28,4 +28,6 @@ There'd only be maximum of 3 moderators at a time.
 ## Current Moderators
 
 * [@b-lawrence](https://github.com/b-lawrence)
+* [@codehakase](https://github.com/codehakase)
+* [@adexot](https://github.com/adexot)
 
