@@ -80,14 +80,12 @@
 
 ## <a name="K"> </a>K
 
-
 * [Kanary](https://github.com/SeunAdelekan/Kanary) - A minimalist🔬 Kotlin web framework for building🔩⚙ scalable📈 and expressive🎨 RESTful APIs  **By [@IyanuAdelekan](https://twitter.com/IyanuAdelekan)**
 * [KhaledBot](https://github.com/ireade/khaledbot) - Delivering Major Keys to your Slack Team  **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
 ## <a name="L"> </a>L
 
-* [Linda ORM](https://github.com/solutionstack/Linda) -A light weight and fast Active-record based ORM for PHP   **By [@solutionstack](https://github.com/solutionstack)
-
+* [Linda ORM](https://github.com/solutionstack/Linda) - A light weight and fast Active-record based ORM for PHP   **By [@solutionstack](https://github.com/solutionstack)**
 * [Laravel Codepen](https://github.com/unicodeveloper/laravel-codepen) - A Codepen Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Email Validator](https://github.com/unicodeveloper/laravel-email-validator) - Validate email addresses on the fly in Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Emoji](https://github.com/unicodeveloper/laravel-emoji) - Laravel 5 Package that harnesses the power of PHP 7 unicode features to provide emojis in your laravel app.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
@@ -178,15 +176,15 @@
 ## <a name="U"> </a>U
 
 ## <a name="V"> </a>V
+
 * [VSCode Java Imports](https://github.com/tushortz/vscode-Java-Imports) - Visual Studio Code extension that makes it easy to import Java classes and packages **By [@taiwo_krm](https://twitter.com/taiwo_krm)**
 * [VSCode Material Palenight Theme](https://github.com/whizkydee/vscode-material-palenight-theme) - :new_moon: An elegant and minimal material syntax theme for VSCode. **By [@whizkydee](https://twitter.com/whizkydee)**
 * [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
 
 ## <a name="W"> </a>W
+
 * [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
-
 * [WordPress Persist Admin Notices Dismissal](https://github.com/collizo4sky/persist-admin-notices-dismissal) - Simple plugin that persists dismissal of admin notices across pages in WordPress dashboard. **By [@w3guy](https://twitter.com/w3guy)**
-
 * [wtfoperamini](https://github.com/ireade/wtfoperamini) - Development features not supported in Opera Mini, and some crowsourced workarounds for them. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
 ## <a name="X"> </a>X
