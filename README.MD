@@ -80,14 +80,12 @@
 
 ## <a name="K"> </a>K
 
-
 * [Kanary](https://github.com/SeunAdelekan/Kanary) - A minimalist🔬 Kotlin web framework for building🔩⚙ scalable📈 and expressive🎨 RESTful APIs  **By [@IyanuAdelekan](https://twitter.com/IyanuAdelekan)**
 * [KhaledBot](https://github.com/ireade/khaledbot) - Delivering Major Keys to your Slack Team  **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
 ## <a name="L"> </a>L
 
-* [Linda ORM](https://github.com/solutionstack/Linda) -A light weight and fast Active-record based ORM for PHP   **By [@solutionstack](https://github.com/solutionstack)**
-
+* [Linda ORM](https://github.com/solutionstack/Linda) - A light weight and fast Active-record based ORM for PHP   **By [@solutionstack](https://github.com/solutionstack)**
 * [Laravel Codepen](https://github.com/unicodeveloper/laravel-codepen) - A Codepen Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Email Validator](https://github.com/unicodeveloper/laravel-email-validator) - Validate email addresses on the fly in Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Laravel Emoji](https://github.com/unicodeveloper/laravel-emoji) - Laravel 5 Package that harnesses the power of PHP 7 unicode features to provide emojis in your laravel app.  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
