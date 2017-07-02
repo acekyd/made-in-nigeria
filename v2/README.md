@@ -31,7 +31,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 Before running the tests make sure you are serving the app via `ng serve`.
 
 
-## Deploy  
+## Deploy
 - ng build -prod --base-href "/made-in-nigeria/" inside **v2** folder
 - then perform this `git add -A && git commit -m "base url updated for deployment"`
 - Run `git push` to update **master** with **dist**

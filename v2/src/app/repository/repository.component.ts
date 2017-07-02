@@ -25,7 +25,7 @@ import {error} from "util";
     <div class="naija-card-footer">
     <!--show button when we have not loaded the languages-->
     <button *ngIf="!repo.stacks" class="btn btn-success-outline btn-sm" (click)="loadLanguage(repo)"  [clrLoading]="repo.loader">Load Language(s)</button>
-       
+    <button *ngIf="repo.stacks && repo.stacks.length < 1" class="btn btn-success-outline btn-sm" [clrLoading]="repo.loader">No Language(s) found</button>
         <div style="padding-top: 6px;">
         <a *ngFor="let stack of repo.stacks" style="text-decoration: none"
            href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
@@ -62,9 +62,11 @@ export class RepositoryComponent implements OnInit {
       .subscribe((languages)=> {
         repo.loader = false;
         repo.stacks = languages;
+        console.log(repo.stacks);
       }, (error)=> {
         repo.loader = false;
         console.error(error);
+        alert(JSON.parse(error._body).message);
       });
 
   }
