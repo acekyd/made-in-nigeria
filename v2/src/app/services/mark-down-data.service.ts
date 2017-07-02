@@ -112,7 +112,7 @@ export class MarkDownDataService {
    * @returns {Observable<R>}
    */
   getLanguages(repo: IRepository): Observable<[{key: string, value: number}]> {
-    return this._http.get(`https://api.github.com/repos/${this._githubUsername.transform(repo.name.link)}/${repo.name.name}/languages`)
+    return this._http.get(`https://api.github.com/repos/${this._githubUsername.transform(repo.name.link)}/${repo.name.name.toLowerCase().split(' ').join('-')}/languages`)
       .map(res=> {
         let obj: any = res.json();
 
