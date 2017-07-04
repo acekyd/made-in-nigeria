@@ -186,6 +186,7 @@
 * [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
 * [WordPress Persist Admin Notices Dismissal](https://github.com/collizo4sky/persist-admin-notices-dismissal) - Simple plugin that persists dismissal of admin notices across pages in WordPress dashboard. **By [@w3guy](https://twitter.com/w3guy)**
 * [wtfoperamini](https://github.com/ireade/wtfoperamini) - Development features not supported in Opera Mini, and some crowsourced workarounds for them. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
+* [Webpack2-React Server StarterKit](https://github.com/BolajiOlajide/Webpack2-React-StarterKit) - Simple Webpack2 starterkit with hot-reloading configured. It also includes testing and linting already set up for the user.  **By [@Bolaji___](https://twitter.com/bolaji___)**
 
 ## <a name="X"> </a>X
 ## <a name="Y"> </a>Y
