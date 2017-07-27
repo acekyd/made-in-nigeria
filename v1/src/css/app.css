@@ -138,3 +138,25 @@ a:hover {
             transform:skew(8deg) rotate(3deg);
 }
 
+
+/*Style for Responsiveness*/
+@media (max-width: 700px){
+    .hero>.message {
+        width: 90%;
+    }
+    #search-input {
+    padding: 0 10px;
+    width: inherit;
+    }
+    .container{
+        width: 90%;
+    }
+    #tools-table td, th {
+    padding: 0 10px;
+    word-break: break-all;
+    }
+    #tools-table {
+        width: 100%;
+        padding: 0 5px;
+    }
+}
