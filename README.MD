@@ -120,12 +120,13 @@
 
 ## <a name="N"> </a>N
 
+* [Naija Phone Number](https://github.com/Udokah/naija-phone-number) - A fast minimal module to validate Nigerian mobile phone numbers using Regular Expressions. **By [@thisisudo](https://twitter.com/thisisudo)**
+* [Naija Pikin](https://github.com/stigwue/naija-pikin) - A hopefully funny and non-annoying way to pick random names for unregistered users. **By [@stigwue](https://github.com/stigwue)**
+* [Newspaperjs](https://github.com/flickz/newspaperjs) - Nodejs: News extraction, scraping and article parsing module. **By [@flickzcode](https://twitter/flickzcode)**
+* [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in   Nigeria. **By [@seyi__adeleke](https://twitter.com/seyi__adeleke)**
 * [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
 * [No-CAPTCHA-reCAPTCHA](https://github.com/collizo4sky/No-CAPTCHA-reCAPTCHA) - Protect WordPress login, registration and comment form from spam with the new No CAPTCHA reCAPTCHA. **By [@w3guy](https://twitter.com/w3guy)**
 * [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By @ifedapoolarewaju**
-* [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in   Nigeria. **By [@seyi__adeleke](https://twitter.com/seyi__adeleke)**
-* [Naija Phone Number](https://github.com/Udokah/naija-phone-number) - A fast minimal module to validate Nigerian mobile phone numbers using Regular Expressions. **By [@thisisudo](https://twitter.com/thisisudo)**
-* [Newspaperjs](https://github.com/flickz/newspaperjs) - Nodejs: News extraction, scraping and article parsing module. **By [@flickzcode](https://twitter/flickzcode)**
 
 ## <a name="O"> </a>O
 
