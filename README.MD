@@ -101,6 +101,7 @@
 * [MediumUnooficialSDK](https://github.com/KingsMentor/medium-android-sdk-unofficial) - Unoffical implementation of medium api for android .Support Medium Oauth Sign in, retrieve users post, make publications and other medium supported features. **By [@kingsmentor](https://twitter.com/kingsmentor)**
 * [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By [@mykeels](https://twitter.com/mykeels)**
 * [MobileVisionBarcodeScanner](https://github.com/KingsMentor/MobileVisionBarcodeScanner) - Mobile Vission Barcode Scanner  **By [@kingsmentor](https://twitter.com/kingsment)**
+* [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**
 * [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**
 * [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 
