@@ -36,14 +36,14 @@ export class MainComponent implements OnDestroy {
     this._searchSubscription = this._searchService.getSource()
       .debounceTime(300)
       .distinctUntilChanged()
-      .subscribe((term: string)=> {
+      .subscribe((term: string) => {
         this.searchTerm = term;
       });
   }
 
 
   ngOnDestroy() {
-    this._searchSubscription.unsubscribe();// unsubscribe from our subscription , memory leak
+    this._searchSubscription.unsubscribe(); // unsubscribe from our subscription , memory leak
   }
 
 }

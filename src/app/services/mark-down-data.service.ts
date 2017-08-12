@@ -120,8 +120,7 @@ export class MarkDownDataService {
         return Object.keys(obj).map((key) => {
           if (key === 'CSS') {
             key = 'CSS3';
-          }
-          if (key === 'HTML') {
+          } else if (key === 'HTML') {
             key = 'HTML5';
           }
 
