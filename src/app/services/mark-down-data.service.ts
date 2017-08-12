@@ -1,11 +1,11 @@
 import {Injectable} from '@angular/core';
-import {Http} from "@angular/http";
-import {Observable} from "rxjs";
-import "rxjs/add/observable/of";
+import {Http} from '@angular/http';
+import {Observable} from 'rxjs';
+import 'rxjs/add/observable/of';
 import 'rxjs/add/operator/mergeMap';
 import 'rxjs/add/operator/map';
-import {IRepository} from "../interfaces/irepository";
-import {GithubUsernamePipe} from "../pipes/github-username.pipe";
+import {IRepository} from '../interfaces/irepository';
+import {GithubUsernamePipe} from '../pipes/github-username.pipe';
 
 declare var markdownit;
 
@@ -17,7 +17,7 @@ export class MarkDownDataService {
   private _md;
 
   constructor(private _http: Http, private _githubUsername: GithubUsernamePipe) {
-    console.log("am in, should see this once #singleton");
+    console.log('am in, should see this once #singleton');
     this._md = markdownit({
       html: true,
       linkify: true,
@@ -37,18 +37,18 @@ export class MarkDownDataService {
   private _parseMarkDown(): Observable<IRepository[]> {
     return this._http
       .get('https://raw.githubusercontent.com/acekyd/made-in-nigeria/master/README.MD')
-      .map(data=>data.text())
-      .mergeMap((mdContent: string)=> {
+      .map(data => data.text())
+      .mergeMap((mdContent: string) => {
 
         // Convert markdown file content to html string.
-        let htmlStrData: string = this._md.render(mdContent);
+        const htmlStrData: string = this._md.render(mdContent);
 
         /**
          * let's create a dom here to hold our html record
          * so we don't need to add hide or display none, since we
          * haven't append it to our body yet
          */
-        let html: HTMLElement = document.createElement('div');
+        const html: HTMLElement = document.createElement('div');
         html.innerHTML = htmlStrData;
 
         return this._prepareData(<NodeListOf<HTMLLIElement>> html.querySelectorAll('ul >li'));
@@ -65,10 +65,10 @@ export class MarkDownDataService {
   private _prepareData(list: NodeListOf<HTMLLIElement>): Observable<IRepository[]> {
 
 
-    let record: IRepository[] = [];
+    const record: IRepository[] = [];
 
     for (let i = 0; i < list.length; i++) {
-      let li: HTMLLIElement = list[i];
+      const li: HTMLLIElement = list[i];
       let nameAnchor: any = <HTMLAnchorElement>li.querySelector('a:first-child');
       let creatorAnchor: any = <HTMLAnchorElement>li.querySelector('strong > a');
 
@@ -81,7 +81,7 @@ export class MarkDownDataService {
       creatorAnchor = creatorAnchor || {text: '', href: ''};
 
 
-      let item: IRepository = {
+      const item: IRepository = {
         name: {name: nameAnchor.text, link: nameAnchor.href},
         description: this._getDiscription(li),
         creator: {name: creatorAnchor.text, link: creatorAnchor.href}
@@ -99,9 +99,9 @@ export class MarkDownDataService {
    * @param li
    */
   private _getDiscription(li: HTMLLIElement): string {
-    li.removeChild(li.lastChild);//remove the creator we don't need it here
-    let text = li.innerText;
-    //not nice to use regexp for such a simple task
+    li.removeChild(li.lastChild); // remove the creator we don't need it here
+    const text = li.innerText;
+    // not nice to use regexp for such a simple task
     return text.substring(text.lastIndexOf('-') + 1).trim();
   }
 
@@ -113,19 +113,23 @@ export class MarkDownDataService {
    */
   getLanguages(repo: IRepository): Observable<[{key: string, value: number}]> {
     return this._http.get(`https://api.github.com/repos/${this._githubUsername.transform(repo.name.link)}/${repo.name.name.toLowerCase().split(' ').join('-')}/languages`)
-      .map(res=> {
-        let obj: any = res.json();
+      .map(res => {
+        const obj: any = res.json();
 
-        //convert to array of key and value pair instead of object
-        return Object.keys(obj).map((key)=> {
-          if(key=="CSS") key = "CSS3";
-          if(key=="HTML") key = "HTML5";
+        // convert to array of key and value pair instead of object
+        return Object.keys(obj).map((key) => {
+          if (key === 'CSS') {
+            key = 'CSS3';
+          }
+          if (key === 'HTML') {
+            key = 'HTML5';
+          }
 
           return {key: key, value: obj[key]}
         });
       })
-      .map((languages: [{key: string, value: number}])=> {
-        return languages.sort((a, b)=>(b.value - a.value));
+      .map((languages: [{key: string, value: number}]) => {
+        return languages.sort((a, b) => (b.value - a.value));
       });
   }
 

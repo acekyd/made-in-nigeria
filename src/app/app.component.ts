@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
-import {SearchService} from "./services/search.service";
-import {Subscription} from "rxjs";
-import {MarkDownDataService} from "./services/mark-down-data.service";
+import {SearchService} from './services/search.service';
+import {Subscription} from 'rxjs';
+import {MarkDownDataService} from './services/mark-down-data.service';
 
 @Component({
   selector: 'app-root',

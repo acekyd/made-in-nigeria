@@ -16,7 +16,7 @@ export class GithubUsernamePipe implements PipeTransform {
    * @returns {null}
    */
   transform(value: any, args?: any): any {
-    value = value.substr(value.indexOf(".com"));
+    value = value.substr(value.indexOf('.com'));
     value =  value.split('/');
 
     return value[1];

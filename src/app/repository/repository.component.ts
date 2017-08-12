@@ -1,7 +1,7 @@
 import {Component, OnInit, Input} from '@angular/core';
-import {IRepository} from "../interfaces/irepository";
-import {MarkDownDataService} from "../services/mark-down-data.service";
-import {error} from "util";
+import {IRepository} from '../interfaces/irepository';
+import {MarkDownDataService} from '../services/mark-down-data.service';
+import {error} from 'util';
 
 @Component({
   selector: 'repository',
@@ -50,17 +50,19 @@ export class RepositoryComponent implements OnInit {
    * @param repo
    */
   loadLanguage(repo): void {
-    if (repo.loader) //if loading before don't reload again
+    // if loading before don't reload again
+    if (repo.loader) {
       return;
+    }
 
 
     repo.loader = true;
 
     this._mdDataService.getLanguages(repo)
-      .subscribe((languages)=> {
+      .subscribe((languages) => {
         repo.loader = false;
         repo.stacks = languages;
-      }, (error)=> {
+      }, (error) => {
         repo.loader = false;
         console.error(error);
         alert(JSON.parse(error._body).message);

@@ -1,8 +1,8 @@
 import {Component, OnInit, OnDestroy} from '@angular/core';
-import {IRepository} from "../interfaces/irepository";
-import {SearchService} from "../services/search.service";
-import {Subscription, Observable} from "rxjs";
-import {MarkDownDataService} from "../services/mark-down-data.service";
+import {IRepository} from '../interfaces/irepository';
+import {SearchService} from '../services/search.service';
+import {Subscription, Observable} from 'rxjs';
+import {MarkDownDataService} from '../services/mark-down-data.service';
 import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
 
@@ -12,7 +12,7 @@ import 'rxjs/add/operator/distinctUntilChanged';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnDestroy {
-  //hold up all our naija repos
+  // hold up all our naija repos
   repositories: Observable<IRepository[]>;
   searchTerm: string;
 
@@ -25,7 +25,7 @@ export class MainComponent implements OnDestroy {
 
   constructor(private _searchService: SearchService, private _mdService: MarkDownDataService) {
 
-    //let's get our observable of record here #repos
+    // let's get our observable of record here #repos
     this.repositories = this._mdService.data;
 
     /**
@@ -43,7 +43,7 @@ export class MainComponent implements OnDestroy {
 
 
   ngOnDestroy() {
-    this._searchSubscription.unsubscribe();//unsubscribe from our subscription , memory leak
+    this._searchSubscription.unsubscribe();// unsubscribe from our subscription , memory leak
   }
 
 }

@@ -1,5 +1,5 @@
 import {Pipe, PipeTransform} from '@angular/core';
-import {IRepository} from "../interfaces/irepository";
+import {IRepository} from '../interfaces/irepository';
 
 @Pipe({
   name: 'searchFilter'
@@ -14,24 +14,29 @@ export class SearchFilterPipe implements PipeTransform {
    * @returns {any}
    */
   transform(items: IRepository[], value: string): any[] {
-    if (!items) return [];
+    if (!items) {
+      return [];
+    }
 
-    if (value == null || value.trim() == "") {
+    if (value == null || value.trim() === '') {
       return items;
     }
 
     return items.filter(it => {
 
-      //let's check if our value or search can be splitted with whitespace
-      let splitted_item = value.toLowerCase().split(" ");
+      // let's check if our value or search can be splitted with whitespace
+      const splitted_item = value.toLowerCase().split(' ');
 
       let seen = false;
-      for (let word of splitted_item) {
-        if (word == "") {
+      for (const word of splitted_item) {
+        if (word === '') {
           continue;
         }
-        if (it.name.name.toLowerCase().indexOf(word) > -1 || it.creator.name.toLowerCase().indexOf(word) > -1 || it.description.toLowerCase().indexOf(word) > -1)
+        if (it.name.name.toLowerCase().indexOf(word) > -1
+            || it.creator.name.toLowerCase().indexOf(word) > -1
+            || it.description.toLowerCase().indexOf(word) > -1) {
           seen = true;
+        }
       }
 
       return seen;
