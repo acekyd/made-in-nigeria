@@ -1,6 +1,7 @@
 import {Component, OnInit, OnDestroy} from '@angular/core';
 import {IRepository} from '../interfaces/irepository';
 import {SearchService} from '../services/search.service';
+// tslint:disable-next-line:import-blacklist
 import {Subscription, Observable} from 'rxjs';
 import {MarkDownDataService} from '../services/mark-down-data.service';
 import 'rxjs/add/operator/debounceTime';

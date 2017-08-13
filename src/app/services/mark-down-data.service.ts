@@ -1,5 +1,6 @@
 import {Injectable} from '@angular/core';
 import {Http} from '@angular/http';
+// tslint:disable-next-line:import-blacklist
 import {Observable} from 'rxjs';
 import 'rxjs/add/observable/of';
 import 'rxjs/add/operator/mergeMap';
@@ -112,6 +113,7 @@ export class MarkDownDataService {
    * @returns {Observable<R>}
    */
   getLanguages(repo: IRepository): Observable<[{key: string, value: number}]> {
+    // tslint:disable-next-line:max-line-length
     return this._http.get(`https://api.github.com/repos/${this._githubUsername.transform(repo.name.link)}/${repo.name.name.toLowerCase().split(' ').join('-')}/languages`)
       .map(res => {
         const obj: any = res.json();
@@ -124,7 +126,7 @@ export class MarkDownDataService {
             key = 'HTML5';
           }
 
-          return {key: key, value: obj[key]}
+          return { key: key, value: obj[key] };
         });
       })
       .map((languages: [{key: string, value: number}]) => {
