@@ -1,11 +1,12 @@
-/*Lets build our card here*/
+/* Let's build our card here */
 .naija-card {
+  box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, .1);
   background: #fff;
   border: 1px solid #e5e5e5;
-  border-radius: 3px;
-  padding: 12px;
-  padding-bottom: 0px;
   margin-bottom: 16px;
+  border-radius: 2px;
+  min-height: 170px;
+  padding: 25px;
 }
 
 .naija-card:hover {

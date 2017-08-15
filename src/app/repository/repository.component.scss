@@ -1,0 +1,54 @@
+@import 'variables';
+@import 'mixins';
+@import 'base';
+
+/* Let's build our card here */
+
+.naija-card {
+  @include box-shadow(0px 8px 6px -6px rgba(0, 0, 0, 0.1));
+  @include border-radius(2px);
+  border: 1px solid #e5e5e5;
+  background: #ffffff;
+  margin-bottom: 16px;
+  min-height: 170px;
+  padding: 25px;
+  &:hover {
+    @include box-shadow(0 1px 12px 0 rgba(0, 0, 0, 0.06));
+    border-color: #ffffff;
+  }
+  > {
+    .naija-header > {
+      a {
+        color: #333;
+        font-weight: 700;
+        margin-left: 2px;
+      }
+      img {
+        @include border-radius(3px);
+        height: 24px;
+        width: 24px;
+      }
+      p {
+        margin-top: 1px;
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: justify;
+      }
+    }
+    .naija-card-footer {
+      border-top: 1px solid #dadfe2;
+      /*padding-top: 7px;*/
+      text-align: center;
+      .stack-icon {
+        @include transition(filter .3s ease-in-out);
+        filter: grayscale(100%);
+        font-size: 30px;
+        &:hover {
+          filter: grayscale(0);
+        }
+      }
+    }
+  }
+}
+
+/* end of our card */

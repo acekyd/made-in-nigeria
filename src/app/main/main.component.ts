@@ -10,7 +10,7 @@ import 'rxjs/add/operator/distinctUntilChanged';
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
-  styleUrls: ['./main.component.css']
+  styleUrls: ['./main.component.scss']
 })
 export class MainComponent implements OnDestroy {
   // hold up all our naija repos

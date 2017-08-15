@@ -36,7 +36,7 @@ import {error} from 'util';
     </div>
   </div> <!--/naija-card-->
   `,
-  styleUrls: ['./repository.component.css']
+  styleUrls: ['./repository.component.scss']
 })
 export class RepositoryComponent implements OnInit {
   @Input() repo: IRepository;
