@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "v2"
+    "name": "made-in-nigeria"
   },
   "apps": [
     {
@@ -22,19 +22,23 @@
         "../node_modules/devicon/devicon.min.css",
         "../node_modules/devicon/devicon-colors.css",
 
-        "../node_modules/clarity-icons/clarity-icons.min.css",
+        "../node_modules/font-awesome/css/font-awesome.min.css",
         "../node_modules/clarity-ui/clarity-ui.min.css",
         "styles.css"
       ],
       "scripts": [
         "../node_modules/mutationobserver-shim/dist/mutationobserver.min.js",
-        "../node_modules/@webcomponents/custom-elements/custom-elements.min.js",
-        "../node_modules/clarity-icons/clarity-icons.min.js"
+        "../node_modules/@webcomponents/custom-elements/custom-elements.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
+      },
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "sass"
+        ]
       }
     }
   ],
@@ -60,7 +64,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "component": {}
   }
 }
