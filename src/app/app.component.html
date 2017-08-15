@@ -1,44 +1,39 @@
 <clr-main-container>
-
+  
   <clr-header class="headerGreen">
-    <div class="branding">
-      <a href="#" class="nav-link">
-        <span class="title">Made in Nigeria</span>
+    <section class="_branding">
+      <section class="about-wrap">
+        <a href="#"><span class="fa fa-info-circle"></span>About</a>
+      </section>
+      <a href="" class="_nav-link">
+        <h1 class="_title">Made. in. Nigeria.</h1>
       </a>
-    </div>
-
-    <form class="search">
-      <label for="search_input">
-        <input id="search_input" type="text" (keyup)="search($event)"
-               placeholder="Search tools...">
-      </label>
-    </form>
-    <div class="settings github-btn ">
-      <a class="github-button nav-link nav-text" href="https://github.com/acekyd/made-in-nigeria" data-show-count="true"
-         aria-label="Star acekyd/made-in-nigeria on GitHub">Star</a>
-    </div>
+      <div class="_description">
+        <p>A curation of awesome tools and projects built by Nigerian developers.</p>
+      </div>
+      
+      <section class="search-wrap">
+        <form class="_search">
+          <div class="input-wrap">
+            <span class="fa fa-search"></span>
+            <input id="search_input" type="text" (keyup)="search($event)"
+                   placeholder="Search projects..."/>
+          </div>
+        </form>
+      </section>
+    </section>
+    
   </clr-header>
-
-
-  <div class="content-container">
+  
+  
+  <section class="content-container">
     <main class="content-area">
-
-      <!--Our Info Modal-->
-
-      <clr-modal [(clrModalOpen)]="showInfo">
-        <h3 class="modal-title">Welcome</h3>
-        <div class="modal-body">
-          <p>It is rumored that Nigerians only know how to consume tools and not create them. Here is a curation of
-            awesome tools built by Nigerians that can be used by anybody and from anywhere in the world.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" (click)="showInfo = false">Play around</button>
-        </div>
-      </clr-modal>
-      <!--Our Info Modal-->
-
-
+      <h1 id="explore">Explore.</h1>
       <app-main></app-main>
     </main>
-  </div>
+  </section>
 </clr-main-container>
+
+<footer class="footer" style="display: none;">
+  Made with love in Lagos, Nigeria
+</footer>
