@@ -66,7 +66,7 @@ export class RepositoryComponent implements OnInit {
       }, (error) => {
         repo.loader = false;
         console.error(error);
-        alert(JSON.parse(error._body).message);
+        // alert(JSON.parse(error._body).message);
       });
 
   }
