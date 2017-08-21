@@ -41,3 +41,4 @@ testem.log
 Thumbs.db
 *.map
 content.md
+debug.log
