@@ -1,9 +1,9 @@
-[A](#A) | [B](#B) | [C](#C) | [D](#D) | [E](#E) | [F](#F) | [G](#G) | [H](#H) | [I](#I) | [J](#J) | [K](#K) | [L](#L) | [M](#M) | [N](#N) | [O](#O) | [P](#P) | [Q](#Q) | [R](#R) | [S](#S) | [T](#T) | [U](#U) | [V](#V) | [W](#W) | [X](#X) | [Y](#Y) | [Z](#Z)
+﻿[A](#A) | [B](#B) | [C](#C) | [D](#D) | [E](#E) | [F](#F) | [G](#G) | [H](#H) | [I](#I) | [J](#J) | [K](#K) | [L](#L) | [M](#M) | [N](#N) | [O](#O) | [P](#P) | [Q](#Q) | [R](#R) | [S](#S) | [T](#T) | [U](#U) | [V](#V) | [W](#W) | [X](#X) | [Y](#Y) | [Z](#Z)
 
 
 ## <a name="A"> </a>A
 
-* [ACM](https://github.com/DOkwufulueze/ACM) - An Automated Counselling Machine [ACM] that intelligently suggests areas of study to student users by interacting with them. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
+* [ACM](https://github.com/DOkwufulueze/ACM) - An Automated Counselling Machine [ACM] that intelligently suggests areas of study to student users by interacting with them. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 * [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Altair](https://github.com/imolorhe/altair) - A sleek graphQL client app for querying GraphQL servers, like Postman for graphQL. It also comes as a Chrome extension. **By [@imolorhe](https://twitter.com/imolorhe)**
 * [Angular2-Sails-starter-pack](https://github.com/Mozartted/Angular2-Sails-starter-pack) - A starter pack for angular2 based projects using sails backend, integrating hot reload functionalities. **By [@mozartted](https://twitter.com/mozartted)**
@@ -13,8 +13,8 @@
 * [Atom-Go-Imports](https://github.com/abiosoft/atom-go-imports) A plugin for Atom Editor to add import statements to Go codes. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Atom Aurelia snippets](https://github.com/unicodeveloper/atom-aurelia-snippets) - A plugin for Atom Editor to autocomplete aurelia snippets when working with Aurelia.**By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Atom Material Palenight Syntax](https://github.com/whizkydee/atom-material-palenight-syntax) - :new_moon: An elegant and minimal material syntax theme for Atom. **By [@whizkydee](https://twitter.com/whizkydee)**
-* [AutoStartup](https://github.com/DOkwufulueze/AutoStartup) - Shell Script to automate terminal tab opening and custom command execution. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
-* [auto-startupd](https://github.com/DOkwufulueze/auto-startupd) - A daemon that executes custom commands automatically in the background and makes them stay alive even after the terminal is exited. It sends command output to either nohup.out, the /dev/null black hole, or a custom file, depending on the option selected by the user. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
+* [AutoStartup](https://github.com/DOkwufulueze/AutoStartup) - Shell Script to automate terminal tab opening and custom command execution. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
+* [auto-startupd](https://github.com/DOkwufulueze/auto-startupd) - A daemon that executes custom commands automatically in the background and makes them stay alive even after the terminal is exited. It sends command output to either nohup.out, the /dev/null black hole, or a custom file, depending on the option selected by the user. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 
 
 
@@ -24,6 +24,7 @@
 
 ## <a name="C"> </a>C
 
+* [C# Permutation](https://github.com/Oziomajnr/C--Permutation) - A library for permutating C# objects. **By [@oziomajnr](https://twitter.com/Oziomajnr) & [@mykeels](https://twitter.com/mykeels)**
 * [caddy-docker](https://github.com/abiosoft/caddy-docker) - Docker image for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [caddy-git](https://github.com/abiosoft/caddy-git) - Git plugin for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Caniuse-embed](https://github.com/ireade/caniuse-embed) - The (unofficial) embed for caniuse. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
@@ -33,7 +34,7 @@
 
 ## <a name="D"> </a>D
 
-* [date-selection-manager](https://github.com/DOkwufulueze/date-selection-manager) - This manager takes care of date entries via select elements. It prevents the entry of invalid dates like February 30, June 31, or February 29 on a non-leap year. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
+* [date-selection-manager](https://github.com/DOkwufulueze/date-selection-manager) - This manager takes care of date entries via select elements. It prevents the entry of invalid dates like February 30, June 31, or February 29 on a non-leap year. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 * [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. **By [@ace_kyd](https://twitter.com/ace_kyd)**
 * [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [dumb_password_rails](https://github.com/arinzeokeke/dumb_password_rails) - Rails Password Validator. Validate your user passwords and prevent them from using vulnerable passwords. **By [@arinzeokeke](https://www.github.com/arinzeokeke)**
@@ -45,12 +46,15 @@
 * [Elegant Atom UI](https://github.com/codehakase/elegant-atom-ui) - A simple and intuitive Atom Theme focused on giving warmth while coding **By [@codehakase](https://twitter.com/codehakase)**
 * [Elegant Syntax Theme](https://github.com/codehakase/elegant-atom-syntax) - A Mild Atom Editor Syntax package (works well with the Elegant Atom UI theme) **By [@codehakase](https://twitter.com/codehakase)**
 * [Eneyi](https://github.com/stigwue/eneyi) - A simple PHP application to forward on HTTP requests.) **By [@stigwue](https://github.com/stigwue)**
+* [eth-vue](https://github.com/DOkwufulueze/eth-vue) - A Vue.js boilerplate for Ethereum Apps, built on Truffle. Authentication functionalities included. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
+
 
 ## <a name="F"> </a>F
 
 * [Face-detector](https://github.com/moyheen/face-detector) - is application contains all the code from her article on the FaceDetector API. **By [@moyheen](https://twitter.com/moyheen)**
 * [Fave](https://github.com/kehers/fave) - Send links in tweets you fav to your Pocket account. **By [@kehers](https://twitter.com/kehers)**
 * [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**
+* [file-launcher](https://github.com/DOkwufulueze/file-launcher) - A ruby app that automatically launches files using appropriate applications. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 * [Flask-extension-cookicutter](https://github.com/Olamyy/flask-extension-cookiecutter) - A cookiecutter template for writing flask extensions.
 * [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
@@ -114,9 +118,10 @@
 * [Mini-Inventory-and-Sales-Management-System](https://github.com/amirsanni/Mini-Inventory-and-Sales-Management-System) - An Inventory and Sales Management System written in PHP (codeIgniter) with support for MySQL and Sqlite3 databases. **By [@amirsanni](https://twitter.com/amirsanni)**
 * [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By [@mykeels](https://twitter.com/mykeels)**
 * [MobileVisionBarcodeScanner](https://github.com/KingsMentor/MobileVisionBarcodeScanner) - Mobile Vission Barcode Scanner  **By [@kingsmentor](https://twitter.com/kingsment)**
+* [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**
 * [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**
 * [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Money-To-Words-Converter](https://github.com/Nagato23/Money-To-Words-Converter) - A php library that converts any money value in digit [in any numeric system] to words in any language. **By [@christs_dev](https://twitter.com/christs_dev)**
+* [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A php library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
 
 
 ## <a name="N"> </a>N
@@ -160,6 +165,7 @@
 
 * [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken **By [@robophil_](https://twitter.com/robophil_)**
 * [sails-hook-datatable](https://github.com/Robophil/sails-hook-datatable) - A sails hook for working with Jquery datatables **By [@robophil_](https://twitter.com/robophil_)**
+* [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs **By [@theo4me](https://twitter.com/theo4me)**
 * [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**
 * [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By @shalvah**
 * [Simplistic Syntax](https://atom.io/themes/simplistic-syntax) - Simple theme for Atom Editor. **By [@abiosoft](https://twitter.com/abiosoft)**
