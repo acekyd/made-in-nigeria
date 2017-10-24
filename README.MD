@@ -76,6 +76,7 @@
 * [Inlinetweetjs](https://github.com/ireade/inlinetweetjs) - InlineTweet.js allows you to easily create tweetable links out of any text on a webpage. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [IntentManip](https://github.com/KingsMentor/IntentManip) - Gives more control over implicit intents creation and the way it is presented to users.. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
 * [Instaword](https://github.com/acekyd/instaword) - InstaWord is a Chrome and Opera browser plugin that makes learning new words much easier. **By [@ace_kyd](https://twitter.com/ace_kyd)**
+* [ip-num](https://github.com/ip-num/ip-num) - ip-num is a TypeScript library for working with IP Resources(ASN, IPV4, IPV6). **By [@dadepo](https://twitter.com/dadepo)**
 * [iShell](https://github.com/abiosoft/ishell) - Library for creating interactive CLI applications with Go. **By [@abiosoft](https://twitter.com/abiosoft)**
 
 
