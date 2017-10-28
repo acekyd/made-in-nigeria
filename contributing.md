@@ -4,7 +4,7 @@
 
 To add a new project to the collection, please ensure they meet the following requirements arranged in order of importance
 
-* The project must be made in Nigeria as the name implies :grin:
+* The project must be made in Nigeria as the name implies :grin:.
 
 * The project must be open source.
 
