@@ -193,6 +193,7 @@
 * [TweetThreader](https://github.com/Udokah/tweet-threader) - A tool to create threads on Twitter  **By [@thisisudo](https://twitter.com/thisisudo)**
 * [TwittaSave](https://github.com/emmanuelkehinde/TwittaSave-Web) - Web, Android and Chrome Extension that enables you to download videos and gifs from tweets to your device easily; built using Twitter API.  **By [@emmakoko96](https://twitter.com/emmakoko96)**
 * [TigerJS JavaScript Library](https://github.com/solutionstack/tigerjs) - A general purpose javascript framework provideing numerous modules and abstractions including for XHR , DOM, Widgets, Date, String methods and much more to enhance Javascript application development   **By [@solutionstack](https://github.com/solutionstack)
+* [Time](https://github.com/kizitonwose/Time) - Type-safe time calculations in Kotlin, powered by generics. **By [@kizitonwose](https://github.com/kizitonwose)**
 
 ## <a name="U"> </a>U
 
