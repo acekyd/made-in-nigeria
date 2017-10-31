@@ -1,9 +1,9 @@
-[A](#A) | [B](#B) | [C](#C) | [D](#D) | [E](#E) | [F](#F) | [G](#G) | [H](#H) | [I](#I) | [J](#J) | [K](#K) | [L](#L) | [M](#M) | [N](#N) | [O](#O) | [P](#P) | [Q](#Q) | [R](#R) | [S](#S) | [T](#T) | [U](#U) | [V](#V) | [W](#W) | [X](#X) | [Y](#Y) | [Z](#Z)
+﻿[A](#A) | [B](#B) | [C](#C) | [D](#D) | [E](#E) | [F](#F) | [G](#G) | [H](#H) | [I](#I) | [J](#J) | [K](#K) | [L](#L) | [M](#M) | [N](#N) | [O](#O) | [P](#P) | [Q](#Q) | [R](#R) | [S](#S) | [T](#T) | [U](#U) | [V](#V) | [W](#W) | [X](#X) | [Y](#Y) | [Z](#Z)
 
 
 ## <a name="A"> </a>A
 
-* [ACM](https://github.com/DOkwufulueze/ACM) - An Automated Counselling Machine [ACM] that intelligently suggests areas of study to student users by interacting with them. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
+* [ACM](https://github.com/DOkwufulueze/ACM) - An Automated Counselling Machine [ACM] that intelligently suggests areas of study to student users by interacting with them. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 * [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Altair](https://github.com/imolorhe/altair) - A sleek graphQL client app for querying GraphQL servers, like Postman for graphQL. It also comes as a Chrome extension. **By [@imolorhe](https://twitter.com/imolorhe)**
 * [Angular2-Sails-starter-pack](https://github.com/Mozartted/Angular2-Sails-starter-pack) - A starter pack for angular2 based projects using sails backend, integrating hot reload functionalities. **By [@mozartted](https://twitter.com/mozartted)**
@@ -12,9 +12,9 @@
 * [APX](https://github.com/othreecodes/APX) - A Javafx Library for building MVC Applications. **By [@othreecodes](https://twitter.com/othreecodes)**
 * [Atom-Go-Imports](https://github.com/abiosoft/atom-go-imports) A plugin for Atom Editor to add import statements to Go codes. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Atom Aurelia snippets](https://github.com/unicodeveloper/atom-aurelia-snippets) - A plugin for Atom Editor to autocomplete aurelia snippets when working with Aurelia.**By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Atom Material Palenight Syntax](https://github.com/whizkydee/atom-material-palenight-syntax) - :new_moon: An elegant and minimal material syntax theme for Atom. **By [@whizkydee](https://twitter.com/whizkydee)**
-* [AutoStartup](https://github.com/DOkwufulueze/AutoStartup) - Shell Script to automate terminal tab opening and custom command execution. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
-* [auto-startupd](https://github.com/DOkwufulueze/auto-startupd) - A daemon that executes custom commands automatically in the background and makes them stay alive even after the terminal is exited. It sends command output to either nohup.out, the /dev/null black hole, or a custom file, depending on the option selected by the user. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
+* [Atom Material Palenight Syntax](https://github.com/whizkydee/atom-material-palenight-syntax) - :new_moon: An elegant and minimal material syntax theme for Atom. **By [@mrolaolu](https://twitter.com/mrolaolu)**
+* [AutoStartup](https://github.com/DOkwufulueze/AutoStartup) - Shell Script to automate terminal tab opening and custom command execution. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
+* [auto-startupd](https://github.com/DOkwufulueze/auto-startupd) - A daemon that executes custom commands automatically in the background and makes them stay alive even after the terminal is exited. It sends command output to either nohup.out, the /dev/null black hole, or a custom file, depending on the option selected by the user. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 
 
 
@@ -24,16 +24,18 @@
 
 ## <a name="C"> </a>C
 
+* [C# Permutation](https://github.com/Oziomajnr/C--Permutation) - A library for permutating C# objects. **By [@oziomajnr](https://twitter.com/Oziomajnr) & [@mykeels](https://twitter.com/mykeels)**
 * [caddy-docker](https://github.com/abiosoft/caddy-docker) - Docker image for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [caddy-git](https://github.com/abiosoft/caddy-git) - Git plugin for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Caniuse-embed](https://github.com/ireade/caniuse-embed) - The (unofficial) embed for caniuse. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Client_manager](https://github.com/timigod/client_manager) - API Client Manager is a mountable Rails (engine) gem that helps identify and authenticate your API clients' requests. **By [@timigod](https://twitter.com/timigod)**
 * [Composer-git-hook](https://github.com/BrainMaestro/composer-git-hooks) - Easily manage git hooks in your composer config **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
+* [CountryPickerView](https://github.com/kizitonwose/CountryPickerView) - A simple, customizable view for efficiently collecting country information in iOS apps. **By [@kizitonwose](https://github.com/kizitonwose/CountryPickerView)**
 * [csv49](https://github.com/stigwue/csv49) - Comma Separated Values For Nigeria. **Maintained by [@stigwue](https://github.com/stigwue)**
 
 ## <a name="D"> </a>D
 
-* [date-selection-manager](https://github.com/DOkwufulueze/date-selection-manager) - This manager takes care of date entries via select elements. It prevents the entry of invalid dates like February 30, June 31, or February 29 on a non-leap year. **By [@DOkwufulueze](https://github.com/DOkwufulueze)**
+* [date-selection-manager](https://github.com/DOkwufulueze/date-selection-manager) - This manager takes care of date entries via select elements. It prevents the entry of invalid dates like February 30, June 31, or February 29 on a non-leap year. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 * [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. **By [@ace_kyd](https://twitter.com/ace_kyd)**
 * [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [dumb_password_rails](https://github.com/arinzeokeke/dumb_password_rails) - Rails Password Validator. Validate your user passwords and prevent them from using vulnerable passwords. **By [@arinzeokeke](https://www.github.com/arinzeokeke)**
@@ -44,14 +46,20 @@
 * [EDD Paga](https://github.com/collizo4sky/EDD-Paga) - Accept Credit Card payments in your Easy Digital Downloads store via Paga. **By [@w3guy](https://twitter.com/w3guy)**
 * [Elegant Atom UI](https://github.com/codehakase/elegant-atom-ui) - A simple and intuitive Atom Theme focused on giving warmth while coding **By [@codehakase](https://twitter.com/codehakase)**
 * [Elegant Syntax Theme](https://github.com/codehakase/elegant-atom-syntax) - A Mild Atom Editor Syntax package (works well with the Elegant Atom UI theme) **By [@codehakase](https://twitter.com/codehakase)**
+* [Eneyi](https://github.com/stigwue/eneyi) - A simple PHP application to forward on HTTP requests.) **By [@stigwue](https://github.com/stigwue)**
+* [eth-vue](https://github.com/DOkwufulueze/eth-vue) - A Vue.js boilerplate for Ethereum Apps, built on Truffle. Authentication functionalities included. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
+
 
 ## <a name="F"> </a>F
 
 * [Face-detector](https://github.com/moyheen/face-detector) - is application contains all the code from her article on the FaceDetector API. **By [@moyheen](https://twitter.com/moyheen)**
 * [Fave](https://github.com/kehers/fave) - Send links in tweets you fav to your Pocket account. **By [@kehers](https://twitter.com/kehers)**
+* [Fawn](https://github.com/e-oj/Fawn) - A library for multi-document transactions in MongoDB via two-phase commits. **By [@e-oj](https://github.com/e-oj)**
 * [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**
+* [file-launcher](https://github.com/DOkwufulueze/file-launcher) - A ruby app that automatically launches files using appropriate applications. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 * [Flask-extension-cookicutter](https://github.com/Olamyy/flask-extension-cookiecutter) - A cookiecutter template for writing flask extensions.
 * [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
+
 
 ## <a name="G"> </a>G
 
@@ -65,10 +73,12 @@
 ## <a name="I"> </a>I
 
 * [Icicle](https://github.com/segunfamisa/icicle) - An annotation based tool for saving and restoring instance states. **By [@segunfamisa](https://twitter.com/segunfamisa)**
+* [IGdm](https://github.com/ifedapoolarewaju/igdm) - Multi-platform Desktop application for INSTAGRAM DMs. **By [@@teddyskillz2](https://twitter.com/@teddyskillz2)**
 * [ImgR](https://github.com/mykeels/ImgR) - ImgR.NET aims at automating the process of serving Images dynamically based on the client device. **By [@mykeels](https://twitter.com/mykeels)**
 * [Inlinetweetjs](https://github.com/ireade/inlinetweetjs) - InlineTweet.js allows you to easily create tweetable links out of any text on a webpage. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [IntentManip](https://github.com/KingsMentor/IntentManip) - Gives more control over implicit intents creation and the way it is presented to users.. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
 * [Instaword](https://github.com/acekyd/instaword) - InstaWord is a Chrome and Opera browser plugin that makes learning new words much easier. **By [@ace_kyd](https://twitter.com/ace_kyd)**
+* [ip-num](https://github.com/ip-num/ip-num) - ip-num is a TypeScript library for working with IP Resources(ASN, IPV4, IPV6). **By [@dadepo](https://twitter.com/dadepo)**
 * [iShell](https://github.com/abiosoft/ishell) - Library for creating interactive CLI applications with Go. **By [@abiosoft](https://twitter.com/abiosoft)**
 
 
@@ -113,20 +123,24 @@
 * [Mini-Inventory-and-Sales-Management-System](https://github.com/amirsanni/Mini-Inventory-and-Sales-Management-System) - An Inventory and Sales Management System written in PHP (codeIgniter) with support for MySQL and Sqlite3 databases. **By [@amirsanni](https://twitter.com/amirsanni)**
 * [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By [@mykeels](https://twitter.com/mykeels)**
 * [MobileVisionBarcodeScanner](https://github.com/KingsMentor/MobileVisionBarcodeScanner) - Mobile Vission Barcode Scanner  **By [@kingsmentor](https://twitter.com/kingsment)**
+* [Modern-Mean-Stack](https://github.com/Mozartted/Modern-Mean-Stack) - Functional stack of angular2, mongodb, express all on nodejs, coupled with webpack and angular cli features **By [@mozartted](https://github.com/Mozartted)**
 * [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**
 * [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**
 * [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-* [Money-To-Words-Converter](https://github.com/Nagato23/Money-To-Words-Converter) - A php library that converts any money value in digit [in any numeric system] to words in any language. **By [@christs_dev](https://twitter.com/christs_dev)**
+* [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A php library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
 
 
 ## <a name="N"> </a>N
 
+* [Naija Phone Number](https://github.com/Udokah/naija-phone-number) - A fast minimal module to validate Nigerian mobile phone numbers using Regular Expressions. **By [@thisisudo](https://twitter.com/thisisudo)**
+* [Naija Pikin](https://github.com/stigwue/naija_pikin) - A hopefully funny and non-annoying way to pick random names for unregistered users. **By [@stigwue](https://github.com/stigwue)**
+* [Newspaperjs](https://github.com/flickz/newspaperjs) - Nodejs: News extraction, scraping and article parsing module. **By [@flickzcode](https://twitter/flickzcode)**
+* [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in   Nigeria. **By [@seyi__adeleke](https://twitter.com/seyi__adeleke)**
 * [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
 * [No-CAPTCHA-reCAPTCHA](https://github.com/collizo4sky/No-CAPTCHA-reCAPTCHA) - Protect WordPress login, registration and comment form from spam with the new No CAPTCHA reCAPTCHA. **By [@w3guy](https://twitter.com/w3guy)**
 * [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By @ifedapoolarewaju**
+* [node-graphql-server](https://github.com/CodebyOmar/node-graphql-server) - Start up a graphQL server in minutes **By @codebyomar**
 * [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in   Nigeria. **By [@seyi__adeleke](https://twitter.com/seyi__adeleke)**
-* [Naija Phone Number](https://github.com/Udokah/naija-phone-number) - A fast minimal module to validate Nigerian mobile phone numbers using Regular Expressions. **By [@thisisudo](https://twitter.com/thisisudo)**
-* [Newspaperjs](https://github.com/flickz/newspaperjs) - Nodejs: News extraction, scraping and article parsing module. **By [@flickzcode](https://twitter/flickzcode)**
 
 ## <a name="O"> </a>O
 
@@ -148,9 +162,11 @@
 
 ## <a name="R"> </a>R
 
+* [Random48LawsOfPower](https://github.com/acekyd/Random48LawsOfPower) - Chrome extension that shows a random law from the popular '48 Laws of Power' Book. **By [@acekyd](https://twitter.com/Ace_KYD)**
 * [Rationale](https://github.com/KingsMentor/Rationale) - Android permission rationale helper dialog. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
 * [React-Raise](https://github.com/andela-iamao/react-raise) - A cli kit for creating react applications. **By [@ash__amao](https://twitter.com/ash__amao)**
 * [react-webpack-starter](https://github.com/temilaj/react-webpack-starter) - A boiler plate for creating react applications bundled by webpack (using ES6, Babel, SASS and the webpack development server). **By [@temilaj](https://twitter.com/temilaj)**
+* [require_all](https://github.com/kayslay/require_all) - An npm module to require all javascript or json files in a directory **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
 * [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By @ifedapoolarewaju**
 * [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By [@abiosoft](https://twitter.com/abiosoft)**
 
@@ -159,6 +175,7 @@
 
 * [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken **By [@robophil_](https://twitter.com/robophil_)**
 * [sails-hook-datatable](https://github.com/Robophil/sails-hook-datatable) - A sails hook for working with Jquery datatables **By [@robophil_](https://twitter.com/robophil_)**
+* [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs **By [@theo4me](https://twitter.com/theo4me)**
 * [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**
 * [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By @shalvah**
 * [Simplistic Syntax](https://atom.io/themes/simplistic-syntax) - Simple theme for Atom Editor. **By [@abiosoft](https://twitter.com/abiosoft)**
@@ -169,13 +186,16 @@
 * [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By @kizitonwose**
 * [Size](https://github.com/akinjide/size) - Tiny file size wrapper. **By [@_akinjide](https://twitter.com/_akinjide)**
 * [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
+* [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
 
 ## <a name="T"> </a>T
 
 * [TinyPress](https://github.com/kehers/tinypress) - Create and easily manage your blog on Github. **By [@kehers](https://twitter.com/kehers)**
 * [Toast.js](https://github.com/ireade/Toast.js) - A library for Toast messages  **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [TweetThreader](https://github.com/Udokah/tweet-threader) - A tool to create threads on Twitter  **By [@thisisudo](https://twitter.com/thisisudo)**
+* [TwittaSave](https://github.com/emmanuelkehinde/TwittaSave-Web) - Web, Android and Chrome Extension that enables you to download videos and gifs from tweets to your device easily; built using Twitter API.  **By [@emmakoko96](https://twitter.com/emmakoko96)**
 * [TigerJS JavaScript Library](https://github.com/solutionstack/tigerjs) - A general purpose javascript framework provideing numerous modules and abstractions including for XHR , DOM, Widgets, Date, String methods and much more to enhance Javascript application development   **By [@solutionstack](https://github.com/solutionstack)
+* [Time](https://github.com/kizitonwose/Time) - Type-safe time calculations in Kotlin, powered by generics. **By [@kizitonwose](https://github.com/kizitonwose)**
 
 ## <a name="U"> </a>U
 
@@ -183,13 +203,16 @@
 
 * [Video-Call-App](https://github.com/amirsanni/Video-Call-App) - A text, audio and video chat application built with webRTC and Ratchet (PHP WebSockets). **By [@amirsanni](https://twitter.com/amirsanni)**
 * [VSCode Java Imports](https://github.com/tushortz/vscode-Java-Imports) - Visual Studio Code extension that makes it easy to import Java classes and packages **By [@taiwo_krm](https://twitter.com/taiwo_krm)**
-* [VSCode Material Palenight Theme](https://github.com/whizkydee/vscode-material-palenight-theme) - :new_moon: An elegant and minimal material syntax theme for VSCode. **By [@whizkydee](https://twitter.com/whizkydee)**
+* [VSCode Material Palenight Theme](https://github.com/whizkydee/vscode-material-palenight-theme) - :new_moon: An elegant and minimal material syntax theme for VSCode. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 * [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
 
 ## <a name="W"> </a>W
 
 * [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
 * [WordPress Persist Admin Notices Dismissal](https://github.com/collizo4sky/persist-admin-notices-dismissal) - Simple plugin that persists dismissal of admin notices across pages in WordPress dashboard. **By [@w3guy](https://twitter.com/w3guy)**
+
+* [WP Medium Editor](https://github.com/Adetona/WP-Medium-Editor) - A minimalist Post Editor for Wordpress. **By [@Adetona77](https://twitter.com/Adetona77)**
+
 * [wtfoperamini](https://github.com/ireade/wtfoperamini) - Development features not supported in Opera Mini, and some crowsourced workarounds for them. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
 ## <a name="X"> </a>X
