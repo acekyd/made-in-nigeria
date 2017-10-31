@@ -4,7 +4,7 @@
 
 To add a new project to the collection, please ensure they meet the following requirements arranged in order of importance
 
-* The project must be made in Nigeria as the name implies :grin:.
+* The project must be **made in Nigeria** as the name implies :grin:.
 
 * The project must be open source.
 
@@ -14,9 +14,12 @@ To add a new project to the collection, please ensure they meet the following re
 
 * The project should not be a list of some sort.
 
-* Ensure to provide a social media url of the creator of the project outside Github.
+* Ensure to provide a social media url of the creator of the project outside GitHub.
 
 * Try to add the project to it's appropriate alphabetical location.
+
+* You might want to include the **made in Nigeria** badge to your project. Place the following code in your **README** file:
+`[![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)`
 
 More requirements may be added as time goes on.
 
@@ -30,5 +33,4 @@ There is a webpage that has been developed by awesome members of the community u
 * Make Pull requests as decriptive as possible.
 
 * Every other best practice recommended when contributing to a project.
-
 
