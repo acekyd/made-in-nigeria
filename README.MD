@@ -1,7 +1,9 @@
-﻿<section style="text-align: center">
-  <h1><a href="https://acekyd.github.io/made-in-nigeria">Made. In. Nigeria.</a></h1>
-  <p>A curation of awesome tools and projects built by Nigerian developers :fire:.</p>
-</section>
+<h1 align="center">
+  <a href="https://acekyd.github.io/made-in-nigeria">
+    Made. In. Nigeria.
+  </a>
+</h1>
+<p align="center">A curation of awesome tools and projects built by Nigerian developers :fire:.</p>
 
 
 
