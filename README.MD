@@ -169,6 +169,7 @@
 * [sails-hook-datatable](https://github.com/Robophil/sails-hook-datatable) - A sails hook for working with Jquery datatables **By [@robophil_](https://twitter.com/robophil_)**
 * [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs **By [@theo4me](https://twitter.com/theo4me)**
 * [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**
+* [Shutdown](https://github.com/emmanuelkehinde/Shutdown) - A lightweight android library that handles the closing of your app interactively.  **By [@emmakoko96](https://twitter.com/emmakoko96)**
 * [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By @shalvah**
 * [Simplistic Syntax](https://atom.io/themes/simplistic-syntax) - Simple theme for Atom Editor. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Slackword](https://github.com/larikraun/slackword) - Dictionary in your slack....additionally, you can get random words. **By [@_larikraun](https://twitter.com/_larikraun)**
