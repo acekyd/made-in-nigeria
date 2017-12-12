@@ -30,7 +30,7 @@
 
 
 ## <a name="B"> </a>B
-
+* [Breadcrumb For Codeigniter](https://github.com/judethegenius/Breadcrumb-for-Codeigniter) - A Simple Library for generating Breadcrumb in Codeigniter **By [@JudeTheGenius](https://twitter.com/judethegenius)**
 * [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator **By [@tdscientist](https://twitter.com/tdscientist)**
 
 ## <a name="C"> </a>C
