@@ -17,8 +17,9 @@
 * [ACM](https://github.com/DOkwufulueze/ACM) - An Automated Counselling Machine [ACM] that intelligently suggests areas of study to student users by interacting with them. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 * [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Altair](https://github.com/imolorhe/altair) - A sleek graphQL client app for querying GraphQL servers, like Postman for graphQL. It also comes as a Chrome extension. **By [@imolorhe](https://twitter.com/imolorhe)**
-* [Angular2-Sails-starter-pack](https://github.com/Mozartted/Angular2-Sails-starter-pack) - A starter pack for angular2 based projects using sails backend, integrating hot reload functionalities. **By [@mozartted](https://twitter.com/mozartted)**
 * [Angular-tag](https://github.com/theo4u/angular-tag) - Tags input directive for AngularJS. **By [@theo4me](https://twitter.com/theo4me)**
+* [Angular2-Sails-starter-pack](https://github.com/Mozartted/Angular2-Sails-starter-pack) - A starter pack for angular2 based projects using sails backend, integrating hot reload functionalities. **By [@mozartted](https://twitter.com/mozartted)**
+* [Angular4-paystack](https://github.com/ashinzekene/angular4-paystack) - This is an angular module that abstracts the complexity of making paystack payments with Angular2+. **By [@ashinzekene](https://twitter.com/ashinzekene)**
 * [AppFramer](https://github.com/olucurious/AppFramer) - AppFramer helps to put your app screenshots in beautiful device frames with annotations by running a simple command **By [@olucurious](https://twitter.com/olucurious)**
 * [APX](https://github.com/othreecodes/APX) - A Javafx Library for building MVC Applications. **By [@othreecodes](https://twitter.com/othreecodes)**
 * [Atom-Go-Imports](https://github.com/abiosoft/atom-go-imports) A plugin for Atom Editor to add import statements to Go codes. **By [@abiosoft](https://twitter.com/abiosoft)**
