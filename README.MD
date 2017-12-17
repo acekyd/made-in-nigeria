@@ -71,6 +71,7 @@
 * [file-launcher](https://github.com/DOkwufulueze/file-launcher) - A ruby app that automatically launches files using appropriate applications. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 * [Flask-extension-cookicutter](https://github.com/Olamyy/flask-extension-cookiecutter) - A cookiecutter template for writing flask extensions.
 * [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
+* [Frontend-app-starter](https://github.com/D-sense/frontend-app-starter) - A simple frontend app starter packed with Webpack, Twitter Bootstrap, and well-defined CSS media queries. Edit. **By [@D-sense](https://twitter.com/Delameh)**
 
 
 ## <a name="G"> </a>G
