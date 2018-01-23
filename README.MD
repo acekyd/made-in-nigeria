@@ -73,6 +73,7 @@
 * [Flask-extension-cookicutter](https://github.com/Olamyy/flask-extension-cookiecutter) - A cookiecutter template for writing flask extensions.
 * [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Frontend-app-starter](https://github.com/D-sense/frontend-app-starter) - A simple frontend app starter packed with Webpack, Twitter Bootstrap, and well-defined CSS media queries. Edit. **By [@D-sense](https://twitter.com/Delameh)**
+* [FuctBase64](https://github.com/sirbootoo/fuctBase64) - A simple way to convert any file to it's base 64 format, be it PNG, JPEG, WORD or PDF format it will convert it and returns an object of the data of the file including it's base64 format. **By [@sirbootoo](https://github.com/sirbootoo)**
 
 
 ## <a name="G"> </a>G
