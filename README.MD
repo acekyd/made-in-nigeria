@@ -55,6 +55,7 @@
 
 ## <a name="E"> </a>E
 
+* [Essential Kit](https://github.com/ichtrojan/essential-kit) - A Boilerplate for NodeJS with all the essential tools **By [@ichtrojan](https://twitter.com/ichtrojan)**
 * [EDD Paga](https://github.com/collizo4sky/EDD-Paga) - Accept Credit Card payments in your Easy Digital Downloads store via Paga. **By [@w3guy](https://twitter.com/w3guy)**
 * [Elegant Atom UI](https://github.com/codehakase/elegant-atom-ui) - A simple and intuitive Atom Theme focused on giving warmth while coding **By [@codehakase](https://twitter.com/codehakase)**
 * [Elegant Syntax Theme](https://github.com/codehakase/elegant-atom-syntax) - A Mild Atom Editor Syntax package (works well with the Elegant Atom UI theme) **By [@codehakase](https://twitter.com/codehakase)**
