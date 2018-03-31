@@ -102,6 +102,7 @@
 ## <a name="J"> </a>J
 
 * [Jollof](https://github.com/isocroft/Jollof) - A lightweight PHP framework for developers who love smart work. **By [@isocroft](https://twitter.com/isocroft)**
+* [JSMarka](https://github.com/kodejuice/jsmarka) - A JavaScript Code-Performance Benchmarking App. **By [@kodejuice](https://twitter.com/kodejuice)**
 * [Jusibe PHP Library](https://github.com/unicodeveloper/jusibe-php-lib) - A library for [Jusibe SMS Service](https://jusibe.com)  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Jusibe JavaScript Library](https://github.com/azemoh/jusibe) - A JavaScript library for [Jusibe SMS Service](https://jusibe.com)  **By [@azemoh](https://twitter.com/josh_azemoh)**
 
