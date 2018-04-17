@@ -87,6 +87,7 @@
 * [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay
 
 ## <a name="H"> </a>H
+* [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework. **By [@devHammed](https://twitter.com/devHammed)**
 
 ## <a name="I"> </a>I
 
