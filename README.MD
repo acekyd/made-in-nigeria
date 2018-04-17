@@ -111,6 +111,7 @@
 ## <a name="K"> </a>K
 
 * [Kanary](https://github.com/SeunAdelekan/Kanary) - A minimalist🔬 Kotlin web framework for building🔩⚙ scalable📈 and expressive🎨 RESTful APIs  **By [@IyanuAdelekan](https://twitter.com/IyanuAdelekan)**
+* [Keygen](https://github.com/gladchinda/keygen-php) - A fluent PHP random key generator. **By [@gladchinda](https://twitter.com/gladchinda)**
 * [KhaledBot](https://github.com/ireade/khaledbot) - Delivering Major Keys to your Slack Team  **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
 ## <a name="L"> </a>L
@@ -132,6 +133,7 @@
 * [Laravel-Slack](https://github.com/goodnesskay/laravel-slack) - A Laravel Package that makes Automatic Invitation to Slack Channels or team seamless.  **By [@goodnesskay](https://twitter.com/goodnesskayode)**
 * [Laravel Wikipedia](https://github.com/unicodeveloper/laravel-wikipedia) -  A Wikipedia Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Lib-ussd](https://github.com/hextremelabs/lib-ussd) - A lightweight USSD application framework. **By [@hextremelabs](https://twitter.com/hextremelabs)**
+* [Lightmatrix](https://github.com/gladchinda/light-matrix) - Lightweight JavaScript library for basic matrix computations. **By [@gladchinda](https://twitter.com/gladchinda)**
 * [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People et.c **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [LocalGoogle](https://github.com/kodejuice/localgoogle) - A search engine built for offline websites on your local machine.  **By [@KodeJuice](https://twitter.com/kodejuice)**
 
@@ -183,6 +185,7 @@
 
 * [Random48LawsOfPower](https://github.com/acekyd/Random48LawsOfPower) - Chrome extension that shows a random law from the popular '48 Laws of Power' Book. **By [@acekyd](https://twitter.com/Ace_KYD)**
 * [Rationale](https://github.com/KingsMentor/Rationale) - Android permission rationale helper dialog. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
+* [RavePHP](https://github.com/gladchinda/rave-php) - A very simple interface for integrating the Rave Payment Gateway to your PHP application. **By [@gladchinda](https://twitter.com/gladchinda)**
 * [React-Raise](https://github.com/andela-iamao/react-raise) - A cli kit for creating react applications. **By [@ash__amao](https://twitter.com/ash__amao)**
 * [react-webpack-starter](https://github.com/temilaj/react-webpack-starter) - A boiler plate for creating react applications bundled by webpack (using ES6, Babel, SASS and the webpack development server). **By [@temilaj](https://twitter.com/temilaj)**
 * [require_all](https://github.com/kayslay/require_all) - An npm module to require all javascript or json files in a directory **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
