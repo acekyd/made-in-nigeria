@@ -87,6 +87,7 @@
 * [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay
 
 ## <a name="H"> </a>H
+* [HUI.js](https://github.com/devHammed/HUI.js) - Lightweight JavaScript UI Library. **By [@devHammed](https://twitter.com/devHammed)**
 
 ## <a name="I"> </a>I
 
