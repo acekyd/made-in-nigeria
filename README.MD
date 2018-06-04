@@ -229,6 +229,7 @@
 * [Video-Call-App](https://github.com/amirsanni/Video-Call-App) - A text, audio and video chat application built with webRTC and Ratchet (PHP WebSockets). **By [@amirsanni](https://twitter.com/amirsanni)**
 * [VSCode Java Imports](https://github.com/tushortz/vscode-Java-Imports) - Visual Studio Code extension that makes it easy to import Java classes and packages **By [@taiwo_krm](https://twitter.com/taiwo_krm)**
 * [VSCode Material Palenight Theme](https://github.com/whizkydee/vscode-material-palenight-theme) - 🍹🎨 An elegant and juicy material-like theme for Visual Studio Code. **By [@mrolaolu](https://twitter.com/mrolaolu)**
+* [VSCode NestsJs Snippets](https://github.com/ashinzekene/vscode-nestjs-snippets) - A VScode extension for adding snippets for your [NestJS](https://github.com/nestjs/nest) code. **By [@ashinzekene](https://twitter.com/ashinzekene)** 
 * [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
 
 ## <a name="W"> </a>W
