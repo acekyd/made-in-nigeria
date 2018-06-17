@@ -94,6 +94,7 @@
 
 * [Icicle](https://github.com/segunfamisa/icicle) - An annotation based tool for saving and restoring instance states. **By [@segunfamisa](https://twitter.com/segunfamisa)**
 * [IGdm](https://github.com/ifedapoolarewaju/igdm) - Multi-platform Desktop application for INSTAGRAM DMs. **By [@@teddyskillz2](https://twitter.com/@teddyskillz2)**
+* [Ijeawele](https://github.com/viclotana/Ijeawele) - A Browser Extension that displays a random suggestion from the Dear Ijeawele book by Chimamnda Adichie. **By [@viclotana](https://twitter.com/viclotana)**
 * [ImgR](https://github.com/mykeels/ImgR) - ImgR.NET aims at automating the process of serving Images dynamically based on the client device. **By [@mykeels](https://twitter.com/mykeels)**
 * [Inlinetweetjs](https://github.com/ireade/inlinetweetjs) - InlineTweet.js allows you to easily create tweetable links out of any text on a webpage. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [IntentManip](https://github.com/KingsMentor/IntentManip) - Gives more control over implicit intents creation and the way it is presented to users.. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
