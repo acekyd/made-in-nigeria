@@ -33,6 +33,7 @@
 ## <a name="B"> </a>B
 * [Breadcrumb For Codeigniter](https://github.com/iamuchejude/Breadcrumb-for-Codeigniter) - A Lightweight Library for generating Breadcrumb in Codeigniter **By [@iamuchejude](https://twitter.com/iamuchejude)**
 * [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator **By [@tdscientist](https://twitter.com/tdscientist)**
+* [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device **By [@isocroft](https://twiter.com/isocroft)**
 
 ## <a name="C"> </a>C
 
@@ -186,6 +187,7 @@
 
 ## <a name="R"> </a>R
 
+* [Radixx](https://github.com/isocroft/Radixx) - a simple library that implements the Facebook Flux Architecture with a twist to how the entire application state is managed and changed/updated **By [@isocroft](https://twiter.com/isocroft)**
 * [Random48LawsOfPower](https://github.com/acekyd/Random48LawsOfPower) - Chrome extension that shows a random law from the popular '48 Laws of Power' Book. **By [@acekyd](https://twitter.com/Ace_KYD)**
 * [Rationale](https://github.com/KingsMentor/Rationale) - Android permission rationale helper dialog. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
 * [RavePHP](https://github.com/gladchinda/rave-php) - A very simple interface for integrating the Rave Payment Gateway to your PHP application. **By [@gladchinda](https://twitter.com/gladchinda)**
