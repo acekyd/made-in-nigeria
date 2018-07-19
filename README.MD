@@ -210,6 +210,7 @@
 * [SlidingSquaresLoader](https://github.com/biodunalfet/SlidingSquaresLoader) - A simple progress loader **By [@biodunalfet](https://twitter.com/biodunalfet)**
 * [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel **By [@ammezie](https://twitter.com/ammezie)**
 * [Squareone](https://github.com/codaye/squareone) - Jekyll starter site generator, setup with gulp task automation workflow **By [@azemoh](https://twitter.com/josh_azemoh)**
+* [Slackalytics-bot](https://github.com/gladchinda/slackalytics-bot) - Send Slack messaging analytics to Google Analytics service using via a Slack bot. **By [@gladchinda](https://twitter.com/gladchinda)**
 * [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By @kizitonwose**
 * [Size](https://github.com/akinjide/size) - Tiny file size wrapper. **By [@_akinjide](https://twitter.com/_akinjide)**
 * [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
