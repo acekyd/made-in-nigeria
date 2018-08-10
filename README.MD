@@ -93,9 +93,6 @@
 ## <a name="I"> </a>I
 
 * [Icicle](https://github.com/segunfamisa/icicle) - An annotation based tool for saving and restoring instance states. **By [@segunfamisa](https://twitter.com/segunfamisa)**
-
-* [Icon Search](https://chrome.google.com/webstore/detail/gkhkjinpemldcccfbjdoefmlgjcehikn) - Offline Search for Font Awesome Icons. **By [@adetona77](https://twitter.com/adetona77)**
-
 * [IGdm](https://github.com/ifedapoolarewaju/igdm) - Multi-platform Desktop application for INSTAGRAM DMs. **By [@@teddyskillz2](https://twitter.com/@teddyskillz2)**
 * [Ijeawele](https://github.com/viclotana/Ijeawele) - A Browser Extension that displays a random suggestion from the Dear Ijeawele book by Chimamnda Adichie. **By [@viclotana](https://twitter.com/viclotana)**
 * [ImgR](https://github.com/mykeels/ImgR) - ImgR.NET aims at automating the process of serving Images dynamically based on the client device. **By [@mykeels](https://twitter.com/mykeels)**
@@ -104,7 +101,6 @@
 * [Instaword](https://github.com/acekyd/instaword) - InstaWord is a Chrome and Opera browser plugin that makes learning new words much easier. **By [@ace_kyd](https://twitter.com/ace_kyd)**
 * [ip-num](https://github.com/ip-num/ip-num) - ip-num is a TypeScript library for working with IP Resources(ASN, IPV4, IPV6). **By [@dadepo](https://twitter.com/dadepo)**
 * [iShell](https://github.com/abiosoft/ishell) - Library for creating interactive CLI applications with Go. **By [@abiosoft](https://twitter.com/abiosoft)**
-
 
 
 ## <a name="J"> </a>J
