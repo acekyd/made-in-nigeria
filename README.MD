@@ -89,6 +89,7 @@
 ## <a name="H"> </a>H
 * [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework! **By [@devHammed](https://twitter.com/devHammed)**
 * [HUI.js](https://github.com/devHammed/HUI.js) - Lightweight JavaScript UI Library. **By [@devHammed](https://twitter.com/devHammed)**
+* [Hello-bot-cloudinary](https://github.com/prondubuisi/hello-bot-cloudinary) - A messenger bot that helps you upload images to cloudinary, from within your messenger app. **By [@pro_ndubuisi](https://twitter.com/pro_ndubuisi)**
 
 ## <a name="I"> </a>I
 
