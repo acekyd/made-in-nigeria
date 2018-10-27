@@ -41,6 +41,7 @@
 * [caddy-git](https://github.com/abiosoft/caddy-git) - Git plugin for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Caniuse-embed](https://github.com/ireade/caniuse-embed) - The (unofficial) embed for caniuse. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Client_manager](https://github.com/timigod/client_manager) - API Client Manager is a mountable Rails (engine) gem that helps identify and authenticate your API clients' requests. **By [@timigod](https://twitter.com/timigod)**
+* [Cogent PHP](https://github.com/wilforlan/CogentPHP) - A Simple PHP MVC Framework for Fast and Minimal Applications **By [@wilforlan](https://twitter.com/wilforlan)**
 * [Composer-git-hook](https://github.com/BrainMaestro/composer-git-hooks) - Easily manage git hooks in your composer config **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
 * [CountryPickerView](https://github.com/kizitonwose/CountryPickerView) - A simple, customizable view for efficiently collecting country information in iOS apps. **By [@kizitonwose](https://github.com/kizitonwose/CountryPickerView)**
 * [csv49](https://github.com/stigwue/csv49) - Comma Separated Values For Nigeria. **Maintained by [@stigwue](https://github.com/stigwue)**
