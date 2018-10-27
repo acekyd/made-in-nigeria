@@ -40,6 +40,7 @@
 * [caddy-docker](https://github.com/abiosoft/caddy-docker) - Docker image for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [caddy-git](https://github.com/abiosoft/caddy-git) - Git plugin for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Caniuse-embed](https://github.com/ireade/caniuse-embed) - The (unofficial) embed for caniuse. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
+* [ci-toastr](https://github.com/joshuachinemezu/ci-toastr) - Codeigniter package for integrating javascript toastr into your web applications. **By [@joshuachinemezu](https://twitter.com/joshuachinemezu)**
 * [Client_manager](https://github.com/timigod/client_manager) - API Client Manager is a mountable Rails (engine) gem that helps identify and authenticate your API clients' requests. **By [@timigod](https://twitter.com/timigod)**
 * [Cogent PHP](https://github.com/wilforlan/CogentPHP) - A Simple PHP MVC Framework for Fast and Minimal Applications **By [@wilforlan](https://twitter.com/wilforlan)**
 * [Composer-git-hook](https://github.com/BrainMaestro/composer-git-hooks) - Easily manage git hooks in your composer config **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
