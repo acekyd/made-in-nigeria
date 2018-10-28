@@ -30,7 +30,7 @@ There is a webpage that has been developed by awesome members of the community u
 
 * If you are fixing a bug or adding a new feature, please create a branch for it.
 
-* Make Pull requests as decriptive as possible.
+* Make Pull requests as descriptive as possible.
 
 * Every other best practice recommended when contributing to a project.
 
