@@ -141,6 +141,8 @@
 * [Lightmatrix](https://github.com/gladchinda/light-matrix) - Lightweight JavaScript library for basic matrix computations. **By [@gladchinda](https://twitter.com/gladchinda)**
 * [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People et.c **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [LocalGoogle](https://github.com/kodejuice/localgoogle) - A search engine built for offline websites on your local machine.  **By [@KodeJuice](https://twitter.com/kodejuice)**
+* [Luna](https://github.com/adigunhammedolalekan/luna) - Build websocket servers easily in Go **By [@L3kanAdigun](https://twitter.com/L3kanAdigun)**
+* [Luna-Android](https://github.com/adigunhammedolalekan/luna-android) - An android client wrapper for [Luna](https://github.com/adigunhammedolalekan/luna) **By [@L3kanAdigun](https://twitter.com/L3kanAdigun)**
 
 ## <a name="M"> </a>M
 
