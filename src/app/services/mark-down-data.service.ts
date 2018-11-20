@@ -103,7 +103,7 @@ export class MarkDownDataService {
     li.removeChild(li.lastChild); // remove the creator we don't need it here
     const text = li.innerText;
     // not nice to use regexp for such a simple task
-    return text.substring(text.lastIndexOf('-') + 1).trim();
+    return text.substring(text.lastIndexOf('- ') + 1).trim();
   }
 
   /**
