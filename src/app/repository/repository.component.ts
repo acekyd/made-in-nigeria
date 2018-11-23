@@ -11,7 +11,7 @@ import {error} from 'util';
       <div class="naija-header">
         <img src="https://avatars.githubusercontent.com/{{repo.name.link | githubUsername}}?size=40">
         <a [href]="repo.name.link" target="_blank">{{repo.name.name}}</a>
-        
+
         <a [href]="repo.creator.link" target="_blank" role="tooltip" aria-haspopup="true" class="tooltip tooltip-sm tooltip-left pull-right"
         style="font-size:12px">
         <clr-icon shape="user"></clr-icon>
@@ -19,7 +19,7 @@ import {error} from 'util';
         <!-- this is just to remove @ from the creator not all from twitter -->
         <span class="tooltip-content">Creator</span>
       </a>
-      
+
       <p>
         {{repo.description}}
       </p>
@@ -32,6 +32,10 @@ import {error} from 'util';
         <a *ngFor="let stack of repo.stacks" style="text-decoration: none">
           <i class="stack-icon devicon-{{stack.key | lowercase}}-plain colored"></i>
         </a>
+      </div>
+      <div class="share-text">
+          Share via:
+          <a href="http://twitter.com/share?text=Check out {{ repo.name.name }} - {{ repo.description }} by {{ repo.creator.name }} on Made In Nigeria repos. cc @ace_kyd&url=https://acekyd.github.io/made-in-nigeria/" target="_blank" rel="noopener">Twitter</a>
       </div>
     </div>
   </div> <!--/naija-card-->
@@ -70,5 +74,5 @@ export class RepositoryComponent implements OnInit {
       });
 
   }
-  
+
 }

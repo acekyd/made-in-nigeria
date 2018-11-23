@@ -107,3 +107,8 @@
   visibility: visible;
   @include opacity(1);
 }
+
+.share-text {
+  font-size: 12px;
+    font-weight: bolder;
+}
