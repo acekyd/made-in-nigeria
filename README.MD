@@ -103,6 +103,7 @@
 * [Instaword](https://github.com/acekyd/instaword) - InstaWord is a Chrome and Opera browser plugin that makes learning new words much easier. **By [@ace_kyd](https://twitter.com/ace_kyd)**
 * [ip-num](https://github.com/ip-num/ip-num) - ip-num is a TypeScript library for working with IP Resources(ASN, IPV4, IPV6). **By [@dadepo](https://twitter.com/dadepo)**
 * [iShell](https://github.com/abiosoft/ishell) - Library for creating interactive CLI applications with Go. **By [@abiosoft](https://twitter.com/abiosoft)**
+* [inspireNuggets](https://github.com/BolajiAyodeji/inspireNuggets) - inspireNuggets is a Chrome Browser (Web) Extension that displays random inspiring techie quotes for developers/designers. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
 
 
 ## <a name="J"> </a>J
