@@ -60,7 +60,7 @@
 
 * [Face-detector](https://github.com/moyheen/face-detector) - is application contains all the code from her article on the FaceDetector API. **By [@moyheen](https://twitter.com/moyheen)**
 * [Favico-generator](https://github.com/Youngestdev/favico-generator) - A npm module for generating favicons from image. **By [@kvng_zeez](http://twitter.com/kvng_zeez)**
-* [Fawn](https://github.com/e-oj/Fawn) - A library for multi-document transactions in MongoDB via two-phase commits. **By [@e-oj](https://github.com/e-oj)**
+* [Fawn](https://github.com/e-oj/Fawn) - A library for multi-document transactions in MongoDB via two-phase commits. **By [@e-oj](https://e-oj.com)**
 * [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**
 * [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Frontend-app-starter](https://github.com/D-sense/frontend-app-starter) - A simple frontend app starter packed with Webpack, Twitter Bootstrap, and well-defined CSS media queries. Edit. **By [@D-sense](https://twitter.com/Delameh)**
@@ -128,6 +128,7 @@
 
 ## <a name="M"> </a>M
 
+* [Magic Grid](https://github.com/e-oj/Magic-Grid) - A simple, lightweight Javascript library for dynamic grid layouts. **By [@e-oj](https://e-oj.com)**
 * [MarkedIt](https://github.com/christiannwamba/markedit) - Simple markdown editor widget. **By [@codebeast](https://twitter.com/codebeast)**
 * [MediumUnooficialSDK](https://github.com/KingsMentor/medium-android-sdk-unofficial) - Unoffical implementation of medium api for android .Support Medium Oauth Sign in, retrieve users post, make publications and other medium supported features. **By [@kingsmentor](https://twitter.com/kingsmentor)**
 * [Mini-Inventory-and-Sales-Management-System](https://github.com/amirsanni/Mini-Inventory-and-Sales-Management-System) - An Inventory and Sales Management System written in PHP (codeIgniter) with support for MySQL and Sqlite3 databases. **By [@amirsanni](https://twitter.com/amirsanni)**
