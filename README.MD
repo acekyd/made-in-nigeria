@@ -55,6 +55,7 @@
 * [Early Access](https://github.com/neoighodaro/laravel-early-access) - This package makes it easy to add early access mode to your existing application **By [@neoighodaro](https://twitter.com/neoighodaro)**
 * [Essential Kit](https://github.com/ichtrojan/essential-kit) - A Boilerplate for NodeJS with all the essential tools **By [@ichtrojan](https://twitter.com/ichtrojan)**
 * [eth-vue](https://github.com/DOkwufulueze/eth-vue) - A Vue.js boilerplate for Ethereum Apps, built on Truffle. Authentication functionalities included. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
+* [expo-push-notification-helper](https://github.com/just1and0/expo-push-notification-helper) - A Javascript package used to simplify push notification in react native using expo. **By [@just1and0](https://twitter.com/just1and0)**
 
 
 ## <a name="F"> </a>F
@@ -162,6 +163,8 @@
 
 * [Omnipay 2Checkout](https://github.com/collizo4sky/omnipay-2checkout) - 2Checkout driver for the Omnipay PHP payment processing library. **By [@w3guy](https://twitter.com/w3guy)**
 * [OpenWriter](https://github.com/ireade/openwriter) - A free theme for Ghost. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
+* [object-to-array-convert](https://github.com/just1and0/object-to-array-convert) - A Javascript package used to convert object to array, basically make it easy to work with firebase object. **By [@just1and0](https://twitter.com/just1and0)**
+
 
 ## <a name="P"> </a>P
 
