@@ -171,6 +171,7 @@
 * [PackageHub](https://github.com/BrainMaestro/packagehub) - An extension for displaying dependencies for many package managers on GitHub **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
 * [Paystack wrapper](https://github.com/kehers/paystack) - Nodejs API wrapper for Paystack. **By [@kehers](https://twitter.com/kehers)**
 * [Paystack Ruby](https://github.com/IkoroVictor/paystack-ruby) - Ruby Gem for Paystack. **By [@IkoroVictor](https://twitter.com/IkoroVictor)**
+* [Pentecost](https://github.com/knightbenax/Pentecost) - Payment Android UI Library for PayStack. **By [@knightbenax](https://twitter.com/knightbenax)**
 * [Product-Tour](https://github.com/Robophil/Product-Tour) - A responsive tour snippet, with a step-by-step guide(onboarding) **By [@robophil_](https://twitter.com/robophil_)**
 * [PyDialogflow Fulfillment](https://github.com/Emmarex/dialogflow-fulfillment-python) - This library makes creating fulfillment for Dialogflow v2 agents easily with Python Backend. ( **By [@_emmarex_](https://twitter.com/_emmarex_)**
 * [PyFCM](https://github.com/olucurious/PyFCM) - Python client for FCM - Firebase Cloud Messaging (Android & iOS) **By [@olucurious](https://twitter.com/olucurious)**
