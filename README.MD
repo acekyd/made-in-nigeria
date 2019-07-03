@@ -130,6 +130,7 @@
 * [Lib-ussd](https://github.com/hextremelabs/lib-ussd) - A lightweight USSD application framework. **By [@hextremelabs](https://twitter.com/hextremelabs)**
 * [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People et.c **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [LocalGoogle](https://github.com/kodejuice/localgoogle) - A search engine built for offline websites on your local machine.  **By [@KodeJuice](https://twitter.com/kodejuice)**
+* [Laravel SMTP Validator](https://github.com/samolabams/smtp-validator) - Validate SMTP credentials without sending a test mail in Laravel 5.  **By [@samolabams](https://twitter.com/samolabams)**
 
 ## <a name="M"> </a>M
 
