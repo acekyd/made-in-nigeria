@@ -161,6 +161,7 @@
 * [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By @ifedapoolarewaju**
 * [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which  network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
 * [NettyFinder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which  network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
+* [number-to-words](https://github.com/amirsanni/number-to-words) - A simple PHP library for converting figures to words.. **By [@amirsanni](https://twitter.com/amirsanni)**
 
 ## <a name="O"> </a>O
 
@@ -174,6 +175,7 @@
 * [Paystack wrapper](https://github.com/kehers/paystack) - Nodejs API wrapper for Paystack. **By [@kehers](https://twitter.com/kehers)**
 * [Paystack Ruby](https://github.com/IkoroVictor/paystack-ruby) - Ruby Gem for Paystack. **By [@IkoroVictor](https://twitter.com/IkoroVictor)**
 * [Pentecost](https://github.com/knightbenax/Pentecost) - Payment Android UI Library for PayStack. **By [@knightbenax](https://twitter.com/knightbenax)**
+* [PHP-EWS-Wrapper](https://github.com/amirsanni/php-ews-wrapper) - A simple wrapper around jamesiarmes/php-ews' library, for communicating with Exchange Web service. **By [@amirsanni](https://twitter.com/amirsanni)**
 * [Product-Tour](https://github.com/Robophil/Product-Tour) - A responsive tour snippet, with a step-by-step guide(onboarding) **By [@robophil_](https://twitter.com/robophil_)**
 * [PyDialogflow Fulfillment](https://github.com/Emmarex/dialogflow-fulfillment-python) - This library makes creating fulfillment for Dialogflow v2 agents easily with Python Backend. ( **By [@_emmarex_](https://twitter.com/_emmarex_)**
 * [PyFCM](https://github.com/olucurious/PyFCM) - Python client for FCM - Firebase Cloud Messaging (Android & iOS) **By [@olucurious](https://twitter.com/olucurious)**
