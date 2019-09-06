@@ -45,6 +45,8 @@
 * [CountryPickerView](https://github.com/kizitonwose/CountryPickerView) - A simple, customizable view for efficiently collecting country information in iOS apps. **By [@kizitonwose](https://github.com/kizitonwose/CountryPickerView)**
 * [csv49](https://github.com/stigwue/csv49) - Comma Separated Values For Nigeria. **Maintained by [@stigwue](https://github.com/stigwue)**
 
+* [chakra-ui](https://github.com/chakra-ui/chakra-ui) - Simple, modular and accessible component library for React applications. **By [@thesegunadebayo](https://twitter.com/thesegunadebayo) & Maintained by [@chakra-ui](https://github.com/chakra-ui/)**
+
 ## <a name="D"> </a>D
 
 * [date-selection-manager](https://github.com/DOkwufulueze/date-selection-manager) - This manager takes care of date entries via select elements. It prevents the entry of invalid dates like February 30, June 31, or February 29 on a non-leap year. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
