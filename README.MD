@@ -36,6 +36,7 @@
 
 ## <a name="C"> </a>C
 
+* [chakra-ui](https://github.com/chakra-ui/chakra-ui) - Simple, modular and accessible component library for React applications.**By [@thesegunadebayo](https://twitter.com/thesegunadebayo) & Maintained by [@chakra-ui](https://github.com/chakra-ui/)**
 * [C# Permutation](https://github.com/Oziomajnr/C--Permutation) - A library for permutating C# objects. **By [@oziomajnr](https://twitter.com/Oziomajnr) & [@mykeels](https://twitter.com/mykeels)**
 * [caddy-docker](https://github.com/abiosoft/caddy-docker) - Docker image for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [caddy-git](https://github.com/abiosoft/caddy-git) - Git plugin for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
@@ -45,7 +46,6 @@
 * [CountryPickerView](https://github.com/kizitonwose/CountryPickerView) - A simple, customizable view for efficiently collecting country information in iOS apps. **By [@kizitonwose](https://github.com/kizitonwose/CountryPickerView)**
 * [csv49](https://github.com/stigwue/csv49) - Comma Separated Values For Nigeria. **Maintained by [@stigwue](https://github.com/stigwue)**
 
-* [chakra-ui](https://github.com/chakra-ui/chakra-ui) - Simple, modular and accessible component library for React applications. **By [@thesegunadebayo](https://twitter.com/thesegunadebayo) & Maintained by [@chakra-ui](https://github.com/chakra-ui/)**
 
 ## <a name="D"> </a>D
 
