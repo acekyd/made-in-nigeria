@@ -35,6 +35,7 @@
 * [C# Permutation](https://github.com/Oziomajnr/C--Permutation) - A library for permutating C# objects. **By [@oziomajnr](https://twitter.com/Oziomajnr) & [@mykeels](https://twitter.com/mykeels)**
 * [caddy-docker](https://github.com/abiosoft/caddy-docker) - Docker image for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [caddy-git](https://github.com/abiosoft/caddy-git) - Git plugin for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
+* [chakra-ui](https://github.com/chakra-ui/chakra-ui) - Simple, modular and accessible component library for React applications.**By [@thesegunadebayo](https://twitter.com/thesegunadebayo) & Maintained by [@chakra-ui](https://github.com/chakra-ui/)**
 * [Caniuse-embed](https://github.com/ireade/caniuse-embed) - The (unofficial) embed for caniuse. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [ci-toastr](https://github.com/joshuachinemezu/ci-toastr) - Codeigniter package for integrating javascript toastr into your web applications. **By [@joshuachinemezu](https://twitter.com/joshuachinemezu)**
 * [Client_manager](https://github.com/timigod/client_manager) - API Client Manager is a mountable Rails (engine) gem that helps identify and authenticate your API clients' requests. **By [@timigod](https://twitter.com/timigod)**
@@ -42,6 +43,7 @@
 * [Composer-git-hook](https://github.com/BrainMaestro/composer-git-hooks) - Easily manage git hooks in your composer config **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
 * [CountryPickerView](https://github.com/kizitonwose/CountryPickerView) - A simple, customizable view for efficiently collecting country information in iOS apps. **By [@kizitonwose](https://github.com/kizitonwose/CountryPickerView)**
 * [csv49](https://github.com/stigwue/csv49) - Comma Separated Values For Nigeria. **Maintained by [@stigwue](https://github.com/stigwue)**
+
 
 ## <a name="D"> </a>D
 
