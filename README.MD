@@ -185,6 +185,8 @@
 
 ## <a name="R"> </a>R
 
+* [R3con1z3r](https://github.com/abdulgaphy/r3con1z3r) - A lightweight Web information gathering tool with an intuitive features written in python. it provides a powerful environment in which open source intelligence (OSINT) web-based footprinting can be conducted quickly and thoroughly.
+ **By [@mrgaphy](https://twiter.com/mrgaphy)**
 * [Radixx](https://github.com/isocroft/Radixx) - a simple library that implements the Facebook Flux Architecture with a twist to how the entire application state is managed and changed/updated **By [@isocroft](https://twiter.com/isocroft)**
 * [Random48LawsOfPower](https://github.com/acekyd/Random48LawsOfPower) - Chrome extension that shows a random law from the popular '48 Laws of Power' Book. **By [@acekyd](https://twitter.com/Ace_KYD)**
 * [Rationale](https://github.com/KingsMentor/Rationale) - Android permission rationale helper dialog. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
