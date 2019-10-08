@@ -200,6 +200,7 @@
 * [Size](https://github.com/akinjide/size) - Tiny file size wrapper. **By [@_akinjide](https://twitter.com/_akinjide)**
 * [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
 * [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
+* [sms-nigeria-go](https://github.com/D-sense/sms-nigeria-go) - a Go client for sending SMS to any Nigeria phone-number with ease. **By [@D-sense](https://twitter.com/Delameh)**
 
 ## <a name="T"> </a>T
 
