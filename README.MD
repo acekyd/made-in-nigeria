@@ -26,6 +26,7 @@
 
 
 ## <a name="B"> </a>B
+* [Blink Alert](https://github.com/obayomi96/blinkalert) - A Chrome Extension for 20-20-20 exercise of the eye. **By [@martinsobayomi](https://twitter.com/martinsobayomi)**
 * [Breadcrumb For Codeigniter](https://github.com/iamuchejude/Breadcrumb-for-Codeigniter) - A Lightweight Library for generating Breadcrumb in Codeigniter **By [@iamuchejude](https://twitter.com/iamuchejude)**
 * [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device **By [@isocroft](https://twiter.com/isocroft)**
 * [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator **By [@tdscientist](https://twitter.com/tdscientist)**
