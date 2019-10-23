@@ -227,7 +227,7 @@
 * [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
 
 ## <a name="W"> </a>W
-
+* [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
 * [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
 * [WordPress Persist Admin Notices Dismissal](https://github.com/collizo4sky/persist-admin-notices-dismissal) - Simple plugin that persists dismissal of admin notices across pages in WordPress dashboard. **By [@w3guy](https://twitter.com/w3guy)**
 
