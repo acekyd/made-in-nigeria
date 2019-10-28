@@ -26,6 +26,7 @@
 
 
 ## <a name="B"> </a>B
+* [Blink Alert](https://github.com/obayomi96/blinkalert) - A Chrome Extension for 20-20-20 exercise of the eye. **By [@martinsobayomi](https://twitter.com/martinsobayomi)**
 * [Breadcrumb For Codeigniter](https://github.com/iamuchejude/Breadcrumb-for-Codeigniter) - A Lightweight Library for generating Breadcrumb in Codeigniter **By [@iamuchejude](https://twitter.com/iamuchejude)**
 * [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device **By [@isocroft](https://twiter.com/isocroft)**
 * [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator **By [@tdscientist](https://twitter.com/tdscientist)**
@@ -186,6 +187,8 @@
 
 ## <a name="R"> </a>R
 
+* [R3con1z3r](https://github.com/abdulgaphy/r3con1z3r) - A lightweight Web information gathering tool with an intuitive features written in python. it provides a powerful environment in which open source intelligence (OSINT) web-based footprinting can be conducted quickly and thoroughly.
+ **By [@mrgaphy](https://twiter.com/mrgaphy)**
 * [Radixx](https://github.com/isocroft/Radixx) - a simple library that implements the Facebook Flux Architecture with a twist to how the entire application state is managed and changed/updated **By [@isocroft](https://twiter.com/isocroft)**
 * [Random48LawsOfPower](https://github.com/acekyd/Random48LawsOfPower) - Chrome extension that shows a random law from the popular '48 Laws of Power' Book. **By [@acekyd](https://twitter.com/Ace_KYD)**
 * [Rationale](https://github.com/KingsMentor/Rationale) - Android permission rationale helper dialog. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
@@ -211,6 +214,7 @@
 * [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
 * [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
 * [Search Engine Parser](https://github.com/bisoncorps/search-engine-parser) -  Lightweight package to query popular search engines and scrape for result titles, links and descriptions **By [@_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
+* [sms-nigeria-go](https://github.com/D-sense/sms-nigeria-go) - a Go client for sending SMS to any Nigeria phone-number with ease. **By [@D-sense](https://twitter.com/Delameh)**
 
 ## <a name="T"> </a>T
 
@@ -222,6 +226,7 @@
 * [Time](https://github.com/kizitonwose/Time) - Type-safe time calculations in Kotlin, powered by generics. **By [@kizitonwose](https://github.com/kizitonwose)**
 
 ## <a name="U"> </a>U
+* [UseFormBee](https://github.com/Eazybee/useFormBee) - useFormBee is a light weight library that helps me manage and abstract react form logic. **By [@Eazybee](https://github.com/Eazybee)**
 
 ## <a name="V"> </a>V
 
@@ -231,7 +236,7 @@
 * [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
 
 ## <a name="W"> </a>W
-
+* [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
 * [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
 * [WordPress Persist Admin Notices Dismissal](https://github.com/collizo4sky/persist-admin-notices-dismissal) - Simple plugin that persists dismissal of admin notices across pages in WordPress dashboard. **By [@w3guy](https://twitter.com/w3guy)**
 
