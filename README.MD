@@ -222,6 +222,7 @@
 * [Time](https://github.com/kizitonwose/Time) - Type-safe time calculations in Kotlin, powered by generics. **By [@kizitonwose](https://github.com/kizitonwose)**
 
 ## <a name="U"> </a>U
+* [UseFormBee](https://github.com/Eazybee/useFormBee) - useFormBee is a light weight library that helps me manage and abstract react form logic. **By [@Eazybee](https://github.com/Eazybee)**
 
 ## <a name="V"> </a>V
 
