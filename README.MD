@@ -90,6 +90,7 @@
 * [Icicle](https://github.com/segunfamisa/icicle) - An annotation based tool for saving and restoring instance states. **By [@segunfamisa](https://twitter.com/segunfamisa)**
 * [IGdm](https://github.com/ifedapoolarewaju/igdm) - Multi-platform Desktop application for INSTAGRAM DMs. **By [@@teddyskillz2](https://twitter.com/@teddyskillz2)**
 * [Ijeawele](https://github.com/viclotana/Ijeawele) - A Browser Extension that displays a random suggestion from the Dear Ijeawele book by Chimamnda Adichie. **By [@viclotana](https://twitter.com/viclotana)**
+* [ImageQ](https://github.com/bisoncorps/imageq) -  Reverse Image search engine powered by Django and Keras **By [@_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 * [ImgR](https://github.com/mykeels/ImgR) - ImgR.NET aims at automating the process of serving Images dynamically based on the client device. **By [@mykeels](https://twitter.com/mykeels)**
 * [Inlinetweetjs](https://github.com/ireade/inlinetweetjs) - InlineTweet.js allows you to easily create tweetable links out of any text on a webpage. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [IntentManip](https://github.com/KingsMentor/IntentManip) - Gives more control over implicit intents creation and the way it is presented to users.. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
@@ -203,6 +204,8 @@
 * [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs **By [@theo4me](https://twitter.com/theo4me)**
 * [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**
 * [Shutdown](https://github.com/emmanuelkehinde/Shutdown) - A lightweight android library that handles the closing of your app interactively.  **By [@emmakoko96](https://twitter.com/emmakoko96)**
+* [Signalum](https://github.com/bisoncorps/signalum) - A Linux Library to explore creating an application that detects available connections at once from wifi and bluetooth  **By [@_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
+* [Signalum Desktop](https://github.com/bisoncorps/signalum-desktop) - A Desktop application for the signalum python library  **By [@_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 * [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By @shalvah**
 * [Slackword](https://github.com/larikraun/slackword) - Dictionary in your slack....additionally, you can get random words. **By [@_larikraun](https://twitter.com/_larikraun)**
 * [SlidingSquaresLoader](https://github.com/biodunalfet/SlidingSquaresLoader) - A simple progress loader **By [@biodunalfet](https://twitter.com/biodunalfet)**
@@ -210,6 +213,7 @@
 * [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By @kizitonwose**
 * [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
 * [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
+* [Search Engine Parser](https://github.com/bisoncorps/search-engine-parser) -  Lightweight package to query popular search engines and scrape for result titles, links and descriptions **By [@_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 * [sms-nigeria-go](https://github.com/D-sense/sms-nigeria-go) - a Go client for sending SMS to any Nigeria phone-number with ease. **By [@D-sense](https://twitter.com/Delameh)**
 
 ## <a name="T"> </a>T
