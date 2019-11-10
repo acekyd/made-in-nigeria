@@ -50,7 +50,7 @@
 * [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@ace_kyd](https://twitter.com/ace_kyd)**
 * [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [dumb_password_rails](https://github.com/arinzeokeke/dumb_password_rails) - Rails Password Validator. Validate your user passwords and prevent them from using vulnerable passwords. **By [@arinzeokeke](https://www.github.com/arinzeokeke)**
-[Dialogflow for angular](https://github.com/ajanieniolasolomon/ng-dialogflow) - An angular library that allows  developers to  integrate conversational user interfaces into mobile apps, web applications, devices, and bots. **By [@ajani_eniola]https://twitter.com/ajani_eniola)**
+*[Dialogflow for angular](https://github.com/ajanieniolasolomon/ng-dialogflow) - An angular library that allows  developers to  integrate conversational user interfaces into mobile apps, web applications, devices, and bots. **By [@ajani_eniola]https://twitter.com/ajani_eniola)**
 
 
 ## <a name="E"> </a>E
