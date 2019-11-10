@@ -50,7 +50,7 @@
 * [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@ace_kyd](https://twitter.com/ace_kyd)**
 * [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [dumb_password_rails](https://github.com/arinzeokeke/dumb_password_rails) - Rails Password Validator. Validate your user passwords and prevent them from using vulnerable passwords. **By [@arinzeokeke](https://www.github.com/arinzeokeke)**
-[Dialogflow for angular](https://www.npmjs.com/package/ng-dialog-flow) - An angular library that allows  developers to  integrate conversational user interfaces into mobile apps, web applications, devices, and bots. **By [@ajani_eniola]https://twitter.com/ajani_eniola)**
+[Dialogflow for angular](https://github.com/ajanieniolasolomon/ng-dialogflow) - An angular library that allows  developers to  integrate conversational user interfaces into mobile apps, web applications, devices, and bots. **By [@ajani_eniola]https://twitter.com/ajani_eniola)**
 
 
 ## <a name="E"> </a>E
@@ -164,7 +164,6 @@
 * [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By @ifedapoolarewaju**
 * [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which  network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
 * [NettyFinder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which  network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
-[News Api Angular](https://www.npmjs.com/package/ng-news-api) - An angular library that enables developer add news to there angular application. **By [@ajani_eniola]https://twitter.com/ajani_eniola)**
 
 ## <a name="O"> </a>O
 
@@ -240,6 +239,6 @@
 
 ## <a name="Y"> </a>Y
 
-[Yoruba Names Generator](https://pub.dev/packages/yorubanames#-readme-tab-) - Dart library that generate random yoruba names. **By [@ajani_eniola]https://twitter.com/ajani_eniola)**
+
 
 ## <a name="Z"> </a>Z
