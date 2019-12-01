@@ -87,7 +87,7 @@
 * [Google Dictionary](https://github.com/chizoba/google-dictionary) - An android library that provides easy access to meanings of any word, phrase, or slang via Google, within any application. **By [@its_tobie](https://twitter.com/its_tobie)**
 * [graceful-terminate](https://github.com/abiosoft/node-graceful) - Gracefully shutdown your node app. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay
-* [go-contacts](https://github.com/adigunhammedolalekan/go-contacts) - The source code of a tutorial on how to build REST API using the Go programming language. ** By [@L3kanAdigun](https://twitter.com/L3kanAdigun)
+* [go-contacts](https://github.com/adigunhammedolalekan/go-contacts) - The source code of a tutorial on how to build REST API using the Go programming language. **By [@L3kanAdigun](https://twitter.com/L3kanAdigun)**
 
 
 ## <a name="H"> </a>H
