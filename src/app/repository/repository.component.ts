@@ -35,7 +35,7 @@ import {error} from 'util';
       </div>
       <div class="share-text">
           Share via:
-          <a href="http://twitter.com/share?text=Check out {{ repo.name.name }} - {{ repo.description }} by {{ repo.creator.name }} on Made In Nigeria repos. cc @ace_kyd&url=https://acekyd.github.io/made-in-nigeria/" target="_blank" rel="noopener">Twitter</a>
+          <a href="http://twitter.com/share?text=Check out {{ repo.name.name }} - {{ repo.description }} by {{ repo.creator.name }} on Made In Nigeria repos. cc @ace_kyd&url=https://madeinnigeria.dev" target="_blank" rel="noopener">Twitter</a>
       </div>
     </div>
   </div> <!--/naija-card-->
