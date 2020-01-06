@@ -14,7 +14,6 @@
 
 ## <a name="A"> </a>A
 
-* [Adonis-Queue](https://github.com/stitchng/adonis-queue) - An addon/plugin package to provide driver-based job queueing services in AdonisJS 4.0+. **By [@isocroft](https://twitter.com/isocroft) and [@devamaz](https://twitter.com/devamaz)**
 * [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Altair](https://github.com/imolorhe/altair) - A sleek graphQL client app for querying GraphQL servers, like Postman for graphQL. It also comes as a Chrome extension. **By [@imolorhe](https://twitter.com/imolorhe)**
 * [Angular-tag](https://github.com/theo4u/angular-tag) - Tags input directive for AngularJS. **By [@theo4me](https://twitter.com/theo4me)**
