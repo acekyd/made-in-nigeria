@@ -2,17 +2,19 @@
 @import 'mixins';
 @import 'base';
 
-clr-main-container.main-container {
+.main-container {
   background: none;
+  height: 100%;
 }
 
-clr-header.header {
+.header {
   border-bottom: 10px dashed #EDEEF0;
   background: #009E77;
   text-align: center;
   -ms-flex: 0 0 350px;
   flex: 0 0 350px;
   height: 350px;
+  white-space: normal;
 }
 
 ._branding {
@@ -29,27 +31,43 @@ clr-header.header {
     font-size: 50px;
     font-weight: 900;
     color: #f9f9f9;
+    @media screen and (max-width: 900px) {
+      font-size: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
   ._description {
     position: relative;
     display: block;
     p {
-      @include text-shadow(2px 0px 10px #333);
       display: inline-block;
       margin-bottom: 30px;
       font-size: 20px;
       color: #eeeeee;
+      width: -webkit-fit-content;
+      height: -webkit-fit-content;
+      width: -moz-fit-content;
+      height: -moz-fit-content;
+      @media screen and (max-width: 900px) {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
     }
   }
   .search-wrap {
     display: inline-block;
     width: 46%;
+    @media screen and (max-width: 900px) {
+      width: 80%;
+    }
   }
 }
 
 .search-wrap ._search input {
   @include border-radius(8rem);
-  border: 2px solid #dddddd;
+  border: none;
   background: #ffffff;
   text-indent: 20px;
   padding: 20px;
