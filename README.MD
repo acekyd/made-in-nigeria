@@ -23,6 +23,7 @@
 * [APX](https://github.com/othreecodes/APX) - A Javafx Library for building MVC Applications. **By [@othreecodes](https://twitter.com/othreecodes)**
 * [Atom Aurelia snippets](https://github.com/unicodeveloper/atom-aurelia-snippets) - A plugin for Atom Editor to autocomplete aurelia snippets when working with Aurelia.**By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Atom Material Palenight Syntax](https://github.com/whizkydee/atom-material-palenight-syntax) - 🍹🍩 An elegant and juicy material-like theme for Atom. **By [@mrolaolu](https://twitter.com/mrolaolu)**
+* [AnimatedCountTextView](https://github.com/r4sh33d/AnimatedCountTextView) - A library that helps you animate change in numeric values in an Android TextView. **By [@srasheed](https://twitter.com/srasheed_)**
 
 
 ## <a name="B"> </a>B
@@ -52,7 +53,7 @@
 * [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [DownloadThisVideo](https://github.com/shalvah/DownloadThisVideo) - Twitter bot for easily downloading videos/GIFs off tweets **By [@theshalvah](https://twitter.com/theshalvah)**
 * [dumb_password_rails](https://github.com/arinzeokeke/dumb_password_rails) - Rails Password Validator. Validate your user passwords and prevent them from using vulnerable passwords. **By [@arinzeokeke](https://www.github.com/arinzeokeke)**
-
+* [DuplicateContactsRemover](https://github.com/r4sh33d/DuplicateContactsRemover) - 📒A simple app to optimize your address book and remove duplicate contacts. **By [@srasheed](https://twitter.com/srasheed_)**
 
 ## <a name="E"> </a>E
 
@@ -154,7 +155,7 @@
 * [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System * Job Portal with Django API & Vuejs **By [@timtech4u](https://twitter.com/timtech4u)
 * [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library  **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 * [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A php library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
-
+* [Dot Music Player](https://github.com/r4sh33d/musicslam) - 🎧 A light, feature-packed and very customisable material designed Android music player. **By [@srasheed](https://twitter.com/srasheed_)**
 
 ## <a name="N"> </a>N
 
@@ -218,6 +219,7 @@
 * [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
 * [Search Engine Parser](https://github.com/bisoncorps/search-engine-parser) -  Lightweight package to query popular search engines and scrape for result titles, links and descriptions **By [@_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 * [sms-nigeria-go](https://github.com/D-sense/sms-nigeria-go) - a Go client for sending SMS to any Nigeria phone-number with ease. **By [@D-sense](https://twitter.com/Delameh)**
+* [SlidingUpMenu](https://github.com/r4sh33d/SlidingUpMenu) - 🚀A very customizable Android library that allows you to present menu items (from menu resource and/or other sources) to users as a bottom sheet.. **By [@srasheed](https://twitter.com/srasheed_)**
 
 ## <a name="T"> </a>T
 
