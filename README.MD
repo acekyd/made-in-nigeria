@@ -48,11 +48,12 @@
 
 ## <a name="D"> </a>D
 
-* [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@ace_kyd](https://twitter.com/ace_kyd)**
 * [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risin_developer](https://twitter.com/risin_developer)**
+* [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@ace_kyd](https://twitter.com/ace_kyd)**
 * [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Dot Music Player](https://github.com/r4sh33d/musicslam) - 🎧 A light, feature-packed and very customisable material designed Android music player. **By [@srasheed](https://twitter.com/srasheed_)**
 * [DownloadThisVideo](https://github.com/shalvah/DownloadThisVideo) - Twitter bot for easily downloading videos/GIFs off tweets **By [@theshalvah](https://twitter.com/theshalvah)**
+* [Dropd](https://github.com/whizkydee/dropd) - Zero-dependency minimalistic dropdown component for React and Vue. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 * [dumb_password_rails](https://github.com/arinzeokeke/dumb_password_rails) - Rails Password Validator. Validate your user passwords and prevent them from using vulnerable passwords. **By [@arinzeokeke](https://www.github.com/arinzeokeke)**
 * [DuplicateContactsRemover](https://github.com/r4sh33d/DuplicateContactsRemover) - 📒A simple app to optimize your address book and remove duplicate contacts. **By [@srasheed](https://twitter.com/srasheed_)**
 
@@ -87,6 +88,7 @@
 
 ## <a name="H"> </a>H
 * [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework! **By [@devHammed](https://twitter.com/devHammed)**
+* [helpers](https://github.com/whizkydee/helpers) - Super-handy JavaScript utility functions for front-end development. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 * [HUI.js](https://github.com/devHammed/HUI.js) - Lightweight JavaScript UI Library. **By [@devHammed](https://twitter.com/devHammed)**
 
 ## <a name="I"> </a>I
@@ -195,6 +197,7 @@
 * [Radixx](https://github.com/isocroft/Radixx) - a simple library that implements the Facebook Flux Architecture with a twist to how the entire application state is managed and changed/updated **By [@isocroft](https://twiter.com/isocroft)**
 * [Random48LawsOfPower](https://github.com/acekyd/Random48LawsOfPower) - Chrome extension that shows a random law from the popular '48 Laws of Power' Book. **By [@acekyd](https://twitter.com/Ace_KYD)**
 * [Rationale](https://github.com/KingsMentor/Rationale) - Android permission rationale helper dialog. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
+* [react-multi-state](https://github.com/whizkydee/react-multi-state) - Declarative, simplified way to handle complex local state with hooks. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 * [React-Raise](https://github.com/andela-iamao/react-raise) - A cli kit for creating react applications. **By [@ash__amao](https://twitter.com/ash__amao)**
 * [react-webpack-starter](https://github.com/temilaj/react-webpack-starter) - A boiler plate for creating react applications bundled by webpack (using ES6, Babel, SASS and the webpack development server). **By [@temilaj](https://twitter.com/temilaj)**
 * [RemindMeOfThisTweet](https://github.com/shalvah/RemindMeOfThisTweet) - Twitter bot to set reminders for tweets. **By [@theshalvah](https://twitter.com/theshalvah)**
