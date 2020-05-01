@@ -189,6 +189,8 @@
 * [Pymvrd](https://github.com/othreecodes/pymvrd) - Motor Vehicle Registration Information Search Portal Library for python. **By [@othreecodes](https://twitter.com/othreecodes)**
 
 ## <a name="Q"> </a>Q
+* [Quicksi CLI](https://github.com/AnayoOleru/quicksi) - A command-line bot tool that contains reuseable templates in different languages, frameworks and libraries designed to make it easy for developers to start projects without having to worry about the setup.
+ **By [@AnayoOleru](https://twitter.com/AnayoOleru)**
 
 ## <a name="R"> </a>R
 
