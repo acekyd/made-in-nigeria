@@ -226,6 +226,7 @@
 * [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
 * [Search Engine Parser](https://github.com/bisoncorps/search-engine-parser) -  Lightweight package to query popular search engines and scrape for result titles, links and descriptions **By [@_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 * [sms-nigeria-go](https://github.com/D-sense/sms-nigeria-go) - a Go client for sending SMS to any Nigeria phone-number with ease. **By [@D-sense](https://twitter.com/Delameh)**
+* [sayIt](https://github.com/AsaoluElijah/say-it) - A web app that help you generate sharable text via spoken words. **By [@asaoluelijah](https://twitter.com/asaolu_elijah)**
 
 ## <a name="T"> </a>T
 
