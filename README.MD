@@ -20,6 +20,7 @@
 * [Angular2-Sails-starter-pack](https://github.com/Mozartted/Angular2-Sails-starter-pack) - A starter pack for angular2 based projects using sails backend, integrating hot reload functionalities. **By [@mozartted](https://twitter.com/mozartted)**
 * [Angular4-paystack](https://github.com/ashinzekene/angular4-paystack) - This is an angular module that abstracts the complexity of making paystack payments with Angular2+. **By [@ashinzekene](https://twitter.com/ashinzekene)**
 * [AnimatedCountTextView](https://github.com/r4sh33d/AnimatedCountTextView) - A library that helps you animate change in numeric values in an Android TextView. **By [@srasheed](https://twitter.com/srasheed_)**
+* [animeX](https://github.com/LordGhostX/animeX-v2) - A CLI tool for downloading anime directly to your PC without ads, captcha and the stress of downloading anime episode by episode **By [@lordghostx](https://twitter.com/lordghostx)**
 * [AppFramer](https://github.com/olucurious/AppFramer) - AppFramer helps to put your app screenshots in beautiful device frames with annotations by running a simple command **By [@olucurious](https://twitter.com/olucurious)**
 * [APX](https://github.com/othreecodes/APX) - A Javafx Library for building MVC Applications. **By [@othreecodes](https://twitter.com/othreecodes)**
 * [Atom Aurelia snippets](https://github.com/unicodeveloper/atom-aurelia-snippets) - A plugin for Atom Editor to autocomplete aurelia snippets when working with Aurelia.**By [@unicodeveloper](https://twitter.com/unicodeveloper)**
