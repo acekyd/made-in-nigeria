@@ -167,6 +167,7 @@
 * [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in   Nigeria. **By [@seyi__adeleke](https://twitter.com/seyi__adeleke)**
 * [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
 * [No-CAPTCHA-reCAPTCHA](https://github.com/collizo4sky/No-CAPTCHA-reCAPTCHA) - Protect WordPress login, registration and comment form from spam with the new No CAPTCHA reCAPTCHA. **By [@w3guy](https://twitter.com/w3guy)**
+* [Noddy](https://github.com/geekyahmed/noddy) - A secured authentication api system for login and registration **By [@geekyahmed](https://twitter.com/geekayhmed)**
 * [Nodestorage.js](https://github.com/iamuchejude/nodestorage.js) - File system storage utility with `localStorage` like API. **By [@iamuchejude](https://twitter.com/iamuchejude)**
 * [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By @ifedapoolarewaju**
 * [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which  network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
@@ -213,6 +214,7 @@
 * [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken **By [@robophil_](https://twitter.com/robophil_)**
 * [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs **By [@theo4me](https://twitter.com/theo4me)**
 * [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**
+* [ShoppySlack](https://github.com/geekyahmed/ShoppySlack) - A simple ecommerce api for products with CRUD functions **By [@geekyahmed](https://twitter.com/geekyahmed)**
 * [Shutdown](https://github.com/emmanuelkehinde/Shutdown) - A lightweight android library that handles the closing of your app interactively.  **By [@emmakoko96](https://twitter.com/emmakoko96)**
 * [Signalum](https://github.com/bisoncorps/signalum) - A Linux Library to explore creating an application that detects available connections at once from wifi and bluetooth  **By [@_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 * [Signalum Desktop](https://github.com/bisoncorps/signalum-desktop) - A Desktop application for the signalum python library  **By [@_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
