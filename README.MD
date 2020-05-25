@@ -167,6 +167,7 @@
 * [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in   Nigeria. **By [@seyi__adeleke](https://twitter.com/seyi__adeleke)**
 * [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
 * [No-CAPTCHA-reCAPTCHA](https://github.com/collizo4sky/No-CAPTCHA-reCAPTCHA) - Protect WordPress login, registration and comment form from spam with the new No CAPTCHA reCAPTCHA. **By [@w3guy](https://twitter.com/w3guy)**
+* [Noddy](https://github.com/geekyahmed/noddy) - A secured authentication api system for login and registration **By [@geekyahmed](https://twitter.com/geekayhmed)
 * [Nodestorage.js](https://github.com/iamuchejude/nodestorage.js) - File system storage utility with `localStorage` like API. **By [@iamuchejude](https://twitter.com/iamuchejude)**
 * [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By @ifedapoolarewaju**
 * [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which  network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
