@@ -14,6 +14,9 @@
 
 ## <a name="A"> </a>A
 
+* [Adonis Auth Scaffold](https://github.com/creatrixity/adonis-auth-scaffold) - Seamlessly scaffold a ready-to-use authentication system for your Adonis app with one neat command. **By [@creatrixity](https://twitter.com/creatrixity)**
+* [Adonis Hexa](https://github.com/creatrixity/adonis-hexa) - An opinionated software development framework for maintaining a scalable Adonis application. **By [@creatrixity](https://twitter.com/creatrixity)**
+* [Adonis Queue](https://github.com/stitchng/adonis-queue) - An addon/plugin package to provide driver-based job queueing services in AdonisJS 4.0+ **By [@isocroft](https://twitter.com/isocroft)**
 * [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Altair](https://github.com/imolorhe/altair) - A sleek graphQL client app for querying GraphQL servers, like Postman for graphQL. It also comes as a Chrome extension. **By [@imolorhe](https://twitter.com/imolorhe)**
 * [Angular-tag](https://github.com/theo4u/angular-tag) - Tags input directive for AngularJS. **By [@theo4me](https://twitter.com/theo4me)**
@@ -198,6 +201,7 @@
  **By [@mrgaphy](https://twitter.com/mrgaphy)**
 * [Radixx](https://github.com/isocroft/Radixx) - a simple library that implements the Facebook Flux Architecture with a twist to how the entire application state is managed and changed/updated **By [@isocroft](https://twitter.com/isocroft)**
 * [Random48LawsOfPower](https://github.com/acekyd/Random48LawsOfPower) - Chrome extension that shows a random law from the popular '48 Laws of Power' Book. **By [@acekyd](https://twitter.com/Ace_KYD)**
+* [Ratio](https://github.com/theratioproject/simple) - The Simple Intelligent and Modular Programming Language and Environment **By [@iamthecarisma](https://www.twitter.com/iamthecarisma)**
 * [Rationale](https://github.com/KingsMentor/Rationale) - Android permission rationale helper dialog. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
 * [react-hooks-paginator](https://github.com/codenaz/react-paginator) - A simple paginator interface for react. **By [@codenaz](https://twitter.com/codenaz)**
 * [react-multi-state](https://github.com/whizkydee/react-multi-state) - Declarative, simplified way to handle complex local state with hooks. **By [@mrolaolu](https://twitter.com/mrolaolu)**
