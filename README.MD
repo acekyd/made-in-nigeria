@@ -84,6 +84,7 @@
 * [generator-nestjs-app](https://github.com/ashinzekene/generator-nestjs-app) - A yeoman generator for creating nestsjs apps. **By [@ashinzekene](https://twitter.com/ashinzekene)**
 * [Gettype.js](https://github.com/iamuchejude/gettype.js) - Better alternative for `typeof` in JavaScript. **By [@iamuchejude](https://twitter.com/iamuchejude)**
 * [Githint Bot](https://github.com/Chieze-Franklin/githint-bot) - A GitHub bot that ensures that your pull requests follow specified conventions. **By [@franklin_chieze](https://twitter.com/franklin_chieze)**
+* [GitProfile Manager](https://github.com/MeNsaaH/git-profile-manager) - A git extension to allow you manage multiple git profiles on your workstation with ease **By [@iamMensaah](https://twitter.com/iamMensaah)**
 * [Gulp-Email-Workflow](https://github.com/ireade/gulp-email-workflow) - A Gulp workflow for building HTML emails. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [Grabity](https://github.com/e-oj/grabity) - Get preview data from a link. **By [@e-oj](https://github.com/e-oj)**
 * [Google Dictionary](https://github.com/chizoba/google-dictionary) - An android library that provides easy access to meanings of any word, phrase, or slang via Google, within any application. **By [@its_tobie](https://twitter.com/its_tobie)**
@@ -228,7 +229,7 @@
 * [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By @kizitonwose**
 * [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
 * [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
-* [Search Engine Parser](https://github.com/bisoncorps/search-engine-parser) -  Lightweight package to query popular search engines and scrape for result titles, links and descriptions **By [@_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
+* [Search Engine Parser](https://github.com/bisoncorps/search-engine-parser) -  Lightweight package to query popular search engines and scrape for result titles, links and descriptions **By [@_deven96](https://twitter.com/_deven96) and [@iamMensaah](https://twitter.com/iamMensaah)**
 * [sms-nigeria-go](https://github.com/D-sense/sms-nigeria-go) - a Go client for sending SMS to any Nigeria phone-number with ease. **By [@D-sense](https://twitter.com/Delameh)**
 
 ## <a name="T"> </a>T
@@ -249,6 +250,7 @@
 * [VSCode Material Palenight Theme](https://github.com/whizkydee/vscode-material-palenight-theme) - 🍹🎨 An elegant and juicy material-like theme for Visual Studio Code. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 * [VSCode NestsJs Snippets](https://github.com/ashinzekene/vscode-nestjs-snippets) - A VScode extension for adding snippets for your [NestJS](https://github.com/nestjs/nest) code. **By [@ashinzekene](https://twitter.com/ashinzekene)**
 * [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
+* [Vue Transitions CSS](https://github.com/Edmund1645/vue-transitions-css) - A lightweight CSS library for adding transitions to Vue components **By [@26th_edmund](https://twitter.com/26th_edmund)**
 
 ## <a name="W"> </a>W
 * [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
