@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://acekyd.github.io/made-in-nigeria">
+  <a href="https://madeinnigeria.dev/">
     Made. In. Nigeria.
   </a>
 </h1>
