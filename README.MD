@@ -98,7 +98,7 @@
 ## <a name="I"> </a>I
 
 * [Icicle](https://github.com/segunfamisa/icicle) - An annotation based tool for saving and restoring instance states. **By [@segunfamisa](https://twitter.com/segunfamisa)**
-* [IGdm](https://github.com/ifedapoolarewaju/igdm) - Multi-platform Desktop application for INSTAGRAM DMs. **By [@@teddyskillz2](https://twitter.com/@teddyskillz2)**
+* [IGdm](https://github.com/ifedapoolarewaju/igdm) - Multi-platform Desktop application for INSTAGRAM DMs. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 * [Ijeawele](https://github.com/viclotana/Ijeawele) - A Browser Extension that displays a random suggestion from the Dear Ijeawele book by Chimamnda Adichie. **By [@viclotana](https://twitter.com/viclotana)**
 * [ImageQ](https://github.com/bisoncorps/imageq) -  Reverse Image search engine powered by Django and Keras **By [@_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 * [ImgR](https://github.com/mykeels/ImgR) - ImgR.NET aims at automating the process of serving Images dynamically based on the client device. **By [@mykeels](https://twitter.com/mykeels)**
@@ -172,7 +172,7 @@
 * [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
 * [No-CAPTCHA-reCAPTCHA](https://github.com/collizo4sky/No-CAPTCHA-reCAPTCHA) - Protect WordPress login, registration and comment form from spam with the new No CAPTCHA reCAPTCHA. **By [@w3guy](https://twitter.com/w3guy)**
 * [Nodestorage.js](https://github.com/iamuchejude/nodestorage.js) - File system storage utility with `localStorage` like API. **By [@iamuchejude](https://twitter.com/iamuchejude)**
-* [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By @ifedapoolarewaju**
+* [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 * [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which  network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
 
 ## <a name="O"> </a>O
@@ -209,7 +209,7 @@
 * [React-Raise](https://github.com/andela-iamao/react-raise) - A cli kit for creating react applications. **By [@ash__amao](https://twitter.com/ash__amao)**
 * [react-webpack-starter](https://github.com/temilaj/react-webpack-starter) - A boiler plate for creating react applications bundled by webpack (using ES6, Babel, SASS and the webpack development server). **By [@temilaj](https://twitter.com/temilaj)**
 * [RemindMeOfThisTweet](https://github.com/shalvah/RemindMeOfThisTweet) - Twitter bot to set reminders for tweets. **By [@theshalvah](https://twitter.com/theshalvah)**
-* [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By @ifedapoolarewaju**
+* [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 * [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By [@abiosoft](https://twitter.com/abiosoft)**
 
 
