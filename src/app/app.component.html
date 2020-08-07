@@ -1,30 +1,35 @@
 <clr-main-container>
-
   <clr-header class="headerGreen">
     <section class="_branding">
       <section class="about-wrap">
-        <a href="https://github.com/acekyd/made-in-nigeria" target="_blank"><span class="fa fa-info-circle"></span>About</a>
+        <a href="https://github.com/acekyd/made-in-nigeria" target="_blank"
+          ><span class="fa fa-info-circle"></span>About</a
+        >
       </section>
       <a href="" class="_nav-link">
         <h1 class="_title">Made. in. Nigeria.</h1>
       </a>
       <div class="_description">
-        <p>A curation of awesome tools and projects built by Nigerian developers.</p>
+        <p>
+          A curation of awesome tools and projects built by Nigerian developers.
+        </p>
       </div>
 
       <section class="search-wrap">
         <form class="_search">
           <div class="input-wrap">
             <span class="fa fa-search"></span>
-            <input id="search_input" type="text" (keyup)="search($event)"
-                   placeholder="Search projects..."/>
+            <input
+              id="search_input"
+              type="text"
+              (keyup)="search($event)"
+              placeholder="Search projects..."
+            />
           </div>
         </form>
       </section>
     </section>
-
   </clr-header>
-
 
   <section class="content-container">
     <main class="content-area">
