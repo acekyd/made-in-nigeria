@@ -211,7 +211,7 @@
 * [RemindMeOfThisTweet](https://github.com/shalvah/RemindMeOfThisTweet) - Twitter bot to set reminders for tweets. **By [@theshalvah](https://twitter.com/theshalvah)**
 * [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 * [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By [@abiosoft](https://twitter.com/abiosoft)**
-* [React-Kit](https://github.com/BadMask121/react-kit) - All your favourite react setup in one place, monorepo ready too !!!
+* [React-Kit](https://github.com/BadMask121/react-kit) - All your favourite react setup in one place, monorepo ready too !!! **By [@BadMask121](https://github.com/BadMask121)**
 
 ## <a name="S"> </a>S
 
