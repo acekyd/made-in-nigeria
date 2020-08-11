@@ -89,6 +89,8 @@
 * [Grabity](https://github.com/e-oj/grabity) - Get preview data from a link. **By [@e-oj](https://github.com/e-oj)**
 * [Google Dictionary](https://github.com/chizoba/google-dictionary) - An android library that provides easy access to meanings of any word, phrase, or slang via Google, within any application. **By [@its_tobie](https://twitter.com/its_tobie)**
 * [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay
+* [Gophie](https://github.com/Go-phie/gophie) - A CLI written in golang for scraping movie download links and bypassing ads **By [@GophieTeam](https://twitter.com/GophieTeam)**
+* [Gophie-web](https://github.com/Go-phie/gophie-web) - A web client for streaming/downloading movies without hassle built on Gophie **By [@GophieTeam](https://twitter.com/GophieTeam)**
 
 ## <a name="H"> </a>H
 * [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework! **By [@devHammed](https://twitter.com/devHammed)**
