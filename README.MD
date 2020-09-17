@@ -208,6 +208,7 @@
 * [Rationale](https://github.com/KingsMentor/Rationale) - Android permission rationale helper dialog. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
 * [react-hooks-paginator](https://github.com/codenaz/react-paginator) - A simple paginator interface for react. **By [@codenaz](https://twitter.com/codenaz)**
 * [react-multi-state](https://github.com/whizkydee/react-multi-state) - Declarative, simplified way to handle complex local state with hooks. **By [@mrolaolu](https://twitter.com/mrolaolu)**
+* [react-native-woocommerce-api](https://github.com/JamesUgbanu/react-native-woocommerce-api) - A wrappper that connects react Native to the WooCommerce API. **By [james ugbanu](https://linkedin.com/in/james-ugbanu)**
 * [React-Raise](https://github.com/andela-iamao/react-raise) - A cli kit for creating react applications. **By [@ash__amao](https://twitter.com/ash__amao)**
 * [react-webpack-starter](https://github.com/temilaj/react-webpack-starter) - A boiler plate for creating react applications bundled by webpack (using ES6, Babel, SASS and the webpack development server). **By [@temilaj](https://twitter.com/temilaj)**
 * [RemindMeOfThisTweet](https://github.com/shalvah/RemindMeOfThisTweet) - Twitter bot to set reminders for tweets. **By [@theshalvah](https://twitter.com/theshalvah)**
