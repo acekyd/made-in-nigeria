@@ -52,7 +52,7 @@
 ## <a name="D"> </a>D
 
 * [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risin_developer](https://twitter.com/risin_developer)**
-* [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@ace_kyd](https://twitter.com/ace_kyd)**
+* [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
 * [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [Dot Music Player](https://github.com/r4sh33d/musicslam) - 🎧 A light, feature-packed and very customisable material designed Android music player. **By [@srasheed](https://twitter.com/srasheed_)**
 * [DownloadThisVideo](https://github.com/shalvah/DownloadThisVideo) - Twitter bot for easily downloading videos/GIFs off tweets **By [@theshalvah](https://twitter.com/theshalvah)**
@@ -106,7 +106,7 @@
 * [ImgR](https://github.com/mykeels/ImgR) - ImgR.NET aims at automating the process of serving Images dynamically based on the client device. **By [@mykeels](https://twitter.com/mykeels)**
 * [Inlinetweetjs](https://github.com/ireade/inlinetweetjs) - InlineTweet.js allows you to easily create tweetable links out of any text on a webpage. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 * [IntentManip](https://github.com/KingsMentor/IntentManip) - Gives more control over implicit intents creation and the way it is presented to users.. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
-* [Instaword](https://github.com/acekyd/instaword) - InstaWord is a Chrome and Opera browser plugin that makes learning new words much easier. **By [@ace_kyd](https://twitter.com/ace_kyd)**
+* [Instaword](https://github.com/acekyd/instaword) - InstaWord is a Chrome and Opera browser plugin that makes learning new words much easier. **By [@acekyd](https://twitter.com/ace_kyd)**
 * [ip-num](https://github.com/ip-num/ip-num) - ip-num is a TypeScript library for working with IP Resources(ASN, IPV4, IPV6). **By [@dadepo](https://twitter.com/dadepo)**
 * [iShell](https://github.com/abiosoft/ishell) - Library for creating interactive CLI applications with Go. **By [@abiosoft](https://twitter.com/abiosoft)**
 * [inspireNuggets](https://github.com/BolajiAyodeji/inspireNuggets) - inspireNuggets is a Chrome Browser (Web) Extension that displays random inspiring techie quotes for developers/designers. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
