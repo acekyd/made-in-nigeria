@@ -97,7 +97,7 @@
 * [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework! **By [@devHammed](https://twitter.com/devHammed)**
 * [helpers](https://github.com/whizkydee/helpers) - Super-handy JavaScript utility functions for front-end development. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 * [HUI.js](https://github.com/devHammed/HUI.js) - Lightweight JavaScript UI Library. **By [@devHammed](https://twitter.com/devHammed)**
-* [Helix](https://github.com/adenekan41/Helix) - A minimal monochrome theme for Vscode ~ A light notion like theme for vscode. **By [@codewonders](https://twitter.com/code_wonders)**
+* [Helix](https://marketplace.visualstudio.com/items?itemName=codewonders.helix&ssr=false) - A minimal monochrome theme for Vscode ~ A light notion like theme for vscode. **By [@codewonders](https://twitter.com/code_wonders)**
 
 ## <a name="I"> </a>I
 
