@@ -48,7 +48,7 @@
 * [Composer-git-hook](https://github.com/BrainMaestro/composer-git-hooks) - Easily manage git hooks in your composer config **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
 * [CountryPickerView](https://github.com/kizitonwose/CountryPickerView) - A simple, customizable view for efficiently collecting country information in iOS apps. **By [@kizitonwose](https://github.com/kizitonwose/CountryPickerView)**
 * [csv49](https://github.com/stigwue/csv49) - Comma Separated Values For Nigeria. **Maintained by [@stigwue](https://github.com/stigwue)**
-* [Codewonders Helpers](https://github.com/adenekan41/helpers) - A curated collection of amazingly colored gradients for designers, developers and art makers over the world. **By [@codewonders](https://twitter.com/code_wonders)**
+* [Codewonders Helpers](https://github.com/adenekan41/helpers) - A collection of utility functions for Javascript development. **By [@codewonders](https://twitter.com/code_wonders)**
 
 ## <a name="D"> </a>D
 
@@ -97,6 +97,7 @@
 * [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework! **By [@devHammed](https://twitter.com/devHammed)**
 * [helpers](https://github.com/whizkydee/helpers) - Super-handy JavaScript utility functions for front-end development. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 * [HUI.js](https://github.com/devHammed/HUI.js) - Lightweight JavaScript UI Library. **By [@devHammed](https://twitter.com/devHammed)**
+* [Helix](https://github.com/adenekan41/Helix) - A minimal monochrome theme for Vscode ~ A light notion like theme for vscode. **By [@codewonders](https://twitter.com/code_wonders)**
 
 ## <a name="I"> </a>I
 
@@ -196,7 +197,7 @@
 * [PyFCM](https://github.com/olucurious/PyFCM) - Python client for FCM - Firebase Cloud Messaging (Android & iOS) **By [@olucurious](https://twitter.com/olucurious)**
 * [Pymvrd](https://github.com/othreecodes/pymvrd) - Motor Vehicle Registration Information Search Portal Library for python. **By [@othreecodes](https://twitter.com/othreecodes)**
 * [Piggment](https://github.com/adenekan41/piggment) - A curated collection of amazingly colored gradients for designers, developers and art makers over the world. **By [@codewonders](https://twitter.com/code_wonders)**
-* [Piggment Chrome Extension](https://github.com/adenekan41/piggment) - A curated collection of amazingly colored gradients for designers, developers and art makers over the world. **By [@codewonders](https://twitter.com/code_wonders)**
+* [Piggment Chrome Extension](https://github.com/adenekan41/piggment-chrome) - Chrome extension that consists of amazing colored gradients for designers, developers and art makers over the world by piggment. **By [@codewonders](https://twitter.com/code_wonders)**
 
 ## <a name="Q"> </a>Q
 * [Quicksi CLI](https://github.com/AnayoOleru/quicksi) - A command-line bot tool that contains reuseable templates in different languages, frameworks and libraries designed to make it easy for developers to start projects without having to worry about the setup.
