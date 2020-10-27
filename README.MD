@@ -168,6 +168,7 @@
 
 - [Naija Phone Number](https://github.com/Udokah/naija-phone-number) - A fast minimal module to validate Nigerian mobile phone numbers using Regular Expressions. **By [@thisisudo](https://twitter.com/thisisudo)**
 - [Naija State And Local Government](https://github.com/atomicman57/naija-state-local-government) - A simple zero dependency npm package that lists Nigeria states and local governments. **By [@blessingadesina3](https://twitter.com/blessingadesin3)**
+- [Naira Exchange Rates](https://github.com/infinitypaul/naira-exchange-rates) - PHP Package to get the conversion rate for Naira to other currencies. **By [@infinitypaul](https://twitter.com/infinitypaul)**
 - [Newspaperjs](https://github.com/flickz/newspaperjs) - Nodejs: News extraction, scraping and article parsing module. **By [@flickzcode](https://twitter/flickzcode)**
 - [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in Nigeria. **By [@seyi\_\_adeleke](https://twitter.com/seyi__adeleke)**
 - [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
