@@ -160,6 +160,7 @@
 - [Modern-Mean-Stack](https://github.com/Mozartted/Modern-Mean-Stack) - Functional stack of angular2, mongodb, express all on nodejs, coupled with webpack and angular cli features **By [@mozartted](https://github.com/Mozartted)**
 - [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**
 - [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**
+- [Multi-step Forms](https://github.com/infinitypaul/laravel-multistep-forms) - A laravel package to build custom forms with multiple steps that can be easily navigated. **By [@infinitypaul](https://twitter.com/infinitypaul)**
 - [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System \* Job Portal with Django API & Vuejs \*\*By [@timtech4u](https://twitter.com/timtech4u)
 - [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A php library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
