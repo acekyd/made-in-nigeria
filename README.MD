@@ -249,6 +249,7 @@
 ## <a name="U"> </a>U
 
 - [Unitcss](https://github.com/adenekan41/unitcss) - A cli tool to convert css units in your file, helps you swiftly convert units / mesurements in your file or folder. **By [@codewonders](https://twitter.com/code_wonders)**
+- [Uptime Monitor](https://github.com/infinitypaul/laravel-uptime) - A Laravel package to keep track of critical endpoints. **By [@infinitypaul](https://twitter.com/infinitypaul)**
 - [Urley](https://github.com/adenekan41/urley) - A cross-platform library with a collection of handy utilites to work with URLs. **By [@codewonders](https://twitter.com/code_wonders)**
 - [UseFormBee](https://github.com/Eazybee/useFormBee) - useFormBee is a light weight library that helps me manage and abstract react form logic. **By [@Eazybee](https://github.com/Eazybee)**
 
