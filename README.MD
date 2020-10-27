@@ -52,6 +52,7 @@
 
 ## <a name="D"> </a>D
 
+- [Database Filter](https://github.com/infinitypaul/laravel-database-filter) - Laravel Package to filter database result with a query string. **By [@infinitypaul](https://twitter.com/infinitypaul)**
 - [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risin_developer](https://twitter.com/risin_developer)**
 - [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
 - [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
