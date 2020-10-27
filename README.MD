@@ -185,6 +185,7 @@
 
 - [P-integrate](https://github.com/TaslimOseni/p-integrate) - This is a demo app that guides Android developers on how to integrate any of several popular payment platforms into their apps. **By [@taslimOseni](https://twitter.com/taslimOseni)**
 - [PackageHub](https://github.com/BrainMaestro/packagehub) - An extension for displaying dependencies for many package managers on GitHub **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
+- [Password History Validator](https://github.com/infinitypaul/laravel-password-history-validation) - Laravel Package to prevent users from reusing recently used passwords. **By [@infinitypaul](https://twitter.com/infinitypaul)**
 - [Paystack wrapper](https://github.com/kehers/paystack) - Nodejs API wrapper for Paystack. **By [@kehers](https://twitter.com/kehers)**
 - [Paystack Ruby](https://github.com/IkoroVictor/paystack-ruby) - Ruby Gem for Paystack. **By [@IkoroVictor](https://twitter.com/IkoroVictor)**
 - [Pentecost](https://github.com/knightbenax/Pentecost) - Payment Android UI Library for PayStack. **By [@knightbenax](https://twitter.com/knightbenax)**
