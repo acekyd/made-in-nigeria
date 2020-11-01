@@ -42,6 +42,7 @@
 - [caddy-docker](https://github.com/abiosoft/caddy-docker) - Docker image for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
 - [caddy-git](https://github.com/abiosoft/caddy-git) - Git plugin for Caddy web server. **By [@abiosoft](https://twitter.com/abiosoft)**
 - [Caniuse-embed](https://github.com/ireade/caniuse-embed) - The (unofficial) embed for caniuse. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
+- [Cartie](https://github.com/LPMatrix/cartie) - A clean shopping cart implementation for Laravel. **By [@LPMatrix](https://twitter.com/WeirdMatrix)**
 - [chakra-ui](https://github.com/chakra-ui/chakra-ui) - Simple, modular and accessible component library for React applications. **By [@thesegunadebayo](https://twitter.com/thesegunadebayo)**
 - [ci-toastr](https://github.com/joshuachinemezu/ci-toastr) - Codeigniter package for integrating javascript toastr into your web applications. **By [@joshuachinemezu](https://twitter.com/joshuachinemezu)**
 - [Client_manager](https://github.com/timigod/client_manager) - API Client Manager is a mountable Rails (engine) gem that helps identify and authenticate your API clients' requests. **By [@timigod](https://twitter.com/timigod)**
