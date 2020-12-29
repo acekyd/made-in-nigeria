@@ -57,6 +57,7 @@
 - [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
 - [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 - [Dot Music Player](https://github.com/r4sh33d/musicslam) - 🎧 A light, feature-packed and very customisable material designed Android music player. **By [@srasheed](https://twitter.com/srasheed_)**
+- [dotenv.net](https://github.com/bolorundurowb/dotenv.net) - a group of projects written in C# that aim to make the process of reading `.env` files as simple and pain-free as possible in the dotnet ecosystem. **By [@bolorundurowb](https://github.com/bolorundurowb)**
 - [DownloadThisVideo](https://github.com/shalvah/DownloadThisVideo) - Twitter bot for easily downloading videos/GIFs off tweets **By [@theshalvah](https://twitter.com/theshalvah)**
 - [Dropd](https://github.com/whizkydee/dropd) - Zero-dependency minimalistic dropdown component for React and Vue. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [dumb_password_rails](https://github.com/arinzeokeke/dumb_password_rails) - Rails Password Validator. Validate your user passwords and prevent them from using vulnerable passwords. **By [@arinzeokeke](https://www.github.com/arinzeokeke)**
@@ -82,7 +83,7 @@
 ## <a name="G"> </a>G
 
 - [generator-nestjs-app](https://github.com/ashinzekene/generator-nestjs-app) - A yeoman generator for creating nestsjs apps. **By [@ashinzekene](https://twitter.com/ashinzekene)**
-- [geo-info-service](https://github.com/bolorundurowb/geo-info-service) - A service to provide geographic information about continents, countries, states/provinces, international dialling codes and currencies.
+- [geo-info-service](https://github.com/bolorundurowb/geo-info-service) - A service to provide geographic information about continents, countries, states/provinces, international dialling codes and currencies. **By [@bolorundurowb](https://github.com/bolorundurowb)**
 - [Gettype.js](https://github.com/iamuchejude/gettype.js) - Better alternative for `typeof` in JavaScript. **By [@iamuchejude](https://twitter.com/iamuchejude)**
 - [Githint Bot](https://github.com/Chieze-Franklin/githint-bot) - A GitHub bot that ensures that your pull requests follow specified conventions. **By [@franklin_chieze](https://twitter.com/franklin_chieze)**
 - [GitProfile Manager](https://github.com/MeNsaaH/git-profile-manager) - A git extension to allow you manage multiple git profiles on your workstation with ease **By [@iamMensaah](https://twitter.com/iamMensaah)**
@@ -181,6 +182,7 @@
 
 - [Omnipay 2Checkout](https://github.com/collizo4sky/omnipay-2checkout) - 2Checkout driver for the Omnipay PHP payment processing library. **By [@w3guy](https://twitter.com/w3guy)**
 - [OpenWriter](https://github.com/ireade/openwriter) - A free theme for Ghost. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
+- [Open Exam Suite](https://github.com/bolorundurowb/Open-Exam-Suite) - A set of UI tools and libraries that allow for the creation and administration of computer-based examinations with support for multiple choice questions, corrections and result summation. **By [@bolorundurowb](https://github.com/bolorundurowb)**
 
 ## <a name="P"> </a>P
 
