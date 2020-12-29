@@ -258,6 +258,7 @@
 
 ## <a name="V"> </a>V
 
+- [vCardLib](https://github.com/bolorundurowb/vCardLib) - A C# library that supports reading multiple contacts from a single vcf file, a stream or a contact string and returning typed objects. **By [@bolorundurowb](https://github.com/bolorundurowb)**
 - [Video-Call-App](https://github.com/amirsanni/Video-Call-App) - A text, audio and video chat application built with webRTC and Ratchet (PHP WebSockets). **By [@amirsanni](https://twitter.com/amirsanni)**
 - [VSCode Material Palenight Theme](https://github.com/whizkydee/vscode-material-palenight-theme) - 🍹🎨 An elegant and juicy material-like theme for Visual Studio Code. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [VSCode NestsJs Snippets](https://github.com/ashinzekene/vscode-nestjs-snippets) - A VScode extension for adding snippets for your [NestJS](https://github.com/nestjs/nest) code. **By [@ashinzekene](https://twitter.com/ashinzekene)**
