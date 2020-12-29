@@ -83,7 +83,6 @@
 ## <a name="G"> </a>G
 
 - [generator-nestjs-app](https://github.com/ashinzekene/generator-nestjs-app) - A yeoman generator for creating nestsjs apps. **By [@ashinzekene](https://twitter.com/ashinzekene)**
-- [geo-info-service](https://github.com/bolorundurowb/geo-info-service) - A service to provide geographic information about continents, countries, states/provinces, international dialling codes and currencies. **By [@bolorundurowb](https://github.com/bolorundurowb)**
 - [Gettype.js](https://github.com/iamuchejude/gettype.js) - Better alternative for `typeof` in JavaScript. **By [@iamuchejude](https://twitter.com/iamuchejude)**
 - [Githint Bot](https://github.com/Chieze-Franklin/githint-bot) - A GitHub bot that ensures that your pull requests follow specified conventions. **By [@franklin_chieze](https://twitter.com/franklin_chieze)**
 - [GitProfile Manager](https://github.com/MeNsaaH/git-profile-manager) - A git extension to allow you manage multiple git profiles on your workstation with ease **By [@iamMensaah](https://twitter.com/iamMensaah)**
@@ -151,7 +150,6 @@
 - [Lib-ussd](https://github.com/hextremelabs/lib-ussd) - A lightweight USSD application framework. **By [@hextremelabs](https://twitter.com/hextremelabs)**
 - [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People et.c **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [LocalGoogle](https://github.com/kodejuice/localgoogle) - A search engine built for offline websites on your local machine. **By [@KodeJuice](https://twitter.com/kodejuice)**
-- [logly](https://github.com/bolorundurowb/logly) -  a library written for ASP.NET Core similar in functionality to morgan for NodeJS. Its purpose to make request and response logging more aesthetically pleasing. **By [@bolorundurowb](https://github.com/bolorundurowb)**
 
 ## <a name="M"> </a>M
 
@@ -177,7 +175,6 @@
 - [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in Nigeria. **By [@seyi\_\_adeleke](https://twitter.com/seyi__adeleke)**
 - [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
 - [No-CAPTCHA-reCAPTCHA](https://github.com/collizo4sky/No-CAPTCHA-reCAPTCHA) - Protect WordPress login, registration and comment form from spam with the new No CAPTCHA reCAPTCHA. **By [@w3guy](https://twitter.com/w3guy)**
-- [no-comment](https://github.com/bolorundurowb/no-comment) - A browser plugin that can show or hide comments from social platforms such as YouTube and Facebook as we deserve to view content and form our opinions without bias. **By [@bolorundurowb](https://github.com/bolorundurowb)**
 - [Nodestorage.js](https://github.com/iamuchejude/nodestorage.js) - File system storage utility with `localStorage` like API. **By [@iamuchejude](https://twitter.com/iamuchejude)**
 - [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 - [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
