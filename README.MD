@@ -57,8 +57,8 @@
 - [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
 - [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 - [Dot Music Player](https://github.com/r4sh33d/musicslam) - 🎧 A light, feature-packed and very customisable material designed Android music player. **By [@srasheed](https://twitter.com/srasheed_)**
-- [dotenv.net](https://github.com/bolorundurowb/dotenv.net) - a group of projects written in C# that aim to make the process of reading `.env` files as simple and pain-free as possible in the dotnet ecosystem. **By [@bolorundurowb](https://github.com/bolorundurowb)**
-- [dotNETANPR](https://github.com/bolorundurowb/dotNETANPR) -  An automatic number plate recognition software, which implements algorithmic and mathematical principles from field of artificial intelligence, machine vision and neural networks. **By [@bolorundurowb](https://github.com/bolorundurowb)**
+- [dotenv.net](https://twitter.com/Mr_Bolorunduro/dotenv.net) - a group of projects written in C# that aim to make the process of reading `.env` files as simple and pain-free as possible in the dotnet ecosystem. **By [@bolorundurowb](https://twitter.com/Mr_Bolorunduro)**
+- [dotNETANPR](https://twitter.com/Mr_Bolorunduro/dotNETANPR) -  An automatic number plate recognition software, which implements algorithmic and mathematical principles from field of artificial intelligence, machine vision and neural networks. **By [@bolorundurowb](https://twitter.com/Mr_Bolorunduro)**
 - [DownloadThisVideo](https://github.com/shalvah/DownloadThisVideo) - Twitter bot for easily downloading videos/GIFs off tweets **By [@theshalvah](https://twitter.com/theshalvah)**
 - [Dropd](https://github.com/whizkydee/dropd) - Zero-dependency minimalistic dropdown component for React and Vue. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [dumb_password_rails](https://github.com/arinzeokeke/dumb_password_rails) - Rails Password Validator. Validate your user passwords and prevent them from using vulnerable passwords. **By [@arinzeokeke](https://www.github.com/arinzeokeke)**
@@ -87,7 +87,7 @@
 - [Gettype.js](https://github.com/iamuchejude/gettype.js) - Better alternative for `typeof` in JavaScript. **By [@iamuchejude](https://twitter.com/iamuchejude)**
 - [Githint Bot](https://github.com/Chieze-Franklin/githint-bot) - A GitHub bot that ensures that your pull requests follow specified conventions. **By [@franklin_chieze](https://twitter.com/franklin_chieze)**
 - [GitProfile Manager](https://github.com/MeNsaaH/git-profile-manager) - A git extension to allow you manage multiple git profiles on your workstation with ease **By [@iamMensaah](https://twitter.com/iamMensaah)**
-- [Git Aliases For Windows](https://github.com/bolorundurowb/git-aliases-for-windows) - A batch script to add in git aliases to the windows console. **By [@bolorundurowb](https://github.com/bolorundurowb)**
+- [Git Aliases For Windows](https://twitter.com/Mr_Bolorunduro/git-aliases-for-windows) - A batch script to add in git aliases to the windows console. **By [@bolorundurowb](https://twitter.com/Mr_Bolorunduro)**
 - [Gulp-Email-Workflow](https://github.com/ireade/gulp-email-workflow) - A Gulp workflow for building HTML emails. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 - [Grabity](https://github.com/e-oj/grabity) - Get preview data from a link. **By [@e-oj](https://github.com/e-oj)**
 - [Google Dictionary](https://github.com/chizoba/google-dictionary) - An android library that provides easy access to meanings of any word, phrase, or slang via Google, within any application. **By [@its_tobie](https://twitter.com/its_tobie)**
@@ -161,7 +161,7 @@
 - [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By [@mykeels](https://twitter.com/mykeels)**
 - [MobileVisionBarcodeScanner](https://github.com/KingsMentor/MobileVisionBarcodeScanner) - Mobile Vission Barcode Scanner **By [@kingsmentor](https://twitter.com/kingsment)**
 - [Modern-Mean-Stack](https://github.com/Mozartted/Modern-Mean-Stack) - Functional stack of angular2, mongodb, express all on nodejs, coupled with webpack and angular cli features **By [@mozartted](https://github.com/Mozartted)**
-- [moment.net](https://github.com/bolorundurowb/moment.net) - A dotnet port of as many bits of functionality from moment.js as is necessary written in C#. **By [@bolorundurowb](https://github.com/bolorundurowb) and [@yemikudaisi](https://github.com/yemikudaisi)**
+- [moment.net](https://twitter.com/Mr_Bolorunduro/moment.net) - A dotnet port of as many bits of functionality from moment.js as is necessary written in C#. **By [@bolorundurowb](https://twitter.com/Mr_Bolorunduro) and [@yemikudaisi](https://github.com/yemikudaisi)**
 - [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**
 - [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**
 - [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System \* Job Portal with Django API & Vuejs \*\*By [@timtech4u](https://twitter.com/timtech4u)
@@ -184,7 +184,7 @@
 
 - [Omnipay 2Checkout](https://github.com/collizo4sky/omnipay-2checkout) - 2Checkout driver for the Omnipay PHP payment processing library. **By [@w3guy](https://twitter.com/w3guy)**
 - [OpenWriter](https://github.com/ireade/openwriter) - A free theme for Ghost. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
-- [Open Exam Suite](https://github.com/bolorundurowb/Open-Exam-Suite) - A set of UI tools and libraries that allow for the creation and administration of computer-based examinations with support for multiple choice questions, corrections and result summation. **By [@bolorundurowb](https://github.com/bolorundurowb)**
+- [Open Exam Suite](https://twitter.com/Mr_Bolorunduro/Open-Exam-Suite) - A set of UI tools and libraries that allow for the creation and administration of computer-based examinations with support for multiple choice questions, corrections and result summation. **By [@bolorundurowb](https://twitter.com/Mr_Bolorunduro)**
 
 ## <a name="P"> </a>P
 
@@ -227,7 +227,7 @@
 - [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken **By [@robophil\_](https://twitter.com/robophil_)**
 - [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs **By [@theo4me](https://twitter.com/theo4me)**
 - [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**
-- [shortid](https://github.com/bolorundurowb/shortid) - A C# library to generate random URL-safe short IDs. **By [@bolorundurowb](https://github.com/bolorundurowb)**
+- [shortid](https://twitter.com/Mr_Bolorunduro/shortid) - A C# library to generate random URL-safe short IDs. **By [@bolorundurowb](https://twitter.com/Mr_Bolorunduro)**
 - [Shutdown](https://github.com/emmanuelkehinde/Shutdown) - A lightweight android library that handles the closing of your app interactively. **By [@emmakoko96](https://twitter.com/emmakoko96)**
 - [Signalum](https://github.com/bisoncorps/signalum) - A Linux Library to explore creating an application that detects available connections at once from wifi and bluetooth **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 - [Signalum Desktop](https://github.com/bisoncorps/signalum-desktop) - A Desktop application for the signalum python library **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
@@ -259,7 +259,7 @@
 
 ## <a name="V"> </a>V
 
-- [vCardLib](https://github.com/bolorundurowb/vCardLib) - A C# library that supports reading multiple contacts from a single vcf file, a stream or a contact string and returning typed objects. **By [@bolorundurowb](https://github.com/bolorundurowb)**
+- [vCardLib](https://twitter.com/Mr_Bolorunduro/vCardLib) - A C# library that supports reading multiple contacts from a single vcf file, a stream or a contact string and returning typed objects. **By [@bolorundurowb](https://twitter.com/Mr_Bolorunduro)**
 - [Video-Call-App](https://github.com/amirsanni/Video-Call-App) - A text, audio and video chat application built with webRTC and Ratchet (PHP WebSockets). **By [@amirsanni](https://twitter.com/amirsanni)**
 - [VSCode Material Palenight Theme](https://github.com/whizkydee/vscode-material-palenight-theme) - 🍹🎨 An elegant and juicy material-like theme for Visual Studio Code. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [VSCode NestsJs Snippets](https://github.com/ashinzekene/vscode-nestjs-snippets) - A VScode extension for adding snippets for your [NestJS](https://github.com/nestjs/nest) code. **By [@ashinzekene](https://twitter.com/ashinzekene)**
