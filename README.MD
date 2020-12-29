@@ -58,6 +58,7 @@
 - [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 - [Dot Music Player](https://github.com/r4sh33d/musicslam) - 🎧 A light, feature-packed and very customisable material designed Android music player. **By [@srasheed](https://twitter.com/srasheed_)**
 - [dotenv.net](https://github.com/bolorundurowb/dotenv.net) - a group of projects written in C# that aim to make the process of reading `.env` files as simple and pain-free as possible in the dotnet ecosystem. **By [@bolorundurowb](https://github.com/bolorundurowb)**
+- [dotNETANPR](https://github.com/bolorundurowb/dotNETANPR) -  An automatic number plate recognition software, which implements algorithmic and mathematical principles from field of artificial intelligence, machine vision and neural networks. **By [@bolorundurowb](https://github.com/bolorundurowb)**
 - [DownloadThisVideo](https://github.com/shalvah/DownloadThisVideo) - Twitter bot for easily downloading videos/GIFs off tweets **By [@theshalvah](https://twitter.com/theshalvah)**
 - [Dropd](https://github.com/whizkydee/dropd) - Zero-dependency minimalistic dropdown component for React and Vue. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [dumb_password_rails](https://github.com/arinzeokeke/dumb_password_rails) - Rails Password Validator. Validate your user passwords and prevent them from using vulnerable passwords. **By [@arinzeokeke](https://www.github.com/arinzeokeke)**
