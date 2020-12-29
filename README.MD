@@ -87,6 +87,7 @@
 - [Gettype.js](https://github.com/iamuchejude/gettype.js) - Better alternative for `typeof` in JavaScript. **By [@iamuchejude](https://twitter.com/iamuchejude)**
 - [Githint Bot](https://github.com/Chieze-Franklin/githint-bot) - A GitHub bot that ensures that your pull requests follow specified conventions. **By [@franklin_chieze](https://twitter.com/franklin_chieze)**
 - [GitProfile Manager](https://github.com/MeNsaaH/git-profile-manager) - A git extension to allow you manage multiple git profiles on your workstation with ease **By [@iamMensaah](https://twitter.com/iamMensaah)**
+- [Git Aliases For Windows](https://github.com/bolorundurowb/git-aliases-for-windows) - A batch script to add in git aliases to the windows console. **By [@bolorundurowb](https://github.com/bolorundurowb)**
 - [Gulp-Email-Workflow](https://github.com/ireade/gulp-email-workflow) - A Gulp workflow for building HTML emails. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 - [Grabity](https://github.com/e-oj/grabity) - Get preview data from a link. **By [@e-oj](https://github.com/e-oj)**
 - [Google Dictionary](https://github.com/chizoba/google-dictionary) - An android library that provides easy access to meanings of any word, phrase, or slang via Google, within any application. **By [@its_tobie](https://twitter.com/its_tobie)**
@@ -161,7 +162,7 @@
 - [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By [@mykeels](https://twitter.com/mykeels)**
 - [MobileVisionBarcodeScanner](https://github.com/KingsMentor/MobileVisionBarcodeScanner) - Mobile Vission Barcode Scanner **By [@kingsmentor](https://twitter.com/kingsment)**
 - [Modern-Mean-Stack](https://github.com/Mozartted/Modern-Mean-Stack) - Functional stack of angular2, mongodb, express all on nodejs, coupled with webpack and angular cli features **By [@mozartted](https://github.com/Mozartted)**
-- [moment.net](https://github.com/bolorundurowb/moment.net) - A dotnet port of as many bits of functionality from moment.js as is necessary written in C#. **By [@bolorundurowb](https://github.com/bolorundurowb)**
+- [moment.net](https://github.com/bolorundurowb/moment.net) - A dotnet port of as many bits of functionality from moment.js as is necessary written in C#. **By [@bolorundurowb](https://github.com/bolorundurowb) and [@yemikudaisi](https://github.com/yemikudaisi)**
 - [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**
 - [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**
 - [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System \* Job Portal with Django API & Vuejs \*\*By [@timtech4u](https://twitter.com/timtech4u)
