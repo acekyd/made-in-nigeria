@@ -103,6 +103,7 @@
 - [Icicle](https://github.com/segunfamisa/icicle) - An annotation based tool for saving and restoring instance states. **By [@segunfamisa](https://twitter.com/segunfamisa)**
 - [IGdm](https://github.com/ifedapoolarewaju/igdm) - Multi-platform Desktop application for INSTAGRAM DMs. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 - [Ijeawele](https://github.com/viclotana/Ijeawele) - A Browser Extension that displays a random suggestion from the Dear Ijeawele book by Chimamnda Adichie. **By [@viclotana](https://twitter.com/viclotana)**
+- [ImageAI](https://github.com/OlafenwaMoses/ImageAI) - A python library built to empower developers to build applications and systems with self-contained Computer Vision capabilities **By [@OlafenwaMoses](https://twitter.com/OlafenwaMoses)**
 - [ImageQ](https://github.com/bisoncorps/imageq) - Reverse Image search engine powered by Django and Keras **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 - [ImgR](https://github.com/mykeels/ImgR) - ImgR.NET aims at automating the process of serving Images dynamically based on the client device. **By [@mykeels](https://twitter.com/mykeels)**
 - [Inlinetweetjs](https://github.com/ireade/inlinetweetjs) - InlineTweet.js allows you to easily create tweetable links out of any text on a webpage. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
