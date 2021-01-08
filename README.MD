@@ -68,6 +68,7 @@
 - [Essential Kit](https://github.com/ichtrojan/essential-kit) - A Boilerplate for NodeJS with all the essential tools **By [@ichtrojan](https://twitter.com/ichtrojan)**
 - [eth-vue](https://github.com/DOkwufulueze/eth-vue) - A Vue.js boilerplate for Ethereum Apps, built on Truffle. Authentication functionalities included. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 - [expo-push-notification-helper](https://github.com/just1and0/expo-push-notification-helper) - This library makes it easy to use push notification in react native using expo. **By [@just1and0](https://twitter.com/just1and0)**
+- [eleventy-duo](https://github.com/yinkakun/eleventy-duo) - Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs. **By [@yinkakun](https://twitter.com/yinkakun)**
 
 ## <a name="F"> </a>F
 
