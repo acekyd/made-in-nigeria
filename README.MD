@@ -53,6 +53,7 @@
 
 ## <a name="D"> </a>D
 
+- [Database Filter](https://github.com/infinitypaul/laravel-database-filter) - Laravel Package to filter database result with a query string. **By [@infinitypaul](https://twitter.com/infinitypaul)**
 - [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risin_developer](https://twitter.com/risin_developer)**
 - [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
 - [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
@@ -161,6 +162,7 @@
 - [Modern-Mean-Stack](https://github.com/Mozartted/Modern-Mean-Stack) - Functional stack of angular2, mongodb, express all on nodejs, coupled with webpack and angular cli features **By [@mozartted](https://github.com/Mozartted)**
 - [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**
 - [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**
+- [Multi-step Forms](https://github.com/infinitypaul/laravel-multistep-forms) - A laravel package to build custom forms with multiple steps that can be easily navigated. **By [@infinitypaul](https://twitter.com/infinitypaul)**
 - [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System \* Job Portal with Django API & Vuejs \*\*By [@timtech4u](https://twitter.com/timtech4u)
 - [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A php library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
@@ -169,6 +171,7 @@
 
 - [Naija Phone Number](https://github.com/Udokah/naija-phone-number) - A fast minimal module to validate Nigerian mobile phone numbers using Regular Expressions. **By [@thisisudo](https://twitter.com/thisisudo)**
 - [Naija State And Local Government](https://github.com/atomicman57/naija-state-local-government) - A simple zero dependency npm package that lists Nigeria states and local governments. **By [@blessingadesina3](https://twitter.com/blessingadesin3)**
+- [Naira Exchange Rates](https://github.com/infinitypaul/naira-exchange-rates) - PHP Package to get the conversion rate for Naira to other currencies. **By [@infinitypaul](https://twitter.com/infinitypaul)**
 - [Newspaperjs](https://github.com/flickz/newspaperjs) - Nodejs: News extraction, scraping and article parsing module. **By [@flickzcode](https://twitter/flickzcode)**
 - [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in Nigeria. **By [@seyi\_\_adeleke](https://twitter.com/seyi__adeleke)**
 - [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
@@ -186,6 +189,7 @@
 
 - [P-integrate](https://github.com/TaslimOseni/p-integrate) - This is a demo app that guides Android developers on how to integrate any of several popular payment platforms into their apps. **By [@taslimOseni](https://twitter.com/taslimOseni)**
 - [PackageHub](https://github.com/BrainMaestro/packagehub) - An extension for displaying dependencies for many package managers on GitHub **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
+- [Password History Validator](https://github.com/infinitypaul/laravel-password-history-validation) - Laravel Package to prevent users from reusing recently used passwords. **By [@infinitypaul](https://twitter.com/infinitypaul)**
 - [Paystack wrapper](https://github.com/kehers/paystack) - Nodejs API wrapper for Paystack. **By [@kehers](https://twitter.com/kehers)**
 - [Paystack Ruby](https://github.com/IkoroVictor/paystack-ruby) - Ruby Gem for Paystack. **By [@IkoroVictor](https://twitter.com/IkoroVictor)**
 - [Pentecost](https://github.com/knightbenax/Pentecost) - Payment Android UI Library for PayStack. **By [@knightbenax](https://twitter.com/knightbenax)**
@@ -249,6 +253,7 @@
 ## <a name="U"> </a>U
 
 - [Unitcss](https://github.com/adenekan41/unitcss) - A cli tool to convert css units in your file, helps you swiftly convert units / mesurements in your file or folder. **By [@codewonders](https://twitter.com/code_wonders)**
+- [Uptime Monitor](https://github.com/infinitypaul/laravel-uptime) - A Laravel package to keep track of critical endpoints. **By [@infinitypaul](https://twitter.com/infinitypaul)**
 - [Urley](https://github.com/adenekan41/urley) - A cross-platform library with a collection of handy utilites to work with URLs. **By [@codewonders](https://twitter.com/code_wonders)**
 - [UseFormBee](https://github.com/Eazybee/useFormBee) - useFormBee is a light weight library that helps me manage and abstract react form logic. **By [@Eazybee](https://github.com/Eazybee)**
 
