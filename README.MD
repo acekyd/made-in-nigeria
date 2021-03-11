@@ -94,9 +94,9 @@
 
 ## <a name="H"> </a>H
 
-- [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework! **By [@devHammed](https://twitter.com/devHammed)**
+- [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework! **By [@devhammed](https://profile.codersrank.io/user/devhammed)**
 - [helpers](https://github.com/whizkydee/helpers) - Super-handy JavaScript utility functions for front-end development. **By [@mrolaolu](https://twitter.com/mrolaolu)**
-- [HUI.js](https://github.com/devHammed/HUI.js) - Lightweight JavaScript UI Library. **By [@devHammed](https://twitter.com/devHammed)**
+- [HUI.js](https://github.com/devHammed/HUI.js) - Lightweight JavaScript UI Library. **By [@devhammed](https://profile.codersrank.io/user/devhammed)**
 
 ## <a name="I"> </a>I
 
@@ -251,6 +251,8 @@
 - [Unitcss](https://github.com/adenekan41/unitcss) - A cli tool to convert css units in your file, helps you swiftly convert units / mesurements in your file or folder. **By [@codewonders](https://twitter.com/code_wonders)**
 - [Urley](https://github.com/adenekan41/urley) - A cross-platform library with a collection of handy utilites to work with URLs. **By [@codewonders](https://twitter.com/code_wonders)**
 - [UseFormBee](https://github.com/Eazybee/useFormBee) - useFormBee is a light weight library that helps me manage and abstract react form logic. **By [@Eazybee](https://github.com/Eazybee)**
+- [use-global-hook](https://github.com/devhammed/use-global-hook) - Painless global state management for React using Hooks and Context API in 1KB! **By [@devhammed](https://profile.codersrank.io/user/devhammed)**
+- [use-cookie](https://github.com/devhammed/use-cookie) - Get, Set, Update and Delete Cookie using React Hooks. **By [@devhammed](https://profile.codersrank.io/user/devhammed)**
 
 ## <a name="V"> </a>V
 
