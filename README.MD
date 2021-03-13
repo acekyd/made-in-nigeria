@@ -240,6 +240,7 @@
 ## <a name="T"> </a>T
 
 - [TinyPress](https://github.com/kehers/tinypress) - Create and easily manage your blog on Github. **By [@kehers](https://twitter.com/kehers)**
+- [TenseiJS](https://github.com/tenseijs/tensei) - Content management and distribution with a touch of elegance. ** By [@bahdcoder](https://twitter.com/bahdcoder)**
 - [type-reverse](https://github.com/whizkydee/type-reverse) - 🦄 Lightweight reverse utility around strings, arrays, numbers and more. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [Toast.js](https://github.com/ireade/Toast.js) - A library for Toast messages **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 - [TweetThreader](https://github.com/Udokah/tweet-threader) - A tool to create threads on Twitter **By [@thisisudo](https://twitter.com/thisisudo)**
