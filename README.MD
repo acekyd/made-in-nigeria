@@ -88,7 +88,7 @@
 - [Gulp-Email-Workflow](https://github.com/ireade/gulp-email-workflow) - A Gulp workflow for building HTML emails. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 - [Grabity](https://github.com/e-oj/grabity) - Get preview data from a link. **By [@e-oj](https://github.com/e-oj)**
 - [Google Dictionary](https://github.com/chizoba/google-dictionary) - An android library that provides easy access to meanings of any word, phrase, or slang via Google, within any application. **By [@its_tobie](https://twitter.com/its_tobie)**
-- [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay
+- [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay **By [@Adelowo](https://twitter.com/lanreadelowo)**
 - [Gophie](https://github.com/Go-phie/gophie) - A CLI written in golang for scraping movie download links and bypassing ads **By [@GophieTeam](https://twitter.com/GophieTeam)**
 - [Gophie-web](https://github.com/Go-phie/gophie-web) - A web client for streaming/downloading movies without hassle built on Gophie **By [@GophieTeam](https://twitter.com/GophieTeam)**
 
@@ -161,7 +161,7 @@
 - [Modern-Mean-Stack](https://github.com/Mozartted/Modern-Mean-Stack) - Functional stack of angular2, mongodb, express all on nodejs, coupled with webpack and angular cli features **By [@mozartted](https://github.com/Mozartted)**
 - [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**
 - [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**
-- [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System \* Job Portal with Django API & Vuejs \*\*By [@timtech4u](https://twitter.com/timtech4u)
+- [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System * Job Portal with Django API & Vuejs **By [@timtech4u](https://twitter.com/timtech4u)**
 - [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A php library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
 
@@ -226,12 +226,12 @@
 - [Shutdown](https://github.com/emmanuelkehinde/Shutdown) - A lightweight android library that handles the closing of your app interactively. **By [@emmakoko96](https://twitter.com/emmakoko96)**
 - [Signalum](https://github.com/bisoncorps/signalum) - A Linux Library to explore creating an application that detects available connections at once from wifi and bluetooth **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 - [Signalum Desktop](https://github.com/bisoncorps/signalum-desktop) - A Desktop application for the signalum python library **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
-- [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By @shalvah**
+- [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By [@theshalvah](https://twitter.com/theshalvah)**
 - [Slackword](https://github.com/larikraun/slackword) - Dictionary in your slack....additionally, you can get random words. **By [@\_larikraun](https://twitter.com/_larikraun)**
 - [SlidingSquaresLoader](https://github.com/biodunalfet/SlidingSquaresLoader) - A simple progress loader **By [@biodunalfet](https://twitter.com/biodunalfet)**
 - [SlidingUpMenu](https://github.com/r4sh33d/SlidingUpMenu) - 🚀A very customizable Android library that allows you to present menu items (from menu resource and/or other sources) to users as a bottom sheet.. **By [@srasheed](https://twitter.com/srasheed_)**
 - [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel **By [@ammezie](https://twitter.com/ammezie)**
-- [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By @kizitonwose**
+- [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By [@kizitonwose](https://twitter.com/kizitonwose)**
 - [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
 - [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
 - [Search Engine Parser](https://github.com/bisoncorps/search-engine-parser) - Lightweight package to query popular search engines and scrape for result titles, links and descriptions **By [@\_deven96](https://twitter.com/_deven96) and [@iamMensaah](https://twitter.com/iamMensaah)**
@@ -240,7 +240,7 @@
 ## <a name="T"> </a>T
 
 - [TinyPress](https://github.com/kehers/tinypress) - Create and easily manage your blog on Github. **By [@kehers](https://twitter.com/kehers)**
-- [TenseiJS](https://github.com/tenseijs/tensei) - Content management and distribution with a touch of elegance. ** By [@bahdcoder](https://twitter.com/bahdcoder)**
+- [TenseiJS](https://github.com/tenseijs/tensei) - Content management and distribution with a touch of elegance. **By [@bahdcoder](https://twitter.com/bahdcoder)**
 - [type-reverse](https://github.com/whizkydee/type-reverse) - 🦄 Lightweight reverse utility around strings, arrays, numbers and more. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [Toast.js](https://github.com/ireade/Toast.js) - A library for Toast messages **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 - [TweetThreader](https://github.com/Udokah/tweet-threader) - A tool to create threads on Twitter **By [@thisisudo](https://twitter.com/thisisudo)**
