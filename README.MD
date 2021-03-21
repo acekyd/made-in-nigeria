@@ -91,6 +91,7 @@
 - [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay **By [@Adelowo](https://twitter.com/lanreadelowo)**
 - [Gophie](https://github.com/Go-phie/gophie) - A CLI written in golang for scraping movie download links and bypassing ads **By [@GophieTeam](https://twitter.com/GophieTeam)**
 - [Gophie-web](https://github.com/Go-phie/gophie-web) - A web client for streaming/downloading movies without hassle built on Gophie **By [@GophieTeam](https://twitter.com/GophieTeam)**
+- [GeoIP Location](https://github.com/victorybiz/geoip-location) - Get the geographical location of website visitors based on their IP addresses. Support Laravel and PHP (Non-Laravel) Project. **By [@victoryosayi](https://twitter.com/victoryosayi)**
 
 ## <a name="H"> </a>H
 
@@ -260,6 +261,7 @@
 - [VSCode NestsJs Snippets](https://github.com/ashinzekene/vscode-nestjs-snippets) - A VScode extension for adding snippets for your [NestJS](https://github.com/nestjs/nest) code. **By [@ashinzekene](https://twitter.com/ashinzekene)**
 - [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
 - [Vue Transitions CSS](https://github.com/Edmund1645/vue-transitions-css) - A lightweight CSS library for adding transitions to Vue components **By [@26th_edmund](https://twitter.com/26th_edmund)**
+- [Vue Simple ACL](https://github.com/victorybiz/vue-simple-acl) - A simple unopinionated Vue plugin for managing user roles and permissions, access-control list (ACL) and role-based access control (RBAC). **By [@victoryosayi](https://twitter.com/victoryosayi)**
 
 ## <a name="W"> </a>W
 
