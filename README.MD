@@ -260,6 +260,7 @@
 - [VSCode NestsJs Snippets](https://github.com/ashinzekene/vscode-nestjs-snippets) - A VScode extension for adding snippets for your [NestJS](https://github.com/nestjs/nest) code. **By [@ashinzekene](https://twitter.com/ashinzekene)**
 - [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
 - [Vue Transitions CSS](https://github.com/Edmund1645/vue-transitions-css) - A lightweight CSS library for adding transitions to Vue components **By [@26th_edmund](https://twitter.com/26th_edmund)**
+- [Vue3-star-ratings](https://github.com/abiodunolunu/vue3-star-ratings) - A simple, customizable star rating component for vue 3 **By[@abeydev](https://twitter.com/abeydev)**
 
 ## <a name="W"> </a>W
 
