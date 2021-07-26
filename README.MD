@@ -56,6 +56,7 @@
 - [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risin_developer](https://twitter.com/risin_developer)**
 - [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
 - [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
+- [Docker for Django](https://github.com/homescriptone/docker-for-django) - A template to easily build a Django project in a Docker container.  **By [@homescriptone](https://homescriptone.com)**
 - [Dot Music Player](https://github.com/r4sh33d/musicslam) - 🎧 A light, feature-packed and very customisable material designed Android music player. **By [@srasheed](https://twitter.com/srasheed_)**
 - [DownloadThisVideo](https://github.com/shalvah/DownloadThisVideo) - Twitter bot for easily downloading videos/GIFs off tweets **By [@theshalvah](https://twitter.com/theshalvah)**
 - [Dropd](https://github.com/whizkydee/dropd) - Zero-dependency minimalistic dropdown component for React and Vue. **By [@mrolaolu](https://twitter.com/mrolaolu)**
