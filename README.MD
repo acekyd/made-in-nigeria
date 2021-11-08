@@ -164,6 +164,7 @@
 - [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System * Job Portal with Django API & Vuejs **By [@timtech4u](https://twitter.com/timtech4u)**
 - [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A php library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
+- [Mythra](https://github.com/Go-phie/mythra) - Music search engine API and CLI downloader written in Rust. **By [@deven96](https://twitter.com/_deven96)** 
 
 ## <a name="N"> </a>N
 
@@ -263,6 +264,7 @@
 
 ## <a name="W"> </a>W
 
+- [Waihona](https://github.com/bisohns/waihona) - Rust crates for performing cloud storage actions across AWS, GCP and Azure. **By [@deven96](https://twitter.com/_deven96)**
 - [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
 - [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
 - [WordPress Persist Admin Notices Dismissal](https://github.com/collizo4sky/persist-admin-notices-dismissal) - Simple plugin that persists dismissal of admin notices across pages in WordPress dashboard. **By [@w3guy](https://twitter.com/w3guy)**
