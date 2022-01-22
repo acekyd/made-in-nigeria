@@ -223,6 +223,7 @@
 - [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken **By [@robophil\_](https://twitter.com/robophil_)**
 - [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs **By [@theo4me](https://twitter.com/theo4me)**
 - [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**
+- [Shomei](https://github.com/ares1994/Shomei) - An implementation of View, providing multiple features and customization options for collecting hand-drawn images (mostly signatures) in android apps. **By [@Kennny_chan](https://twitter.com/Kennny_chan)**
 - [Shutdown](https://github.com/emmanuelkehinde/Shutdown) - A lightweight android library that handles the closing of your app interactively. **By [@emmakoko96](https://twitter.com/emmakoko96)**
 - [Signalum](https://github.com/bisoncorps/signalum) - A Linux Library to explore creating an application that detects available connections at once from wifi and bluetooth **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 - [Signalum Desktop](https://github.com/bisoncorps/signalum-desktop) - A Desktop application for the signalum python library **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
