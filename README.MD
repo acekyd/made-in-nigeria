@@ -217,6 +217,9 @@
 - [RemindMeOfThisTweet](https://github.com/shalvah/RemindMeOfThisTweet) - Twitter bot to set reminders for tweets. **By [@theshalvah](https://twitter.com/theshalvah)**
 - [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 - [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By [@abiosoft](https://twitter.com/abiosoft)**
+- [React Native paystack webview](https://github.com/just1and0/React-Native-Paystack-WebView) -  React Native paystack sdk. **By [@just1and0](https://twitter.com/just1and0)**
+- [React Native okra webview](https://github.com/just1and0/React-Native-Okra-Webview) -  React Native okra sdk. **By [@just1and0](https://twitter.com/just1and0)**
+
 
 ## <a name="S"> </a>S
 
