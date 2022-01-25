@@ -259,6 +259,7 @@
 - [VSCode Material Palenight Theme](https://github.com/whizkydee/vscode-material-palenight-theme) - 🍹🎨 An elegant and juicy material-like theme for Visual Studio Code. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [VSCode NestsJs Snippets](https://github.com/ashinzekene/vscode-nestjs-snippets) - A VScode extension for adding snippets for your [NestJS](https://github.com/nestjs/nest) code. **By [@ashinzekene](https://twitter.com/ashinzekene)**
 - [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
+- [Vue 3 OTP Input](https://github.com/ejirocodes/vue3-otp-input) - 🐗 A fully customizable OTP input component built with Vue 3.x **By [@ejirocodes](https://twitter.com/ejirocodes)**
 - [Vue Transitions CSS](https://github.com/Edmund1645/vue-transitions-css) - A lightweight CSS library for adding transitions to Vue components **By [@26th_edmund](https://twitter.com/26th_edmund)**
 
 ## <a name="W"> </a>W
