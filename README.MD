@@ -95,6 +95,7 @@
 ## <a name="H"> </a>H
 
 - [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework! **By [@devHammed](https://twitter.com/devHammed)**
+- [Helene UI](https://github.com/Eunit99/helene-ui) - Helene UI - Minimal Conversational User Interfaces **By [@eunit99](https://twitter.com/eunit99)**
 - [helpers](https://github.com/whizkydee/helpers) - Super-handy JavaScript utility functions for front-end development. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [HUI.js](https://github.com/devHammed/HUI.js) - Lightweight JavaScript UI Library. **By [@devHammed](https://twitter.com/devHammed)**
 
