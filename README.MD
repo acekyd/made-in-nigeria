@@ -153,6 +153,9 @@
 - [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People et.c **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [LocalGoogle](https://github.com/kodejuice/localgoogle) - A search engine built for offline websites on your local machine. **By [@KodeJuice](https://twitter.com/kodejuice)**
 - [Laravel SMTP Validator](https://github.com/samolabams/smtp-validator) - Validate SMTP credentials without sending a test mail in Laravel 5. **By [@samolabams](https://twitter.com/samolabams)**
+- [Laravel Simple Select](https://github.com/victorybiz/laravel-simple-select) - Laravel Simple Select inputs component for Blade and Livewire. **By [@victoryosayi](https://twitter.com/victoryosayi)**
+- [Laravel Telephone Input](https://github.com/victorybiz/laravel-tel-input) - Laravel Telephone Input component for Blade and Livewire based on the intl-tel-input JavaScript plugin. **By [@victoryosayi](https://twitter.com/victoryosayi)**
+- [Laravel Crypto Payment Gateway](https://github.com/victorybiz/laravel-crypto-payment-gateway) - GoUrl.io Crypto Payment Gateway for Laravel. **By [@victoryosayi](https://twitter.com/victoryosayi)**
 
 ## <a name="M"> </a>M
 
