@@ -279,6 +279,8 @@
 
 - [wtfoperamini](https://github.com/ireade/wtfoperamini) - Development features not supported in Opera Mini, and some crowsourced workarounds for them. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
+- [web-vulnerability-scanner](https://github.com/johnoseni1/Full-Website-vulnerability-Scanner) - A vulnerability site for scanning and crawling web applications, made for good intentions and not bad. **By [@johnoseni4](https://twitter.com/johnoseni4)**
+
 ## <a name="X"> </a>X
 
 ## <a name="Y"> </a>Y
