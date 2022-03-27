@@ -1,0 +1,37 @@
+{
+  "name": "made-in-nigeria-projects",
+  "version": "1.0.0",
+  "private": true,
+  "description": "made-in-nigeria-projects",
+  "author": "Adewale Abati",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby": "^4.10.3",
+    "gatsby-plugin-google-analytics": "^4.10.0",
+    "gatsby-plugin-image": "^2.10.1",
+    "gatsby-plugin-manifest": "^4.10.2",
+    "gatsby-plugin-mdx": "^3.10.2",
+    "gatsby-plugin-react-helmet": "^5.10.0",
+    "gatsby-plugin-sass": "^5.10.2",
+    "gatsby-plugin-sharp": "^4.10.2",
+    "gatsby-plugin-sitemap": "^5.10.2",
+    "gatsby-source-filesystem": "^4.10.1",
+    "gatsby-transformer-remark": "^5.10.2",
+    "gatsby-transformer-sharp": "^4.10.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.49.9"
+  }
+}
