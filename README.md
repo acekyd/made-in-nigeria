@@ -7,7 +7,7 @@
   Gatsby minimal starter
 </h1>
 
-## 🚀 Quick start
+## 🚀 Quick start for Made in Nigeria project
 
 1.  **Create a Gatsby site.**
 
