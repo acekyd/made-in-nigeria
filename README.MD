@@ -180,6 +180,7 @@
 - [No-CAPTCHA-reCAPTCHA](https://github.com/collizo4sky/No-CAPTCHA-reCAPTCHA) - Protect WordPress login, registration and comment form from spam with the new No CAPTCHA reCAPTCHA. **By [@w3guy](https://twitter.com/w3guy)**
 - [Nodestorage.js](https://github.com/iamuchejude/nodestorage.js) - File system storage utility with `localStorage` like API. **By [@iamuchejude](https://twitter.com/iamuchejude)**
 - [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
+- [Notes](https://github.com/rubbieKelvin/notes) - Distraction free notes app, minimal at its core. Create and share notes with ease. **By [@rubbiekelvin](https://twitter.com/KelvinRubbie)**
 - [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
 
 ## <a name="O"> </a>O
