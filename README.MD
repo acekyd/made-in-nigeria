@@ -158,6 +158,7 @@
 
 - [Magic Grid](https://github.com/e-oj/Magic-Grid) - A simple, lightweight Javascript library for dynamic grid layouts. **By [@e-oj](https://e-oj.com)**
 - [MarkedIt](https://github.com/christiannwamba/markedit) - Simple markdown editor widget. **By [@codebeast](https://twitter.com/codebeast)**
+- [Math Alarm Clock](https://github.com/t-regbs/MathAlarm) - Android Alarm app in which you solve math problems of varying difficulty to dismiss alarms. Built with jetpack compose. **By [@t-regbs](https://twitter.com/timiaregbs)**
 - [MediumUnooficialSDK](https://github.com/KingsMentor/medium-android-sdk-unofficial) - Unoffical implementation of medium api for android .Support Medium Oauth Sign in, retrieve users post, make publications and other medium supported features. **By [@kingsmentor](https://twitter.com/kingsmentor)**
 - [Mini-Inventory-and-Sales-Management-System](https://github.com/amirsanni/Mini-Inventory-and-Sales-Management-System) - An Inventory and Sales Management System written in PHP (codeIgniter) with support for MySQL and Sqlite3 databases. **By [@amirsanni](https://twitter.com/amirsanni)**
 - [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By [@mykeels](https://twitter.com/mykeels)**
