@@ -244,6 +244,7 @@
 - [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
 - [Search Engine Parser](https://github.com/bisoncorps/search-engine-parser) - Lightweight package to query popular search engines and scrape for result titles, links and descriptions **By [@\_deven96](https://twitter.com/_deven96) and [@iamMensaah](https://twitter.com/iamMensaah)**
 - [sms-nigeria-go](https://github.com/D-sense/sms-nigeria-go) - a Go client for sending SMS to any Nigeria phone-number with ease. **By [@D-sense](https://twitter.com/Delameh)**
+- [Stickynotes](https://github.com/Kolaposki/Stickynotes) - A functional note taking web application with alluring user interface. **By [@Kolaposki](https://twitter.com/KolapoOshodi)**
 
 ## <a name="T"> </a>T
 
