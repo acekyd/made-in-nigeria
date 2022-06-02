@@ -82,7 +82,6 @@
 - [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 - [Frontend-app-starter](https://github.com/D-sense/frontend-app-starter) - A simple frontend app starter packed with Webpack, Twitter Bootstrap, and well-defined CSS media queries. Edit. **By [@D-sense](https://twitter.com/Delameh)**
 
-
 ## <a name="G"> </a>G
 
 - [generator-nestjs-app](https://github.com/ashinzekene/generator-nestjs-app) - A yeoman generator for creating nestsjs apps. **By [@ashinzekene](https://twitter.com/ashinzekene)**
@@ -167,10 +166,10 @@
 - [Modern-Mean-Stack](https://github.com/Mozartted/Modern-Mean-Stack) - Functional stack of angular2, mongodb, express all on nodejs, coupled with webpack and angular cli features **By [@mozartted](https://github.com/Mozartted)**
 - [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**
 - [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**
-- [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System * Job Portal with Django API & Vuejs **By [@timtech4u](https://twitter.com/timtech4u)**
+- [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System \* Job Portal with Django API & Vuejs **By [@timtech4u](https://twitter.com/timtech4u)**
 - [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A php library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
-- [Mythra](https://github.com/Go-phie/mythra) - Music search engine API and CLI downloader written in Rust. **By [@deven96](https://twitter.com/_deven96)** 
+- [Mythra](https://github.com/Go-phie/mythra) - Music search engine API and CLI downloader written in Rust. **By [@deven96](https://twitter.com/_deven96)**
 
 ## <a name="N"> </a>N
 
@@ -288,5 +287,7 @@
 ## <a name="X"> </a>X
 
 ## <a name="Y"> </a>Y
+
+- [Yorlang](https://github.com/anoniscoding/yorlang) - A programming language with yoruba language construct **By [@anoniscoding](https://twitter.com/anoniscoding)**
 
 ## <a name="Z"> </a>Z
