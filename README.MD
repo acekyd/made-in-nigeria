@@ -132,8 +132,8 @@
 
 ## <a name="L"> </a>L
 
-- [Linda ORM](https://github.com/solutionstack/Linda) - A light weight and fast Active-record based ORM for PHP **By [@solutionstack](https://github.com/solutionstack)**
 - [Laravel Codepen](https://github.com/unicodeveloper/laravel-codepen) - A Codepen Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+- [Laravel Crypto Payment Gateway](https://github.com/victorybiz/laravel-crypto-payment-gateway) - GoUrl.io Crypto Payment Gateway for Laravel. **By [@victoryosayi](https://twitter.com/victoryosayi)**
 - [Laravel Email Validator](https://github.com/unicodeveloper/laravel-email-validator) - Validate email addresses on the fly in Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Laravel Emoji](https://github.com/unicodeveloper/laravel-emoji) - Laravel 5 Package that harnesses the power of PHP 7 unicode features to provide emojis in your laravel app. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Laravel Exam](https://github.com/unicodeveloper/laravel-exam) - A Laravel exam with questions from beginner to expert curated **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
@@ -146,14 +146,17 @@
 - [Laravel Payant](https://github.com/olaoluwa-98/laravel-payant) - Laravel 5 Payant Package. **By [@olaoluwa_98](https://twitter.com/olaoluwa_98)**
 - [Laravel Paystack](https://github.com/unicodeveloper/laravel-paystack) - Laravel 5 Paystack Package. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Laravel-PDF-Viewer](https://github.com/goodnesskay/LARAVEL-PDF-VIEWER) - A Laravel Package for viewing PDF files or documents on the web without leaving your Web Application. **By [@goodnesskay](https://twitter.com/goodnesskayode)**
+- [Laravel Simple Select](https://github.com/victorybiz/laravel-simple-select) - Laravel Simple Select inputs component for Blade and Livewire. **By [@victoryosayi](https://twitter.com/victoryosayi)**
+- [Laravel SMTP Validator](https://github.com/samolabams/smtp-validator) - Validate SMTP credentials without sending a test mail in Laravel 5. **By [@samolabams](https://twitter.com/samolabams)**
 - [Laravel-Slack](https://github.com/goodnesskay/laravel-slack) - A Laravel Package that makes Automatic Invitation to Slack Channels or team seamless. **By [@goodnesskay](https://twitter.com/goodnesskayode)**
 - [Laravel-SMS](https://github.com/djunehor/laravel-sms) - Laravel SMS allows you to send SMS from your Laravel application using one of over 10 SMS providers, or your custom SMS provider. **By [@djunehor](https://twitter.com/djunehor)**
 - [Laravel-Spam-Email](https://github.com/hendurhance/laravel-spam-email) - This package is a Laravel package that checks if an email address is a spammer. It verifies your signups and form submissions to confirm that they are legitimate. **By [@hendurhance](https://twitter.com/hendurhance)**
+- [Laravel Telephone Input](https://github.com/victorybiz/laravel-tel-input) - Laravel Telephone Input component for Blade and Livewire based on the intl-tel-input JavaScript plugin. **By [@victoryosayi](https://twitter.com/victoryosayi)**
 - [Laravel Wikipedia](https://github.com/unicodeveloper/laravel-wikipedia) - A Wikipedia Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Lib-ussd](https://github.com/hextremelabs/lib-ussd) - A lightweight USSD application framework. **By [@hextremelabs](https://twitter.com/hextremelabs)**
+- [Linda ORM](https://github.com/solutionstack/Linda) - A light weight and fast Active-record based ORM for PHP **By [@solutionstack](https://github.com/solutionstack)**
 - [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People et.c **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [LocalGoogle](https://github.com/kodejuice/localgoogle) - A search engine built for offline websites on your local machine. **By [@KodeJuice](https://twitter.com/kodejuice)**
-- [Laravel SMTP Validator](https://github.com/samolabams/smtp-validator) - Validate SMTP credentials without sending a test mail in Laravel 5. **By [@samolabams](https://twitter.com/samolabams)**
 
 ## <a name="M"> </a>M
 
