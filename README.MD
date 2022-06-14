@@ -282,7 +282,7 @@
 ## <a name="W"> </a>W
 
 - [Waihona](https://github.com/bisohns/waihona) - Rust crates for performing cloud storage actions across AWS, GCP and Azure. **By [@deven96](https://twitter.com/_deven96)**
-- [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [IzyPro_](https://twitter.com/IzyPro_)**
+- [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [@IzyPro_](https://twitter.com/IzyPro_)**
 - [Whatsticker](https://github.com/deven96/whatsticker) - Automatically turn images/videos into stickers by using a caption. **By [@deven96](https://twitter.com/_deven96)**
 - [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
 - [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
