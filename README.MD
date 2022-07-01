@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://madeinnigeria.dev/">
-    Made. In. Nigeria.
+    🇳🇬Made. In. Nigeria🇳🇬
   </a>
 </h1>
 <p align="center">A curation of awesome tools and projects built by Nigerian developers :fire:.</p>
