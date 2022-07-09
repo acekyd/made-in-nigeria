@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Made in Nigeria Project V2
 </h1>
 
 ## 🚀 Quick start for Made in Nigeria project
