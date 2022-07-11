@@ -35,6 +35,7 @@
 - [Broad-state](https://github.com/adenekan41/broadstate) - Easy state manager for state values from one component to the other with useState and React Hooks in < 1KB!. **By [@codewonders](https://twitter.com/code_wonders)**
 - [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device **By [@isocroft](https://twitter.com/isocroft)**
 - [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator **By [@tdscientist](https://twitter.com/tdscientist)**
+- [BàngáJS](https://github.com/bangajs/banga-cli) - A CLI generator for bootstrapping ExpressJS applications and generating application layer files. **By [@saucecodee](https://twitter.com/saucecodee)**
 
 ## <a name="C"> </a>C
 
@@ -54,6 +55,7 @@
 ## <a name="D"> </a>D
 
 - [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risin_developer](https://twitter.com/risin_developer)**
+- [DevOps-Toolkit](https://github.com/umegbewe/devops-toolkit) - Easily and quickly setup your Cloud & DevOps development environment. **By [@0xGreat](https://twitter.com/0xGreat)**
 - [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
 - [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 - [Dot Music Player](https://github.com/r4sh33d/musicslam) - 🎧 A light, feature-packed and very customisable material designed Android music player. **By [@srasheed](https://twitter.com/srasheed_)**
@@ -68,6 +70,7 @@
 - [Essential Kit](https://github.com/ichtrojan/essential-kit) - A Boilerplate for NodeJS with all the essential tools **By [@ichtrojan](https://twitter.com/ichtrojan)**
 - [eth-vue](https://github.com/DOkwufulueze/eth-vue) - A Vue.js boilerplate for Ethereum Apps, built on Truffle. Authentication functionalities included. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 - [expo-push-notification-helper](https://github.com/just1and0/expo-push-notification-helper) - This library makes it easy to use push notification in react native using expo. **By [@just1and0](https://twitter.com/just1and0)**
+- [ExpressWebJs](https://github.com/Alexigbokwe/ExpressWebJs) - ExpressWebJs is a NodeJS FrameWork with expressive and organised syntax that runs on all major operating systems. It provides the starting point for creating your node project, allowing you to focus more on developing your amazing solution **By [@EmekaIgbokwe](https://twitter.com/emekaigbokwe)**
 
 ## <a name="F"> </a>F
 
@@ -91,12 +94,13 @@
 - [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay **By [@Adelowo](https://twitter.com/lanreadelowo)**
 - [Gophie](https://github.com/Go-phie/gophie) - A CLI written in golang for scraping movie download links and bypassing ads **By [@GophieTeam](https://twitter.com/GophieTeam)**
 - [Gophie-web](https://github.com/Go-phie/gophie-web) - A web client for streaming/downloading movies without hassle built on Gophie **By [@GophieTeam](https://twitter.com/GophieTeam)**
+- [GeoIP Location](https://github.com/victorybiz/geoip-location) - Get the geographical location of website visitors based on their IP addresses. Support Laravel and PHP (Non-Laravel) Project. **By [@victoryosayi](https://twitter.com/victoryosayi)**
 
 ## <a name="H"> </a>H
 
-- [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework! **By [@devHammed](https://twitter.com/devHammed)**
+- [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework! **By [@devhammed](https://profile.codersrank.io/user/devhammed)**
 - [helpers](https://github.com/whizkydee/helpers) - Super-handy JavaScript utility functions for front-end development. **By [@mrolaolu](https://twitter.com/mrolaolu)**
-- [HUI.js](https://github.com/devHammed/HUI.js) - Lightweight JavaScript UI Library. **By [@devHammed](https://twitter.com/devHammed)**
+- [HUI.js](https://github.com/devHammed/HUI.js) - Lightweight JavaScript UI Library. **By [@devhammed](https://profile.codersrank.io/user/devhammed)**
 
 ## <a name="I"> </a>I
 
@@ -128,8 +132,8 @@
 
 ## <a name="L"> </a>L
 
-- [Linda ORM](https://github.com/solutionstack/Linda) - A light weight and fast Active-record based ORM for PHP **By [@solutionstack](https://github.com/solutionstack)**
 - [Laravel Codepen](https://github.com/unicodeveloper/laravel-codepen) - A Codepen Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+- [Laravel Crypto Payment Gateway](https://github.com/victorybiz/laravel-crypto-payment-gateway) - GoUrl.io Crypto Payment Gateway for Laravel. **By [@victoryosayi](https://twitter.com/victoryosayi)**
 - [Laravel Email Validator](https://github.com/unicodeveloper/laravel-email-validator) - Validate email addresses on the fly in Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Laravel Emoji](https://github.com/unicodeveloper/laravel-emoji) - Laravel 5 Package that harnesses the power of PHP 7 unicode features to provide emojis in your laravel app. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Laravel Exam](https://github.com/unicodeveloper/laravel-exam) - A Laravel exam with questions from beginner to expert curated **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
@@ -142,18 +146,23 @@
 - [Laravel Payant](https://github.com/olaoluwa-98/laravel-payant) - Laravel 5 Payant Package. **By [@olaoluwa_98](https://twitter.com/olaoluwa_98)**
 - [Laravel Paystack](https://github.com/unicodeveloper/laravel-paystack) - Laravel 5 Paystack Package. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Laravel-PDF-Viewer](https://github.com/goodnesskay/LARAVEL-PDF-VIEWER) - A Laravel Package for viewing PDF files or documents on the web without leaving your Web Application. **By [@goodnesskay](https://twitter.com/goodnesskayode)**
+- [Laravel Simple Select](https://github.com/victorybiz/laravel-simple-select) - Laravel Simple Select inputs component for Blade and Livewire. **By [@victoryosayi](https://twitter.com/victoryosayi)**
+- [Laravel SMTP Validator](https://github.com/samolabams/smtp-validator) - Validate SMTP credentials without sending a test mail in Laravel 5. **By [@samolabams](https://twitter.com/samolabams)**
 - [Laravel-Slack](https://github.com/goodnesskay/laravel-slack) - A Laravel Package that makes Automatic Invitation to Slack Channels or team seamless. **By [@goodnesskay](https://twitter.com/goodnesskayode)**
 - [Laravel-SMS](https://github.com/djunehor/laravel-sms) - Laravel SMS allows you to send SMS from your Laravel application using one of over 10 SMS providers, or your custom SMS provider. **By [@djunehor](https://twitter.com/djunehor)**
+- [Laravel-Spam-Email](https://github.com/hendurhance/laravel-spam-email) - This package is a Laravel package that checks if an email address is a spammer. It verifies your signups and form submissions to confirm that they are legitimate. **By [@hendurhance](https://twitter.com/hendurhance)**
+- [Laravel Telephone Input](https://github.com/victorybiz/laravel-tel-input) - Laravel Telephone Input component for Blade and Livewire based on the intl-tel-input JavaScript plugin. **By [@victoryosayi](https://twitter.com/victoryosayi)**
 - [Laravel Wikipedia](https://github.com/unicodeveloper/laravel-wikipedia) - A Wikipedia Package for Laravel 5 **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Lib-ussd](https://github.com/hextremelabs/lib-ussd) - A lightweight USSD application framework. **By [@hextremelabs](https://twitter.com/hextremelabs)**
+- [Linda ORM](https://github.com/solutionstack/Linda) - A light weight and fast Active-record based ORM for PHP **By [@solutionstack](https://github.com/solutionstack)**
 - [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People et.c **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [LocalGoogle](https://github.com/kodejuice/localgoogle) - A search engine built for offline websites on your local machine. **By [@KodeJuice](https://twitter.com/kodejuice)**
-- [Laravel SMTP Validator](https://github.com/samolabams/smtp-validator) - Validate SMTP credentials without sending a test mail in Laravel 5. **By [@samolabams](https://twitter.com/samolabams)**
 
 ## <a name="M"> </a>M
 
 - [Magic Grid](https://github.com/e-oj/Magic-Grid) - A simple, lightweight Javascript library for dynamic grid layouts. **By [@e-oj](https://e-oj.com)**
 - [MarkedIt](https://github.com/christiannwamba/markedit) - Simple markdown editor widget. **By [@codebeast](https://twitter.com/codebeast)**
+- [Math Alarm Clock](https://github.com/t-regbs/MathAlarm) - Android Alarm app in which you solve math problems of varying difficulty to dismiss alarms. Built with jetpack compose. **By [@t-regbs](https://twitter.com/timiaregbs)**
 - [MediumUnooficialSDK](https://github.com/KingsMentor/medium-android-sdk-unofficial) - Unoffical implementation of medium api for android .Support Medium Oauth Sign in, retrieve users post, make publications and other medium supported features. **By [@kingsmentor](https://twitter.com/kingsmentor)**
 - [Mini-Inventory-and-Sales-Management-System](https://github.com/amirsanni/Mini-Inventory-and-Sales-Management-System) - An Inventory and Sales Management System written in PHP (codeIgniter) with support for MySQL and Sqlite3 databases. **By [@amirsanni](https://twitter.com/amirsanni)**
 - [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By [@mykeels](https://twitter.com/mykeels)**
@@ -161,9 +170,10 @@
 - [Modern-Mean-Stack](https://github.com/Mozartted/Modern-Mean-Stack) - Functional stack of angular2, mongodb, express all on nodejs, coupled with webpack and angular cli features **By [@mozartted](https://github.com/Mozartted)**
 - [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**
 - [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**
-- [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System * Job Portal with Django API & Vuejs **By [@timtech4u](https://twitter.com/timtech4u)**
+- [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System \* Job Portal with Django API & Vuejs **By [@timtech4u](https://twitter.com/timtech4u)**
 - [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A php library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
+- [Mythra](https://github.com/Go-phie/mythra) - Music search engine API and CLI downloader written in Rust. **By [@deven96](https://twitter.com/_deven96)**
 
 ## <a name="N"> </a>N
 
@@ -175,6 +185,7 @@
 - [No-CAPTCHA-reCAPTCHA](https://github.com/collizo4sky/No-CAPTCHA-reCAPTCHA) - Protect WordPress login, registration and comment form from spam with the new No CAPTCHA reCAPTCHA. **By [@w3guy](https://twitter.com/w3guy)**
 - [Nodestorage.js](https://github.com/iamuchejude/nodestorage.js) - File system storage utility with `localStorage` like API. **By [@iamuchejude](https://twitter.com/iamuchejude)**
 - [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
+- [Notes](https://github.com/rubbieKelvin/notes) - Distraction free notes app, minimal at its core. Create and share notes with ease. **By [@rubbiekelvin](https://twitter.com/KelvinRubbie)**
 - [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
 - [NUBAN Validator/Generator](https://github.com/emyu01/nuban) - Easily verify or generate valid account numbers for any Nigerian financial institution. **By [@iemyu_](https://twitter.com/iemyu_)**
 
@@ -218,6 +229,9 @@
 - [RemindMeOfThisTweet](https://github.com/shalvah/RemindMeOfThisTweet) - Twitter bot to set reminders for tweets. **By [@theshalvah](https://twitter.com/theshalvah)**
 - [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 - [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By [@abiosoft](https://twitter.com/abiosoft)**
+- [React Native paystack webview](https://github.com/just1and0/React-Native-Paystack-WebView) -  React Native paystack sdk. **By [@just1and0](https://twitter.com/just1and0)**
+- [React Native okra webview](https://github.com/just1and0/React-Native-Okra-Webview) -  React Native okra sdk. **By [@just1and0](https://twitter.com/just1and0)**
+
 
 ## <a name="S"> </a>S
 
@@ -237,6 +251,7 @@
 - [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
 - [Search Engine Parser](https://github.com/bisoncorps/search-engine-parser) - Lightweight package to query popular search engines and scrape for result titles, links and descriptions **By [@\_deven96](https://twitter.com/_deven96) and [@iamMensaah](https://twitter.com/iamMensaah)**
 - [sms-nigeria-go](https://github.com/D-sense/sms-nigeria-go) - a Go client for sending SMS to any Nigeria phone-number with ease. **By [@D-sense](https://twitter.com/Delameh)**
+- [Stickynotes](https://github.com/Kolaposki/Stickynotes) - A functional note taking web application with alluring user interface. **By [@Kolaposki](https://twitter.com/KolapoOshodi)**
 
 ## <a name="T"> </a>T
 
@@ -253,6 +268,8 @@
 - [Unitcss](https://github.com/adenekan41/unitcss) - A cli tool to convert css units in your file, helps you swiftly convert units / mesurements in your file or folder. **By [@codewonders](https://twitter.com/code_wonders)**
 - [Urley](https://github.com/adenekan41/urley) - A cross-platform library with a collection of handy utilites to work with URLs. **By [@codewonders](https://twitter.com/code_wonders)**
 - [UseFormBee](https://github.com/Eazybee/useFormBee) - useFormBee is a light weight library that helps me manage and abstract react form logic. **By [@Eazybee](https://github.com/Eazybee)**
+- [use-global-hook](https://github.com/devhammed/use-global-hook) - Painless global state management for React using Hooks and Context API in 1KB! **By [@devhammed](https://profile.codersrank.io/user/devhammed)**
+- [use-cookie](https://github.com/devhammed/use-cookie) - Get, Set, Update and Delete Cookie using React Hooks. **By [@devhammed](https://profile.codersrank.io/user/devhammed)**
 
 ## <a name="V"> </a>V
 
@@ -260,18 +277,24 @@
 - [VSCode Material Palenight Theme](https://github.com/whizkydee/vscode-material-palenight-theme) - 🍹🎨 An elegant and juicy material-like theme for Visual Studio Code. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [VSCode NestsJs Snippets](https://github.com/ashinzekene/vscode-nestjs-snippets) - A VScode extension for adding snippets for your [NestJS](https://github.com/nestjs/nest) code. **By [@ashinzekene](https://twitter.com/ashinzekene)**
 - [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor **By [@azemoh](https://twitter.com/josh_azemoh)**
+- [Vue 3 OTP Input](https://github.com/ejirocodes/vue3-otp-input) - 🐗 A fully customizable OTP input component built with Vue 3.x **By [@ejirocodes](https://twitter.com/ejirocodes)**
 - [Vue Transitions CSS](https://github.com/Edmund1645/vue-transitions-css) - A lightweight CSS library for adding transitions to Vue components **By [@26th_edmund](https://twitter.com/26th_edmund)**
+- [Vue Simple ACL](https://github.com/victorybiz/vue-simple-acl) - A simple unopinionated Vue plugin for managing user roles and permissions, access-control list (ACL) and role-based access control (RBAC). **By [@victoryosayi](https://twitter.com/victoryosayi)**
 
 ## <a name="W"> </a>W
 
+- [Waihona](https://github.com/bisohns/waihona) - Rust crates for performing cloud storage actions across AWS, GCP and Azure. **By [@deven96](https://twitter.com/_deven96)**
+- [Whatsticker](https://github.com/deven96/whatsticker) - Automatically turn images/videos into stickers by using a caption. **By [@deven96](https://twitter.com/_deven96)**
 - [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
 - [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
+- [Web3terms](https://github.com/Olanetsoft/web3terms) - A twitter bot explaining and simplifying web3 terms to everyone. **By [@olanetsoft](https://twitter.com/olanetsoft)**
 - [WordPress Persist Admin Notices Dismissal](https://github.com/collizo4sky/persist-admin-notices-dismissal) - Simple plugin that persists dismissal of admin notices across pages in WordPress dashboard. **By [@w3guy](https://twitter.com/w3guy)**
-
 - [wtfoperamini](https://github.com/ireade/wtfoperamini) - Development features not supported in Opera Mini, and some crowsourced workarounds for them. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
 ## <a name="X"> </a>X
 
 ## <a name="Y"> </a>Y
+
+- [Yorlang](https://github.com/anoniscoding/yorlang) - A programming language with yoruba language construct **By [@anoniscoding](https://twitter.com/anoniscoding)**
 
 ## <a name="Z"> </a>Z
