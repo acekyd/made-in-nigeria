@@ -32,7 +32,7 @@
 
 - [Blink Alert](https://github.com/obayomi96/blinkalert) - A Chrome Extension for 20-20-20 exercise of the eye. **By [@martinsobayomi](https://twitter.com/martinsobayomi)**
 - [Breadcrumb For Codeigniter](https://github.com/iamuchejude/Breadcrumb-for-Codeigniter) - A Lightweight Library for generating Breadcrumb in Codeigniter. **By [@iamuchejude](https://twitter.com/iamuchejude)**
-- [Broad-state](https://github.com/adenekan41/broadstate) - Easy state manager for state values from one component to the other with useState and React Hooks in < 1KB!. **By [@codewonders](https://twitter.com/code_wonders)**
+- [Broad-state](https://github.com/adenekan41/broadstate) - Easy state manager for state values from one component to the other with useState and React Hooks in < 1KB! **By [@codewonders](https://twitter.com/code_wonders)**
 - [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device. **By [@isocroft](https://twitter.com/isocroft)**
 - [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator. **By [@tdscientist](https://twitter.com/tdscientist)**
 - [BàngáJS](https://github.com/bangajs/banga-cli) - A CLI generator for bootstrapping ExpressJS applications and generating application layer files. **By [@saucecodee](https://twitter.com/saucecodee)**
@@ -56,7 +56,7 @@
 
 - [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risin_developer](https://twitter.com/risin_developer)**
 - [DevOps-Toolkit](https://github.com/umegbewe/devops-toolkit) - Easily and quickly setup your Cloud & DevOps development environment. **By [@0xGreat](https://twitter.com/0xGreat)**
-- [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a wordpress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
+- [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a WordPress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
 - [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
 - [Dot Music Player](https://github.com/r4sh33d/musicslam) - 🎧 A light, feature-packed and very customisable material designed Android music player. **By [@srasheed](https://twitter.com/srasheed_)**
 - [DownloadThisVideo](https://github.com/shalvah/DownloadThisVideo) - Twitter bot for easily downloading videos/GIFs off tweets. **By [@theshalvah](https://twitter.com/theshalvah)**
@@ -74,7 +74,7 @@
 
 ## <a name="F"> </a>F
 
-- [Face-detector](https://github.com/moyheen/face-detector) - is application contains all the code from her article on the FaceDetector API. **By [@moyheen](https://twitter.com/moyheen)**
+- [Face-detector](https://github.com/moyheen/face-detector) - An application containing all the code from the article on the FaceDetector API. **By [@moyheen](https://twitter.com/moyheen)**
 - [Favico-generator](https://github.com/Youngestdev/favico-generator) - A npm module for generating favicons from image. **By [@kvng_zeez](http://twitter.com/kvng_zeez)**
 - [Fawn](https://github.com/e-oj/Fawn) - A library for multi-document transactions in MongoDB via two-phase commits. **By [@e-oj](https://e-oj.com)**
 - [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**
@@ -106,12 +106,12 @@
 
 - [Icicle](https://github.com/segunfamisa/icicle) - An annotation based tool for saving and restoring instance states. **By [@segunfamisa](https://twitter.com/segunfamisa)**
 - [IGdm](https://github.com/ifedapoolarewaju/igdm) - Multi-platform Desktop application for INSTAGRAM DMs. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
-- [Ijeawele](https://github.com/viclotana/Ijeawele) - A Browser Extension that displays a random suggestion from the Dear Ijeawele book by Chimamnda Adichie. **By [@viclotana](https://twitter.com/viclotana)**
+- [Ijeawele](https://github.com/viclotana/Ijeawele) - A Browser Extension that displays a random suggestion from the Dear Ijeawele book by Chimamanda Adichie. **By [@viclotana](https://twitter.com/viclotana)**
 - [ImageAI](https://github.com/OlafenwaMoses/ImageAI) - A python library built to empower developers to build applications and systems with self-contained Computer Vision capabilities. **By [@OlafenwaMoses](https://twitter.com/OlafenwaMoses)**
 - [ImageQ](https://github.com/bisoncorps/imageq) - Reverse Image search engine powered by Django and Keras. **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 - [ImgR](https://github.com/mykeels/ImgR) - ImgR.NET aims at automating the process of serving Images dynamically based on the client device. **By [@mykeels](https://twitter.com/mykeels)**
 - [Inlinetweetjs](https://github.com/ireade/inlinetweetjs) - InlineTweet.js allows you to easily create tweetable links out of any text on a webpage. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
-- [IntentManip](https://github.com/KingsMentor/IntentManip) - Gives more control over implicit intents creation and the way it is presented to users.. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
+- [IntentManip](https://github.com/KingsMentor/IntentManip) - Gives more control over implicit intents creation and the way it is presented to users. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
 - [Instaword](https://github.com/acekyd/instaword) - InstaWord is a Chrome and Opera browser plugin that makes learning new words much easier. **By [@acekyd](https://twitter.com/ace_kyd)**
 - [ip-num](https://github.com/ip-num/ip-num) - ip-num is a TypeScript library for working with IP Resources(ASN, IPV4, IPV6). **By [@dadepo](https://twitter.com/dadepo)**
 - [iShell](https://github.com/abiosoft/ishell) - Library for creating interactive CLI applications with Go. **By [@abiosoft](https://twitter.com/abiosoft)**
@@ -135,11 +135,11 @@
 - [Laravel Codepen](https://github.com/unicodeveloper/laravel-codepen) - A Codepen Package for Laravel 5. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Laravel Crypto Payment Gateway](https://github.com/victorybiz/laravel-crypto-payment-gateway) - GoUrl.io Crypto Payment Gateway for Laravel. **By [@victoryosayi](https://twitter.com/victoryosayi)**
 - [Laravel Email Validator](https://github.com/unicodeveloper/laravel-email-validator) - Validate email addresses on the fly in Laravel 5. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-- [Laravel Emoji](https://github.com/unicodeveloper/laravel-emoji) - Laravel 5 Package that harnesses the power of PHP 7 unicode features to provide emojis in your laravel app. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+- [Laravel Emoji](https://github.com/unicodeveloper/laravel-emoji) - Laravel 5 Package that harnesses the power of PHP 7 Unicode features to provide emojis in your laravel app. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Laravel Exam](https://github.com/unicodeveloper/laravel-exam) - A Laravel exam with questions from beginner to expert curated. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-- [Laravel Feeder](https://github.com/unicodeveloper/laravel-feeder) - Laravel 5 Package to extract atom and rss feeds from any website in a very good readable format. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+- [Laravel Feeder](https://github.com/unicodeveloper/laravel-feeder) - Laravel 5 Package to extract atom and RSS feeds from any website in a very good readable format. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Laravel Hackathon Starter](https://github.com/unicodeveloper/laravel-hackathon-starter) - A hackathon/MVP boilerplate for laravel web applications. Start your hackathons without hassle. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-- [Laravel Identify](https://github.com/unicodeveloper/laravel-identify) - Laravel 5 Package to Detect Users Browsers, Devices, Languages and Operating Systems. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
+- [Laravel Identify](https://github.com/unicodeveloper/laravel-identify) - Laravel 5 Package to Detect Users' Browsers, Devices, Languages and Operating Systems. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Laravel Jusibe](https://github.com/unicodeveloper/laravel-jusibe) - Laravel 5 package for Jusibe SMS Service. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Laravel Mentions](https://github.com/unicodeveloper/laravel-mentions) - Laravel 5 Package for enabling facebook type of mentions in your application. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Laravel Password](https://github.com/unicodeveloper/laravel-password) - Guard your users against entering dumb passwords in your Laravel 5 apps. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
@@ -150,11 +150,11 @@
 - [Laravel SMTP Validator](https://github.com/samolabams/smtp-validator) - Validate SMTP credentials without sending a test mail in Laravel 5. **By [@samolabams](https://twitter.com/samolabams)**
 - [Laravel-Slack](https://github.com/goodnesskay/laravel-slack) - A Laravel Package that makes Automatic Invitation to Slack Channels or team seamless. **By [@goodnesskay](https://twitter.com/goodnesskayode)**
 - [Laravel-SMS](https://github.com/djunehor/laravel-sms) - Laravel SMS allows you to send SMS from your Laravel application using one of over 10 SMS providers, or your custom SMS provider. **By [@djunehor](https://twitter.com/djunehor)**
-- [Laravel-Spam-Email](https://github.com/hendurhance/laravel-spam-email) - This package is a Laravel package that checks if an email address is a spammer. It verifies your signups and form submissions to confirm that they are legitimate. **By [@hendurhance](https://twitter.com/hendurhance)**
+- [Laravel-Spam-Email](https://github.com/hendurhance/laravel-spam-email) - This package is a Laravel package that checks if an email address is a spammer. It verifies your signups and forms submissions to confirm that they are legitimate. **By [@hendurhance](https://twitter.com/hendurhance)**
 - [Laravel Telephone Input](https://github.com/victorybiz/laravel-tel-input) - Laravel Telephone Input component for Blade and Livewire based on the intl-tel-input JavaScript plugin. **By [@victoryosayi](https://twitter.com/victoryosayi)**
 - [Laravel Wikipedia](https://github.com/unicodeveloper/laravel-wikipedia) - A Wikipedia Package for Laravel 5. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Lib-ussd](https://github.com/hextremelabs/lib-ussd) - A lightweight USSD application framework. **By [@hextremelabs](https://twitter.com/hextremelabs)**
-- [Linda ORM](https://github.com/solutionstack/Linda) - A light weight and fast Active-record based ORM for PHP. **By [@solutionstack](https://github.com/solutionstack)**
+- [Linda ORM](https://github.com/solutionstack/Linda) - A lightweight and fast Active-record based ORM for PHP. **By [@solutionstack](https://github.com/solutionstack)**
 - [Lindaikeji CLI](https://github.com/unicodeveloper/lindaikeji-cli) - Linda Ikeji for Hackers, HR Associates, HR Managers, Lazy People, e.t.c. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [LocalGoogle](https://github.com/kodejuice/localgoogle) - A search engine built for offline websites on your local machine. **By [@KodeJuice](https://twitter.com/kodejuice)**
 
@@ -163,16 +163,16 @@
 - [Magic Grid](https://github.com/e-oj/Magic-Grid) - A simple, lightweight Javascript library for dynamic grid layouts. **By [@e-oj](https://e-oj.com)**
 - [MarkedIt](https://github.com/christiannwamba/markedit) - Simple markdown editor widget. **By [@codebeast](https://twitter.com/codebeast)**
 - [Math Alarm Clock](https://github.com/t-regbs/MathAlarm) - Android Alarm app in which you solve math problems of varying difficulty to dismiss alarms. Built with jetpack compose. **By [@t-regbs](https://twitter.com/timiaregbs)**
-- [MediumUnooficialSDK](https://github.com/KingsMentor/medium-android-sdk-unofficial) - Unoffical implementation of medium api for android .Support Medium Oauth Sign in, retrieve users post, make publications and other medium supported features. **By [@kingsmentor](https://twitter.com/kingsmentor)**
+- [MediumUnooficialSDK](https://github.com/KingsMentor/medium-android-sdk-unofficial) - Unofficial implementation of medium API for android. Support Medium Oauth Sign in, retrieve users' post, make publications, and other medium supported features. **By [@kingsmentor](https://twitter.com/kingsmentor)**
 - [Mini-Inventory-and-Sales-Management-System](https://github.com/amirsanni/Mini-Inventory-and-Sales-Management-System) - An Inventory and Sales Management System written in PHP (codeIgniter) with support for MySQL and Sqlite3 databases. **By [@amirsanni](https://twitter.com/amirsanni)**
 - [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By [@mykeels](https://twitter.com/mykeels)**
 - [MobileVisionBarcodeScanner](https://github.com/KingsMentor/MobileVisionBarcodeScanner) - Mobile Vission Barcode Scanner. **By [@kingsmentor](https://twitter.com/kingsment)**
-- [Modern-Mean-Stack](https://github.com/Mozartted/Modern-Mean-Stack) - Functional stack of angular2, mongodb, express all on nodejs, coupled with webpack and angular cli features. **By [@mozartted](https://github.com/Mozartted)**
+- [Modern-Mean-Stack](https://github.com/Mozartted/Modern-Mean-Stack) - Functional stack of angular2, MongoDB, express all on nodejs, coupled with webpack and angular cli features. **By [@mozartted](https://github.com/Mozartted)**
 - [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**
 - [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**
 - [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System \* Job Portal with Django API & Vuejs. **By [@timtech4u](https://twitter.com/timtech4u)**
 - [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
-- [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A php library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
+- [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A PHP library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
 - [Mythra](https://github.com/Go-phie/mythra) - Music search engine API and CLI downloader written in Rust. **By [@deven96](https://twitter.com/_deven96)**
 
 ## <a name="N"> </a>N
@@ -236,7 +236,7 @@
 - [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs. **By [@theo4me](https://twitter.com/theo4me)**
 - [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf. **By [@tdscientist](https://twitter.com/tdscientist)**
 - [Shutdown](https://github.com/emmanuelkehinde/Shutdown) - A lightweight android library that handles the closing of your app interactively. **By [@emmakoko96](https://twitter.com/emmakoko96)**
-- [Signalum](https://github.com/bisoncorps/signalum) - A Linux Library to explore creating an application that detects available connections at once from wifi and bluetooth. **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
+- [Signalum](https://github.com/bisoncorps/signalum) - A Linux Library to explore creating an application that detects available connections at once from WiFi and Bluetooth. **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 - [Signalum Desktop](https://github.com/bisoncorps/signalum-desktop) - A Desktop application for the signalum python library. **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 - [Simple-DB](https://github.com/shalvah/simple-db) - Get your Android app's SQLite database set up in five minutes! **By [@theshalvah](https://twitter.com/theshalvah)**
 - [Slackword](https://github.com/larikraun/slackword) - Dictionary in your slack....additionally, you can get random words. **By [@\_larikraun](https://twitter.com/_larikraun)**
@@ -263,8 +263,8 @@
 ## <a name="U"> </a>U
 
 - [Unitcss](https://github.com/adenekan41/unitcss) - A cli tool to convert css units in your file, helps you swiftly convert units / mesurements in your file or folder. **By [@codewonders](https://twitter.com/code_wonders)**
-- [Urley](https://github.com/adenekan41/urley) - A cross-platform library with a collection of handy utilites to work with URLs. **By [@codewonders](https://twitter.com/code_wonders)**
-- [UseFormBee](https://github.com/Eazybee/useFormBee) - useFormBee is a light weight library that helps me manage and abstract react form logic. **By [@Eazybee](https://github.com/Eazybee)**
+- [Urley](https://github.com/adenekan41/urley) - A cross-platform library with a collection of handy utilities to work with URLs. **By [@codewonders](https://twitter.com/code_wonders)**
+- [UseFormBee](https://github.com/Eazybee/useFormBee) - useFormBee is a lightweight library that helps me manage and abstract react form logic. **By [@Eazybee](https://github.com/Eazybee)**
 - [use-global-hook](https://github.com/devhammed/use-global-hook) - Painless global state management for React using Hooks and Context API in 1KB! **By [@devhammed](https://profile.codersrank.io/user/devhammed)**
 - [use-cookie](https://github.com/devhammed/use-cookie) - Get, Set, Update and Delete Cookie using React Hooks. **By [@devhammed](https://profile.codersrank.io/user/devhammed)**
 
@@ -284,7 +284,7 @@
 - [Whatsticker](https://github.com/deven96/whatsticker) - Automatically turn images/videos into stickers by using a caption. **By [@deven96](https://twitter.com/_deven96)**
 - [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
 - [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages. **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
-- [Web3terms](https://github.com/Olanetsoft/web3terms) - A twitter bot explaining and simplifying web3 terms to everyone. **By [@olanetsoft](https://twitter.com/olanetsoft)**
+- [Web3terms](https://github.com/Olanetsoft/web3terms) - A Twitter bot explaining and simplifying web3 terms to everyone. **By [@olanetsoft](https://twitter.com/olanetsoft)**
 - [WordPress Persist Admin Notices Dismissal](https://github.com/collizo4sky/persist-admin-notices-dismissal) - Simple plugin that persists dismissal of admin notices across pages in WordPress dashboard. **By [@w3guy](https://twitter.com/w3guy)**
 - [wtfoperamini](https://github.com/ireade/wtfoperamini) - Development features not supported in Opera Mini, and some crowsourced workarounds for them. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
