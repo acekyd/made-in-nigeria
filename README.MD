@@ -226,9 +226,8 @@
 - [RemindMeOfThisTweet](https://github.com/shalvah/RemindMeOfThisTweet) - Twitter bot to set reminders for tweets. **By [@theshalvah](https://twitter.com/theshalvah)**
 - [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 - [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By [@abiosoft](https://twitter.com/abiosoft)**
-- [React Native paystack webview](https://github.com/just1and0/React-Native-Paystack-WebView) -  React Native paystack sdk. **By [@just1and0](https://twitter.com/just1and0)**
-- [React Native okra webview](https://github.com/just1and0/React-Native-Okra-Webview) -  React Native okra sdk. **By [@just1and0](https://twitter.com/just1and0)**
-
+- [React Native paystack webview](https://github.com/just1and0/React-Native-Paystack-WebView) - React Native paystack sdk. **By [@just1and0](https://twitter.com/just1and0)**
+- [React Native okra webview](https://github.com/just1and0/React-Native-Okra-Webview) - React Native okra sdk. **By [@just1and0](https://twitter.com/just1and0)**
 
 ## <a name="S"> </a>S
 
@@ -244,6 +243,7 @@
 - [SlidingUpMenu](https://github.com/r4sh33d/SlidingUpMenu) - 🚀A very customizable Android library that allows you to present menu items (from menu resource and/or other sources) to users as a bottom sheet. **By [@srasheed](https://twitter.com/srasheed_)**
 - [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel. **By [@ammezie](https://twitter.com/ammezie)**
 - [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By [@kizitonwose](https://twitter.com/kizitonwose)**
+- [status-modal](https://github.com/kaf-lamed-beyt/status-modal) - A react component that you can use to render current error or success messages from a particular API endpoint. **By [@calebolojo](https://twitter.com/calebolojo)**
 - [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
 - [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
 - [Search Engine Parser](https://github.com/bisoncorps/search-engine-parser) - Lightweight package to query popular search engines and scrape for result titles, links and descriptions. **By [@\_deven96](https://twitter.com/_deven96) and [@iamMensaah](https://twitter.com/iamMensaah)**
