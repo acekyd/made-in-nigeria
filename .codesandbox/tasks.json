@@ -11,6 +11,10 @@
     "npm install": {
       "name": "npm install",
       "command": "npm install"
+    },
+    "npm install --legacy-peer-deps": {
+      "name": "npm install --legacy-peer-deps",
+      "command": "npm install --legacy-peer-deps"
     }
   }
 }
