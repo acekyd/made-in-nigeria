@@ -1,8 +1,9 @@
-import * as React from "react";
-import { ChakraProvider, Container, Box } from "@chakra-ui/react";
-import { Link } from "gatsby";
-import Layout from "../components/layout";
-
+import * as React from 'react';
+import { ChakraProvider } from '@chakra-ui/react';
+import { Link } from 'gatsby';
+import Layout from '../components/layout';
+import ProjectCard from '../components/ProjectCard';
+import Footer from '../components/Footer';
 /*
   Notice: This is going to be the landing page
 */
@@ -17,6 +18,8 @@ const IndexPage = () => {
           <p>The journey to Made in Nigeria V2 begins.</p>
           <Link to="/about">About Made in Nigeria </Link>
         </main>
+        <ProjectCard />
+        <Footer />
       </ChakraProvider>
     </Layout>
   );
