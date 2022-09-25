@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
 import Menu from "./menu";
+import Footer from './Footer';
+
 
 const Layout = ({ children }) => {
   return (
@@ -17,6 +19,7 @@ const Layout = ({ children }) => {
       />
       <Menu />
       <div className="mainBody">{children}</div>
+      <Footer />
     </div>
   );
 };
