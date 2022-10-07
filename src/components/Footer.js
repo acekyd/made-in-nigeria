@@ -27,9 +27,8 @@ const Footer = () => {
             <img src={logo} width="117px" height="3rem" alt="made in nigeria" />
 
             <Text color="#949796" w={380} fontSize="sm" lineHeight="1.75rem">
-              Maecenas proin arcu convallis fames. Ut ultrices in vel telluest. Metus nec tellus ut
-              sed adipiscing est urna, sem. Ornare tempo adipiscing vitae, neque odio tortor,
-              fermentum
+              A curation of awesome open source tools and projects built by Nigerian developers
+              for the rest of the world.
             </Text>
 
             <Flex
@@ -62,7 +61,7 @@ const Footer = () => {
             <Flex flexDirection="column" gap="1.5rem" fontSize="sm">
               <Text
                 color="#FFFFFF"
-                mb={{ base: '2', sm: '2', md: '2', lg: '6', xl: '6' }}
+                mb={{ base: '2', sm: '2', md: '2', lg: '3', xl: '3' }}
                 fontWeight="bold"
               >
                 Navigation
@@ -75,7 +74,7 @@ const Footer = () => {
             <Flex flexDirection="column" color="#949796" fontSize="sm" gap="1.5rem">
               <Text
                 color="#FFFFFF"
-                mb={{ base: '2', sm: '2', md: '2', lg: '6', xl: '6' }}
+                mb={{ base: '2', sm: '2', md: '2', lg: '3', xl: '3' }}
                 fontWeight="bold"
               >
                 Community
@@ -87,7 +86,7 @@ const Footer = () => {
             <Flex flexDirection="column" color="#949796" fontSize="sm" gap="1.5rem">
               <Text
                 color="#FFFFFF"
-                mb={{ base: '2', sm: '2', md: '2', lg: '6', xl: '6' }}
+                mb={{ base: '2', sm: '2', md: '2', lg: '3', xl: '3' }}
                 fontWeight="bold"
               >
                 Terms & Conditions
