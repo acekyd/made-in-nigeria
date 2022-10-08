@@ -31,6 +31,7 @@
 ## <a name="B"> </a>B
 
 - [Blink Alert](https://github.com/obayomi96/blinkalert) - A Chrome Extension for 20-20-20 exercise of the eye. **By [@martinsobayomi](https://twitter.com/martinsobayomi)**
+- [Bob](https://github.com/stephenafamo/bob) - SQL Query Builder for Go that can be progressively adopted from raw SQL query strings, to fully typed queries and models generated for your database. **By [@stephenafamo](https://twitter.com/stephenafamo)**
 - [Breadcrumb For Codeigniter](https://github.com/iamuchejude/Breadcrumb-for-Codeigniter) - A Lightweight Library for generating Breadcrumb in Codeigniter. **By [@iamuchejude](https://twitter.com/iamuchejude)**
 - [Broad-state](https://github.com/adenekan41/broadstate) - Easy state manager for state values from one component to the other with useState and React Hooks in < 1KB! **By [@codewonders](https://twitter.com/code_wonders)**
 - [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device. **By [@isocroft](https://twitter.com/isocroft)**
@@ -91,6 +92,7 @@
 - [Grabity](https://github.com/e-oj/grabity) - Get preview data from a link. **By [@e-oj](https://github.com/e-oj)**
 - [Google Dictionary](https://github.com/chizoba/google-dictionary) - An android library that provides easy access to meanings of any word, phrase, or slang via Google, within any application. **By [@its_tobie](https://twitter.com/its_tobie)**
 - [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay. **By [@Adelowo](https://twitter.com/lanreadelowo)**
+- [Goldmark PDF](https://github.com/stephenafamo/goldmark-pdf) - A PDF renderer for the Go goldmark markdown parser. **By [@stephenafamo](https://twitter.com/stephenafamo)**
 - [Gophie](https://github.com/Go-phie/gophie) - A CLI written in golang for scraping movie download links and bypassing ads. **By [@GophieTeam](https://twitter.com/GophieTeam)**
 - [Gophie-web](https://github.com/Go-phie/gophie-web) - A web client for streaming/downloading movies without hassle built on Gophie. **By [@GophieTeam](https://twitter.com/GophieTeam)**
 - [GeoIP Location](https://github.com/victorybiz/geoip-location) - Get the geographical location of website visitors based on their IP addresses. Support Laravel and PHP (Non-Laravel) Project. **By [@victoryosayi](https://twitter.com/victoryosayi)**
@@ -192,6 +194,7 @@
 
 - [Omnipay 2Checkout](https://github.com/collizo4sky/omnipay-2checkout) - 2Checkout driver for the Omnipay PHP payment processing library. **By [@w3guy](https://twitter.com/w3guy)**
 - [OpenWriter](https://github.com/ireade/openwriter) - A free theme for Ghost. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
+- [Orchestra](https://github.com/stephenafamo/orchestra) - Orchestra is a library to manage long running go processes. **By [@stephenafamo](https://twitter.com/stephenafamo)**
 
 ## <a name="P"> </a>P
 
