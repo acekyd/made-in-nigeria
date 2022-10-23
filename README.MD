@@ -221,6 +221,7 @@
 - [Random48LawsOfPower](https://github.com/acekyd/Random48LawsOfPower) - Chrome extension that shows a random law from the popular '48 Laws of Power' Book. **By [@acekyd](https://twitter.com/Ace_KYD)**
 - [Ratio](https://github.com/theratioproject/simple) - The Simple Intelligent and Modular Programming Language and Environment. **By [@iamthecarisma](https://www.twitter.com/iamthecarisma)**
 - [Rationale](https://github.com/KingsMentor/Rationale) - Android permission rationale helper dialog. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
+- [react-autocomplete-hint](https://github.com/ejmudi/react-autocomplete-hint) - A React component for Autocomplete Hint. **By [@ejmudi](https://twitter.com/ejmudi)**
 - [react-hooks-paginator](https://github.com/codenaz/react-paginator) - A simple paginator interface for react. **By [@codenaz](https://twitter.com/codenaz)**
 - [react-multi-state](https://github.com/whizkydee/react-multi-state) - Declarative, simplified way to handle complex local state with hooks. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [react-native-woocommerce-api](https://github.com/JamesUgbanu/react-native-woocommerce-api) - A wrappper that connects react Native to the WooCommerce API. **By [james ugbanu](https://linkedin.com/in/james-ugbanu)**
