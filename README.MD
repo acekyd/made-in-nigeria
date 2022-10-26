@@ -233,7 +233,7 @@
 - [React Native okra webview](https://github.com/just1and0/React-Native-Okra-Webview) - React Native okra sdk. **By [@just1and0](https://twitter.com/just1and0)**
 
 ## <a name="S"> </a>S
-
+- [sailboat](https://github.com/sailscastshq/sailboat) - Sailboat is a VS Code extension that enhances the Sails.js development experience by providing Visual Studio Code users with advanced features such as Commands to quicly access the Sails docs, Jump to Action, and Commands to lift Sails. **By [@Dominus_Kelvin](https://twitter.com/Dominus_Kelvin)
 - [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken. **By [@robophil\_](https://twitter.com/robophil_)**
 - [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs. **By [@theo4me](https://twitter.com/theo4me)**
 - [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf. **By [@tdscientist](https://twitter.com/tdscientist)**
