@@ -14,11 +14,10 @@
 - [Adonis Auth Scaffold](https://github.com/creatrixity/adonis-auth-scaffold) - Seamlessly scaffold a ready-to-use authentication system for your Adonis app with one neat command. **By [@creatrixity](https://twitter.com/creatrixity)**
 - [Adonis Hexa](https://github.com/creatrixity/adonis-hexa) - An opinionated software development framework for maintaining a scalable Adonis application. **By [@creatrixity](https://twitter.com/creatrixity)**
 - [Adonis Queue](https://github.com/stitchng/adonis-queue) - An addon/plugin package to provide driver-based job queueing services in AdonisJS 4.0+. **By [@isocroft](https://twitter.com/isocroft)**
+- [Adonis Stripe](https://github.com/mezielabs/adonis-stripe) - This package makes it seamless to work with Stripe in AdonisJS 5 applications. **By [@ammezie](https://twitter.com/ammezie)**
 - [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
-- [Altair](https://github.com/imolorhe/altair) - A sleek graphQL client app for querying GraphQL servers, like Postman for graphQL. It also comes as a Chrome extension. **By [@imolorhe](https://twitter.com/imolorhe)**
-
-* [Amazon Pay v2 Ruby SDK](https://github.com/bytenaija/amazon-pay-sdk-ruby) - An SDk that makes it easy to integrate amazon pay checkout and instore v2 clients in your ruby/ruby on rails projects. **By [@bytenaija](https://twitter.com/bytenaija)**
-
+- [Altair](https://github.com/altair-graphql/altair) - A sleek graphQL client app for querying GraphQL servers, like Postman for graphQL. It also comes as a Chrome extension. **By [@imolorhe](https://twitter.com/imolorhe)**
+- [Amazon Pay v2 Ruby SDK](https://github.com/bytenaija/amazon-pay-sdk-ruby) - An SDk that makes it easy to integrate amazon pay checkout and instore v2 clients in your ruby/ruby on rails projects. **By [@bytenaija](https://twitter.com/bytenaija)**
 - [Angular-tag](https://github.com/theo4u/angular-tag) - Tags input directive for AngularJS. **By [@theo4me](https://twitter.com/theo4me)**
 - [Angular2-Sails-starter-pack](https://github.com/Mozartted/Angular2-Sails-starter-pack) - A starter pack for angular2 based projects using sails backend, integrating hot reload functionalities. **By [@mozartted](https://twitter.com/mozartted)**
 - [Angular4-paystack](https://github.com/ashinzekene/angular4-paystack) - This is an angular module that abstracts the complexity of making paystack payments with Angular2+. **By [@ashinzekene](https://twitter.com/ashinzekene)**
@@ -55,7 +54,8 @@
 
 ## <a name="D"> </a>D
 
-- [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risin_developer](https://twitter.com/risin_developer)**
+- [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risingodegua](https://twitter.com/risingodegua)**
+- [danfojs](https://github.com/javascriptdata/danfojs) - Danfo.js is an open source, JavaScript library providing high performance, intuitive, and easy to use data structures for manipulating and processing structured data. **By [@risingodegua](https://twitter.com/risingodegua) and [@steveoni](https://twitter.com/steveoni)**
 - [DevOps-Toolkit](https://github.com/umegbewe/devops-toolkit) - Easily and quickly setup your Cloud & DevOps development environment. **By [@0xGreat](https://twitter.com/0xGreat)**
 - [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a WordPress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
 - [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
@@ -227,6 +227,7 @@
 - [React-Raise](https://github.com/andela-iamao/react-raise) - A cli kit for creating react applications. **By [@ash\_\_amao](https://twitter.com/ash__amao)**
 - [react-webpack-starter](https://github.com/temilaj/react-webpack-starter) - A boiler plate for creating react applications bundled by webpack (using ES6, Babel, SASS and the webpack development server). **By [@temilaj](https://twitter.com/temilaj)**
 - [RemindMeOfThisTweet](https://github.com/shalvah/RemindMeOfThisTweet) - Twitter bot to set reminders for tweets. **By [@theshalvah](https://twitter.com/theshalvah)**
+- [reka](https://github.com/MeNsaaH/reka) - A Cloud Resource management Tool to destroy, stop, resume, or clean up unsed resources. **By [@iamMensaah](https://twitter.com/iamMensaah)**
 - [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 - [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By [@abiosoft](https://twitter.com/abiosoft)**
 - [React Native paystack webview](https://github.com/just1and0/React-Native-Paystack-WebView) - React Native paystack sdk. **By [@just1and0](https://twitter.com/just1and0)**
@@ -246,6 +247,7 @@
 - [SlidingUpMenu](https://github.com/r4sh33d/SlidingUpMenu) - 🚀A very customizable Android library that allows you to present menu items (from menu resource and/or other sources) to users as a bottom sheet. **By [@srasheed](https://twitter.com/srasheed_)**
 - [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel. **By [@ammezie](https://twitter.com/ammezie)**
 - [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By [@kizitonwose](https://twitter.com/kizitonwose)**
+- [stacks](https://github.com/nerdeveloper/stacks) - A tool for setting up your stack quickly for Local development, on-prem and Bare metal servers. **By [@nerdeveloper](https://github.com/nerdeveloper)**
 - [status-modal](https://github.com/kaf-lamed-beyt/status-modal) - A react component that you can use to render current error or success messages from a particular API endpoint. **By [@calebolojo](https://twitter.com/calebolojo)**
 - [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
 - [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
