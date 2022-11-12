@@ -14,6 +14,7 @@
 - [Adonis Auth Scaffold](https://github.com/creatrixity/adonis-auth-scaffold) - Seamlessly scaffold a ready-to-use authentication system for your Adonis app with one neat command. **By [@creatrixity](https://twitter.com/creatrixity)**
 - [Adonis Hexa](https://github.com/creatrixity/adonis-hexa) - An opinionated software development framework for maintaining a scalable Adonis application. **By [@creatrixity](https://twitter.com/creatrixity)**
 - [Adonis Queue](https://github.com/stitchng/adonis-queue) - An addon/plugin package to provide driver-based job queueing services in AdonisJS 4.0+. **By [@isocroft](https://twitter.com/isocroft)**
+- [adonis-sse](https://github.com/stitchng/adonis-sse) - An addon/plugin package to provide server-sent events functionality for AdonisJS 4.0+. **By [@isocroft](https://twitter.com/isocroft)**
 - [Adonis Stripe](https://github.com/mezielabs/adonis-stripe) - This package makes it seamless to work with Stripe in AdonisJS 5 applications. **By [@ammezie](https://twitter.com/ammezie)**
 - [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 - [Altair](https://github.com/altair-graphql/altair) - A sleek graphQL client app for querying GraphQL servers, like Postman for graphQL. It also comes as a Chrome extension. **By [@imolorhe](https://twitter.com/imolorhe)**
@@ -35,6 +36,7 @@
 - [Broad-state](https://github.com/adenekan41/broadstate) - Easy state manager for state values from one component to the other with useState and React Hooks in < 1KB! **By [@codewonders](https://twitter.com/code_wonders)**
 - [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device. **By [@isocroft](https://twitter.com/isocroft)**
 - [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator. **By [@tdscientist](https://twitter.com/tdscientist)**
+- [buzz](https://github.com/chidiwilliams/buzz) - Buzz transcribes audio from your computer's microphones to text using OpenAI's Whisper. **By [@chidiwilliams_](https://twitter.com/@chidiwilliams_)**
 - [BàngáJS](https://github.com/bangajs/banga-cli) - A CLI generator for bootstrapping ExpressJS applications and generating application layer files. **By [@saucecodee](https://twitter.com/saucecodee)**
 
 ## <a name="C"> </a>C
@@ -79,6 +81,7 @@
 - [Favico-generator](https://github.com/Youngestdev/favico-generator) - A npm module for generating favicons from image. **By [@kvng_zeez](http://twitter.com/kvng_zeez)**
 - [Fawn](https://github.com/e-oj/Fawn) - A library for multi-document transactions in MongoDB via two-phase commits. **By [@e-oj](https://e-oj.com)**
 - [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**
+- [flair](https://github.com/mezielabs/flair) - AdonisJS 5 authentication scaffolding. **By [@ammezie](https://twitter.com/ammezie)**
 - [folabelle](https://github.com/BolajiOlajide/folabelle) -A VSCode theme - Cross breed of Monokai + Palenight **By [@Bolaji\_\_\_](https://twitter.com/Bolaji___)**
 - [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 - [Frontend-app-starter](https://github.com/D-sense/frontend-app-starter) - A simple frontend app starter packed with Webpack, Twitter Bootstrap, and well-defined CSS media queries. Edit. **By [@D-sense](https://twitter.com/Delameh)**
@@ -269,6 +272,7 @@
 ## <a name="U"> </a>U
 
 - [Unitcss](https://github.com/adenekan41/unitcss) - A cli tool to convert css units in your file, helps you swiftly convert units / mesurements in your file or folder. **By [@codewonders](https://twitter.com/code_wonders)**
+- [URISanity](https://github.com/codesplinta/URISanity) - sanitize uris in web and web-like applications with confidence. **By [@isocroft](https://twitter.com/isocroft)**
 - [Urley](https://github.com/adenekan41/urley) - A cross-platform library with a collection of handy utilities to work with URLs. **By [@codewonders](https://twitter.com/code_wonders)**
 - [UseFormBee](https://github.com/Eazybee/useFormBee) - useFormBee is a lightweight library that helps me manage and abstract react form logic. **By [@Eazybee](https://github.com/Eazybee)**
 - [use-global-hook](https://github.com/devhammed/use-global-hook) - Painless global state management for React using Hooks and Context API in 1KB! **By [@devhammed](https://profile.codersrank.io/user/devhammed)**
@@ -288,10 +292,11 @@
 
 - [Waihona](https://github.com/bisohns/waihona) - Rust crates for performing cloud storage actions across AWS, GCP and Azure. **By [@deven96](https://twitter.com/_deven96)**
 - [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [@IzyPro_](https://twitter.com/IzyPro_)**
-- [Whatsticker](https://github.com/deven96/whatsticker) - Automatically turn images/videos into stickers by using a caption. **By [@deven96](https://twitter.com/_deven96)**
-- [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
+- [wasmo](https://github.com/appcypher/wasmo) - A WebAssembly Compiler and Runtime. **By [@theappcypher](https://twitter.com/theappcypher)**
 - [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages. **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
 - [Web3terms](https://github.com/Olanetsoft/web3terms) - A Twitter bot explaining and simplifying web3 terms to everyone. **By [@olanetsoft](https://twitter.com/olanetsoft)**
+- [Whatsticker](https://github.com/deven96/whatsticker) - Automatically turn images/videos into stickers by using a caption. **By [@deven96](https://twitter.com/_deven96)**
+- [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
 - [WordPress Persist Admin Notices Dismissal](https://github.com/collizo4sky/persist-admin-notices-dismissal) - Simple plugin that persists dismissal of admin notices across pages in WordPress dashboard. **By [@w3guy](https://twitter.com/w3guy)**
 - [wtfoperamini](https://github.com/ireade/wtfoperamini) - Development features not supported in Opera Mini, and some crowsourced workarounds for them. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
@@ -302,3 +307,4 @@
 - [Yorlang](https://github.com/anoniscoding/yorlang) - A programming language with Yoruba language construct. **By [@anoniscoding](https://twitter.com/anoniscoding)**
 
 ## <a name="Z"> </a>Z
+- [zag](https://github.com/chakra-ui/zag) - Finite state machines for building accessible design systems and UI components. **By [@thesegunadebayo](https://twitter.com/thesegunadebayo)**
