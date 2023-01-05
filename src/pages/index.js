@@ -3,6 +3,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import ProjectCard from '../components/ProjectCard';
+import ArticleCard from '../components/ArticleCard';
 
 /*
   Notice: This is going to be the landing page
@@ -19,6 +20,7 @@ const IndexPage = () => {
           <Link to="/about">About Made in Nigeria </Link>
         </main>
         <ProjectCard />
+        <ArticleCard />
       </ChakraProvider>
     </Layout>
   );
