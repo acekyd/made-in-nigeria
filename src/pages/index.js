@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import NavBar from '../components/NavBar';
 import ProjectCard from '../components/ProjectCard';
+import ArticleCard from '../components/ArticleCard';
 
 /*
   Notice: This is going to be the landing page
@@ -21,6 +22,7 @@ const IndexPage = () => {
         </main>
         <NavBar />
         <ProjectCard />
+        <ArticleCard />
       </ChakraProvider>
     </Layout>
   );
