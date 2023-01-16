@@ -5,7 +5,6 @@ const PrimaryButton = ({ text, link }) => {
   return (
     <Button
       display="block"
-      margin={10}
       borderRadius={30}
       borderColor="#009E77"
       bg="#009E77"
