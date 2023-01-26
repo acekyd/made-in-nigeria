@@ -7,6 +7,9 @@ import ProjectCard from '../components/ProjectCard';
 import PrimaryButton from '../components/Buttons/PrimaryButton';
 import SecondaryButton from '../components/Buttons/SecondaryButton';
 import ArticleCard from '../components/ArticleCard';
+import AcceptingContributions from '../components/AcceptingContributions';
+
+import { Box } from '@chakra-ui/react';
 
 /*
   Notice: This is going to be the landing page
@@ -27,6 +30,9 @@ const IndexPage = () => {
         <SecondaryButton text="See All Projects" link="https://madeinnigeria.dev" />
         <PrimaryButton text="Read About Us" link="https://madeinnigeria.dev" />
         <ArticleCard />
+        <Box margin={3} display="flex" justifyContent="center">
+          <AcceptingContributions />
+        </Box>
       </ChakraProvider>
     </Layout>
   );
