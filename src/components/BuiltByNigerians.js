@@ -1,13 +1,29 @@
 import React from 'react';
-import { Box, Image, Text, Button } from '@chakra-ui/react';
+import { Box, Text } from '@chakra-ui/react';
 import PrimaryButton from './Buttons/PrimaryButton';
-import map from '../images/map-for-built-by-nigerians.png';
 
 const BuiltByNigerians = () => {
   return (
     <Box
+      background={{
+        base: "url('../images/map-for-built-by-nigerians.png') bottom -3.5rem right -14.5rem no-repeat",
+        sm: "url('../images/map-for-built-by-nigerians.png') bottom -3.5rem right -14.5rem no-repeat",
+        md: "url('../images/map-for-built-by-nigerians.png') bottom -3.5rem right -14.5rem no-repeat",
+        lg: "url('../images/map-for-built-by-nigerians.png') bottom right no-repeat",
+        xl: "url('../images/map-for-built-by-nigerians.png') bottom right no-repeat",
+        '2xl': "url('../images/map-for-built-by-nigerians.png') bottom right no-repeat",
+      }}
+      backgroundSize={{ base: '500px', sm: '500px', md: '500px', lg: '', xl: '', '2xl': '' }}
       display="flex"
-      backgroundColor="#F5FBFA"
+      alignItems="center"
+      backgroundColor={{
+        base: '#F5FBFA',
+        sm: '#F5FBFA',
+        md: '#F5FBFA',
+        lg: '#F5FBFA',
+        xl: '#F5FBFA',
+        '2xl': '#F5FBFA',
+      }}
       width={{
         base: '22.875rem',
         sm: '22.875rem',
@@ -39,14 +55,7 @@ const BuiltByNigerians = () => {
           '2xl': '1.5rem',
         }}
         width="25.063rem"
-        margin={{
-          base: '4rem 2rem',
-          sm: '4rem 2rem',
-          md: '4rem 2rem',
-          lg: '4rem 4rem 0 4rem',
-          xl: '4rem 4rem 0 4rem',
-          '2xl': '4rem 4rem 0 4rem',
-        }}
+        marginLeft={{ base: '2rem', sm: '2rem', md: '2rem', lg: '5rem', xl: '5rem', '2xl': '5rem' }}
       >
         <Text
           fontSize={{
@@ -56,6 +65,14 @@ const BuiltByNigerians = () => {
             lg: '2rem',
             xl: '2rem',
             '2xl': '2rem',
+          }}
+          lineHeight={{
+            base: '2.5rem',
+            sm: '2.5rem',
+            md: '2.5rem',
+            lg: '3rem',
+            xl: '3rem',
+            '2xl': '3rem',
           }}
           fontWeight="800"
           width={{
@@ -70,16 +87,23 @@ const BuiltByNigerians = () => {
         >
           Built by Nigerians, for the Rest of the World.
         </Text>
-        <Text color="#949796">
+        <Text
+          color="#949796"
+          width={{
+            base: '18.875rem',
+            sm: '18.875rem',
+            md: '18.875rem',
+            lg: '24.063rem',
+            xl: '24.063rem',
+            '2xl': '24.063rem',
+          }}
+          fontSize="1rem"
+        >
           Risus hac integer tempor elementum ultricies maecenas lectus. Iaculis urna sit felis,
           feugiat purus. Tincidunt netus blandit euismod eu. Faucibus eu ultrices arcu et donec.
         </Text>
         <PrimaryButton text="Read About Us" link="https://madeinnigeria.dev" />
       </Box>
-      <Image
-        display={{ base: 'none', sm: 'none', md: 'none', lg: 'block', xl: 'block', '2xl': 'block' }}
-        src={map}
-      />
     </Box>
   );
 };
