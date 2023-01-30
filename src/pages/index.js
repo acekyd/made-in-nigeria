@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ChakraProvider } from '@chakra-ui/react';
+import { ChakraProvider, Box } from '@chakra-ui/react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import NavBar from '../components/NavBar';
@@ -7,6 +7,7 @@ import ProjectCard from '../components/ProjectCard';
 import PrimaryButton from '../components/Buttons/PrimaryButton';
 import SecondaryButton from '../components/Buttons/SecondaryButton';
 import ArticleCard from '../components/ArticleCard';
+import BuiltByNigerians from '../components/BuiltByNigerians';
 
 /*
   Notice: This is going to be the landing page
@@ -24,9 +25,16 @@ const IndexPage = () => {
         </main>
         <NavBar />
         <ProjectCard />
-        <SecondaryButton text="See All Projects" link="https://madeinnigeria.dev" />
-        <PrimaryButton text="Read About Us" link="https://madeinnigeria.dev" />
+        <Box margin={10}>
+          <SecondaryButton text="See All Projects" link="https://madeinnigeria.dev" />
+        </Box>
+        <Box margin={10}>
+          <PrimaryButton text="Read About Us" link="https://madeinnigeria.dev" />
+        </Box>
         <ArticleCard />
+        <Box display="flex" justifyContent="center" marginBottom={10}>
+          <BuiltByNigerians />
+        </Box>
       </ChakraProvider>
     </Layout>
   );
