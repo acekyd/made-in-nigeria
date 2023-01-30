@@ -121,6 +121,7 @@
 ## <a name="J"> </a>J
 
 - [Jollof](https://github.com/isocroft/Jollof) - A lightweight PHP framework for developers who love smart work. **By [@isocroft](https://twitter.com/isocroft)**
+- [JSON Preview](https://github.com/ugwustanley/json-preview) - A tool that allows you to convert your JSON file into visual interactive diagrams. **By [@chiagozie_ugwu](https://twitter.com/chiagozie_ugwu)**
 - [Jusibe PHP Library](https://github.com/unicodeveloper/jusibe-php-lib) - A library for [Jusibe SMS Service](https://jusibe.com). **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Jusibe JavaScript Library](https://github.com/azemoh/jusibe) - A JavaScript library for [Jusibe SMS Service](https://jusibe.com). **By [@azemoh](https://twitter.com/josh_azemoh)**
 
