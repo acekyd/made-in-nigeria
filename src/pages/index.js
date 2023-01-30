@@ -7,6 +7,9 @@ import ProjectCard from '../components/ProjectCard';
 import PrimaryButton from '../components/Buttons/PrimaryButton';
 import SecondaryButton from '../components/Buttons/SecondaryButton';
 import ArticleCard from '../components/ArticleCard';
+import AcceptingContributions from '../components/AcceptingContributions';
+
+import { Box } from '@chakra-ui/react';
 import BuiltByNigerians from '../components/BuiltByNigerians';
 
 /*
@@ -32,6 +35,9 @@ const IndexPage = () => {
           <PrimaryButton text="Read About Us" link="https://madeinnigeria.dev" />
         </Box>
         <ArticleCard />
+        <Box margin={3} display="flex" justifyContent="center">
+          <AcceptingContributions />
+        </Box>
         <Box display="flex" justifyContent="center" marginBottom={10}>
           <BuiltByNigerians />
         </Box>
