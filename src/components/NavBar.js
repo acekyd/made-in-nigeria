@@ -3,6 +3,7 @@ import {
   Box,
   Flex,
   Image,
+  Container,
   Link,
   Text,
   Input,
@@ -26,22 +27,25 @@ const NavBar = () => {
   const navRef = useRef(null);
 
   return (
-    <Box w="100vw" display="flex" justifyContent="center" marginBottom="50px">
-      <Box
-        w="100vw"
+    <Box
+      w="100%"
+      display="flex"
+      justifyContent="center"
+      marginBottom="50px"
+      borderBottom="1"
+      borderColor="#E9EAEA"
+      borderWidth="1px"
+    >
+      <Container
+        maxW="container.xl"
         display="flex"
         padding={{
           base: "1rem 1rem",
           sm: "1rem 1rem",
           md: "1rem 1rem",
-          lg: "1rem 7.5rem",
-          xl: "1rem 7.5rem",
-          "2xl": "1rem 7.5rem",
         }}
         alignItems="center"
         justifyContent="space-between"
-        borderColor="#E9EAEA"
-        borderWidth="1px"
       >
         <Box display="flex" justifyContent="space-between">
           <Box>
@@ -197,7 +201,7 @@ const NavBar = () => {
             </DrawerBody>
           </DrawerContent>
         </Drawer>
-      </Box>
+      </Container>
     </Box>
   );
 };

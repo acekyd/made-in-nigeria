@@ -1,6 +1,10 @@
 import * as React from "react";
-import { ChakraProvider, Grid, Container } from "@chakra-ui/react";
-import { Link } from "gatsby";
+import {
+  ChakraProvider,
+  SimpleGrid,
+  Container,
+  Center,
+} from "@chakra-ui/react";
 import Layout from "../components/layout";
 import ProjectCard from "../components/ProjectCard";
 import PrimaryButton from "../components/Buttons/PrimaryButton";
@@ -17,27 +21,32 @@ const IndexPage = () => {
     <Layout>
       <ChakraProvider>
         <Container maxW="container.xl">
-          <Grid templateColumns="repeat(3, 1fr)">
+          <SimpleGrid columns={{ sm: 1, md: 3 }}>
             <ProjectCard />
             <ProjectCard />
             <ProjectCard />
             <ProjectCard />
-          </Grid>
+          </SimpleGrid>
 
-          <SecondaryButton
-            text="See All Projects"
-            link="https://madeinnigeria.dev"
-          />
+          <Center>
+            <SecondaryButton
+              text="See All Projects"
+              link="https://madeinnigeria.dev"
+            />
+          </Center>
 
-          <Grid templateColumns="repeat(3, 1fr)">
+          <SimpleGrid columns={{ sm: 1, md: 3 }}>
             <ArticleCard />
             <ArticleCard />
             <ArticleCard />
-          </Grid>
-          <PrimaryButton
-            text="Read About Us"
-            link="https://madeinnigeria.dev"
-          />
+          </SimpleGrid>
+
+          <Center>
+            <PrimaryButton
+              text="Read About Us"
+              link="https://madeinnigeria.dev"
+            />
+          </Center>
         </Container>
       </ChakraProvider>
     </Layout>

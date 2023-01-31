@@ -25,7 +25,7 @@ function ProjectCard() {
       borderWidth="2px"
       borderRadius="2xl"
       w="23.7rem"
-      maxWidth="90vw"
+      maxWidth="80vw"
       m={5}
     >
       <Flex alignItems="center" mx={4} my={3}>

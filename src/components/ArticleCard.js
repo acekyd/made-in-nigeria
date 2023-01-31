@@ -14,7 +14,7 @@ const ArticleCard = () => {
       borderRadius="2xl"
       w="23.7rem"
       height="30.75rem"
-      maxWidth="90vw"
+      maxWidth="80vw"
       m={5}
     >
       <Flex flexDirection="column" mx={4} my={4} gap={3}>
