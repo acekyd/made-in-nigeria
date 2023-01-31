@@ -4,12 +4,15 @@ import {
   SimpleGrid,
   Container,
   Center,
+  Box,
 } from "@chakra-ui/react";
 import Layout from "../components/layout";
 import ProjectCard from "../components/ProjectCard";
 import PrimaryButton from "../components/Buttons/PrimaryButton";
 import SecondaryButton from "../components/Buttons/SecondaryButton";
 import ArticleCard from "../components/ArticleCard";
+import AcceptingContributions from "../components/AcceptingContributions";
+import BuiltByNigerians from "../components/BuiltByNigerians";
 
 /*
   Notice: This is going to be the landing page
@@ -35,6 +38,10 @@ const IndexPage = () => {
             />
           </Center>
 
+          <Box margin={3} display="flex" justifyContent="center">
+            <BuiltByNigerians />
+          </Box>
+
           <SimpleGrid columns={{ sm: 1, md: 3 }}>
             <ArticleCard />
             <ArticleCard />
@@ -47,6 +54,10 @@ const IndexPage = () => {
               link="https://madeinnigeria.dev"
             />
           </Center>
+
+          <Box display="flex" justifyContent="center" marginBottom={10}>
+            <AcceptingContributions />
+          </Box>
         </Container>
       </ChakraProvider>
     </Layout>
