@@ -1,0 +1,44 @@
+import React from 'react';
+import { Box, Flex, Text } from '@chakra-ui/react';
+import SearchProject from './SearchProject';
+
+const ProjectsHero = () => {
+  return (
+    <Flex
+      flexDirection="column"
+      justifyContent="center"
+      alignItems="center"
+      backgroundColor="#008463"
+      gap={6}
+      borderRadius="24px"
+      width={{
+        base: '22.875rem',
+        sm: '22.875rem',
+        md: '22.875rem',
+        lg: '74.938rem',
+        xl: '74.938rem',
+        '2xl': '74.938rem',
+      }}
+      height={{
+        base: '28.75rem',
+        sm: '28.75rem',
+        md: '28.75rem',
+        lg: '20.5rem',
+        xl: '20.5rem',
+        '2xl': '20.5rem',
+      }}
+    >
+      <Text color="#FFFFFF" fontSize="2rem" fontWeight="900">
+        Projects
+      </Text>
+      <Text color="#AADFD2" lineHeight={6} textAlign="center" fontWeight="400" width="19.875rem">
+        A curation of awesome tools and projects built by Nigerian developers.
+      </Text>
+      <Box width="1rem" display="flex" justifyContent="center">
+        <SearchProject mobileWidth="19.875rem" desktopWidth="30.063rem" />
+      </Box>
+    </Flex>
+  );
+};
+
+export default ProjectsHero;
