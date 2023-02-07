@@ -15,12 +15,12 @@ const SearchProject = ({ mobileWidth, desktopWidth }) => {
         borderRadius="90px"
         height="3rem"
         width={{
-          base: mobileWidth,
-          sm: mobileWidth,
-          md: mobileWidth,
-          lg: desktopWidth,
-          xl: desktopWidth,
-          '2xl': desktopWidth,
+          base: mobileWidth || '22.875rem',
+          sm: mobileWidth || '22.875rem',
+          md: mobileWidth || '22.875rem',
+          lg: desktopWidth || '30.063rem',
+          xl: desktopWidth || '30.063rem',
+          '2xl': desktopWidth || '30.063rem',
         }}
         gap="1rem"
       >
