@@ -31,7 +31,28 @@ const ProjectsHero = () => {
       <Text color="#FFFFFF" fontSize="2rem" fontWeight="900">
         Projects
       </Text>
-      <Text color="#AADFD2" lineHeight={6} textAlign="center" fontWeight="400" width="19.875rem">
+      <Text
+        color="#AADFD2"
+        lineHeight={6}
+        textAlign="center"
+        fontSize={{
+          base: '1rem',
+          sm: '1rem',
+          md: '1rem',
+          lg: '1.125rem',
+          xl: '1.125rem',
+          '2xl': '1.125rem',
+        }}
+        fontWeight="400"
+        width={{
+          base: '19.875rem',
+          sm: '19.875rem',
+          md: '19.875rem',
+          lg: '21.438rem',
+          xl: '21.438rem',
+          '2xl': '21.438rem',
+        }}
+      >
         A curation of awesome tools and projects built by Nigerian developers.
       </Text>
       <Box width="1rem" display="flex" justifyContent="center">
