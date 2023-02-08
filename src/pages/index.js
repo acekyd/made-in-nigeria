@@ -8,6 +8,7 @@ import SecondaryButton from '../components/Buttons/SecondaryButton';
 import ArticleCard from '../components/ArticleCard';
 import AcceptingContributions from '../components/AcceptingContributions';
 import BuiltByNigerians from '../components/BuiltByNigerians';
+import AboutHero from '../components/AboutHero';
 
 /*
   Notice: This is going to be the landing page
@@ -19,6 +20,9 @@ const IndexPage = () => {
     <Layout>
       <ChakraProvider>
         <Hero />
+        <Box marginTop={10}>
+          <AboutHero />
+        </Box>
         <Container maxW="container.xl">
           <SimpleGrid columns={{ sm: 1, md: 3 }}>
             <ProjectCard />
