@@ -8,6 +8,7 @@ import SecondaryButton from '../components/Buttons/SecondaryButton';
 import ArticleCard from '../components/ArticleCard';
 import AcceptingContributions from '../components/AcceptingContributions';
 import BuiltByNigerians from '../components/BuiltByNigerians';
+import TeamCard from '../components/TeamCard';
 
 /*
   Notice: This is going to be the landing page
@@ -47,6 +48,10 @@ const IndexPage = () => {
 
           <Box display="flex" justifyContent="center" marginBottom={10}>
             <AcceptingContributions />
+          </Box>
+
+          <Box display="flex" justifyContent="center" marginBottom={10}>
+            <TeamCard />
           </Box>
         </Container>
       </ChakraProvider>
