@@ -102,7 +102,12 @@ const BuiltByNigerians = () => {
           Risus hac integer tempor elementum ultricies maecenas lectus. Iaculis urna sit felis,
           feugiat purus. Tincidunt netus blandit euismod eu. Faucibus eu ultrices arcu et donec.
         </Text>
-        <PrimaryButton text="Read About Us" link="https://madeinnigeria.dev" />
+        <PrimaryButton
+          text="Read About Us"
+          link="https://madeinnigeria.dev"
+          mobileWidth="10.125rem"
+          desktopWidth="10.125rem"
+        />
       </Box>
     </Box>
   );
