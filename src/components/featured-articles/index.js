@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heading, HStack, VStack } from '@chakra-ui/react';
+import { Box, Heading, VStack } from '@chakra-ui/react';
 
 import FeaturedArticleMain from './feature-article-main';
 import FeaturedArticleOther from './feature-article-other';
@@ -11,15 +11,26 @@ const FeaturedArticles = () => {
         Featured Articles
       </Heading>
 
-      <HStack gap="2rem">
+      <Box
+        display="flex"
+        flexDirection={{
+          base: 'column',
+          sm: 'column',
+          md: 'column',
+          lg: 'row',
+          xl: 'row',
+          '2xl': 'row',
+        }}
+        gap="2rem"
+      >
         <FeaturedArticleMain />
 
-        <VStack gap="1.5rem" ms="0" mx="0">
+        <VStack gap="1.5rem">
           <FeaturedArticleOther />
           <FeaturedArticleOther />
           <FeaturedArticleOther />
         </VStack>
-      </HStack>
+      </Box>
     </VStack>
   );
 };
