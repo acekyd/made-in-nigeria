@@ -73,7 +73,7 @@ const Hero = () => {
           A curation of awesome tools and projects built by Nigerian developers.
         </Text>
 
-        <SearchProject />
+        <SearchProject mobileWidth="22.875rem" desktopWidth="30.063rem" />
       </Box>
     </Box>
   );
