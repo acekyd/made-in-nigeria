@@ -9,6 +9,11 @@ import ArticleCard from '../components/ArticleCard';
 import AcceptingContributions from '../components/AcceptingContributions';
 import BuiltByNigerians from '../components/BuiltByNigerians';
 import TeamCard from '../components/TeamCard';
+import BuiltByNigeriansAbout from '../components/BuiltByNigeriansAbout';
+import AboutHero from '../components/AboutHero';
+import BlogHero from '../components/BlogHero';
+import ContributorsHero from '../components/ContributorsHero';
+import ProjectsHero from '../components/ProjectsHero';
 
 /*
   Notice: This is going to be the landing page
@@ -20,6 +25,9 @@ const IndexPage = () => {
     <Layout>
       <ChakraProvider>
         <Hero />
+        <Box marginTop={10}>
+          <AboutHero />
+        </Box>
         <Container maxW="container.xl">
           <SimpleGrid columns={{ sm: 1, md: 3 }}>
             <ProjectCard />
@@ -52,6 +60,12 @@ const IndexPage = () => {
 
           <Box display="flex" justifyContent="center" marginBottom={10}>
             <TeamCard />
+            <BuiltByNigeriansAbout />
+            <BlogHero />
+            <ContributorsHero />
+          </Box>
+          <Box margin={3} display="flex" justifyContent="center">
+            <ProjectsHero />
           </Box>
         </Container>
       </ChakraProvider>
