@@ -9,6 +9,9 @@ import ArticleCard from '../components/ArticleCard';
 import AcceptingContributions from '../components/AcceptingContributions';
 import BuiltByNigerians from '../components/BuiltByNigerians';
 import AboutHero from '../components/AboutHero';
+import BlogHero from '../components/BlogHero';
+import ContributorsHero from '../components/ContributorsHero';
+import ProjectsHero from '../components/ProjectsHero';
 
 /*
   Notice: This is going to be the landing page
@@ -51,6 +54,14 @@ const IndexPage = () => {
 
           <Box display="flex" justifyContent="center" marginBottom={10}>
             <AcceptingContributions />
+          </Box>
+
+          <Box display="flex" justifyContent="center" marginBottom={10}>
+            <BlogHero />
+            <ContributorsHero />
+          </Box>
+          <Box margin={3} display="flex" justifyContent="center">
+            <ProjectsHero />
           </Box>
         </Container>
       </ChakraProvider>
