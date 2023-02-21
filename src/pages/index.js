@@ -8,6 +8,7 @@ import SecondaryButton from '../components/Buttons/SecondaryButton';
 import ArticleCard from '../components/ArticleCard';
 import AcceptingContributions from '../components/AcceptingContributions';
 import BuiltByNigerians from '../components/BuiltByNigerians';
+import ContributorsHero from '../components/ContributorsHero';
 import ProjectsHero from '../components/ProjectsHero';
 
 /*
@@ -50,6 +51,9 @@ const IndexPage = () => {
             <AcceptingContributions />
           </Box>
 
+          <Box display="flex" justifyContent="center" marginBottom={10}>
+            <ContributorsHero />
+          </Box>
           <Box margin={3} display="flex" justifyContent="center">
             <ProjectsHero />
           </Box>
