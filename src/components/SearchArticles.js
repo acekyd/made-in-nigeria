@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Image, Input } from '@chakra-ui/react';
 import SearchIcon from '../images/drawer-search.png';
 
-const SearchProject = ({ mobileWidth, desktopWidth }) => {
+const SearchArticles = () => {
   return (
     <Box padding="3px 24px">
       <Box
@@ -15,19 +15,19 @@ const SearchProject = ({ mobileWidth, desktopWidth }) => {
         borderRadius="90px"
         height="3rem"
         width={{
-          base: mobileWidth || '22.875rem',
-          sm: mobileWidth || '22.875rem',
-          md: mobileWidth || '22.875rem',
-          lg: desktopWidth || '30.063rem',
-          xl: desktopWidth || '30.063rem',
-          '2xl': desktopWidth || '30.063rem',
+          base: '19.875rem',
+          sm: '19.875rem',
+          md: '19.875rem',
+          lg: '30.063rem',
+          xl: '30.063rem',
+          '2xl': '30.063rem',
         }}
         gap="1rem"
       >
         <Image src={SearchIcon} w="1.2rem" height="1.2rem" />
         <Input
           variant="unstyled"
-          placeholder="Search Projects"
+          placeholder="Search Articles"
           _placeholder={{ color: '#B8BAB9', fontSize: 'sm' }}
         />
       </Box>
@@ -35,4 +35,4 @@ const SearchProject = ({ mobileWidth, desktopWidth }) => {
   );
 };
 
-export default SearchProject;
+export default SearchArticles;
