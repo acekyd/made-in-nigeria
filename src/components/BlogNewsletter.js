@@ -1,8 +1,8 @@
 import React from 'react';
-import { Box, Text } from '@chakra-ui/react';
+import { Box, HStack, Input, Text } from '@chakra-ui/react';
 import PrimaryButton from './Buttons/PrimaryButton';
 
-const BuiltByNigerians = () => {
+const BlogNewsletter = () => {
   return (
     <Box
       background={{
@@ -85,7 +85,7 @@ const BuiltByNigerians = () => {
           }}
           height={{ base: '5rem', sm: '5rem', md: '5rem', lg: '6rem', xl: '6rem', '2xl': '6rem' }}
         >
-          Built by Nigerians, for the Rest of the World.
+          Sign Up for our Monthly Newsletter
         </Text>
         <Text
           color="#949796"
@@ -93,24 +93,51 @@ const BuiltByNigerians = () => {
             base: '18.875rem',
             sm: '18.875rem',
             md: '18.875rem',
-            lg: '24.063rem',
-            xl: '24.063rem',
-            '2xl': '24.063rem',
+            lg: '25.063rem',
+            xl: '25.063rem',
+            '2xl': '25.063rem',
           }}
           fontSize="1rem"
         >
-          Risus hac integer tempor elementum ultricies maecenas lectus. Iaculis urna sit felis,
-          feugiat purus. Tincidunt netus blandit euismod eu. Faucibus eu ultrices arcu et donec.
+          We regularly share new articles, updates and other great developer content from around the
+          community.
         </Text>
-        <PrimaryButton
-          text="Read About Us"
-          link="https://madeinnigeria.dev"
-          mobileWidth="10.125rem"
-          desktopWidth="10.125rem"
-        />
+        <HStack gap="0rem" margin="0rem">
+          <Box
+            paddingY={3}
+            paddingX={4}
+            alignItems="center"
+            borderColor="#E9EAEA"
+            backgroundColor="#FFFFFF"
+            borderWidth="1px"
+            borderRadius="90px"
+            height="3rem"
+            width={{
+              base: '13.438rem',
+              sm: '13.438rem',
+              md: '13.438rem',
+              lg: '16.188rem',
+              xl: '16.188rem',
+              '2xl': '16.188rem',
+            }}
+          >
+            <Input
+              color="#B8BAB9"
+              variant="unstyled"
+              placeholder="Enter Email"
+              _placeholder={{ color: '#B8BAB9', fontSize: 'sm' }}
+            />
+          </Box>
+          <PrimaryButton
+            text="Subscribe"
+            link="https://madeinnigeria.dev"
+            mobileWidth="6.25rem"
+            desktopWidth="7.5rem"
+          />
+        </HStack>
       </Box>
     </Box>
   );
 };
 
-export default BuiltByNigerians;
+export default BlogNewsletter;

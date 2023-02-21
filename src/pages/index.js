@@ -8,6 +8,7 @@ import SecondaryButton from '../components/Buttons/SecondaryButton';
 import ArticleCard from '../components/ArticleCard';
 import AcceptingContributions from '../components/AcceptingContributions';
 import BuiltByNigerians from '../components/BuiltByNigerians';
+import BlogNewsletter from '../components/BlogNewsletter';
 import TeamCard from '../components/TeamCard';
 import BuiltByNigeriansAbout from '../components/BuiltByNigeriansAbout';
 import AboutHero from '../components/AboutHero';
@@ -59,6 +60,7 @@ const IndexPage = () => {
           </Box>
 
           <Box display="flex" justifyContent="center" marginBottom={10}>
+            <BlogNewsletter />
             <TeamCard />
             <BuiltByNigeriansAbout />
             <BlogHero />
