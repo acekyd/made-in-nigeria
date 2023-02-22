@@ -1,21 +1,19 @@
-import React from 'react';
+import React from "react";
+import { Card, CardBody, CardFooter } from "@chakra-ui/react";
 import {
-  Card,
   Heading,
   Stack,
-  CardBody,
   Image,
   Link,
   Text,
   Divider,
-  CardFooter,
   Flex,
-} from '@chakra-ui/react';
+} from "@chakra-ui/react";
 
-import matthew from '../images/matthew.png';
-import github from '../images/github.png';
-import twitter from '../images/twitter.png';
-import linkedin from '../images/linkedin.png';
+import matthew from "../images/matthew.png";
+import github from "../images/github.png";
+import twitter from "../images/twitter.png";
+import linkedin from "../images/linkedin.png";
 
 const TeamCard = () => {
   return (
