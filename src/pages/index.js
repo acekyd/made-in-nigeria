@@ -62,12 +62,21 @@ const IndexPage = () => {
 
           <Box display="flex" justtifyContent="center" marginBottom={10}>
             <FeaturedArticles />
+          </Box>
 
           <Box display="flex" justifyContent="center" marginBottom={10}>
             <BlogNewsletter />
+          </Box>
+          <Box display="flex" justifyContent="center" marginBottom={10}>
             <TeamCard />
+          </Box>
+          <Box display="flex" justifyContent="center" marginBottom={10}>
             <BuiltByNigeriansAbout />
+          </Box>
+          <Box display="flex" justifyContent="center" marginBottom={10}>
             <BlogHero />
+          </Box>
+          <Box display="flex" justifyContent="center" marginBottom={10}>
             <ContributorsHero />
           </Box>
           <Box margin={3} display="flex" justifyContent="center">
