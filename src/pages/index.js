@@ -1,19 +1,13 @@
-import * as React from "react";
-import {
-  ChakraProvider,
-  SimpleGrid,
-  Container,
-  Center,
-  Box,
-} from "@chakra-ui/react";
-import Layout from "../components/layout";
-import Hero from "../components/Hero";
-import ProjectCard from "../components/ProjectCard";
-import PrimaryButton from "../components/Buttons/PrimaryButton";
-import SecondaryButton from "../components/Buttons/SecondaryButton";
-import ArticleCard from "../components/ArticleCard";
-import AcceptingContributions from "../components/AcceptingContributions";
-import BuiltByNigerians from "../components/BuiltByNigerians";
+import * as React from 'react';
+import { ChakraProvider, SimpleGrid, Container, Center, Box } from '@chakra-ui/react';
+import Layout from '../components/layout';
+import Hero from '../components/Hero';
+import ProjectCard from '../components/ProjectCard';
+import PrimaryButton from '../components/Buttons/PrimaryButton';
+import SecondaryButton from '../components/Buttons/SecondaryButton';
+import ArticleCard from '../components/ArticleCard';
+import AcceptingContributions from '../components/AcceptingContributions';
+import BuiltByNigerians from '../components/BuiltByNigerians';
 /*
   Notice: This is going to be the landing page
 */
@@ -33,10 +27,7 @@ const IndexPage = () => {
           </SimpleGrid>
 
           <Center>
-            <SecondaryButton
-              text="See All Projects"
-              link="https://madeinnigeria.dev"
-            />
+            <SecondaryButton text="See All Projects" link="https://madeinnigeria.dev" />
           </Center>
 
           <Box margin={3} display="flex" justifyContent="center">
@@ -50,10 +41,7 @@ const IndexPage = () => {
           </SimpleGrid>
 
           <Center>
-            <PrimaryButton
-              text="Read About Us"
-              link="https://madeinnigeria.dev"
-            />
+            <PrimaryButton text="Read About Us" link="https://madeinnigeria.dev" />
           </Center>
 
           <Box display="flex" justifyContent="center" marginBottom={10}>
