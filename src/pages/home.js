@@ -1,5 +1,5 @@
-import React from 'react';
-import { ChakraProvider, Box, Text, Flex } from '@chakra-ui/react';
+import React, { useRef, useState } from 'react';
+import { ChakraProvider, Box, Text, Flex, HStack, Button } from '@chakra-ui/react';
 
 import Layout from '../components/layout';
 import NavBar from '../components/NavBar';
@@ -11,7 +11,28 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import ArticleCard from '../components/ArticleCard';
 import AcceptingContributions from '../components/AcceptingContributions';
 
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
+
 const Home = () => {
+  const splideRef = useRef();
+
+  const handlePrevClick = () => {
+    splideRef.current.splide.go('<');
+  };
+
+  const handleNextClick = () => {
+    splideRef.current.splide.go('>');
+  };
+
+  const articleCarouselOptions = {
+    type: 'loop',
+    autoWidth: true,
+    gap: '-1rem',
+    arrows: false,
+    pagination: false,
+  };
+
   return (
     <Layout>
       <ChakraProvider>
@@ -41,18 +62,38 @@ const Home = () => {
               Articles
             </Text>
 
-            <Flex gap="1rem">
-              <ChevronLeftIcon boxSize={8} />
-              <ChevronRightIcon boxSize={8} />
+            <Flex gap="1rem" className="splide__arrows">
+              <ChevronLeftIcon
+                color="#E2E3E3"
+                boxSize={8}
+                _hover={{ cursor: 'pointer', color: '#292F2E' }}
+                onClick={handlePrevClick}
+              />
+
+              <ChevronRightIcon
+                color="#E2E3E3"
+                boxSize={8}
+                _hover={{ cursor: 'pointer', color: '#292F2E' }}
+                onClick={handleNextClick}
+              />
             </Flex>
           </Flex>
 
-          <Flex>
-            {/* Slider Goes in here */}
-            <ArticleCard />
-            {/* <ArticleCard />
-            <ArticleCard /> */}
-          </Flex>
+          <HStack overflowX="auto">
+            <Splide aria-label="Featured Articles" options={articleCarouselOptions} ref={splideRef}>
+              <SplideSlide>
+                <ArticleCard />
+              </SplideSlide>
+
+              <SplideSlide>
+                <ArticleCard />
+              </SplideSlide>
+
+              <SplideSlide>
+                <ArticleCard />
+              </SplideSlide>
+            </Splide>
+          </HStack>
 
           <Flex justifyContent="center" marginTop={3}>
             <SecondaryButton text="See More Articles" link="https://madeinnigeria.dev" />
