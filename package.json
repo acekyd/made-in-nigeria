@@ -22,6 +22,7 @@
     "@emotion/styled": "^11.10.6",
     "@mdx-js/mdx": ">=2.1.3",
     "@mdx-js/react": "^2.1.3",
+    "@splidejs/react-splide": "^0.7.12",
     "framer-motion": "^7.10.3",
     "gatsby": "^4.23.1",
     "gatsby-plugin-google-analytics": "^4.23.0",

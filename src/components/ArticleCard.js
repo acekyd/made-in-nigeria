@@ -1,12 +1,12 @@
-import React from "react";
-import { Box, Flex, Image, Text, Link } from "@chakra-ui/react";
+import React from 'react';
+import { Box, Flex, Image, Text, Link } from '@chakra-ui/react';
 
-import matthew from "../images/matthew.png";
+import matthew from '../images/matthew.png';
 
 const ArticleCard = () => {
-  const articleTitle = "Meet the devs: An interview with Matthew Ogunbiade.";
+  const articleTitle = 'Meet the devs: An interview with Matthew Ogunbiade.';
   const articleContent =
-    "Maecenas proin arcu convallis fames. Ut ultrices in vel telluest. Metus nec tellus ut sed adipiscing est urna, sem ipsut il morem tut...";
+    'Maecenas proin arcu convallis fames. Ut ultrices in vel telluest. Metus nec tellus ut sed adipiscing est urna, sem ipsut il morem tut...';
   return (
     <Box
       borderColor="#E3E3E3"
