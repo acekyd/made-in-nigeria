@@ -65,7 +65,7 @@ const NavBar = () => {
               '2xl': 'flex',
             }}
           >
-            <Link>
+            <Link href="/projects">
               <Text>Projects</Text>
             </Link>
 
