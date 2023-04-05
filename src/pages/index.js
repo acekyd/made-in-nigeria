@@ -100,14 +100,23 @@ const IndexPage = () => {
             </Flex>
           </Flex>
 
-          <HStack justifyContent="center" display={{ base: 'none', sm: 'none', md: 'flex' }}>
+          <HStack
+            // gap="1rem"
+            justifyContent="center"
+            display={{ base: 'none', sm: 'none', md: 'flex' }}
+          >
             <ArticleCard />
             <ArticleCard />
             <ArticleCard />
           </HStack>
 
           <HStack overflowX="auto" display={{ sm: 'flex', md: 'none' }}>
-            <Splide aria-label="Featured Articles" options={articleCarouselOptions} ref={splideRef}>
+            <Splide
+              // gap="1rem"
+              aria-label="Featured Articles"
+              options={articleCarouselOptions}
+              ref={splideRef}
+            >
               <SplideSlide>
                 <ArticleCard />
               </SplideSlide>
