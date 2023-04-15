@@ -31,9 +31,11 @@ const NavBar = () => {
       w="100%"
       display="flex"
       justifyContent="center"
-      borderBottom="1"
-      borderColor="#E9EAEA"
-      borderWidth="1px"
+      pt={8}
+      position="sticky"
+      top="0"
+      background="#FFFFFF"
+      zIndex={50}
     >
       <Container
         maxW="container.xl"
