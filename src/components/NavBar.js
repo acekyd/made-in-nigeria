@@ -35,7 +35,7 @@ const NavBar = () => {
       position="sticky"
       top="0"
       background="#FFFFFF"
-      zIndex={50}
+      zIndex={1}
     >
       <Container
         maxW="container.xl"
