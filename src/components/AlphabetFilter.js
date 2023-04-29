@@ -1,164 +1,182 @@
-import { Box, SimpleGrid, Text } from '@chakra-ui/react';
+import { ChevronDownIcon, ChevronUpIcon } from '@chakra-ui/icons';
+import { Center, SimpleGrid, Text } from '@chakra-ui/react';
 import React from 'react';
+import { useState } from 'react';
 
 const AlphabetFilter = () => {
+  const [isHover, setIsHover] = useState(false);
+
   return (
     <SimpleGrid columns={{ base: 8, md: 26 }} rowGap={6} background="#FFFFFF" pt="2rem">
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           A
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           B
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           C
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           D
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           E
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           F
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           G
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           H
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           I
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           J
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           K
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           L
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           M
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           N
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           O
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           P
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           Q
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           R
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           S
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           T
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           U
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           V
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           W
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           X
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           Y
         </Text>
-      </Box>
+      </Center>
 
-      <Box borderX="1px solid #E2E3E3" padding="0.5rem 1rem" margin="0 !important">
+      <Center borderLeft="1px solid #E2E3E3" padding="0.5rem 1rem">
         <Text color="#B8BAB9" fontWeight="800">
           Z
         </Text>
-      </Box>
+      </Center>
+
+      <Center
+        borderX="1px solid #E2E3E3"
+        justifyContent="center"
+        alignItems="center"
+        cursor="pointer"
+        onMouseOver={() => setIsHover(!isHover)}
+      >
+        {isHover ? (
+          <ChevronUpIcon color="#B8BAB9" boxSize="1.5rem" />
+        ) : (
+          <ChevronDownIcon color="#B8BAB9" cursor="pointer" boxSize="1.5rem" />
+        )}
+      </Center>
     </SimpleGrid>
   );
 };
