@@ -19,7 +19,7 @@ const ProjectsPage = () => {
             <ProjectsHero />
           </Box>
 
-          <Box position="sticky" top="90" zIndex={100}>
+          <Box position="sticky" top="90" zIndex={1}>
             <AlphabetFilter />
           </Box>
 
