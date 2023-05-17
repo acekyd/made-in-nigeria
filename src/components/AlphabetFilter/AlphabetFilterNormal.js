@@ -1,7 +1,5 @@
-import { ChevronDownIcon, ChevronUpIcon } from '@chakra-ui/icons';
-import { Button, Center, SimpleGrid, Text } from '@chakra-ui/react';
+import { Button, Center, SimpleGrid } from '@chakra-ui/react';
 import React from 'react';
-import { useState } from 'react';
 
 const AlphabetFilter = () => {
   return (
