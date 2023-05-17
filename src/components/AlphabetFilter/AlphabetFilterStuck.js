@@ -5,7 +5,6 @@ import React from 'react';
 const AlphabetFilterStuck = ({ isExpanded, setIsExpanded }) => {
   const expand = () => {
     setIsExpanded(true);
-    console.log('expanded', isExpanded);
   };
   return (
     <Center borderBottom="0.5px solid #E2E3E3" pb="1rem" width="100vw" background="#FFFFFF">
