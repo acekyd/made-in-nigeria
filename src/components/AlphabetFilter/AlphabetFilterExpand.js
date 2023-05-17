@@ -1,12 +1,10 @@
-import { ChevronDownIcon, ChevronUpIcon } from '@chakra-ui/icons';
-import { Button, Center, SimpleGrid, Text } from '@chakra-ui/react';
+import { ChevronUpIcon } from '@chakra-ui/icons';
+import { Button, Center, SimpleGrid } from '@chakra-ui/react';
 import React from 'react';
-import { useState } from 'react';
 
-const AlphabetFilterExpand = ({ isExpanded, setIsExpanded }) => {
+const AlphabetFilterExpand = ({ setIsExpanded }) => {
   const collapse = () => {
     setIsExpanded(false);
-    console.log('collapse');
   };
 
   return (
