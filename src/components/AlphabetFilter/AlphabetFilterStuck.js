@@ -8,7 +8,7 @@ const AlphabetFilterStuck = ({ isExpanded, setIsExpanded }) => {
     console.log('expanded', isExpanded);
   };
   return (
-    <Center borderBottom="0.5px solid #E2E3E3" pb="1rem" width="100vw">
+    <Center borderBottom="0.5px solid #E2E3E3" pb="1rem" width="100vw" background="#FFFFFF">
       <Flex gap="3px">
         <Center borderLeft="0.5px solid #E2E3E3" padding="0 0.2rem">
           <Button
