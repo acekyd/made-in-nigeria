@@ -47,7 +47,11 @@ const ProjectsPage = () => {
             <ProjectsHero />
           </Box>
 
-          <Box position="sticky" top="90" zIndex={1}>
+          <Box position="sticky" top="90" zIndex={1} display={{ base: 'none', md: 'flex' }}>
+            <AlphabetFilterNormal />
+          </Box>
+
+          <Box position="sticky" top="90" zIndex={1} display={{ base: 'flex', md: 'none' }}>
             {isNormal ? (
               <AlphabetFilterNormal />
             ) : isStuck && !isExpanded ? (
