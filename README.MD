@@ -251,7 +251,8 @@
 - [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel. **By [@ammezie](https://twitter.com/ammezie)**
 - [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By [@kizitonwose](https://twitter.com/kizitonwose)**
 - [stacks](https://github.com/nerdeveloper/stacks) - A tool for setting up your stack quickly for Local development, on-prem and Bare metal servers. **By [@nerdeveloper](https://github.com/nerdeveloper)**
-- [status-modal](https://github.com/kaf-lamed-beyt/status-modal) - A react component that you can use to render current error or success messages from a particular API endpoint. **By [@calebolojo](https://twitter.com/calebolojo)**
+- [status-modal](https://github.com/kaf-lamed-beyt/status-modal) - A react component that you can use to render current error or success messages from a particular API endpoint. **By [@kafLamed](https://twitter.com/kafLamed)**
+- [Stargazer](https://github.com/kaf-lamed-beyt/stargazer) - Get notified when someone stars or "unstars" your OSS ptoject. **By [@kafLamed](https://twitter.com/kafLamed)**
 - [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
 - [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
 - [Search Engine Parser](https://github.com/bisoncorps/search-engine-parser) - Lightweight package to query popular search engines and scrape for result titles, links and descriptions. **By [@\_deven96](https://twitter.com/_deven96) and [@iamMensaah](https://twitter.com/iamMensaah)**
