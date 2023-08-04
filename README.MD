@@ -124,6 +124,7 @@
 ## <a name="J"> </a>J
 
 - [Jollof](https://github.com/isocroft/Jollof) - A lightweight PHP framework for developers who love smart work. **By [@isocroft](https://twitter.com/isocroft)**
+- [JSON Preview](https://github.com/ugwustanley/json-preview) - A tool that allows you to convert your JSON file into visual interactive diagrams. **By [@chiagozie_ugwu](https://twitter.com/chiagozie_ugwu)**
 - [Jusibe PHP Library](https://github.com/unicodeveloper/jusibe-php-lib) - A library for [Jusibe SMS Service](https://jusibe.com). **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Jusibe JavaScript Library](https://github.com/azemoh/jusibe) - A JavaScript library for [Jusibe SMS Service](https://jusibe.com). **By [@azemoh](https://twitter.com/josh_azemoh)**
 
@@ -239,9 +240,10 @@
 
 ## <a name="S"> </a>S
 
-- [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken. **By [@robophil\_](https://twitter.com/robophil_)**
-- [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs. **By [@theo4me](https://twitter.com/theo4me)**
-- [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf. **By [@tdscientist](https://twitter.com/tdscientist)**
+- [saido](https://github.com/bisohns/saido) - A yaml driven tool for easily monitoring metrics on multiple servers **By [@bisohns](https://twitter.com/_deven96)**
+- [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken **By [@robophil\_](https://twitter.com/robophil_)**
+- [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs **By [@theo4me](https://twitter.com/theo4me)**
+- [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**
 - [Shutdown](https://github.com/emmanuelkehinde/Shutdown) - A lightweight android library that handles the closing of your app interactively. **By [@emmakoko96](https://twitter.com/emmakoko96)**
 - [Signalum](https://github.com/bisoncorps/signalum) - A Linux Library to explore creating an application that detects available connections at once from WiFi and Bluetooth. **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 - [Signalum Desktop](https://github.com/bisoncorps/signalum-desktop) - A Desktop application for the signalum python library. **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
