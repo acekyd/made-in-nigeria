@@ -1,11 +1,11 @@
-import { Box, Text, Flex, Link } from "@chakra-ui/react";
+'use client'
+
+import { Box, Text, Flex, Link, Image } from "@chakra-ui/react";
 import React from "react";
 import logo from "../../public/images/logo.svg";
 import github from "../../public/images/github.svg";
 import mail from "../../public/images/mail.svg";
 import twitter from "../../public/images/twitter.svg";
-
-import Image from 'next/image'
 
 const Footer = () => {
   return (
