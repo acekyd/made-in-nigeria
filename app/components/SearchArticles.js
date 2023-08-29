@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Image, Input } from '@chakra-ui/react';
-import SearchIcon from '../images/drawer-search.png';
+import SearchIcon from '../../public/images/drawer-search.png';
 
 const SearchArticles = () => {
   return (
@@ -24,7 +24,7 @@ const SearchArticles = () => {
         }}
         gap="1rem"
       >
-        <Image src={SearchIcon} w="1.2rem" height="1.2rem" />
+        <Image src={SearchIcon.src} w="1.2rem" height="1.2rem" alt='' />
         <Input
           variant="unstyled"
           placeholder="Search Articles"

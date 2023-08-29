@@ -6,12 +6,12 @@ const BlogNewsletter = () => {
   return (
     <Box
       background={{
-        base: "url('../images/map-for-built-by-nigerians.png') bottom -3.5rem right -14.5rem no-repeat",
-        sm: "url('../images/map-for-built-by-nigerians.png') bottom -3.5rem right -14.5rem no-repeat",
-        md: "url('../images/map-for-built-by-nigerians.png') bottom -3.5rem right -14.5rem no-repeat",
-        lg: "url('../images/map-for-built-by-nigerians.png') bottom right no-repeat",
-        xl: "url('../images/map-for-built-by-nigerians.png') bottom right no-repeat",
-        '2xl': "url('../images/map-for-built-by-nigerians.png') bottom right no-repeat",
+        base: "url('../../public/images/map-for-built-by-nigerians.png') bottom -3.5rem right -14.5rem no-repeat",
+        sm: "url('../../public/images/map-for-built-by-nigerians.png') bottom -3.5rem right -14.5rem no-repeat",
+        md: "url('../../public/images/map-for-built-by-nigerians.png') bottom -3.5rem right -14.5rem no-repeat",
+        lg: "url('../../public/images/map-for-built-by-nigerians.png') bottom right no-repeat",
+        xl: "url('../../public/images/map-for-built-by-nigerians.png') bottom right no-repeat",
+        '2xl': "url('../../public/images/map-for-built-by-nigerians.png') bottom right no-repeat",
       }}
       backgroundSize={{ base: '500px', sm: '500px', md: '500px', lg: '', xl: '', '2xl': '' }}
       display="flex"

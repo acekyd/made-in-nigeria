@@ -1,9 +1,11 @@
 import { Box, Text, Flex, Link } from "@chakra-ui/react";
 import React from "react";
-import logo from "../images/logo.svg";
-import github from "../images/github.svg";
-import mail from "../images/mail.svg";
-import twitter from "../images/twitter.svg";
+import logo from "../../public/images/logo.svg";
+import github from "../../public/images/github.svg";
+import mail from "../../public/images/mail.svg";
+import twitter from "../../public/images/twitter.svg";
+
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -30,7 +32,7 @@ const Footer = () => {
           gap={{ base: "2em", sm: "2em", md: "2em", lg: "10em", xl: "10em" }}
         >
           <Flex flexDirection="column" gap="1.5rem">
-            <img src={logo} width="117px" height="3rem" alt="made in nigeria" />
+            <Image src={logo.src} width="117px" height="3rem" alt="made in nigeria" />
 
             <Text color="#949796" w={380} fontSize="sm" lineHeight="1.75rem">
               A curation of awesome open source tools and projects built by
@@ -45,13 +47,13 @@ const Footer = () => {
             >
               <Flex gap="2rem" alignItems="center">
                 <Link>
-                  <img src={github} alt="github" />
+                  <Image src={github.src} alt="github" />
                 </Link>
                 <Link>
-                  <img src={twitter} alt="twitter" />
+                  <Image src={twitter.src} alt="twitter" />
                 </Link>
                 <Link>
-                  <img src={mail} alt="mail" />
+                  <Image src={mail.src} alt="mail" />
                 </Link>
               </Flex>
             </Flex>

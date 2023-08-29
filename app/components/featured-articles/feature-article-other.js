@@ -2,7 +2,7 @@ import React from 'react';
 
 import { VStack, Image, Text, Link, Box } from '@chakra-ui/react';
 
-import dreambig from '../../images/dreambig.jpeg';
+import dreambig from '../../../public/images/dreambig.jpeg';
 
 const FeatureArticleOther = () => {
   return (
@@ -39,7 +39,7 @@ const FeatureArticleOther = () => {
       }}
     >
       <Image
-        src={dreambig}
+        src={dreambig.src}
         alt=""
         width={{
           base: '20.375rem',

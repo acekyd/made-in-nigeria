@@ -7,7 +7,6 @@ import {
     Center,
     Box,
 } from "@chakra-ui/react";
-import Layout from "../components/layout";
 import Hero from "../components/Hero";
 import ProjectCard from "../components/ProjectCard";
 import PrimaryButton from "../components/Buttons/PrimaryButton";
@@ -69,7 +68,7 @@ export default function Examples() {
                     <AcceptingContributions />
                 </Box>
 
-                <Box display="flex" justtifyContent="center" marginBottom={10}>
+                <Box display="flex" justifyContent="center" marginBottom={10}>
                     <FeaturedArticles />
                 </Box>
 

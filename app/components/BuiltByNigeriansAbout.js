@@ -17,7 +17,7 @@ const BuiltByNigeriansAbout = () => {
       gap={{ base: 1, sm: 1, md: 1, lg: 8, xl: 8, '2xl': 8 }}
     >
       <Image
-        src="./images/about-page-imgs/built-by-nigerians-section.png"
+        src="/images/about-page-imgs/built-by-nigerians-section.png"
         alt="secured open source"
         width={{
           base: '22.875rem',

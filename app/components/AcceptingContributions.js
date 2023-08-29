@@ -6,13 +6,13 @@ const AcceptingContributions = () => {
   return (
     <Box
       background={{
-        base: " url('../images/map-acc-contr-top-left.png') top -9rem left -4rem no-repeat, url('../images/map-acc-contr-bottom-right.png') bottom -3rem right -10rem no-repeat",
-        sm: "url('../images/map-acc-contr-top-left.png') top -9rem left -4rem no-repeat, url('../images/map-acc-contr-bottom-right.png') bottom -3rem right -10rem no-repeat",
-        md: "url('../images/map-acc-contr-top-left.png') top -9rem left -4rem no-repeat, url('../images/map-acc-contr-bottom-right.png') bottom -3rem right -10rem no-repeat",
-        lg: "url('../images/map-acc-contr-top-left.png') top left no-repeat, url('../images/map-acc-contr-bottom-right.png') bottom right no-repeat",
-        xl: "url('../images/map-acc-contr-top-left.png') top left no-repeat, url('../images/map-acc-contr-bottom-right.png') bottom right no-repeat",
+        base: " url('../../public/images/map-acc-contr-top-left.png') top -9rem left -4rem no-repeat, url('../../public/images/map-acc-contr-bottom-right.png') bottom -3rem right -10rem no-repeat",
+        sm: "url('../../public/images/map-acc-contr-top-left.png') top -9rem left -4rem no-repeat, url('../../public/images/map-acc-contr-bottom-right.png') bottom -3rem right -10rem no-repeat",
+        md: "url('../../public/images/map-acc-contr-top-left.png') top -9rem left -4rem no-repeat, url('../../public/images/map-acc-contr-bottom-right.png') bottom -3rem right -10rem no-repeat",
+        lg: "url('../../public/images/map-acc-contr-top-left.png') top left no-repeat, url('../../public/images/map-acc-contr-bottom-right.png') bottom right no-repeat",
+        xl: "url('../../public/images/map-acc-contr-top-left.png') top left no-repeat, url('../../public/images/map-acc-contr-bottom-right.png') bottom right no-repeat",
         '2xl':
-          "url('../images/map-acc-contr-top-left.png') top left no-repeat, url('../images/map-acc-contr-bottom-right.png') bottom right no-repeat",
+          "url('../../public/images/map-acc-contr-top-left.png') top left no-repeat, url('../../public/images/map-acc-contr-bottom-right.png') bottom right no-repeat",
       }}
       backgroundColor={{
         base: '#008463',

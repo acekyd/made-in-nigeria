@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button, Link } from '@chakra-ui/react';
 
 const PrimaryButton = ({ text, link, mobileWidth, desktopWidth }) => {

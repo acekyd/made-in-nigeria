@@ -10,16 +10,16 @@ import {
   Flex,
 } from "@chakra-ui/react";
 
-import matthew from "../images/matthew.png";
-import github from "../images/github.png";
-import twitter from "../images/twitter.png";
-import linkedin from "../images/linkedin.png";
+import matthew from "../../public/images/matthew.png";
+import github from "../../public/images/github.png";
+import twitter from "../../public/images/twitter.png";
+import linkedin from "../../public/images/linkedin.png";
 
 const TeamCard = () => {
   return (
     <Card borderRadius="2xl">
       <CardBody>
-        <Image src={matthew} alt="matthew portrait" />
+        <Image src={matthew.src} alt="matthew portrait" />
 
         <Stack mt={6} spacing="3">
           <Heading size="sm">Emmanuel Oloke</Heading>
@@ -34,13 +34,13 @@ const TeamCard = () => {
       <CardFooter>
         <Flex gap={9} alignItems="center" width="9.5rem">
           <Link href="https://github.com/EmmanuelOloke" isExternal>
-            <Image src={github} alt="github icon" />
+            <Image src={github.src} alt="github icon" />
           </Link>
           <Link href="https://twitter.com/I_am_Pope" isExternal>
-            <Image src={twitter} alt="twitter icon" />
+            <Image src={twitter.src} alt="twitter icon" />
           </Link>
           <Link href="https://linkedin.com/in/emmanuel-oloke" isExternal>
-            <Image src={linkedin} alt="linkedin icon" />
+            <Image src={linkedin.src} alt="linkedin icon" />
           </Link>
         </Flex>
       </CardFooter>

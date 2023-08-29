@@ -17,10 +17,10 @@ import {
   DrawerHeader,
 } from '@chakra-ui/react';
 
-import ColoredLogo from '../images/colored-logo.png';
-import SearchIcon from '../images/search.png';
+import ColoredLogo from '../../public/images/colored-logo.png';
+import SearchIcon from '../../public/images/search.png';
 import SearchProject from './SearchProject';
-import MenuIcon from '../images/menu.png';
+import MenuIcon from '../../public/images/menu.png';
 
 const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -48,7 +48,7 @@ const NavBar = () => {
       >
         <Box display="flex" justifyContent="space-between">
           <Box>
-            <Image src={ColoredLogo} />
+            <Image src={ColoredLogo.src} alt='' />
           </Box>
 
           <Flex
@@ -102,13 +102,14 @@ const NavBar = () => {
           width="17.25rem"
           gap="1rem"
         >
-          <Image src={SearchIcon} w="1.25rem" height="1.25rem" />
+          <Image src={SearchIcon.src} w="1.25rem" height="1.25rem" alt='' />
           <Input variant="unstyled" placeholder="Search" _placeholder={{ color: '#B8BAB9' }} />
         </Box>
 
         <Box ref={navRef} onClick={onOpen}>
           <Image
-            src={MenuIcon}
+            src={MenuIcon.src}
+            alt=''
             display={{
               base: 'flex',
               sm: 'flex',
@@ -126,7 +127,7 @@ const NavBar = () => {
           <DrawerContent>
             <Box>
               <DrawerHeader borderColor="#E2E3E3" borderBottomWidth="1px" marginTop="30px">
-                <Image src={ColoredLogo} />
+                <Image src={ColoredLogo.src} alt='' />
               </DrawerHeader>
 
               <DrawerCloseButton

@@ -25,10 +25,10 @@ import {
 } from '@chakra-ui/react';
 import { MdMoreHoriz, MdOutlineVisibility } from 'react-icons/md';
 import { FiUser, FiShare2 } from 'react-icons/fi';
-import codewonders from '../images/codewonders.png';
-import js from '../images/js.png';
-import html5 from '../images/html5.png';
-import css3 from '../images/css3.png';
+import codewonders from '../../public/images/codewonders.png';
+import js from '../../public/images/js.png';
+import html5 from '../../public/images/html5.png';
+import css3 from '../../public/images/css3.png';
 
 function ProjectCard() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -78,7 +78,7 @@ function ProjectCard() {
                   <Flex flexWrap="wrap" gap="1rem">
                     <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
                       <Flex flexDirection="column" alignItems="center">
-                        <Image src="../images/share-icons/copy.png" />
+                        <Image src="../../public/images/share-icons/copy.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
                           Copy Link
                         </Text>
@@ -87,7 +87,7 @@ function ProjectCard() {
 
                     <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
                       <Flex flexDirection="column" alignItems="center">
-                        <Image src="../images/share-icons/twitter.png" />
+                        <Image src="../../public/images/share-icons/twitter.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
                           Twitter
                         </Text>
@@ -96,7 +96,7 @@ function ProjectCard() {
 
                     <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
                       <Flex flexDirection="column" alignItems="center">
-                        <Image src="../images/share-icons/linkedin.png" />
+                        <Image src="../../public/images/share-icons/linkedin.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
                           LinkedIn
                         </Text>
@@ -105,7 +105,7 @@ function ProjectCard() {
 
                     <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
                       <Flex flexDirection="column" alignItems="center">
-                        <Image src="../images/share-icons/facebook.png" />
+                        <Image src="../../public/images/share-icons/facebook.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
                           Facebook
                         </Text>
@@ -114,7 +114,7 @@ function ProjectCard() {
 
                     <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
                       <Flex flexDirection="column" alignItems="center">
-                        <Image src="../images/share-icons/mail.png" />
+                        <Image src="../../public/images/share-icons/mail.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
                           Email
                         </Text>
@@ -123,7 +123,7 @@ function ProjectCard() {
 
                     <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
                       <Flex flexDirection="column" alignItems="center">
-                        <Image src="../images/share-icons/embed.png" />
+                        <Image src="../../public/images/share-icons/embed.png" alt=''/>
                         <Text color="#292F2E" fontSize="12px">
                           Embed
                         </Text>
@@ -147,16 +147,16 @@ function ProjectCard() {
       <Divider />
 
       <Flex mx={4} my={4} gap={2}>
-        <img src={codewonders} alt="profile" />
+        <Image src={codewonders.src} alt="profile" />
         <Text fontWeight="semibold" fontSize="0.875rem">
           codewonders
         </Text>
 
         <Spacer />
 
-        <img src={js} alt="javascript" />
-        <img src={html5} alt="html 5" />
-        <img src={css3} alt="css 3" />
+        <Image src={js.src} alt="javascript" />
+        <Image src={html5.src} alt="html 5" />
+        <Image src={css3.src} alt="css 3" />
       </Flex>
     </Box>
   );

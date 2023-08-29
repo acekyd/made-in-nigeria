@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Flex, Image, Text, Link } from '@chakra-ui/react';
 
-import matthew from '../images/matthew.png';
+import matthew from '../../public/images/matthew.png'
 
 const ArticleCard = () => {
   const articleTitle = 'Meet the devs: An interview with Matthew Ogunbiade.';
@@ -18,7 +18,7 @@ const ArticleCard = () => {
       m={5}
     >
       <Flex flexDirection="column" mx={4} my={4} gap={3}>
-        <Image src={matthew} />
+        <Image src={matthew.src} alt=''/>
         <Text
           as="u"
           textUnderlineOffset={3}

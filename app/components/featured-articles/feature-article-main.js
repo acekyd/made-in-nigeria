@@ -1,7 +1,7 @@
 import React from 'react';
 import { VStack, Image, Text, Link, Box } from '@chakra-ui/react';
 
-import matthew1 from '../../images/matthew1.jpeg';
+import matthew1 from '../../../public/images/matthew1.jpeg';
 
 const FeaturedArticleMain = () => {
   return (
@@ -31,7 +31,7 @@ const FeaturedArticleMain = () => {
     >
       <Box rounded="xl" overflow="hidden">
         <Image
-          src={matthew1}
+          src={matthew1.src}
           alt="matthew sharp image"
           width={{
             base: '20.375rem',
