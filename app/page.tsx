@@ -7,12 +7,12 @@ import Hero from './components/Hero';
 import ProjectCard from './components/ProjectCard';
 import SecondaryButton from './components/Buttons/SecondaryButton';
 import BuiltByNigerians from './components/BuiltByNigerians';
-// import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
+import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import ArticleCard from './components/ArticleCard';
 import AcceptingContributions from './components/AcceptingContributions';
 
-// import { Splide, SplideSlide } from '@splidejs/react-splide';
-// import '@splidejs/react-splide/css';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 
 export default function Home() {
   const splideRef = useRef();
@@ -78,7 +78,7 @@ export default function Home() {
           </Text>
 
           <Flex display={{ sm: 'flex', md: 'none' }}>
-            {/* <ChevronLeftIcon
+            <ChevronLeftIcon
               color="#E2E3E3"
               boxSize={8}
               _hover={{ cursor: 'pointer', color: '#292F2E' }}
@@ -91,7 +91,7 @@ export default function Home() {
               boxSize={8}
               _hover={{ cursor: 'pointer', color: '#292F2E' }}
               onClick={handleNextClick}
-            /> */}
+            />
           </Flex>
         </Flex>
 
@@ -106,7 +106,7 @@ export default function Home() {
         </HStack>
 
         <HStack overflowX="auto" display={{ sm: 'flex', md: 'none' }}>
-          {/* <Splide
+          <Splide
             // gap="1rem"
             aria-label="Featured Articles"
             options={articleCarouselOptions}
@@ -123,7 +123,7 @@ export default function Home() {
             <SplideSlide>
               <ArticleCard />
             </SplideSlide>
-          </Splide> */}
+          </Splide>
         </HStack>
 
         <Flex justifyContent="center" marginTop={3}>
