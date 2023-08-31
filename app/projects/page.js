@@ -1,3 +1,4 @@
+'use client'
 import ProjectsHero from '../components/ProjectsHero';
 import { Box, ChakraProvider, Container, SimpleGrid } from '@chakra-ui/react';
 import AlphabetFilterNormal from '../components/AlphabetFilter/AlphabetFilterNormal';
@@ -38,44 +39,40 @@ const ProjectsPage = () => {
     }, [isStuck]);
 
     return (
-        <Layout>
-            <ChakraProvider>
-                <Container maxW="container.xl" centerContent top>
-                    <Box ref={projectHeroRef} my={{ base: '3rem', md: '7rem' }}>
-                        <ProjectsHero />
-                    </Box>
+        <Container maxW="container.xl" centerContent top>
+            <Box ref={projectHeroRef} my={{ base: '3rem', md: '7rem' }}>
+                <ProjectsHero />
+            </Box>
 
-                    <Box position="sticky" top="90" zIndex={1} display={{ base: 'none', md: 'flex' }}>
-                        <AlphabetFilterNormal />
-                    </Box>
+            <Box position="sticky" top="90" zIndex={1} display={{ base: 'none', md: 'flex' }}>
+                <AlphabetFilterNormal />
+            </Box>
 
-                    <Box position="sticky" top="90" zIndex={1} display={{ base: 'flex', md: 'none' }}>
-                        {isNormal ? (
-                            <AlphabetFilterNormal />
-                        ) : isStuck && !isExpanded ? (
-                            <AlphabetFilterStuck isExpanded={isExpanded} setIsExpanded={setIsExpanded} />
-                        ) : isExpanded ? (
-                            <AlphabetFilterExpand isExpanded={isExpanded} setIsExpanded={setIsExpanded} />
-                        ) : null}
-                    </Box>
+            <Box position="sticky" top="90" zIndex={1} display={{ base: 'flex', md: 'none' }}>
+                {isNormal ? (
+                    <AlphabetFilterNormal />
+                ) : isStuck && !isExpanded ? (
+                    <AlphabetFilterStuck isExpanded={isExpanded} setIsExpanded={setIsExpanded} />
+                ) : isExpanded ? (
+                    <AlphabetFilterExpand isExpanded={isExpanded} setIsExpanded={setIsExpanded} />
+                ) : null}
+            </Box>
 
-                    <SimpleGrid columns={{ sm: 1, md: 3 }} mt="1rem" mb="5rem">
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                    </SimpleGrid>
-                </Container>
-            </ChakraProvider>
-        </Layout>
+            <SimpleGrid columns={{ sm: 1, md: 3 }} mt="1rem" mb="5rem">
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+            </SimpleGrid>
+        </Container>
     );
 };
 
