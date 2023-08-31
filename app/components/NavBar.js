@@ -33,9 +33,11 @@ const NavBar = () => {
       w="100%"
       display="flex"
       justifyContent="center"
-      borderBottom="1"
-      borderColor="#E9EAEA"
-      borderWidth="1px"
+      pt={8}
+      position="sticky"
+      top="0"
+      background="#FFFFFF"
+      zIndex={1}
     >
       <Container
         maxW="container.xl"
@@ -67,7 +69,7 @@ const NavBar = () => {
               '2xl': 'flex',
             }}
           >
-            <Link>
+            <Link href="/projects">
               <Text>Projects</Text>
             </Link>
 
@@ -154,7 +156,7 @@ const NavBar = () => {
                   fontWeight="medium"
                   paddingLeft="24px"
                 >
-                  <Link>Projects</Link>
+                  <Link href="/projects">Projects</Link>
                   <Link>About</Link>
                   <Link>Make a Submission</Link>
                   <Link marginBottom="2rem">Blog</Link>
