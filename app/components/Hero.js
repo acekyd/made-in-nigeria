@@ -6,12 +6,12 @@ const Hero = () => {
   return (
     <Box
       background={{
-        base: "url('../../public/images/hero-img.png') bottom -35.5% left 38% no-repeat",
-        sm: "url('../../public/images/hero-img.png') bottom -35.5% left 38% no-repeat",
-        md: "url('../../public/images/hero-img.png') bottom -35.5% left 38% no-repeat",
-        lg: "url('../../public/images/hero-img.png') bottom center no-repeat",
-        xl: "url('../../public/images/hero-img.png') bottom center no-repeat",
-        '2xl': "url('../../public/images/hero-img.png') bottom center no-repeat",
+        base: "url('/images/hero-img.png') bottom -35.5% left 38% no-repeat",
+        sm: "url('/images/hero-img.png') bottom -35.5% left 38% no-repeat",
+        md: "url('/images/hero-img.png') bottom -35.5% left 38% no-repeat",
+        lg: "url('/images/hero-img.png') bottom center no-repeat",
+        xl: "url('/images/hero-img.png') bottom center no-repeat",
+        '2xl': "url('/images/hero-img.png') bottom center no-repeat",
       }}
       backgroundColor={{
         base: '#008463',
