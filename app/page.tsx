@@ -1,139 +1,41 @@
-'use client'
-
 import React, { useRef } from 'react';
-import {Box, Text, Flex, HStack, SimpleGrid } from '@chakra-ui/react';
+import { marked } from 'marked';
+import * as cheerio from 'cheerio';
 
-import Hero from './components/Hero';
-import ProjectCard from './components/ProjectCard';
-import SecondaryButton from './components/Buttons/SecondaryButton';
-import BuiltByNigerians from './components/BuiltByNigerians';
-import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
-import ArticleCard from './components/ArticleCard';
-import AcceptingContributions from './components/AcceptingContributions';
+import HomePage from './components/pages/HomePage';
 
-import { Splide, SplideSlide } from '@splidejs/react-splide';
-import '@splidejs/react-splide/css';
+async function getData() {
+  const res = await fetch('https://raw.githubusercontent.com/acekyd/made-in-nigeria/master/README.MD')
 
-export default function Home() {
-  const splideRef = useRef();
 
-  const handlePrevClick = () => {
-    // splideRef.current.splide.go('<');
-  };
+  if (!res.ok) {
+    // This will activate the closest `error.js` Error Boundary
+    throw new Error('Failed to fetch data')
+  }
 
-  const handleNextClick = () => {
-    // splideRef.current.splide.go('>');
-  };
+  const markdownData = await res.text();
 
-  const articleCarouselOptions = {
-    type: 'loop',
-    autoWidth: true,
-    gap: '-1rem',
-    arrows: false,
-    pagination: false,
-  };
+  const html = marked(markdownData);
+
+  // write a script to parse html string to select all ul > li elements
+  // and then create an array of objects with the data
+
+  const $ = cheerio.load(html); // load the html string into cheerio
+
+  // Select all <li> elements using jQuery-like syntax and extract their text
+const liTextArray = $('li').map((index, element) => $(element).html()).get();
+
+
+  console.log("Wahala", liTextArray);
+
+  return res;
+}
+
+export default async function Home() {
+  const data = await getData();
   return (
     <main>
-      <Hero />
-
-      <Flex flexDirection="column" marginTop="7rem" alignItems="center">
-        <Text fontWeight="extrabold" fontSize="1.5rem" marginBottom="1rem">
-          Featured Projects
-        </Text>
-
-        <SimpleGrid columns={{ sm: 1, md: 3 }}>
-          <Box display={{ base: 'none', sm: 'none', md: 'flex' }}>
-            <ProjectCard />
-          </Box>
-
-          <Box display={{ base: 'none', sm: 'none', md: 'flex' }}>
-            <ProjectCard />
-          </Box>
-
-          <Box display={{ base: 'none', sm: 'none', md: 'flex' }}>
-            <ProjectCard />
-          </Box>
-
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-        </SimpleGrid>
-
-        <SecondaryButton text="See All Projects" link="https://madeinnigeria.dev" />
-      </Flex>
-
-      <Box my="5rem" display="flex" justifyContent="center">
-        <BuiltByNigerians />
-      </Box>
-
-      <Flex flexDirection="column">
-        <Flex
-          justifyContent={{ base: 'space-between', sm: 'space-between', md: 'center' }}
-          alignItems="center"
-          width="90vw"
-          margin="0 auto"
-        >
-          <Text fontWeight="extrabold" fontSize="1.5rem">
-            Articles
-          </Text>
-
-          <Flex display={{ sm: 'flex', md: 'none' }}>
-            <ChevronLeftIcon
-              color="#E2E3E3"
-              boxSize={8}
-              _hover={{ cursor: 'pointer', color: '#292F2E' }}
-              onClick={handlePrevClick}
-              mr="1rem"
-            />
-
-            <ChevronRightIcon
-              color="#E2E3E3"
-              boxSize={8}
-              _hover={{ cursor: 'pointer', color: '#292F2E' }}
-              onClick={handleNextClick}
-            />
-          </Flex>
-        </Flex>
-
-        <HStack
-          // gap="1rem"
-          justifyContent="center"
-          display={{ base: 'none', sm: 'none', md: 'flex' }}
-        >
-          <ArticleCard />
-          <ArticleCard />
-          <ArticleCard />
-        </HStack>
-
-        <HStack overflowX="auto" display={{ sm: 'flex', md: 'none' }}>
-          <Splide
-            // gap="1rem"
-            aria-label="Featured Articles"
-            options={articleCarouselOptions}
-            ref={splideRef}
-          >
-            <SplideSlide>
-              <ArticleCard />
-            </SplideSlide>
-
-            <SplideSlide>
-              <ArticleCard />
-            </SplideSlide>
-
-            <SplideSlide>
-              <ArticleCard />
-            </SplideSlide>
-          </Splide>
-        </HStack>
-
-        <Flex justifyContent="center" marginTop={3}>
-          <SecondaryButton text="See More Articles" link="https://madeinnigeria.dev" />
-        </Flex>
-      </Flex>
-
-      <Box display="flex" justifyContent="center" my="7rem">
-        <AcceptingContributions />
-      </Box>
+      <HomePage />
     </main>
   )
 }
