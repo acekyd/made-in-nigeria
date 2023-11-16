@@ -20,10 +20,36 @@ async function getData() {
   // Select all <li> elements using jQuery-like syntax and extract their text
   const liTextArray = $('li').map((index, element) => $(element).html()).get();
 
+  // process the text to get the data you want
+  const repositories = convertToJSON(liTextArray);
 
-  console.log("Wahala", liTextArray);
+  console.log("Wahala", repositories);
 
-  return res;
+  return repositories;
+}
+
+function convertToJSON(repositories: string[]) {
+   return repositories.map((repository) => {
+    const $ = cheerio.load(repository);
+
+    // Extract text content and href from <a> element
+    const repoName = $('a').first().text();
+    const repoLink = $('a').first().attr('href');
+
+    let description = $('*').contents()[3].data; // I don't know why the fuck this works but if it's not broken, don't touch it.
+    const repoDescription = description.replace(/^ - /, '');
+    const repoAuthor = $('strong a').text();
+    const repoAuthorLink = $('strong a').attr('href');
+
+    // Create JSON object
+    return {
+      repoName,
+      repoLink,
+      repoDescription,
+      repoAuthor,
+      repoAuthorLink
+    };
+  });
 }
 
 export default async function Home() {
