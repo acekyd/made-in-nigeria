@@ -14,6 +14,7 @@
 - [Adonis Auth Scaffold](https://github.com/creatrixity/adonis-auth-scaffold) - Seamlessly scaffold a ready-to-use authentication system for your Adonis app with one neat command. **By [@creatrixity](https://twitter.com/creatrixity)**
 - [Adonis Hexa](https://github.com/creatrixity/adonis-hexa) - An opinionated software development framework for maintaining a scalable Adonis application. **By [@creatrixity](https://twitter.com/creatrixity)**
 - [Adonis Queue](https://github.com/stitchng/adonis-queue) - An addon/plugin package to provide driver-based job queueing services in AdonisJS 4.0+. **By [@isocroft](https://twitter.com/isocroft)**
+- [adonis-sse](https://github.com/stitchng/adonis-sse) - An addon/plugin package to provide server-sent events functionality for AdonisJS 4.0+. **By [@isocroft](https://twitter.com/isocroft)**
 - [Adonis Stripe](https://github.com/mezielabs/adonis-stripe) - This package makes it seamless to work with Stripe in AdonisJS 5 applications. **By [@ammezie](https://twitter.com/ammezie)**
 - [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 - [Altair](https://github.com/altair-graphql/altair) - A sleek graphQL client app for querying GraphQL servers, like Postman for graphQL. It also comes as a Chrome extension. **By [@imolorhe](https://twitter.com/imolorhe)**
@@ -34,7 +35,9 @@
 - [Breadcrumb For Codeigniter](https://github.com/iamuchejude/Breadcrumb-for-Codeigniter) - A Lightweight Library for generating Breadcrumb in Codeigniter. **By [@iamuchejude](https://twitter.com/iamuchejude)**
 - [Broad-state](https://github.com/adenekan41/broadstate) - Easy state manager for state values from one component to the other with useState and React Hooks in < 1KB! **By [@codewonders](https://twitter.com/code_wonders)**
 - [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device. **By [@isocroft](https://twitter.com/isocroft)**
+- [busser](https://github.com/codesplinta/busser) - A robust, opinionated, state management option for scalable and precise communication across ReactJS Components. **By [@isocroft](https://twitter.com/isocroft)**
 - [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator. **By [@tdscientist](https://twitter.com/tdscientist)**
+- [buzz](https://github.com/chidiwilliams/buzz) - Buzz transcribes audio from your computer's microphones to text using OpenAI's Whisper. **By [@chidiwilliams_](https://twitter.com/@chidiwilliams_)**
 - [BàngáJS](https://github.com/bangajs/banga-cli) - A CLI generator for bootstrapping ExpressJS applications and generating application layer files. **By [@saucecodee](https://twitter.com/saucecodee)**
 
 ## <a name="C"> </a>C
@@ -45,6 +48,7 @@
 - [Caniuse-embed](https://github.com/ireade/caniuse-embed) - The (unofficial) embed for caniuse. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 - [Cartie](https://github.com/LPMatrix/cartie) - A clean shopping cart implementation for Laravel. **By [@LPMatrix](https://twitter.com/WeirdMatrix)**
 - [chakra-ui](https://github.com/chakra-ui/chakra-ui) - Simple, modular and accessible component library for React applications. **By [@thesegunadebayo](https://twitter.com/thesegunadebayo)**
+- [chocotea](https://github.com/cleopatra27/chocotea) - A library that generates postman collection an integration tests from java code. **By [@succedor23](https://twitter.com/succedor23)**
 - [ci-toastr](https://github.com/joshuachinemezu/ci-toastr) - Codeigniter package for integrating javascript toastr into your web applications. **By [@joshuachinemezu](https://twitter.com/joshuachinemezu)**
 - [Client_manager](https://github.com/timigod/client_manager) - API Client Manager is a mountable Rails (engine) gem that helps identify and authenticate your API clients' requests. **By [@timigod](https://twitter.com/timigod)**
 - [Cogent PHP](https://github.com/wilforlan/CogentPHP) - A Simple PHP MVC Framework for Fast and Minimal Applications. **By [@wilforlan](https://twitter.com/wilforlan)**
@@ -80,7 +84,9 @@
 - [Favico-generator](https://github.com/Youngestdev/favico-generator) - A npm module for generating favicons from image. **By [@kvng_zeez](http://twitter.com/kvng_zeez)**
 - [Fawn](https://github.com/e-oj/Fawn) - A library for multi-document transactions in MongoDB via two-phase commits. **By [@e-oj](https://e-oj.com)**
 - [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**
-- [folabelle](https://github.com/BolajiOlajide/folabelle) -A VSCode theme - Cross breed of Monokai + Palenight **By [@Bolaji\_\_\_](https://twitter.com/Bolaji___)**
+- [flair](https://github.com/mezielabs/flair) - AdonisJS 5 authentication scaffolding. **By [@ammezie](https://twitter.com/ammezie)**
+- [flargd](https://github.com/pmbanugo/flargd) - A fast & minimalist feature flag app that runs on Clouflare Workers. **By [@p_mbanugo](https://twitter.com/p_mbanugo)**
+- [folabelle](https://github.com/BolajiOlajide/folabelle) - A VSCode theme - Cross breed of Monokai + Palenight **By [@Bolaji\_\_\_](https://twitter.com/Bolaji___)**
 - [FormHack](https://github.com/ireade/formhack) - A hackable css form reset. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 - [Frontend-app-starter](https://github.com/D-sense/frontend-app-starter) - A simple frontend app starter packed with Webpack, Twitter Bootstrap, and well-defined CSS media queries. Edit. **By [@D-sense](https://twitter.com/Delameh)**
 
@@ -154,6 +160,7 @@
 - [Laravel-Slack](https://github.com/goodnesskay/laravel-slack) - A Laravel Package that makes Automatic Invitation to Slack Channels or team seamless. **By [@goodnesskay](https://twitter.com/goodnesskayode)**
 - [Laravel-SMS](https://github.com/djunehor/laravel-sms) - Laravel SMS allows you to send SMS from your Laravel application using one of over 10 SMS providers, or your custom SMS provider. **By [@djunehor](https://twitter.com/djunehor)**
 - [Laravel-Spam-Email](https://github.com/hendurhance/laravel-spam-email) - This package is a Laravel package that checks if an email address is a spammer. It verifies your signups and forms submissions to confirm that they are legitimate. **By [@hendurhance](https://twitter.com/hendurhance)**
+- [LaraCaptcha](https://github.com/hendurhance/laracaptcha) - A Laravel package to seamlessly use hCapthca or reCaptcha v2 or v3 on your forms or RESTful APIs. **By [@hendurhance](https://twitter.com/hendurhance)**
 - [Laravel Telephone Input](https://github.com/victorybiz/laravel-tel-input) - Laravel Telephone Input component for Blade and Livewire based on the intl-tel-input JavaScript plugin. **By [@victoryosayi](https://twitter.com/victoryosayi)**
 - [Laravel Wikipedia](https://github.com/unicodeveloper/laravel-wikipedia) - A Wikipedia Package for Laravel 5. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Lib-ussd](https://github.com/hextremelabs/lib-ussd) - A lightweight USSD application framework. **By [@hextremelabs](https://twitter.com/hextremelabs)**
@@ -191,6 +198,7 @@
 - [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 - [Notes](https://github.com/rubbieKelvin/notes) - Distraction free notes app, minimal at its core. Create and share notes with ease. **By [@rubbiekelvin](https://twitter.com/KelvinRubbie)**
 - [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
+- [NUBAN Validator/Generator](https://github.com/emyu01/nuban) - Easily verify or generate valid account numbers for any Nigerian financial institution. **By [@iemyu_](https://twitter.com/iemyu_)**
 
 ## <a name="O"> </a>O
 
@@ -252,16 +260,21 @@
 - [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel. **By [@ammezie](https://twitter.com/ammezie)**
 - [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By [@kizitonwose](https://twitter.com/kizitonwose)**
 - [stacks](https://github.com/nerdeveloper/stacks) - A tool for setting up your stack quickly for Local development, on-prem and Bare metal servers. **By [@nerdeveloper](https://github.com/nerdeveloper)**
-- [status-modal](https://github.com/kaf-lamed-beyt/status-modal) - A react component that you can use to render current error or success messages from a particular API endpoint. **By [@calebolojo](https://twitter.com/calebolojo)**
+- [Stargazer](https://github.com/kaf-lamed-beyt/stargazer) - Get notified when someone stars or "unstars" your OSS ptoject. **By [@kafLamed](https://twitter.com/kafLamed)**
+- [status-modal](https://github.com/kaf-lamed-beyt/status-modal) - A react component that you can use to render current error or success messages from a particular API endpoint. **By [@kafLamed](https://twitter.com/kafLamed)**
+- [Stickynotes](https://github.com/Kolaposki/Stickynotes) - A functional note taking web application with alluring user interface. **By [@Kolaposki](https://twitter.com/KolapoOshodi)**
 - [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
+- [STX](https://github.com/lamarrr/STX) - C++17 & C++ 20 error-handling an utility. **By [@basit_ayantunde](https://twitter.com/basit_ayantunde)**
 - [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
+- [Suphle](https://github.com/nmeri17/suphle) - A PHP framework for building logic heavy full stack applications to be actively maintained over time. **by [Nmeri](https://twitter.com/mmayboy_)
 - [Search Engine Parser](https://github.com/bisoncorps/search-engine-parser) - Lightweight package to query popular search engines and scrape for result titles, links and descriptions. **By [@\_deven96](https://twitter.com/_deven96) and [@iamMensaah](https://twitter.com/iamMensaah)**
 - [sms-nigeria-go](https://github.com/D-sense/sms-nigeria-go) - A Go client for sending SMS to any Nigeria phone-number with ease. **By [@D-sense](https://twitter.com/Delameh)**
-- [Stickynotes](https://github.com/Kolaposki/Stickynotes) - A functional note taking web application with alluring user interface. **By [@Kolaposki](https://twitter.com/KolapoOshodi)**
+
 
 ## <a name="T"> </a>T
 
 - [TinyPress](https://github.com/kehers/tinypress) - Create and easily manage your blog on Github. **By [@kehers](https://twitter.com/kehers)**
+- [testkit](https://github.com/apitoolkit/testkit) - A DSL for testing. Starting with APIs. **By [@tonialaribe](https://twitter.com/tonialaribe)**
 - [TenseiJS](https://github.com/tenseijs/tensei) - Content management and distribution with a touch of elegance. **By [@bahdcoder](https://twitter.com/bahdcoder)**
 - [type-reverse](https://github.com/whizkydee/type-reverse) - 🦄 Lightweight reverse utility around strings, arrays, numbers and more. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [Toast.js](https://github.com/ireade/Toast.js) - A library for Toast messages. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
@@ -272,6 +285,7 @@
 ## <a name="U"> </a>U
 
 - [Unitcss](https://github.com/adenekan41/unitcss) - A cli tool to convert css units in your file, helps you swiftly convert units / mesurements in your file or folder. **By [@codewonders](https://twitter.com/code_wonders)**
+- [URISanity](https://github.com/codesplinta/URISanity) - sanitize uris in web and web-like applications with confidence. **By [@isocroft](https://twitter.com/isocroft)**
 - [Urley](https://github.com/adenekan41/urley) - A cross-platform library with a collection of handy utilities to work with URLs. **By [@codewonders](https://twitter.com/code_wonders)**
 - [UseFormBee](https://github.com/Eazybee/useFormBee) - useFormBee is a lightweight library that helps me manage and abstract react form logic. **By [@Eazybee](https://github.com/Eazybee)**
 - [use-global-hook](https://github.com/devhammed/use-global-hook) - Painless global state management for React using Hooks and Context API in 1KB! **By [@devhammed](https://profile.codersrank.io/user/devhammed)**
@@ -294,8 +308,11 @@
 - [WAFEDA](https://github.com/adejumoridwan/WAFEDA) - Simple Web App For Exploratory Data Analysis. **By [@abuuAishaaa](https://twitter.com/abuuAishaaa)**
 - [Whatsticker](https://github.com/deven96/whatsticker) - Automatically turn images/videos into stickers by using a caption. **By [@deven96](https://twitter.com/_deven96)**
 - [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
+- [wasmo](https://github.com/appcypher/wasmo) - A WebAssembly Compiler and Runtime. **By [@theappcypher](https://twitter.com/theappcypher)**
 - [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages. **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
 - [Web3terms](https://github.com/Olanetsoft/web3terms) - A Twitter bot explaining and simplifying web3 terms to everyone. **By [@olanetsoft](https://twitter.com/olanetsoft)**
+- [Whatsticker](https://github.com/deven96/whatsticker) - Automatically turn images/videos into stickers by using a caption. **By [@deven96](https://twitter.com/_deven96)**
+- [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
 - [WordPress Persist Admin Notices Dismissal](https://github.com/collizo4sky/persist-admin-notices-dismissal) - Simple plugin that persists dismissal of admin notices across pages in WordPress dashboard. **By [@w3guy](https://twitter.com/w3guy)**
 - [wtfoperamini](https://github.com/ireade/wtfoperamini) - Development features not supported in Opera Mini, and some crowsourced workarounds for them. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
 
@@ -306,3 +323,4 @@
 - [Yorlang](https://github.com/anoniscoding/yorlang) - A programming language with Yoruba language construct. **By [@anoniscoding](https://twitter.com/anoniscoding)**
 
 ## <a name="Z"> </a>Z
+- [zag](https://github.com/chakra-ui/zag) - Finite state machines for building accessible design systems and UI components. **By [@thesegunadebayo](https://twitter.com/thesegunadebayo)**
