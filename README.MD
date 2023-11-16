@@ -36,7 +36,7 @@
 - [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device. **By [@isocroft](https://twitter.com/isocroft)**
 - [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator. **By [@tdscientist](https://twitter.com/tdscientist)**
 - [BàngáJS](https://github.com/bangajs/banga-cli) - A CLI generator for bootstrapping ExpressJS applications and generating application layer files. **By [@saucecodee](https://twitter.com/saucecodee)**
-- [Blackmaria](https://github.com/Smyja/blackmaria) - A Python package for webscraping in Natural language. **By [@obonigwe1](https://twitter.com/obonigwe1)**
+- [Blackmaria](https://github.com/Smyja/blackmaria) - A Python package for webscraping in Natural language. **By [@ogbonigwe1](https://twitter.com/ogbonigwe1)**
 
 ## <a name="C"> </a>C
 
