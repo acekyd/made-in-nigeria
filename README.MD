@@ -259,7 +259,8 @@
 - [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel. **By [@ammezie](https://twitter.com/ammezie)**
 - [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By [@kizitonwose](https://twitter.com/kizitonwose)**
 - [stacks](https://github.com/nerdeveloper/stacks) - A tool for setting up your stack quickly for Local development, on-prem and Bare metal servers. **By [@nerdeveloper](https://github.com/nerdeveloper)**
-- [status-modal](https://github.com/kaf-lamed-beyt/status-modal) - A react component that you can use to render current error or success messages from a particular API endpoint. **By [@calebolojo](https://twitter.com/calebolojo)**
+- [Stargazer](https://github.com/kaf-lamed-beyt/stargazer) - Get notified when someone stars or "unstars" your OSS ptoject. **By [@kafLamed](https://twitter.com/kafLamed)**
+- [status-modal](https://github.com/kaf-lamed-beyt/status-modal) - A react component that you can use to render current error or success messages from a particular API endpoint. **By [@kafLamed](https://twitter.com/kafLamed)**
 - [Stickynotes](https://github.com/Kolaposki/Stickynotes) - A functional note taking web application with alluring user interface. **By [@Kolaposki](https://twitter.com/KolapoOshodi)**
 - [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
 - [STX](https://github.com/lamarrr/STX) - C++17 & C++ 20 error-handling an utility. **By [@basit_ayantunde](https://twitter.com/basit_ayantunde)**
