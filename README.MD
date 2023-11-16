@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://madeinnigeria.dev/">
-    Made. In. Nigeria.
+    🇳🇬Made. In. Nigeria🇳🇬
   </a>
 </h1>
 <p align="center">A curation of awesome tools and projects built by Nigerian developers :fire:.</p>
@@ -289,6 +289,7 @@
 ## <a name="W"> </a>W
 
 - [Waihona](https://github.com/bisohns/waihona) - Rust crates for performing cloud storage actions across AWS, GCP and Azure. **By [@deven96](https://twitter.com/_deven96)**
+- [WAFEDA](https://github.com/adejumoridwan/WAFEDA) - Simple Web App For Exploratory Data Analysis. **By [@abuuAishaaa](https://twitter.com/abuuAishaaa)**
 - [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [@IzyPro_](https://twitter.com/IzyPro_)**
 - [Whatsticker](https://github.com/deven96/whatsticker) - Automatically turn images/videos into stickers by using a caption. **By [@deven96](https://twitter.com/_deven96)**
 - [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
