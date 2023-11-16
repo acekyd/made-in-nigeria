@@ -72,6 +72,7 @@
 ## <a name="E"> </a>E
 
 - [Early Access](https://github.com/neoighodaro/laravel-early-access) - This package makes it easy to add early access mode to your existing application. **By [@neoighodaro](https://twitter.com/neoighodaro)**
+- [esgit &mdash; easy-git](https://github.com/dillionmegida/esgit) - CLI package with simplified aliases for git commands. **By [Dillion Megida](https://twitter.com/iamdillion)**
 - [Essential Kit](https://github.com/ichtrojan/essential-kit) - A Boilerplate for NodeJS with all the essential tools. **By [@ichtrojan](https://twitter.com/ichtrojan)**
 - [eth-vue](https://github.com/DOkwufulueze/eth-vue) - A Vue.js boilerplate for Ethereum Apps, built on Truffle. Authentication functionalities included. **By [@DOkwufulueze](https://twitter.com/DOkwufulueze)**
 - [expo-push-notification-helper](https://github.com/just1and0/expo-push-notification-helper) - This library makes it easy to use push notification in react native using expo. **By [@just1and0](https://twitter.com/just1and0)**
@@ -300,6 +301,7 @@
 ## <a name="W"> </a>W
 
 - [Waihona](https://github.com/bisohns/waihona) - Rust crates for performing cloud storage actions across AWS, GCP and Azure. **By [@deven96](https://twitter.com/_deven96)**
+- [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [@IzyPro_](https://twitter.com/IzyPro_)**
 - [WAFEDA](https://github.com/adejumoridwan/WAFEDA) - Simple Web App For Exploratory Data Analysis. **By [@abuuAishaaa](https://twitter.com/abuuAishaaa)**
 - [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [@IzyPro_](https://twitter.com/IzyPro_)**
 - [wasmo](https://github.com/appcypher/wasmo) - A WebAssembly Compiler and Runtime. **By [@theappcypher](https://twitter.com/theappcypher)**
