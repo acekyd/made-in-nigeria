@@ -160,6 +160,7 @@
 - [Laravel-Slack](https://github.com/goodnesskay/laravel-slack) - A Laravel Package that makes Automatic Invitation to Slack Channels or team seamless. **By [@goodnesskay](https://twitter.com/goodnesskayode)**
 - [Laravel-SMS](https://github.com/djunehor/laravel-sms) - Laravel SMS allows you to send SMS from your Laravel application using one of over 10 SMS providers, or your custom SMS provider. **By [@djunehor](https://twitter.com/djunehor)**
 - [Laravel-Spam-Email](https://github.com/hendurhance/laravel-spam-email) - This package is a Laravel package that checks if an email address is a spammer. It verifies your signups and forms submissions to confirm that they are legitimate. **By [@hendurhance](https://twitter.com/hendurhance)**
+- [LaraCaptcha](https://github.com/hendurhance/laracaptcha) - A Laravel package to seamlessly use hCapthca or reCaptcha v2 or v3 on your forms or RESTful APIs. **By [@hendurhance](https://twitter.com/hendurhance)**
 - [Laravel Telephone Input](https://github.com/victorybiz/laravel-tel-input) - Laravel Telephone Input component for Blade and Livewire based on the intl-tel-input JavaScript plugin. **By [@victoryosayi](https://twitter.com/victoryosayi)**
 - [Laravel Wikipedia](https://github.com/unicodeveloper/laravel-wikipedia) - A Wikipedia Package for Laravel 5. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Lib-ussd](https://github.com/hextremelabs/lib-ussd) - A lightweight USSD application framework. **By [@hextremelabs](https://twitter.com/hextremelabs)**
