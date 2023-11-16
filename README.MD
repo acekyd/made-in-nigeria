@@ -197,6 +197,7 @@
 - [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 - [Notes](https://github.com/rubbieKelvin/notes) - Distraction free notes app, minimal at its core. Create and share notes with ease. **By [@rubbiekelvin](https://twitter.com/KelvinRubbie)**
 - [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
+- [NUBAN Validator/Generator](https://github.com/emyu01/nuban) - Easily verify or generate valid account numbers for any Nigerian financial institution. **By [@iemyu_](https://twitter.com/iemyu_)**
 
 ## <a name="O"> </a>O
 
