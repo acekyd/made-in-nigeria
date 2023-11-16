@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://madeinnigeria.dev/">
-    Made. In. Nigeria.
+    🇳🇬Made. In. Nigeria🇳🇬
   </a>
 </h1>
 <p align="center">A curation of awesome tools and projects built by Nigerian developers :fire:.</p>
@@ -14,11 +14,10 @@
 - [Adonis Auth Scaffold](https://github.com/creatrixity/adonis-auth-scaffold) - Seamlessly scaffold a ready-to-use authentication system for your Adonis app with one neat command. **By [@creatrixity](https://twitter.com/creatrixity)**
 - [Adonis Hexa](https://github.com/creatrixity/adonis-hexa) - An opinionated software development framework for maintaining a scalable Adonis application. **By [@creatrixity](https://twitter.com/creatrixity)**
 - [Adonis Queue](https://github.com/stitchng/adonis-queue) - An addon/plugin package to provide driver-based job queueing services in AdonisJS 4.0+. **By [@isocroft](https://twitter.com/isocroft)**
+- [Adonis Stripe](https://github.com/mezielabs/adonis-stripe) - This package makes it seamless to work with Stripe in AdonisJS 5 applications. **By [@ammezie](https://twitter.com/ammezie)**
 - [Alix](https://github.com/ireade/alix) - Alix, a Chrome extension for a11y.css. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**
-- [Altair](https://github.com/imolorhe/altair) - A sleek graphQL client app for querying GraphQL servers, like Postman for graphQL. It also comes as a Chrome extension. **By [@imolorhe](https://twitter.com/imolorhe)**
-
-* [Amazon Pay v2 Ruby SDK](https://github.com/bytenaija/amazon-pay-sdk-ruby) - An SDk that makes it easy to integrate amazon pay checkout and instore v2 clients in your ruby/ruby on rails projects. **By [@bytenaija](https://twitter.com/bytenaija)**
-
+- [Altair](https://github.com/altair-graphql/altair) - A sleek graphQL client app for querying GraphQL servers, like Postman for graphQL. It also comes as a Chrome extension. **By [@imolorhe](https://twitter.com/imolorhe)**
+- [Amazon Pay v2 Ruby SDK](https://github.com/bytenaija/amazon-pay-sdk-ruby) - An SDk that makes it easy to integrate amazon pay checkout and instore v2 clients in your ruby/ruby on rails projects. **By [@bytenaija](https://twitter.com/bytenaija)**
 - [Angular-tag](https://github.com/theo4u/angular-tag) - Tags input directive for AngularJS. **By [@theo4me](https://twitter.com/theo4me)**
 - [Angular2-Sails-starter-pack](https://github.com/Mozartted/Angular2-Sails-starter-pack) - A starter pack for angular2 based projects using sails backend, integrating hot reload functionalities. **By [@mozartted](https://twitter.com/mozartted)**
 - [Angular4-paystack](https://github.com/ashinzekene/angular4-paystack) - This is an angular module that abstracts the complexity of making paystack payments with Angular2+. **By [@ashinzekene](https://twitter.com/ashinzekene)**
@@ -55,7 +54,8 @@
 
 ## <a name="D"> </a>D
 
-- [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risin_developer](https://twitter.com/risin_developer)**
+- [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risingodegua](https://twitter.com/risingodegua)**
+- [danfojs](https://github.com/javascriptdata/danfojs) - Danfo.js is an open source, JavaScript library providing high performance, intuitive, and easy to use data structures for manipulating and processing structured data. **By [@risingodegua](https://twitter.com/risingodegua) and [@steveoni](https://twitter.com/steveoni)**
 - [DevOps-Toolkit](https://github.com/umegbewe/devops-toolkit) - Easily and quickly setup your Cloud & DevOps development environment. **By [@0xGreat](https://twitter.com/0xGreat)**
 - [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a WordPress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
 - [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**
@@ -122,6 +122,7 @@
 ## <a name="J"> </a>J
 
 - [Jollof](https://github.com/isocroft/Jollof) - A lightweight PHP framework for developers who love smart work. **By [@isocroft](https://twitter.com/isocroft)**
+- [JSON Preview](https://github.com/ugwustanley/json-preview) - A tool that allows you to convert your JSON file into visual interactive diagrams. **By [@chiagozie_ugwu](https://twitter.com/chiagozie_ugwu)**
 - [Jusibe PHP Library](https://github.com/unicodeveloper/jusibe-php-lib) - A library for [Jusibe SMS Service](https://jusibe.com). **By [@unicodeveloper](https://twitter.com/unicodeveloper)**
 - [Jusibe JavaScript Library](https://github.com/azemoh/jusibe) - A JavaScript library for [Jusibe SMS Service](https://jusibe.com). **By [@azemoh](https://twitter.com/josh_azemoh)**
 
@@ -222,22 +223,25 @@
 - [Random48LawsOfPower](https://github.com/acekyd/Random48LawsOfPower) - Chrome extension that shows a random law from the popular '48 Laws of Power' Book. **By [@acekyd](https://twitter.com/Ace_KYD)**
 - [Ratio](https://github.com/theratioproject/simple) - The Simple Intelligent and Modular Programming Language and Environment. **By [@iamthecarisma](https://www.twitter.com/iamthecarisma)**
 - [Rationale](https://github.com/KingsMentor/Rationale) - Android permission rationale helper dialog. **By [@Kingsmentor](https://twitter.com/kingsmentor)**
+- [react-autocomplete-hint](https://github.com/ejmudi/react-autocomplete-hint) - A React component for Autocomplete Hint. **By [@ejmudi](https://twitter.com/ejmudi)**
 - [react-hooks-paginator](https://github.com/codenaz/react-paginator) - A simple paginator interface for react. **By [@codenaz](https://twitter.com/codenaz)**
 - [react-multi-state](https://github.com/whizkydee/react-multi-state) - Declarative, simplified way to handle complex local state with hooks. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [react-native-woocommerce-api](https://github.com/JamesUgbanu/react-native-woocommerce-api) - A wrappper that connects react Native to the WooCommerce API. **By [james ugbanu](https://linkedin.com/in/james-ugbanu)**
 - [React-Raise](https://github.com/andela-iamao/react-raise) - A cli kit for creating react applications. **By [@ash\_\_amao](https://twitter.com/ash__amao)**
 - [react-webpack-starter](https://github.com/temilaj/react-webpack-starter) - A boiler plate for creating react applications bundled by webpack (using ES6, Babel, SASS and the webpack development server). **By [@temilaj](https://twitter.com/temilaj)**
 - [RemindMeOfThisTweet](https://github.com/shalvah/RemindMeOfThisTweet) - Twitter bot to set reminders for tweets. **By [@theshalvah](https://twitter.com/theshalvah)**
+- [reka](https://github.com/MeNsaaH/reka) - A Cloud Resource management Tool to destroy, stop, resume, or clean up unsed resources. **By [@iamMensaah](https://twitter.com/iamMensaah)**
 - [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 - [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By [@abiosoft](https://twitter.com/abiosoft)**
 - [React Native paystack webview](https://github.com/just1and0/React-Native-Paystack-WebView) - React Native paystack sdk. **By [@just1and0](https://twitter.com/just1and0)**
 - [React Native okra webview](https://github.com/just1and0/React-Native-Okra-Webview) - React Native okra sdk. **By [@just1and0](https://twitter.com/just1and0)**
 
 ## <a name="S"> </a>S
-
-- [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken. **By [@robophil\_](https://twitter.com/robophil_)**
-- [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs. **By [@theo4me](https://twitter.com/theo4me)**
-- [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf. **By [@tdscientist](https://twitter.com/tdscientist)**
+- [saido](https://github.com/bisohns/saido) - A yaml driven tool for easily monitoring metrics on multiple servers **By [@bisohns](https://twitter.com/_deven96)**
+- [sailboat](https://github.com/sailscastshq/sailboat) - Sailboat is a VS Code extension that enhances the Sails.js development experience by providing Visual Studio Code users with advanced features such as Commands to quicly access the Sails docs, Jump to Action, and Commands to lift Sails. **By [@Dominus_Kelvin](https://twitter.com/Dominus_Kelvin)
+- [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken **By [@robophil\_](https://twitter.com/robophil_)**
+- [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs **By [@theo4me](https://twitter.com/theo4me)**
+- [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**
 - [Shutdown](https://github.com/emmanuelkehinde/Shutdown) - A lightweight android library that handles the closing of your app interactively. **By [@emmakoko96](https://twitter.com/emmakoko96)**
 - [Signalum](https://github.com/bisoncorps/signalum) - A Linux Library to explore creating an application that detects available connections at once from WiFi and Bluetooth. **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
 - [Signalum Desktop](https://github.com/bisoncorps/signalum-desktop) - A Desktop application for the signalum python library. **By [@\_deven96](https://twitter.com/_deven96) and [@mensaah](https://twitter.com/_Mensaah__)**
@@ -247,6 +251,7 @@
 - [SlidingUpMenu](https://github.com/r4sh33d/SlidingUpMenu) - 🚀A very customizable Android library that allows you to present menu items (from menu resource and/or other sources) to users as a bottom sheet. **By [@srasheed](https://twitter.com/srasheed_)**
 - [Support-ticket](https://github.com/ammezie/support-ticket) - A support ticket application in Laravel. **By [@ammezie](https://twitter.com/ammezie)**
 - [Slideview](https://github.com/MAXDeliveryNG/slideview) - An awesome sliding button library for Android. **By [@kizitonwose](https://twitter.com/kizitonwose)**
+- [stacks](https://github.com/nerdeveloper/stacks) - A tool for setting up your stack quickly for Local development, on-prem and Bare metal servers. **By [@nerdeveloper](https://github.com/nerdeveloper)**
 - [status-modal](https://github.com/kaf-lamed-beyt/status-modal) - A react component that you can use to render current error or success messages from a particular API endpoint. **By [@calebolojo](https://twitter.com/calebolojo)**
 - [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**
 - [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**
@@ -285,7 +290,9 @@
 ## <a name="W"> </a>W
 
 - [Waihona](https://github.com/bisohns/waihona) - Rust crates for performing cloud storage actions across AWS, GCP and Azure. **By [@deven96](https://twitter.com/_deven96)**
-- [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [@IzyPro\_](https://twitter.com/IzyPro_)**
+- [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [@IzyPro_](https://twitter.com/IzyPro_)**
+- [WAFEDA](https://github.com/adejumoridwan/WAFEDA) - Simple Web App For Exploratory Data Analysis. **By [@abuuAishaaa](https://twitter.com/abuuAishaaa)**
+- [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [@IzyPro_](https://twitter.com/IzyPro_)**
 - [Whatsticker](https://github.com/deven96/whatsticker) - Automatically turn images/videos into stickers by using a caption. **By [@deven96](https://twitter.com/_deven96)**
 - [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
 - [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages. **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
