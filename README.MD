@@ -39,8 +39,7 @@
 - [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator. **By [@tdscientist](https://twitter.com/tdscientist)**
 - [BàngáJS](https://github.com/bangajs/banga-cli) - A CLI generator for bootstrapping ExpressJS applications and generating application layer files. **By [@saucecodee](https://twitter.com/saucecodee)**
 - [buzz](https://github.com/chidiwilliams/buzz) - Buzz transcribes audio from your computer's microphones to text using OpenAI's Whisper. **By [@chidiwilliams_](https://twitter.com/@chidiwilliams_)**
-
-
+- [Blackmaria](https://github.com/Smyja/blackmaria) - A Python package for webscraping in Natural language. **By [@ogbonigwe1](https://twitter.com/ogbonigwe1)**
 
 ## <a name="C"> </a>C
 
@@ -308,7 +307,8 @@
 - [Waihona](https://github.com/bisohns/waihona) - Rust crates for performing cloud storage actions across AWS, GCP and Azure. **By [@deven96](https://twitter.com/_deven96)**
 - [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [@IzyPro_](https://twitter.com/IzyPro_)**
 - [WAFEDA](https://github.com/adejumoridwan/WAFEDA) - Simple Web App For Exploratory Data Analysis. **By [@abuuAishaaa](https://twitter.com/abuuAishaaa)**
-- [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [@IzyPro_](https://twitter.com/IzyPro_)**
+- [Whatsticker](https://github.com/deven96/whatsticker) - Automatically turn images/videos into stickers by using a caption. **By [@deven96](https://twitter.com/_deven96)**
+- [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
 - [wasmo](https://github.com/appcypher/wasmo) - A WebAssembly Compiler and Runtime. **By [@theappcypher](https://twitter.com/theappcypher)**
 - [web-crawljs](https://github.com/kayslay/web-crawljs) - A web crawler package for Nodejs that makes it easy to crawl web pages. **By [@Kayslaycode](https://twitter.com/Kayslaycode)**
 - [Web3terms](https://github.com/Olanetsoft/web3terms) - A Twitter bot explaining and simplifying web3 terms to everyone. **By [@olanetsoft](https://twitter.com/olanetsoft)**
