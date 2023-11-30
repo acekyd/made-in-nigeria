@@ -1,0 +1,30 @@
+[
+  {
+    "repoName": "Laravel Hackathon Starter",
+    "repoLink": "https://github.com/unicodeveloper/laravel-hackathon-starter",
+    "repoDescription": "A hackathon/MVP boilerplate for Laravel web applications. Start your hackathons without hassle.",
+    "repoAuthor": "unicodeveloper",
+    "repoAuthorLink": "https://twitter.com/unicodeveloper"
+  },
+  {
+    "repoName": "Gophie",
+    "repoLink": "https://github.com/Go-phie/gophie",
+    "repoDescription": "A CLI written in Golang for scraping movie download links and bypassing ads.",
+    "repoAuthor": "GophieTeam",
+    "repoAuthorLink": "https://twitter.com/GophieTeam"
+  },
+  {
+    "repoName": "ImageQ",
+    "repoLink": "https://github.com/bisohns/imageQ",
+    "repoDescription": "Reverse Image search engine powered by Django and Keras.",
+    "repoAuthor": "_deven96 & mensaah",
+    "repoAuthorLink": "https://twitter.com/_deven96"
+  },
+  {
+    "repoName": "Instaword",
+    "repoLink": "https://github.com/acekyd/instaword",
+    "repoDescription": "InstaWord is a Chrome and Opera browser plugin that makes learning new words much easier.",
+    "repoAuthor": "acekyd",
+    "repoAuthorLink": "https://twitter.com/ace_kyd"
+  }
+]

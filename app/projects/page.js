@@ -1,79 +1,58 @@
-'use client'
-import ProjectsHero from '../components/ProjectsHero';
-import { Box, ChakraProvider, Container, SimpleGrid } from '@chakra-ui/react';
-import AlphabetFilterNormal from '../components/AlphabetFilter/AlphabetFilterNormal';
-import ProjectCard from '../components/ProjectCard';
-import AlphabetFilterStuck from '../components/AlphabetFilter/AlphabetFilterStuck';
-import AlphabetFilterExpand from '../components/AlphabetFilter/AlphabetFilterExpand';
-import { useState, useRef, useEffect } from 'react';
+import React from 'react';
+import { marked } from 'marked';
+import * as cheerio from 'cheerio';
 
-/*
-  Notice: This is going to be the listing page for all projects
-*/
+import ProjectsPage from '../components/pages/ProjectsPage';
 
-// markup
-const ProjectsPage = () => {
-    const [isStuck, setIsStuck] = useState(false);
-    const [isExpanded, setIsExpanded] = useState(false);
-    const [isNormal, setIsNormal] = useState(true);
+async function getData() {
+  const res = await fetch('https://raw.githubusercontent.com/acekyd/made-in-nigeria/master/README.MD');
 
-    const projectHeroRef = useRef(null);
-    const observerOptions = {
-        root: null,
-        rootMargin: '-80px',
+  if (!res.ok) {
+    // This will activate the closest `error.js` Error Boundary
+    throw new Error('Failed to fetch data')
+  }
+
+  const markdownData = await res.text();
+  const html = marked(markdownData);
+  const $ = cheerio.load(html); // load the html string into cheerio
+
+  // Select all <li> elements using jQuery-like syntax and extract their text
+  const liTextArray = $('li').map((index, element) => $(element).html()).get();
+
+  // process the text to get the data you want
+  const repositories = convertToJSON(liTextArray);
+
+  return repositories;
+}
+
+function convertToJSON(repositories) {
+   return repositories.map((repository) => {
+    const $ = cheerio.load(repository);
+
+    // Extract text content and href from <a> element
+    const repoName = $('a').first().text();
+    const repoLink = $('a').first().attr('href');
+
+    let description = $('*').contents()[3].data; // I don't know why the fuck this works but if it's not broken, don't touch it.
+    const repoDescription = description.replace(/^ - /, '');
+    const repoAuthor = $('strong a').text();
+    const repoAuthorLink = $('strong a').attr('href');
+
+    // Create JSON object
+    return {
+      repoName,
+      repoLink,
+      repoDescription,
+      repoAuthor,
+      repoAuthorLink
     };
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(([entry]) => {
-            if (!entry.isIntersecting) {
-                setIsNormal(false);
-                setIsStuck(true);
-            } else {
-                setIsNormal(true);
-                setIsStuck(false);
-            }
-        }, observerOptions);
-
-        observer.observe(projectHeroRef.current);
-        return () => observer.unobserve(projectHeroRef.current);
-    }, [isStuck]);
-
+  });
+}
+export default async function Projects() {
+    const data = await getData();
     return (
-        <Container maxW="container.xl" centerContent top>
-            <Box ref={projectHeroRef} my={{ base: '3rem', md: '7rem' }}>
-                <ProjectsHero />
-            </Box>
-
-            <Box position="sticky" top="90" zIndex={1} display={{ base: 'none', md: 'flex' }}>
-                <AlphabetFilterNormal />
-            </Box>
-
-            <Box position="sticky" top="90" zIndex={1} display={{ base: 'flex', md: 'none' }}>
-                {isNormal ? (
-                    <AlphabetFilterNormal />
-                ) : isStuck && !isExpanded ? (
-                    <AlphabetFilterStuck isExpanded={isExpanded} setIsExpanded={setIsExpanded} />
-                ) : isExpanded ? (
-                    <AlphabetFilterExpand isExpanded={isExpanded} setIsExpanded={setIsExpanded} />
-                ) : null}
-            </Box>
-
-            <SimpleGrid columns={{ sm: 1, md: 3 }} mt="1rem" mb="5rem">
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-            </SimpleGrid>
-        </Container>
-    );
-};
-
-export default ProjectsPage;
+        <main>
+        <ProjectsPage repositories={data} />
+        </main>
+    )
+}

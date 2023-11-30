@@ -73,16 +73,16 @@ const NavBar = () => {
               <Text>Projects</Text>
             </Link>
 
-            <Link>
+            <Link href='/about'>
               <Text>About</Text>
             </Link>
 
-            <Link>
+            <Link href='https://github.com/acekyd/made-in-nigeria/blob/master/contributing.md' isExternal>
               <Text>Make a Submission</Text>
             </Link>
 
-            <Link>
-              <Text>Blog</Text>
+            <Link href='/creators'>
+              <Text>Creators</Text>
             </Link>
           </Flex>
         </Box>
@@ -157,9 +157,9 @@ const NavBar = () => {
                   paddingLeft="24px"
                 >
                   <Link href="/projects">Projects</Link>
-                  <Link>About</Link>
-                  <Link>Make a Submission</Link>
-                  <Link marginBottom="2rem">Blog</Link>
+                  <Link href='/about'>About</Link>
+                  <Link href='https://github.com/acekyd/made-in-nigeria/blob/master/contributing.md' isExternal>Make a Submission</Link>
+                  <Link href='/creators' marginBottom="2rem">Creators</Link>
                 </Box>
               </Stack>
             </DrawerBody>
