@@ -141,7 +141,7 @@ function ProjectCard(props) {
 
       <Divider />
 
-      <Text mx={4} my={5} color="#949796" fontSize="0.875rem">
+      <Text mx={4} my={5} color="#949796" fontSize="0.875rem" h={63} noOfLines={3}>
         { props.project.repoDescription}
       </Text>
 

@@ -33,12 +33,12 @@ export default function Examples() {
                 <AboutHero />
             </Box>
             <Container maxW="container.xl">
-                <SimpleGrid columns={{ sm: 1, md: 3 }}>
+                {/* <SimpleGrid columns={{ sm: 1, md: 3 }}>
                     <ProjectCard />
                     <ProjectCard />
                     <ProjectCard />
                     <ProjectCard />
-                </SimpleGrid>
+                </SimpleGrid> */}
 
                 <Center>
                     <SecondaryButton
