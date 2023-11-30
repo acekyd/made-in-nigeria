@@ -46,15 +46,15 @@ const Footer = () => {
               alignItems="center"
             >
               <Flex gap="2rem" alignItems="center">
-                <Link>
+                <Link href="https://github.com/acekyd/made-in-nigeria">
                   <Image src={github.src} alt="github" />
                 </Link>
-                <Link>
+                <Link href="https://twitter.com/ace_kyd">
                   <Image src={twitter.src} alt="twitter" />
                 </Link>
-                <Link>
+                {/* <Link>
                   <Image src={mail.src} alt="mail" />
-                </Link>
+                </Link> */}
               </Flex>
             </Flex>
           </Flex>
@@ -74,9 +74,9 @@ const Footer = () => {
               >
                 Navigation
               </Text>
-              <Link>Projects</Link>
-              <Link>About</Link>
-              <Link>Blog</Link>
+              <Link href="/projects">Projects</Link>
+              <Link href="/about">About</Link>
+              <Link href="/creators">Creators</Link>
             </Flex>
 
             <Flex
@@ -92,8 +92,8 @@ const Footer = () => {
               >
                 Community
               </Text>
-              <Link>Contributors</Link>
-              <Link>Make a Submission</Link>
+              <Link href="https://github.com/acekyd/made-in-nigeria/graphs/contributors" isExternal>Contributors</Link>
+              <Link href="https://github.com/acekyd/made-in-nigeria/blob/master/contributing.md" isExternal>Make a Submission</Link>
             </Flex>
 
             <Flex
@@ -116,29 +116,8 @@ const Footer = () => {
         </Flex>
 
         <Flex mt="5rem" fontSize="sm" flexDirection="column">
-          <Text
-            color="#949796"
-            lineHeight="1.75rem"
-            maxW={{
-              base: 520,
-              sm: 520,
-              md: 520,
-              lg: 1070,
-              xl: 1070,
-              "2xl": 1070,
-            }}
-          >
-            Et quam sit justo, justo. Sagittis morbi lobortis porttitor arcu.
-            Dis nibh tempor elementum odio porta pellentesque quis mattis sit.
-            Est justo, in in etiam dis diam. Vulputate facilisis pharetra,
-            blandit tincidunt tincidunt sit dictumst. Placerat neque amet sed
-            tincidunt sagittis suspendisse et id. Elit leo blandit mollis id
-            auctor. Imperdiet odio nec odio et nullam faucibus pulvinar sed.
-            Interdum suscipit bibendum ac id pellentesque pretium.
-          </Text>
-
           <Text color="#949796" mt={8} fontSize="sm">
-            © 2022 Made in Nigeria
+            © 2023 Made in Nigeria
           </Text>
         </Flex>
       </Flex>

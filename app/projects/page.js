@@ -11,6 +11,8 @@ import { useState, useRef, useEffect } from 'react';
   Notice: This is going to be the listing page for all projects
 */
 
+
+
 // markup
 const ProjectsPage = () => {
     const [isStuck, setIsStuck] = useState(false);
