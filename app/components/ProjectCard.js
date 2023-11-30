@@ -30,8 +30,10 @@ import js from '../../public/images/js.png';
 import html5 from '../../public/images/html5.png';
 import css3 from '../../public/images/css3.png';
 
-function ProjectCard() {
+function ProjectCard(props) {
+  console.log("props", props);
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const repoCreator = (props.project.repoLink.match(/github\.com\/([^/]+)/) || [])[1]
   return (
     <Box
       borderColor="gray.100"
@@ -42,7 +44,7 @@ function ProjectCard() {
       m={5}
     >
       <Flex alignItems="center" mx={4} my={3}>
-        <Text fontWeight="bold">Google Dictionary</Text>
+        <Text fontWeight="bold">{ props.project.repoName } </Text>
         <Spacer />
         <Menu placement="bottom-end">
           <MenuButton
@@ -140,23 +142,27 @@ function ProjectCard() {
       <Divider />
 
       <Text mx={4} my={5} color="#949796" fontSize="0.875rem">
-        A Browser Extension that displays a random suggestion from the Dear Ijeawele book by
-        Chimamnda Adichie.
+        { props.project.repoDescription}
       </Text>
 
       <Divider />
 
       <Flex mx={4} my={4} gap={2}>
-        <Image src={codewonders.src} alt="profile" />
+        <Image borderRadius='full' boxSize='24px'  src={'https://avatars.githubusercontent.com/' + repoCreator + '?size=24'} alt="profile" />
         <Text fontWeight="semibold" fontSize="0.875rem">
-          codewonders
+          { repoCreator }
         </Text>
 
+        {/*
+
+        TODO: This should handle a load languages feature that allows users see which languages were used in said project.
         <Spacer />
 
         <Image src={js.src} alt="javascript" />
         <Image src={html5.src} alt="html 5" />
         <Image src={css3.src} alt="css 3" />
+
+        */}
       </Flex>
     </Box>
   );

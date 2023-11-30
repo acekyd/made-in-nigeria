@@ -13,6 +13,7 @@ import AcceptingContributions from '../AcceptingContributions';
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
+import featuredProjects from '../../assets/featured.json'
 
 
 const HomePage = () => {
@@ -25,6 +26,8 @@ const HomePage = () => {
   const handleNextClick = () => {
     splideRef.current.splide.go('>');
   };
+
+  console.log(featuredProjects);
 
   const articleCarouselOptions = {
     type: 'loop',
@@ -43,24 +46,12 @@ const HomePage = () => {
         </Text>
 
         <SimpleGrid columns={{ sm: 1, md: 3 }}>
-          <Box display={{ base: 'none', sm: 'none', md: 'flex' }}>
-            <ProjectCard />
-          </Box>
-
-          <Box display={{ base: 'none', sm: 'none', md: 'flex' }}>
-            <ProjectCard />
-          </Box>
-
-          <Box display={{ base: 'none', sm: 'none', md: 'flex' }}>
-            <ProjectCard />
-          </Box>
-
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          {featuredProjects.map(project => (
+          < ProjectCard key={project.repoLink} project={project} />
+          ))}
         </SimpleGrid>
 
-        <SecondaryButton text="See All Projects" link="https://madeinnigeria.dev" />
+        <SecondaryButton text="See All Projects" link="/projects" />
       </Flex>
 
       <Box my="5rem" display="flex" justifyContent="center">
