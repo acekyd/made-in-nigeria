@@ -15,7 +15,6 @@ import { useState, useRef, useEffect } from 'react';
 
 // markup
 const ProjectsPage = (props) => {
-    console.log("props", props);
     const [isStuck, setIsStuck] = useState(false);
     const [isExpanded, setIsExpanded] = useState(false);
     const [isNormal, setIsNormal] = useState(true);
