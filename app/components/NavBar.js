@@ -52,7 +52,9 @@ const NavBar = () => {
       >
         <Box display="flex" justifyContent="space-between">
           <Box>
-            <Image src={ColoredLogo.src} alt='' />
+            <Link href="/">
+              <Image src={ColoredLogo.src} alt='' />
+            </Link>
           </Box>
 
           <Flex
@@ -131,7 +133,9 @@ const NavBar = () => {
           <DrawerContent>
             <Box>
               <DrawerHeader borderColor="#E2E3E3" borderBottomWidth="1px" marginTop="30px">
-                <Image src={ColoredLogo.src} alt='' />
+                <Link href="/">
+                  <Image src={ColoredLogo.src} alt='' />
+                </Link>
               </DrawerHeader>
 
               <DrawerCloseButton

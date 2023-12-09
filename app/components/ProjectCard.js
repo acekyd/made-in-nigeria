@@ -31,7 +31,6 @@ import html5 from '../../public/images/html5.png';
 import css3 from '../../public/images/css3.png';
 
 function ProjectCard(props) {
-  console.log("props", props);
   const { isOpen, onOpen, onClose } = useDisclosure();
   const repoCreator = (props.project.repoLink.match(/github\.com\/([^/]+)/) || [])[1]
   return (
