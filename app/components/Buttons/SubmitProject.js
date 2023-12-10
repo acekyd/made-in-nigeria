@@ -15,7 +15,7 @@ const SecondaryButton = ({ text, link }) => {
       href={link}
       variant="outline"
     >
-      <Link href={link} _hover={{ textDecoration: 'none' }}>
+      <Link href={link} _hover={{ textDecoration: 'none' }} isExternal>
         {text}
       </Link>
     </Button>

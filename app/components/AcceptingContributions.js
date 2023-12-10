@@ -84,7 +84,7 @@ const AcceptingContributions = () => {
           feugiat purus. Learn how to submit your project here.
         </Text>
         <Box marginTop={3}>
-          <SubmitProject text="Submit Project" link="https://madeinnigeria.dev" />
+          <SubmitProject text="Submit Project" link="https://github.com/acekyd/made-in-nigeria/blob/master/contributing.md" />
         </Box>
       </Box>
     </Box>
