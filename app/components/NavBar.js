@@ -74,7 +74,7 @@ const NavBar = () => {
       >
         <Box display="flex" justifyContent="space-between">
           <Box>
-            <Link href="/">
+            <Link as={NextLink} href="/">
               <Image src={ColoredLogo.src} alt="" />
             </Link>
           </Box>
