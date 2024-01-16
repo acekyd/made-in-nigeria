@@ -29,7 +29,7 @@ export const getArticleSlug = async () => {
 
 export const getArticleFromSlug = async (slug: string) => {
   const articlesDir = path.join(articlesDirectory, `${slug}.mdx`);
-  const source = fs.readFileSync(articlesDir);
+  const source = fs.readFileSync(articlesDir, "utf-8");
 
   const { content, data } = matter(source);
 
@@ -52,28 +52,21 @@ export const getArticleFromSlug = async (slug: string) => {
 export const getArticles = async () => {
   const articles = fs.readdirSync(articlesDirectory);
 
-  return articles
-    .map((articleSlug: string) => {
-      const source = fs.readFileSync(
-        path.join(process.cwd(), "/app/blog/articles", articleSlug),
-        "utf-8"
-      );
+  return articles.map((articleSlug: string) => {
+    const source = fs.readFileSync(
+      path.join(process.cwd(), "/app/blog/articles", articleSlug),
+      "utf-8"
+    );
 
-      const { data } = matter(source);
+    const { data } = matter(source);
 
-      return {
-        title: data?.title,
-        excerpt: data?.excerpt,
-        coverImage: data?.coverImage,
-        publishDate: data.publishDate ?? "",
-        slug: articleSlug.replace(".mdx", ""),
-        readingTime: readingTime(source).text,
-      };
-    })
-    .sort((a, b) => {
-      if (a.publishDate > b.publishDate) return 1;
-      if (a.publishDate < b.publishDate) return -1;
-
-      return 0;
-    });
+    return {
+      title: data?.title,
+      excerpt: data?.excerpt,
+      coverImage: data?.coverImage,
+      publishDate: data.publishDate ?? "",
+      slug: articleSlug.replace(".mdx", ""),
+      readingTime: readingTime(source).text,
+    };
+  });
 };

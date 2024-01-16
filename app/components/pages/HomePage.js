@@ -1,38 +1,34 @@
-'use client'
-
-import React, { useRef } from 'react';
-import {Box, Text, Flex, HStack, SimpleGrid } from '@chakra-ui/react';
-
-import Hero from '../Hero';
-import ProjectCard from '../ProjectCard';
-import SecondaryButton from '../Buttons/SecondaryButton';
-import BuiltByNigerians from '../BuiltByNigerians';
-import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
-import ArticleCard from '../ArticleCard';
-import AcceptingContributions from '../AcceptingContributions';
-
-import { Splide, SplideSlide } from '@splidejs/react-splide';
-import '@splidejs/react-splide/css';
-import featuredProjects from '../../assets/featured.json'
-
+"use client";
+import { useRef } from "react";
+import { Box, Text, Flex, HStack, SimpleGrid } from "@chakra-ui/react";
+import Hero from "../Hero";
+import ProjectCard from "../ProjectCard";
+import SecondaryButton from "../Buttons/SecondaryButton";
+import BuiltByNigerians from "../BuiltByNigerians";
+import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
+import ArticleCard from "../Blog/ArticleCard";
+import AcceptingContributions from "../AcceptingContributions";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
+import featuredProjects from "../../assets/featured.json";
 
 const HomePage = () => {
   const splideRef = useRef();
 
   const handlePrevClick = () => {
-    splideRef.current.splide.go('<');
+    splideRef.current.splide.go("<");
   };
 
   const handleNextClick = () => {
-    splideRef.current.splide.go('>');
+    splideRef.current.splide.go(">");
   };
 
   console.log(featuredProjects);
 
   const articleCarouselOptions = {
-    type: 'loop',
+    type: "loop",
     autoWidth: true,
-    gap: '-1rem',
+    gap: "-1rem",
     arrows: false,
     pagination: false,
   };
@@ -46,8 +42,8 @@ const HomePage = () => {
         </Text>
 
         <SimpleGrid columns={{ sm: 1, md: 3 }}>
-          {featuredProjects.map(project => (
-          < ProjectCard key={project.repoLink} project={project} />
+          {featuredProjects.map((project) => (
+            <ProjectCard key={project.repoLink} project={project} />
           ))}
         </SimpleGrid>
 
@@ -60,7 +56,11 @@ const HomePage = () => {
 
       <Flex flexDirection="column">
         <Flex
-          justifyContent={{ base: 'space-between', sm: 'space-between', md: 'center' }}
+          justifyContent={{
+            base: "space-between",
+            sm: "space-between",
+            md: "center",
+          }}
           alignItems="center"
           width="90vw"
           margin="0 auto"
@@ -69,11 +69,11 @@ const HomePage = () => {
             Articles
           </Text>
 
-          <Flex display={{ sm: 'flex', md: 'none' }}>
+          <Flex display={{ sm: "flex", md: "none" }}>
             <ChevronLeftIcon
               color="#E2E3E3"
               boxSize={8}
-              _hover={{ cursor: 'pointer', color: '#292F2E' }}
+              _hover={{ cursor: "pointer", color: "#292F2E" }}
               onClick={handlePrevClick}
               mr="1rem"
             />
@@ -81,7 +81,7 @@ const HomePage = () => {
             <ChevronRightIcon
               color="#E2E3E3"
               boxSize={8}
-              _hover={{ cursor: 'pointer', color: '#292F2E' }}
+              _hover={{ cursor: "pointer", color: "#292F2E" }}
               onClick={handleNextClick}
             />
           </Flex>
@@ -90,14 +90,14 @@ const HomePage = () => {
         <HStack
           // gap="1rem"
           justifyContent="center"
-          display={{ base: 'none', sm: 'none', md: 'flex' }}
+          display={{ base: "none", sm: "none", md: "flex" }}
         >
           <ArticleCard />
           <ArticleCard />
           <ArticleCard />
         </HStack>
 
-        <HStack overflowX="auto" display={{ sm: 'flex', md: 'none' }}>
+        <HStack overflowX="auto" display={{ sm: "flex", md: "none" }}>
           <Splide
             // gap="1rem"
             aria-label="Featured Articles"
@@ -119,7 +119,10 @@ const HomePage = () => {
         </HStack>
 
         <Flex justifyContent="center" marginTop={3}>
-          <SecondaryButton text="See More Articles" link="https://madeinnigeria.dev" />
+          <SecondaryButton
+            text="See More Articles"
+            link="https://madeinnigeria.dev"
+          />
         </Flex>
       </Flex>
 
@@ -127,7 +130,7 @@ const HomePage = () => {
         <AcceptingContributions />
       </Box>
     </main>
-  )
-}
+  );
+};
 
 export default HomePage;
