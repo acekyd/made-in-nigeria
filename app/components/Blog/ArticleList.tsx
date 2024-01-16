@@ -48,6 +48,7 @@ export const ArticleList = ({ data }: ArticleProps) => {
         </Text>
 
         <Stack
+          align="center"
           wrap="wrap"
           spacing={5.5}
           direction={{ lg: "row", base: "column", md: "row" }}

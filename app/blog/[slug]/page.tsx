@@ -1,5 +1,5 @@
 import { BlogPost } from "@/app/components/Blog/BlogPost";
-import { getArticleFromSlug } from "@/app/utils/mdx";
+import { getArticleFromSlug, getArticles } from "@/app/utils/mdx";
 import { CustomMDX } from "@/app/components/mdx-components/mdx-remote";
 
 export default async function BlogPostPage({
@@ -10,10 +10,17 @@ export default async function BlogPostPage({
   const slug = params.slug;
   const article = await getArticleFromSlug(slug);
   const { content } = article;
-  const { coverImage, title, excerpt } = article.frontmatter;
+  const { coverImage, title } = article.frontmatter;
+
+  const articles = await getArticles();
 
   return (
-    <BlogPost title={title} coverImage={coverImage}>
+    <BlogPost
+      title={title}
+      slug={slug}
+      coverImage={coverImage}
+      moreArticles={articles}
+    >
       <CustomMDX source={content} />
     </BlogPost>
   );

@@ -1,14 +1,31 @@
 "use client";
 import { Box, Flex, Text, Image, Stack } from "@chakra-ui/react";
 import { Icon } from "../Icon";
+import {
+  FacebookShareButton,
+  LinkedinShareButton,
+  TwitterShareButton,
+} from "react-share";
+import ArticleCard from "./ArticleCard";
+import { FrontMatter } from "@/app/utils/mdx";
 
 interface BlogPostProps {
+  slug: string;
   title: string;
   coverImage: string;
   children: React.ReactNode;
+  moreArticles: FrontMatter[];
 }
 
-export const BlogPost = ({ title, coverImage, children }: BlogPostProps) => {
+export const BlogPost = ({
+  title,
+  slug,
+  coverImage,
+  children,
+  moreArticles,
+}: BlogPostProps) => {
+  const filtered = moreArticles.filter((article) => article.slug !== slug);
+
   return (
     <Box>
       <Box
@@ -57,15 +74,68 @@ export const BlogPost = ({ title, coverImage, children }: BlogPostProps) => {
               Share on:
             </Text>
             <Stack direction="row" spacing={6}>
-              <Icon name="twitter" />
-              <Icon name="facebook" />
-              <Icon name="linkedin" />
+              <TwitterShareButton
+                title={title}
+                url={`https://madeinnigeria.dev/blog/${slug}`}
+              >
+                <Icon name="twitter" />
+              </TwitterShareButton>
+              <FacebookShareButton
+                title={title}
+                url={`https://madeinnigeria.dev/blog/${slug}`}
+              >
+                <Icon name="facebook" />
+              </FacebookShareButton>
+              <LinkedinShareButton
+                title={title}
+                url={`https://madeinnigeria.dev/blog/${slug}`}
+              >
+                <Icon name="linkedin" />
+              </LinkedinShareButton>
             </Stack>
           </Box>
         </Box>
 
         {children}
       </Flex>
+
+      <Box
+        width="100%"
+        background="#EEF9F6"
+        height="fit-content"
+        py="4rem"
+        mt="3rem"
+        px={{ lg: "8rem" }}
+      >
+        <Text
+          px="1.2rem"
+          py=".5rem"
+          fontWeight="800"
+          lineHeight="40px"
+          textTransform="capitalize"
+          fontSize={{ lg: "28px", md: "20px", base: "18px" }}
+        >
+          More stories
+        </Text>
+
+        <Stack
+          wrap="wrap"
+          spacing={5.5}
+          direction={{ lg: "row", base: "column", md: "row" }}
+        >
+          {filtered.slice(0, 4)?.map(({ slug, title, excerpt, coverImage }) => {
+            return (
+              <ArticleCard
+                slug={slug}
+                title={title}
+                excerpt={excerpt}
+                image={coverImage}
+                key={`${crypto.randomUUID()}-${slug}`}
+              />
+            );
+          })}
+        </Stack>
+      </Box>
     </Box>
   );
 };

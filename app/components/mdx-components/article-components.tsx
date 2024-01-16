@@ -18,4 +18,16 @@ export const components = {
       {children}
     </h3>
   ),
+  p: ({ children }: { children: React.ReactNode }) => (
+    <p
+      style={{
+        fontSize: "16px",
+        fontWeight: "400",
+        lineHeight: "28px",
+        padding: "20px 0",
+      }}
+    >
+      {children}
+    </p>
+  ),
 };
