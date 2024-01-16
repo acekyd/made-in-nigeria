@@ -1,6 +1,6 @@
 "use client";
 import { useRef } from "react";
-import { Box, Text, Flex, HStack, SimpleGrid } from "@chakra-ui/react";
+import { Box, Text, Flex, HStack, Heading, SimpleGrid } from "@chakra-ui/react";
 import Hero from "../../Hero";
 import ProjectCard from "../../ProjectCard";
 import SecondaryButton from "../../Buttons/SecondaryButton";
@@ -66,9 +66,15 @@ export const Home = ({ data }) => {
           width="90vw"
           margin="0 auto"
         >
-          <Text fontWeight="extrabold" fontSize="1.5rem">
-            Articles
-          </Text>
+          <Heading
+            fontWeight="800"
+            lineHeight="2.5rem"
+            fontSize="1.75rem"
+            color="#292F2E"
+            textTransform="capitalize"
+          >
+            articles
+          </Heading>
 
           <Flex display={{ sm: "flex", md: "none" }}>
             <ChevronLeftIcon
@@ -113,19 +119,18 @@ export const Home = ({ data }) => {
             options={articleCarouselOptions}
             ref={splideRef}
           >
-            <SplideSlide>
-              {data.slice(0, 3)?.map(({ slug, title, excerpt, coverImage }) => {
-                return (
+            {data.slice(0, 3)?.map(({ slug, title, excerpt, coverImage }) => {
+              return (
+                <SplideSlide key={`${slug}-${crypto.randomUUID()}`}>
                   <ArticleCard
                     slug={slug}
                     title={title}
                     excerpt={excerpt}
                     image={coverImage}
-                    key={`${slug}-${crypto.randomUUID()}`}
                   />
-                );
-              })}
-            </SplideSlide>
+                </SplideSlide>
+              );
+            })}
           </Splide>
         </HStack>
 
