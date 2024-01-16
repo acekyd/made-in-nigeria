@@ -1,6 +1,6 @@
 import { BlogPost } from "@/app/components/Blog/BlogPost";
 import { getArticleFromSlug } from "@/app/utils/mdx";
-import { MDXRemote } from "next-mdx-remote/rsc";
+import { CustomMDX } from "@/app/components/mdx-components/mdx-remote";
 
 export default async function BlogPostPage({
   params,
@@ -14,7 +14,7 @@ export default async function BlogPostPage({
 
   return (
     <BlogPost title={title} coverImage={coverImage}>
-      <MDXRemote source={content} />
+      <CustomMDX source={content} />
     </BlogPost>
   );
 }

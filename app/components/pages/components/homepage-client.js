@@ -1,18 +1,19 @@
 "use client";
 import { useRef } from "react";
 import { Box, Text, Flex, HStack, SimpleGrid } from "@chakra-ui/react";
-import Hero from "../Hero";
-import ProjectCard from "../ProjectCard";
-import SecondaryButton from "../Buttons/SecondaryButton";
-import BuiltByNigerians from "../BuiltByNigerians";
+import Hero from "../../Hero";
+import ProjectCard from "../../ProjectCard";
+import SecondaryButton from "../../Buttons/SecondaryButton";
+import BuiltByNigerians from "@/app/components/BuiltByNigerians";
 import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
-import ArticleCard from "../Blog/ArticleCard";
-import AcceptingContributions from "../AcceptingContributions";
+import ArticleCard from "@/app/components/Blog/ArticleCard";
+import AcceptingContributions from "@/app/components/AcceptingContributions";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import featuredProjects from "../../assets/featured.json";
+import featuredProjects from "@/app/assets/featured.json";
+import propTypes from "prop-types";
 
-const HomePage = () => {
+export const Home = ({ data }) => {
   const splideRef = useRef();
 
   const handlePrevClick = () => {
@@ -92,9 +93,17 @@ const HomePage = () => {
           justifyContent="center"
           display={{ base: "none", sm: "none", md: "flex" }}
         >
-          <ArticleCard />
-          <ArticleCard />
-          <ArticleCard />
+          {data.slice(0, 3)?.map(({ slug, title, excerpt, coverImage }) => {
+            return (
+              <ArticleCard
+                slug={slug}
+                title={title}
+                excerpt={excerpt}
+                image={coverImage}
+                key={`${slug}-${crypto.randomUUID()}`}
+              />
+            );
+          })}
         </HStack>
 
         <HStack overflowX="auto" display={{ sm: "flex", md: "none" }}>
@@ -105,24 +114,23 @@ const HomePage = () => {
             ref={splideRef}
           >
             <SplideSlide>
-              <ArticleCard />
-            </SplideSlide>
-
-            <SplideSlide>
-              <ArticleCard />
-            </SplideSlide>
-
-            <SplideSlide>
-              <ArticleCard />
+              {data.slice(0, 3)?.map(({ slug, title, excerpt, coverImage }) => {
+                return (
+                  <ArticleCard
+                    slug={slug}
+                    title={title}
+                    excerpt={excerpt}
+                    image={coverImage}
+                    key={`${slug}-${crypto.randomUUID()}`}
+                  />
+                );
+              })}
             </SplideSlide>
           </Splide>
         </HStack>
 
         <Flex justifyContent="center" marginTop={3}>
-          <SecondaryButton
-            text="See More Articles"
-            link="https://madeinnigeria.dev"
-          />
+          <SecondaryButton text="See More Articles" link="/blog" />
         </Flex>
       </Flex>
 
@@ -133,4 +141,13 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+Home.propTypes = {
+  data: propTypes.arrayOf(
+    propTypes.shape({
+      slug: propTypes.string.isRequired,
+      title: propTypes.string.isRequired,
+      excerpt: propTypes.string.isRequired,
+      coverImage: propTypes.string.isRequired,
+    })
+  ),
+};

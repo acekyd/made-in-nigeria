@@ -52,21 +52,26 @@ export const getArticleFromSlug = async (slug: string) => {
 export const getArticles = async () => {
   const articles = fs.readdirSync(articlesDirectory);
 
-  return articles.map((articleSlug: string) => {
-    const source = fs.readFileSync(
-      path.join(process.cwd(), "/app/blog/articles", articleSlug),
-      "utf-8"
-    );
+  return articles
+    .map((articleSlug: string) => {
+      const source = fs.readFileSync(
+        path.join(process.cwd(), "/app/blog/articles", articleSlug),
+        "utf-8"
+      );
 
-    const { data } = matter(source);
+      const { data } = matter(source);
 
-    return {
-      title: data?.title,
-      excerpt: data?.excerpt,
-      coverImage: data?.coverImage,
-      publishDate: data.publishDate ?? "",
-      slug: articleSlug.replace(".mdx", ""),
-      readingTime: readingTime(source).text,
-    };
-  });
+      return {
+        title: data?.title,
+        excerpt: data?.excerpt,
+        coverImage: data?.coverImage,
+        publishDate: data.publishDate ?? "",
+        slug: articleSlug.replace(".mdx", ""),
+        readingTime: readingTime(source).text,
+      };
+    })
+    .sort((a, b) => {
+      // @ts-ignore
+      return new Date(b.publishDate) - new Date(a.publishDate);
+    });
 };
