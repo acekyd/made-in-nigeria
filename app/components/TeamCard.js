@@ -15,16 +15,16 @@ import github from "../../public/images/github.png";
 import twitter from "../../public/images/twitter.png";
 import linkedin from "../../public/images/linkedin.png";
 
-const TeamCard = () => {
+const TeamCard = (prop) => {
   return (
     <Card borderRadius="2xl">
       <CardBody>
         <Image src={matthew.src} alt="matthew portrait" />
 
         <Stack mt={6} spacing="3">
-          <Heading size="sm">Emmanuel Oloke</Heading>
+          <Heading size="sm">{ prop.data.name }</Heading>
           <Text fontSize="0.875rem" color="#949796">
-            Web Engineer, Dev Advocate, Solidity Dev
+            { prop.data.role }
           </Text>
         </Stack>
       </CardBody>
@@ -33,13 +33,13 @@ const TeamCard = () => {
       </Flex>
       <CardFooter>
         <Flex gap={9} alignItems="center" width="9.5rem">
-          <Link href="https://github.com/EmmanuelOloke" isExternal>
+          <Link href={prop.data.github} isExternal>
             <Image src={github.src} alt="github icon" />
           </Link>
-          <Link href="https://twitter.com/I_am_Pope" isExternal>
+          <Link href={prop.data.twitter} isExternal>
             <Image src={twitter.src} alt="twitter icon" />
           </Link>
-          <Link href="https://linkedin.com/in/emmanuel-oloke" isExternal>
+          <Link href={prop.data.linkedin} isExternal>
             <Image src={linkedin.src} alt="linkedin icon" />
           </Link>
         </Flex>
