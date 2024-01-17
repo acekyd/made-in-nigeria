@@ -16,8 +16,8 @@ export default async function BlogPostPage({
 
   return (
     <BlogPost
-      title={title}
       slug={slug}
+      title={title}
       coverImage={coverImage}
       moreArticles={articles}
     >

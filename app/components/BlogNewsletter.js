@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, HStack, Input, Text } from '@chakra-ui/react';
 import PrimaryButton from './Buttons/PrimaryButton';
 
@@ -128,6 +127,7 @@ const BlogNewsletter = () => {
               _placeholder={{ color: '#B8BAB9', fontSize: 'sm' }}
             />
           </Box>
+          
           <PrimaryButton
             text="Subscribe"
             link="https://madeinnigeria.dev"

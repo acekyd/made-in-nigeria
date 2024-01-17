@@ -4,6 +4,8 @@ import BlogHero from "@/app/components/BlogHero";
 import { VStack, Heading, Box, Center, Stack, Flex } from "@chakra-ui/react";
 import { FrontMatter } from "@/app/utils/mdx";
 import FeaturedArticles from "../featured-articles";
+import SecondaryButton from "../Buttons/SecondaryButton";
+import BlogNewsletter from "../BlogNewsletter";
 
 interface ArticleProps {
   data: FrontMatter[];
@@ -21,13 +23,14 @@ export const ArticleList = ({ data }: ArticleProps) => {
           <FeaturedArticles data={data} />
         </Box>
 
-        <Box width={{ base: "100%", md: "100%", lg: "65%" }}>
+        <Box width={{ base: "100%", md: "100%", lg: "65%" }} my="4rem">
           <VStack alignItems="flex-start" justifyContent="center" gap="2.5rem">
             <Heading
               fontWeight="800"
               lineHeight="2.5rem"
               fontSize="1.75rem"
               color="#292F2E"
+              ml="1.2rem"
               textTransform="capitalize"
             >
               all articles
@@ -47,6 +50,12 @@ export const ArticleList = ({ data }: ArticleProps) => {
               })}
             </Stack>
           </VStack>
+        </Box>
+
+        <SecondaryButton text="load more articles" link="" />
+
+        <Box my="10rem">
+          <BlogNewsletter />
         </Box>
       </Flex>
     </Box>

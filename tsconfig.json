@@ -30,7 +30,8 @@
     "app/examples/page.js",
     "app/components/pages/components/homepage-client.js",
     "app/components/pages/HomePage.js",
-    "app/components/mdx-components/mdx-remote.js"
+    "app/components/mdx-components/mdx-remote.js",
+    "app/components/Buttons/SecondaryButton.js"
   ],
   "exclude": ["node_modules"]
 }
