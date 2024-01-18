@@ -12,7 +12,7 @@ export interface CardProps {
 
 const ArticleCard = ({ image, slug, title, excerpt }: CardProps) => {
   return (
-    <Link href={`/blog/${slug}`}>
+    <Link href={`/creators/${slug}`}>
       <Box
         m={3}
         borderColor="#E3E3E3"

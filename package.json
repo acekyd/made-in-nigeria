@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@badrap/bar-of-progress": "^0.2.2",
     "@chakra-ui/icons": "^2.0.10",
     "@chakra-ui/next-js": "^2.1.5",
     "@chakra-ui/react": "^2.8.0",

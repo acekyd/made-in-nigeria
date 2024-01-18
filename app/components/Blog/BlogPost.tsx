@@ -27,7 +27,7 @@ export const BlogPost = ({
   const filtered = moreArticles.filter((article) => article.slug !== slug);
 
   return (
-    <Box>
+    <>
       <Box
         width="100%"
         background="#EEF9F6"
@@ -76,19 +76,19 @@ export const BlogPost = ({
             <Stack direction="row" spacing={6}>
               <TwitterShareButton
                 title={title}
-                url={`https://madeinnigeria.dev/blog/${slug}`}
+                url={`https://madeinnigeria.dev/creators/${slug}`}
               >
                 <Icon name="twitter" />
               </TwitterShareButton>
               <FacebookShareButton
                 title={title}
-                url={`https://madeinnigeria.dev/blog/${slug}`}
+                url={`https://madeinnigeria.dev/creators/${slug}`}
               >
                 <Icon name="facebook" />
               </FacebookShareButton>
               <LinkedinShareButton
                 title={title}
-                url={`https://madeinnigeria.dev/blog/${slug}`}
+                url={`https://madeinnigeria.dev/creators/${slug}`}
               >
                 <Icon name="linkedin" />
               </LinkedinShareButton>
@@ -136,6 +136,6 @@ export const BlogPost = ({
           })}
         </Stack>
       </Box>
-    </Box>
+    </>
   );
 };

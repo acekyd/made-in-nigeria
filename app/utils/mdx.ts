@@ -13,7 +13,7 @@ export type FrontMatter = {
   readingTime?: string;
 };
 
-const articlesDirectory = path.join(process.cwd(), "/app/blog/articles");
+const articlesDirectory = path.join(process.cwd(), "/app/creators/articles");
 
 export const getArticleSlug = async () => {
   const paths = sync(`${articlesDirectory}/*.mdx`);
@@ -55,7 +55,7 @@ export const getArticles = async () => {
   return articles
     .map((articleSlug: string) => {
       const source = fs.readFileSync(
-        path.join(process.cwd(), "/app/blog/articles", articleSlug),
+        path.join(process.cwd(), "/app/creators/articles", articleSlug),
         "utf-8"
       );
 

@@ -135,7 +135,7 @@ export const Home = ({ data }) => {
         </HStack>
 
         <Flex justifyContent="center" marginTop={3}>
-          <SecondaryButton text="See More Articles" link="/blog" />
+          <SecondaryButton text="See More Articles" link="/creators" />
         </Flex>
       </Flex>
 

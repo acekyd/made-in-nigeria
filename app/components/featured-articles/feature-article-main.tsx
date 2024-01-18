@@ -55,7 +55,7 @@ const FeaturedArticleMain = ({ image, slug, title, excerpt }: CardProps) => {
           _hover={{ cursor: "pointer", transform: "scale(1.1, 1.1)" }}
         />
       </Box>
-      <Link href={`/blog/${slug}`} as={NextLink}>
+      <Link href={`/creators/${slug}`} as={NextLink}>
         <Text
           width={{
             base: "20.375rem",

@@ -74,7 +74,7 @@ const FeatureArticleOther = ({ slug, title, image, excerpt }: CardProps) => {
       />
 
       <VStack width={{ lg: "22.188rem", xl: "22.188rem", "2xl": "22.188rem" }}>
-        <Link href={`/blog/${slug}`} as={NextLink}>
+        <Link href={`/creators/${slug}`} as={NextLink}>
           <Text
             fontWeight="800"
             fontSize={{

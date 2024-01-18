@@ -22,6 +22,7 @@ import SearchIcon from "../../public/images/search.png";
 import SearchProject from "./SearchProject";
 import MenuIcon from "../../public/images/menu.png";
 import NextLink from "next/link";
+import { usePathname } from "next/navigation";
 
 const NAV_ITEMS = [
   {
@@ -43,12 +44,12 @@ const NAV_ITEMS = [
     path: "/creators",
     external: false,
   },
-  { id: crypto.randomUUID(), name: "blog", path: "/blog", external: false },
 ];
 
 const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const navRef = useRef(null);
+  const pathname = usePathname();
 
   return (
     <Box
@@ -111,32 +112,36 @@ const NavBar = () => {
           </Flex>
         </Box>
 
-        <Box
-          display={{
-            base: "none",
-            sm: "none",
-            md: "none",
-            lg: "flex",
-            xl: "flex",
-            "2xl": "flex",
-          }}
-          marginLeft="15rem"
-          alignItems="center"
-          padding={3}
-          borderColor="#E9EAEA"
-          borderWidth="1px"
-          borderRadius="90px"
-          height="2.5rem"
-          width="17.25rem"
-          gap="1rem"
-        >
-          <Image src={SearchIcon.src} w="1.25rem" height="1.25rem" alt="" />
-          <Input
-            variant="unstyled"
-            placeholder="Search"
-            _placeholder={{ color: "#B8BAB9" }}
-          />
-        </Box>
+        {pathname === "/" ||
+        pathname === "/projects" ||
+        pathname === "/creators" ? (
+          <Box
+            display={{
+              base: "none",
+              sm: "none",
+              md: "none",
+              lg: "flex",
+              xl: "flex",
+              "2xl": "flex",
+            }}
+            marginLeft="15rem"
+            alignItems="center"
+            padding={3}
+            borderColor="#E9EAEA"
+            borderWidth="1px"
+            borderRadius="90px"
+            height="2.5rem"
+            width="17.25rem"
+            gap="1rem"
+          >
+            <Image src={SearchIcon.src} w="1.25rem" height="1.25rem" alt="" />
+            <Input
+              variant="unstyled"
+              placeholder="Search"
+              _placeholder={{ color: "#B8BAB9" }}
+            />
+          </Box>
+        ) : null}
 
         <Box ref={navRef} onClick={onOpen}>
           <Image
