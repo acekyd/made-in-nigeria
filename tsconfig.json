@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2022",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -22,6 +22,16 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/examples/page.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/examples/page.js",
+    "app/components/pages/components/homepage-client.js",
+    "app/components/pages/HomePage.js",
+    "app/components/mdx-components/mdx-remote.js",
+    "app/components/Buttons/SecondaryButton.js"
+  ],
   "exclude": ["node_modules"]
 }

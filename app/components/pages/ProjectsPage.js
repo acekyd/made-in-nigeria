@@ -1,47 +1,46 @@
-'use client'
-
-import ProjectsHero from '../ProjectsHero';
-import { Box, ChakraProvider, Container, SimpleGrid } from '@chakra-ui/react';
-import AlphabetFilterNormal from '../AlphabetFilter/AlphabetFilterNormal';
-import ProjectCard from '../ProjectCard';
-import AlphabetFilterStuck from '../AlphabetFilter/AlphabetFilterStuck';
-import AlphabetFilterExpand from '../AlphabetFilter/AlphabetFilterExpand';
-import { useState, useRef, useEffect } from 'react';
+"use client";
+import ProjectsHero from "../ProjectsHero";
+import { Box, Container, SimpleGrid } from "@chakra-ui/react";
+import AlphabetFilterNormal from "../AlphabetFilter/AlphabetFilterNormal";
+import ProjectCard from "../ProjectCard";
+import AlphabetFilterStuck from "../AlphabetFilter/AlphabetFilterStuck";
+import AlphabetFilterExpand from "../AlphabetFilter/AlphabetFilterExpand";
+import { useState, useRef, useEffect } from "react";
 
 /*
   Notice: This is going to be the listing page for all projects
 */
 
-
 // markup
 const ProjectsPage = (props) => {
-    const [isStuck, setIsStuck] = useState(false);
-    const [isExpanded, setIsExpanded] = useState(false);
-    const [isNormal, setIsNormal] = useState(true);
-    const [selectedLetter, setSelectedLetter] = useState('');
-    const [data, setData] = useState(props.repositories)
+  const [isStuck, setIsStuck] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [isNormal, setIsNormal] = useState(true);
+  const [selectedLetter, setSelectedLetter] = useState('');
+  const [data, setData] = useState(props.repositories)
 
-    const projectHeroRef = useRef(null);
-    const observerOptions = {
-        root: null,
-        rootMargin: '-80px',
-    };
+  const projectHeroRef = useRef(null);
+  const observerOptions = {
+    root: null,
+    rootMargin: "-80px",
+  };
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(([entry]) => {
-            if (!entry.isIntersecting) {
-                setIsNormal(false);
-                setIsStuck(true);
-            } else {
-                setIsNormal(true);
-                setIsStuck(false);
-            }
-        }, observerOptions);
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) {
+        setIsNormal(false);
+        setIsStuck(true);
+      } else {
+        setIsNormal(true);
+        setIsStuck(false);
+      }
+    }, observerOptions);
 
-        observer.observe(projectHeroRef.current);
-        return () => observer.unobserve(projectHeroRef.current);
-    }, [isStuck]);
+    observer.observe(projectHeroRef.current);
+    return () => observer.unobserve(projectHeroRef.current);
+  }, [isStuck]);
 
+  
     const filterByLetter = (letter) => {
         if (letter) {
             setData(props.repositories.filter(obj => obj.repoName.toLowerCase().startsWith(letter.toLowerCase())));
@@ -64,14 +63,25 @@ const ProjectsPage = (props) => {
                 <AlphabetFilterNormal selectedLetter={selectedLetter} setSelectedLetter={setSelectedLetter} />
             </Box>
 
-            <Box position="sticky" top="90" zIndex={1} display={{ base: 'flex', md: 'none' }}>
-                {isNormal ? (
-                    <AlphabetFilterNormal />
-                ) : isStuck && !isExpanded ? (
-                    <AlphabetFilterStuck isExpanded={isExpanded} setIsExpanded={setIsExpanded} />
-                ) : isExpanded ? (
-                    <AlphabetFilterExpand isExpanded={isExpanded} setIsExpanded={setIsExpanded} />
-                ) : null}
+            <Box
+              position="sticky"
+              top="90"
+              zIndex={1}
+              display={{ base: "flex", md: "none" }}
+            >
+              {isNormal ? (
+                <AlphabetFilterNormal />
+              ) : isStuck && !isExpanded ? (
+                <AlphabetFilterStuck
+                  isExpanded={isExpanded}
+                  setIsExpanded={setIsExpanded}
+                />
+              ) : isExpanded ? (
+                <AlphabetFilterExpand
+                  isExpanded={isExpanded}
+                  setIsExpanded={setIsExpanded}
+                />
+              ) : null}
             </Box>
 
             <SimpleGrid columns={{ sm: 1, md: 3 }} mt="1rem" mb="5rem">
@@ -81,6 +91,6 @@ const ProjectsPage = (props) => {
             </SimpleGrid>
         </Container>
     );
-};
+
 
 export default ProjectsPage;

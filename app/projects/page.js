@@ -1,15 +1,15 @@
-import React from 'react';
-import { marked } from 'marked';
-import * as cheerio from 'cheerio';
-
-import ProjectsPage from '../components/pages/ProjectsPage';
+import { marked } from "marked";
+import * as cheerio from "cheerio";
+import ProjectsPage from "../components/pages/ProjectsPage";
 
 async function getData() {
-  const res = await fetch('https://raw.githubusercontent.com/acekyd/made-in-nigeria/master/README.MD');
+  const res = await fetch(
+    "https://raw.githubusercontent.com/acekyd/made-in-nigeria/master/README.MD"
+  );
 
   if (!res.ok) {
     // This will activate the closest `error.js` Error Boundary
-    throw new Error('Failed to fetch data')
+    throw new Error("Failed to fetch data");
   }
 
   const markdownData = await res.text();
@@ -17,7 +17,9 @@ async function getData() {
   const $ = cheerio.load(html); // load the html string into cheerio
 
   // Select all <li> elements using jQuery-like syntax and extract their text
-  const liTextArray = $('li').map((index, element) => $(element).html()).get();
+  const liTextArray = $("li")
+    .map((index, element) => $(element).html())
+    .get();
 
   // process the text to get the data you want
   const repositories = convertToJSON(liTextArray);
@@ -26,17 +28,17 @@ async function getData() {
 }
 
 function convertToJSON(repositories) {
-   return repositories.map((repository) => {
+  return repositories.map((repository) => {
     const $ = cheerio.load(repository);
 
     // Extract text content and href from <a> element
-    const repoName = $('a').first().text();
-    const repoLink = $('a').first().attr('href');
+    const repoName = $("a").first().text();
+    const repoLink = $("a").first().attr("href");
 
-    let description = $('*').contents()[3].data; // I don't know why the fuck this works but if it's not broken, don't touch it.
-    const repoDescription = description.replace(/^ - /, '');
-    const repoAuthor = $('strong a').text();
-    const repoAuthorLink = $('strong a').attr('href');
+    let description = $("*").contents()[3].data; // I don't know why the fuck this works but if it's not broken, don't touch it.
+    const repoDescription = description.replace(/^ - /, "");
+    const repoAuthor = $("strong a").text();
+    const repoAuthorLink = $("strong a").attr("href");
 
     // Create JSON object
     return {
@@ -44,15 +46,16 @@ function convertToJSON(repositories) {
       repoLink,
       repoDescription,
       repoAuthor,
-      repoAuthorLink
+      repoAuthorLink,
     };
   });
 }
 export default async function Projects() {
-    const data = await getData();
-    return (
-        <main>
-        <ProjectsPage repositories={data} />
-        </main>
-    )
+  const data = await getData();
+  return (
+    <main>
+      <title>Projects | Made In Nigeria</title>
+      <ProjectsPage repositories={data} />
+    </main>
+  );
 }

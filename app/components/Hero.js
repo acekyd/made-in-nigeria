@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Text } from '@chakra-ui/react';
 import SearchProject from './SearchProject';
 
@@ -29,7 +28,7 @@ const Hero = () => {
         xl: '40.625rem',
         '2xl': '40.625rem',
       }}
-      width="100vw"
+      width="100%"
       display="flex"
       flexDirection="column"
       alignItems="center"
