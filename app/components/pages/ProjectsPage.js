@@ -40,7 +40,7 @@ const ProjectsPage = (props) => {
     return () => observer.unobserve(projectHeroRef.current);
   }, [isStuck]);
 
-  
+
     const filterByLetter = (letter) => {
         if (letter) {
             setData(props.repositories.filter(obj => obj.repoName.toLowerCase().startsWith(letter.toLowerCase())));
@@ -91,6 +91,6 @@ const ProjectsPage = (props) => {
             </SimpleGrid>
         </Container>
     );
-
+}
 
 export default ProjectsPage;
