@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@badrap/bar-of-progress": "^0.2.2",
     "@chakra-ui/icons": "^2.0.10",
     "@chakra-ui/next-js": "^2.1.5",
     "@chakra-ui/react": "^2.8.0",
@@ -20,16 +21,23 @@
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
     "cheerio": "^1.0.0-rc.12",
+    "dayjs": "^1.11.10",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "framer-motion": "^10.16.1",
+    "glob": "^10.3.10",
+    "gray-matter": "^4.0.3",
     "marked": "^9.0.0",
-    "next": "13.4.19",
+    "next": "^14.0.0",
+    "next-mdx-remote": "^4.4.1",
     "postcss": "8.4.28",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
+    "react-share": "^5.0.3",
+    "react-svg": "^16.1.32",
+    "reading-time": "^1.5.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
   }

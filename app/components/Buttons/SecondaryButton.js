@@ -1,5 +1,6 @@
-import React from 'react';
-import { Button, Link } from '@chakra-ui/react';
+import { Button, Link } from "@chakra-ui/react";
+import NextLink from "next/link";
+import propTypes from "prop-types";
 
 const SecondaryButton = ({ text, link }) => {
   return (
@@ -7,15 +8,16 @@ const SecondaryButton = ({ text, link }) => {
       display="block"
       borderRadius={30}
       borderColor="#009E77"
-      color={'#009E77'}
-      _hover={{ bg: '#009E77', color: '#FFFFFF' }}
-      fontWeight={'semibold'}
-      w="10.5rem"
+      color={"#009E77"}
+      _hover={{ bg: "#009E77", color: "#FFFFFF" }}
+      fontWeight={"semibold"}
+      w="fit-content"
       height="3rem"
       href={link}
       variant="outline"
+      textTransform="capitalize"
     >
-      <Link href={link} _hover={{ textDecoration: 'none' }}>
+      <Link href={link} as={NextLink} _hover={{ textDecoration: "none" }}>
         {text}
       </Link>
     </Button>
@@ -23,3 +25,8 @@ const SecondaryButton = ({ text, link }) => {
 };
 
 export default SecondaryButton;
+
+SecondaryButton.propTypes = {
+  text: propTypes.string.isRequired,
+  link: propTypes.string,
+};
