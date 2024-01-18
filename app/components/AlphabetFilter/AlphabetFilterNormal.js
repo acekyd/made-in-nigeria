@@ -1,7 +1,7 @@
 import { Button, Center, SimpleGrid } from '@chakra-ui/react';
 import React from 'react';
 
-const AlphabetFilter = () => {
+const AlphabetFilter = ({selectedLetter, setSelectedLetter}) => {
   const alphabetsCharCodes = Array.from(Array(26)).map((element, index) => index + 65);
   const filterAlphabetsStrings = alphabetsCharCodes.map((charCode) =>
     String.fromCharCode(charCode)
@@ -9,7 +9,7 @@ const AlphabetFilter = () => {
 
   const filterProjects = (letter) => {
     // filter function goes here
-    console.log(`filtering by ${letter}`);
+    setSelectedLetter(letter);
   };
 
   return (

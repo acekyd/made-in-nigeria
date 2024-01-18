@@ -16,6 +16,8 @@ const ProjectsPage = (props) => {
   const [isStuck, setIsStuck] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
   const [isNormal, setIsNormal] = useState(true);
+  const [selectedLetter, setSelectedLetter] = useState('');
+  const [data, setData] = useState(props.repositories)
 
   const projectHeroRef = useRef(null);
   const observerOptions = {
@@ -38,49 +40,57 @@ const ProjectsPage = (props) => {
     return () => observer.unobserve(projectHeroRef.current);
   }, [isStuck]);
 
-  return (
-    <Container maxW="container.xl" centerContent top>
-      <Box ref={projectHeroRef} my={{ base: "3rem", md: "7rem" }}>
-        <ProjectsHero />
-      </Box>
+  
+    const filterByLetter = (letter) => {
+        if (letter) {
+            setData(props.repositories.filter(obj => obj.repoName.toLowerCase().startsWith(letter.toLowerCase())));
+        } else {
+            setData(props.repositories)
+        }
+    };
 
-      <Box
-        position="sticky"
-        top="90"
-        zIndex={1}
-        display={{ base: "none", md: "flex" }}
-      >
-        <AlphabetFilterNormal />
-      </Box>
+    useEffect(() => {
+        filterByLetter(selectedLetter)
+    }, [selectedLetter]);
 
-      <Box
-        position="sticky"
-        top="90"
-        zIndex={1}
-        display={{ base: "flex", md: "none" }}
-      >
-        {isNormal ? (
-          <AlphabetFilterNormal />
-        ) : isStuck && !isExpanded ? (
-          <AlphabetFilterStuck
-            isExpanded={isExpanded}
-            setIsExpanded={setIsExpanded}
-          />
-        ) : isExpanded ? (
-          <AlphabetFilterExpand
-            isExpanded={isExpanded}
-            setIsExpanded={setIsExpanded}
-          />
-        ) : null}
-      </Box>
+    return (
+        <Container maxW="container.xl" centerContent top>
+            <Box ref={projectHeroRef} my={{ base: '3rem', md: '7rem' }}>
+                <ProjectsHero />
+            </Box>
 
-      <SimpleGrid columns={{ sm: 1, md: 3 }} mt="1rem" mb="5rem">
-        {props.repositories.map((project) => (
-          <ProjectCard key={project.repoLink} project={project} />
-        ))}
-      </SimpleGrid>
-    </Container>
-  );
-};
+            <Box position="sticky" top="90" zIndex={1} display={{ base: 'none', md: 'flex' }}>
+                <AlphabetFilterNormal selectedLetter={selectedLetter} setSelectedLetter={setSelectedLetter} />
+            </Box>
+
+            <Box
+              position="sticky"
+              top="90"
+              zIndex={1}
+              display={{ base: "flex", md: "none" }}
+            >
+              {isNormal ? (
+                <AlphabetFilterNormal />
+              ) : isStuck && !isExpanded ? (
+                <AlphabetFilterStuck
+                  isExpanded={isExpanded}
+                  setIsExpanded={setIsExpanded}
+                />
+              ) : isExpanded ? (
+                <AlphabetFilterExpand
+                  isExpanded={isExpanded}
+                  setIsExpanded={setIsExpanded}
+                />
+              ) : null}
+            </Box>
+
+            <SimpleGrid columns={{ sm: 1, md: 3 }} mt="1rem" mb="5rem">
+                {data.map((project, index) => (
+                    < ProjectCard key={index} project={project} />
+                ))}
+            </SimpleGrid>
+        </Container>
+    );
+
 
 export default ProjectsPage;
