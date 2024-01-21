@@ -2,10 +2,8 @@
 
 import ProjectsHero from '../ProjectsHero';
 import { Box, ChakraProvider, Container, SimpleGrid } from '@chakra-ui/react';
-import AlphabetFilterNormal from '../AlphabetFilter/AlphabetFilterNormal';
+import AlphabetFilter from '../AlphabetFilter/AlphabetFilter';
 import ProjectCard from '../ProjectCard';
-import AlphabetFilterStuck from '../AlphabetFilter/AlphabetFilterStuck';
-import AlphabetFilterExpand from '../AlphabetFilter/AlphabetFilterExpand';
 import { useState, useRef, useEffect } from 'react';
 
 /*
@@ -61,18 +59,16 @@ const ProjectsPage = (props) => {
             </Box>
 
             <Box position="sticky" top="90" zIndex={1} display={{ base: 'none', md: 'flex' }}>
-                <AlphabetFilterNormal selectedLetter={selectedLetter} setSelectedLetter={setSelectedLetter} />
+                <AlphabetFilter selectedLetter={selectedLetter} setSelectedLetter={setSelectedLetter} />
             </Box>
 
             <Box position="sticky" top="90" zIndex={1} display={{ base: 'flex', md: 'none' }}>
-                {isNormal ? (
-                    <AlphabetFilterNormal selectedLetter={selectedLetter} setSelectedLetter={setSelectedLetter} />
-                ) : isStuck && !isExpanded ? (
-                    <AlphabetFilterStuck isExpanded={isExpanded} setIsExpanded={setIsExpanded} />
-                ) : isExpanded ? (
-                    <AlphabetFilterExpand isExpanded={isExpanded} setIsExpanded={setIsExpanded} />
-                ) : null}
+                  <AlphabetFilter selectedLetter={selectedLetter} setSelectedLetter={setSelectedLetter} isMobile="true" isExpanded={isExpanded} setIsExpanded={setIsExpanded} />
             </Box>
+
+
+
+
 
             <SimpleGrid columns={{ sm: 1, md: 3 }} mt="1rem" mb="5rem">
                 {data.map((project, index) => (
