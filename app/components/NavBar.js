@@ -1,5 +1,5 @@
 "use client";
-import { useRef } from "react";
+import {useEffect, useRef, useState} from "react";
 import {
   Box,
   Flex,
@@ -22,7 +22,7 @@ import SearchIcon from "../../public/images/search.png";
 import SearchProject from "./SearchProject";
 import MenuIcon from "../../public/images/menu.png";
 import NextLink from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 const NAV_ITEMS = [
   {
@@ -50,6 +50,27 @@ const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const navRef = useRef(null);
   const pathname = usePathname();
+  const [searchProjectsText, setSearchProjectsText] = useState('')
+
+  const router = useRouter();
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+
+    // Redirect to the /project URL with the search term as a query parameter
+    router.push(`/projects?search=${encodeURIComponent(searchProjectsText)}`);
+  };
+
+  const handleKeyPress = (e) => {
+    // Check if the pressed key is Enter (key code 13)
+    if (e.key === 'Enter') {
+      handleSearch(e);
+    }
+  };
+
+  useEffect(() => {
+
+  }, [searchProjectsText]);
 
   return (
     <Box
@@ -139,6 +160,9 @@ const NavBar = () => {
               variant="unstyled"
               placeholder="Search"
               _placeholder={{ color: "#B8BAB9" }}
+              onChange={(e) => setSearchProjectsText(e.target.value)}
+              value={searchProjectsText}
+              onKeyDown={handleKeyPress}
             />
           </Box>
         ) : null}
