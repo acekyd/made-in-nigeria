@@ -10,7 +10,6 @@ import {usePathname, useRouter, useSearchParams} from "next/navigation";
 /*
   Notice: This is going to be the listing page for all projects
 */
-
 // markup
 const ProjectsPage = (props) => {
     const [isStuck, setIsStuck] = useState(false);
@@ -32,20 +31,22 @@ const ProjectsPage = (props) => {
         rootMargin: '-80px',
     };
 
-    // useEffect(() => {
-    //     const observer = new IntersectionObserver(([entry]) => {
-    //         if (!entry.isIntersecting) {
-    //             setIsNormal(false);
-    //             setIsStuck(true);
-    //         } else {
-    //             setIsNormal(true);
-    //             setIsStuck(false);
-    //         }
-    //     }, observerOptions);
-    //
-    //     observer.observe(projectHeroRef.current);
-    //     return () => observer.unobserve(projectHeroRef.current);
-    // }, [isStuck]);
+    useEffect(() => {
+        const observer = new IntersectionObserver(([entry]) => {
+            if (!entry.isIntersecting) {
+                setIsNormal(false);
+                setIsStuck(true);
+            } else {
+                setIsNormal(true);
+                setIsStuck(false);
+            }
+        }, observerOptions);
+
+        observer.observe(projectHeroRef.current);
+        // return () => observer.unobserve(projectHeroRef.current);
+        // unobserve is causing the depth error, but disconnect removes everything. Will figure it out
+        return () => observer.disconnect();
+    }, [isStuck]);
 
     const filterByLetter = (letter) => {
         if (letter) {
