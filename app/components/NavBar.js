@@ -58,7 +58,7 @@ const NavBar = () => {
     e.preventDefault();
 
     // Redirect to the /project URL with the search term as a query parameter
-    router.push(`/projects?search=${encodeURIComponent(searchProjectsText)}`);
+    router.replace(`/projects?search=${encodeURIComponent(searchProjectsText)}`, undefined, { shallow: true });
   };
 
   const handleKeyPress = (e) => {
