@@ -1,10 +1,10 @@
 'use client'
 
 import ProjectsHero from '../ProjectsHero';
-import { Box, ChakraProvider, Container, SimpleGrid } from '@chakra-ui/react';
+import { Box, Container, SimpleGrid } from '@chakra-ui/react';
 import AlphabetFilter from '../AlphabetFilter/AlphabetFilter';
 import ProjectCard from '../ProjectCard';
-import {useState, useRef, useEffect, useCallback} from 'react';
+import {useState, useRef, useEffect} from 'react';
 import {usePathname, useRouter, useSearchParams} from "next/navigation";
 
 /*
@@ -72,9 +72,9 @@ const ProjectsPage = (props) => {
     useEffect(() => {
         if(searchText) {
             const filteredData = props.repositories.filter((project) =>
-                project.repoName.toLocaleLowerCase().includes(searchText) ||
-                project.repoDescription.toLocaleLowerCase().includes(searchText) ||
-                project.repoAuthor.toLocaleLowerCase().includes(searchText)
+                project.repoName.toLocaleLowerCase().includes(searchText.toLocaleLowerCase()) ||
+                project.repoDescription.toLocaleLowerCase().includes(searchText.toLocaleLowerCase()) ||
+                project.repoAuthor.toLocaleLowerCase().includes(searchText.toLocaleLowerCase())
             );
             setData(filteredData);
         } else {
