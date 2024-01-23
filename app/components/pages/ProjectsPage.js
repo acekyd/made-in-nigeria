@@ -71,17 +71,14 @@ const ProjectsPage = (props) => {
 
     useEffect(() => {
         if(searchText) {
-            setData(props.repositories.map(
-                (obj) => {
-                    const repoName = obj.repoName.includes(searchText.toLowerCase())
-                    const repoDescription = obj.repoDescription.includes(searchText.toLowerCase())
-                    const repoAuthor = obj.repoAuthor.includes(searchText.toLowerCase())
-
-                    return {
-                        ...obj,
-                        searchResult: repoName || repoDescription || repoAuthor ? `${obj.repoName} - ${obj.repoDescription} - ${obj.repoAuthor}` : null,
-                    };
-                }).filter((item) => item.searchResult))
+            const filteredData = props.repositories.filter((project) =>
+                project.repoName.toLocaleLowerCase().includes(searchText) ||
+                project.repoDescription.toLocaleLowerCase().includes(searchText) ||
+                project.repoAuthor.toLocaleLowerCase().includes(searchText)
+            );
+            setData(filteredData);
+        } else {
+            setData(props.repositories)
         }
     }, [searchText]);
 
