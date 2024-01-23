@@ -21,7 +21,6 @@ import ColoredLogo from "../../public/images/colored-logo.png";
 import SearchIcon from "../../public/images/search.png";
 import SearchProject from "./SearchProject";
 import MenuIcon from "../../public/images/menu.png";
-import NextLink from "next/link";
 import { usePathname } from "next/navigation";
 
 const NAV_ITEMS = [
@@ -75,7 +74,7 @@ const NavBar = () => {
       >
         <Box display="flex" justifyContent="space-between">
           <Box>
-            <Link as={NextLink} href="/">
+            <Link href="/">
               <Image src={ColoredLogo.src} alt="" />
             </Link>
           </Box>
@@ -99,7 +98,6 @@ const NavBar = () => {
                 <Link
                   key={id}
                   href={path}
-                  as={NextLink}
                   whiteSpace="nowrap"
                   isExternal={external}
                 >
