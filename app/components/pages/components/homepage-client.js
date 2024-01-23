@@ -1,5 +1,5 @@
 "use client";
-import { useRef } from "react";
+import React, { useRef } from "react";
 import { Box, Text, Flex, HStack, Heading, SimpleGrid } from "@chakra-ui/react";
 import Hero from "../../Hero";
 import ProjectCard from "../../ProjectCard";
@@ -12,8 +12,9 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import featuredProjects from "@/app/assets/featured.json";
 import propTypes from "prop-types";
+import { useProjectStore } from "@/app/store";
 
-export const Home = ({ data }) => {
+export const Home = ({ data, projects }) => {
   const splideRef = useRef();
 
   const handlePrevClick = () => {
@@ -33,6 +34,13 @@ export const Home = ({ data }) => {
     arrows: false,
     pagination: false,
   };
+
+  const { addProjects: pushProjectsToStore } = useProjectStore();
+
+  React.useEffect(() => {
+    pushProjectsToStore({ data: projects });
+  }, [projects, pushProjectsToStore]);
+
   return (
     <main>
       <Hero />
@@ -43,7 +51,7 @@ export const Home = ({ data }) => {
         </Text>
 
         <SimpleGrid columns={{ sm: 1, md: 3 }}>
-          {featuredProjects.map((project) => (
+          {projects.slice(0, 4).map((project) => (
             <ProjectCard key={project.repoLink} project={project} />
           ))}
         </SimpleGrid>

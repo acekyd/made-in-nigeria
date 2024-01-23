@@ -2,7 +2,7 @@ import { marked } from "marked";
 import * as cheerio from "cheerio";
 import ProjectsPage from "../components/pages/ProjectsPage";
 
-async function getData() {
+export async function getData() {
   const res = await fetch(
     "https://raw.githubusercontent.com/acekyd/made-in-nigeria/master/README.MD"
   );
@@ -50,8 +50,10 @@ function convertToJSON(repositories) {
     };
   });
 }
+
 export default async function Projects() {
   const data = await getData();
+
   return (
     <main>
       <title>Projects | Made In Nigeria</title>

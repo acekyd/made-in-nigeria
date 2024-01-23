@@ -22,6 +22,7 @@ import SearchIcon from "../../public/images/search.png";
 import SearchProject from "./SearchProject";
 import MenuIcon from "../../public/images/menu.png";
 import { usePathname } from "next/navigation";
+import { useProjectStore } from "../store";
 
 const NAV_ITEMS = [
   {
@@ -49,6 +50,10 @@ const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const navRef = useRef(null);
   const pathname = usePathname();
+
+  const { data: projects } = useProjectStore();
+
+  console.log("projects retrieved in navbar component", projects);
 
   return (
     <Box
