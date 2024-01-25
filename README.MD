@@ -110,6 +110,7 @@
 - [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework! **By [@devhammed](https://profile.codersrank.io/user/devhammed)**<span style="color: green; font-weight: 700;"> | 🏁 Deleted </span>
 - [helpers](https://github.com/whizkydee/helpers) - Super-handy JavaScript utility functions for front-end development. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [HUI.js](https://github.com/devHammed/HUI.js) - Lightweight JavaScript UI Library. **By [@devhammed](https://profile.codersrank.io/user/devhammed)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
+- [Hybrid Sales Center](https://github.com/comeriver/hybrid-sales-center) - A fully functional Point of Sale (POS) Software that is web based built on top of PageCarton. **By [@AyoolaFalola](https://twitter.com/AyoolaFalola)**
 
 ## <a name="I"> </a>I
 
