@@ -1,5 +1,5 @@
 "use client";
-import {useEffect, useRef, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import {
   Box,
   Flex,
@@ -23,6 +23,7 @@ import SearchProject from "./SearchProject";
 import MenuIcon from "../../public/images/menu.png";
 import NextLink from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import ExploreProjects from "@/app/components/Buttons/ExploreProjects";
 
 const NAV_ITEMS = [
   {
@@ -136,49 +137,22 @@ const NavBar = () => {
         {pathname === "/" ||
         pathname === "/projects" ||
         pathname === "/creators" ? (
-          <Box
-            display={{
-              base: "none",
-              sm: "none",
-              md: "none",
-              lg: "flex",
-              xl: "flex",
-              "2xl": "flex",
-            }}
-            marginLeft="15rem"
-            alignItems="center"
-            padding={3}
-            borderColor="#E9EAEA"
-            borderWidth="1px"
-            borderRadius="90px"
-            height="2.5rem"
-            width="17.25rem"
-            gap="1rem"
-          >
-            <Image src={SearchIcon.src} w="1.25rem" height="1.25rem" alt="" />
-            <Input
-              variant="unstyled"
-              placeholder="Search"
-              _placeholder={{ color: "#B8BAB9" }}
-              onChange={(e) => setSearchProjectsText(e.target.value)}
-              value={searchProjectsText}
-              onKeyDown={handleKeyPress}
-            />
-          </Box>
+                <ExploreProjects text="Explore Projects" link="/projects" />
         ) : null}
 
-        <Box ref={navRef} onClick={onOpen}>
+        <Box ref={navRef} onClick={onOpen}
+             display={{
+               base: "flex",
+               sm: "flex",
+               md: "flex",
+               lg: "none",
+               xl: "none",
+               "2xl": "none",
+             }}
+        >
           <Image
             src={MenuIcon.src}
             alt=""
-            display={{
-              base: "flex",
-              sm: "flex",
-              md: "flex",
-              lg: "none",
-              xl: "none",
-              "2xl": "none",
-            }}
           />
         </Box>
 
