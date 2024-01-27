@@ -19,7 +19,7 @@ const TeamCard = (prop) => {
   return (
     <Card borderRadius="2xl">
       <CardBody>
-        <Image src={matthew.src} alt="matthew portrait" />
+        <Image src={prop.data.avatar_url} alt="matthew portrait" />
 
         <Stack mt={6} spacing="3">
           <Heading size="sm">{ prop.data.name }</Heading>
