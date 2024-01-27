@@ -33,8 +33,8 @@ const AboutPage = (props) => {
         const mappedArray = collaboratorsRefined.map(item => ({
             github: item.html_url,
             avatar_url: item.avatar_url,
-            linkedin: "https://www.linkedin.com/in/adewale-abati",
-            name: item.login,
+            linkedin: "",
+            name: item.name,
             role: item.bio,
             twitter: item.twitter_username
         }));
