@@ -61,7 +61,7 @@ export const ArticleList = ({ data }: ArticleProps) => {
           </Box>
         )}
 
-        <Box width={{ base: "100%", md: "100%", lg: "65%" }} my="4rem">
+        <Flex width={{ base: "100%", md: "100%", lg: "50%" }} my="4rem" justifyContent="center" alignItems="center">
           <VStack alignItems="flex-start" justifyContent="center" gap="2.5rem">
             <Heading
               fontWeight="800"
@@ -100,13 +100,13 @@ export const ArticleList = ({ data }: ArticleProps) => {
               </Stack>
             )}
           </VStack>
-        </Box>
+        </Flex>
 
         <Box as="button" onClick={onLoadMoreArticles}>
           <SecondaryButton text="load more articles" link="" />
         </Box>
         <Box my="10rem">
-          <BlogNewsletter />
+          {/* <BlogNewsletter /> */}
         </Box>
       </Flex>
     </Box>
