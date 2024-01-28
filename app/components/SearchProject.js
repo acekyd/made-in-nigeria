@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Image, Input } from '@chakra-ui/react';
 import SearchIcon from '../../public/images/drawer-search.png';
 
-const SearchProject = ({ mobileWidth, desktopWidth }) => {
+const SearchProject = ({ mobileWidth, desktopWidth, searchText, setSearchText }) => {
   return (
     <Box padding="3px 24px">
       <Box
@@ -29,6 +29,8 @@ const SearchProject = ({ mobileWidth, desktopWidth }) => {
           variant="unstyled"
           placeholder="Search Projects"
           _placeholder={{ color: '#B8BAB9', fontSize: 'sm' }}
+          value={searchText}
+          onChange={(e) => setSearchText(e.target.value)}
         />
       </Box>
     </Box>

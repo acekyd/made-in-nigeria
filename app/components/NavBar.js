@@ -1,5 +1,5 @@
 "use client";
-import { useRef } from "react";
+import React, {useEffect, useRef, useState} from "react";
 import {
   Box,
   Flex,
@@ -22,7 +22,8 @@ import SearchIcon from "../../public/images/search.png";
 import SearchProject from "./SearchProject";
 import MenuIcon from "../../public/images/menu.png";
 import NextLink from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
+import ExploreProjects from "@/app/components/Buttons/ExploreProjects";
 
 const NAV_ITEMS = [
   {
@@ -50,6 +51,27 @@ const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const navRef = useRef(null);
   const pathname = usePathname();
+  const [searchProjectsText, setSearchProjectsText] = useState('')
+
+  const router = useRouter();
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+
+    // Redirect to the /project URL with the search term as a query parameter
+    router.replace(`/projects?search=${encodeURIComponent(searchProjectsText)}`, undefined, { shallow: true });
+  };
+
+  const handleKeyPress = (e) => {
+    // Check if the pressed key is Enter (key code 13)
+    if (e.key === 'Enter') {
+      handleSearch(e);
+    }
+  };
+
+  useEffect(() => {
+
+  }, [searchProjectsText]);
 
   return (
     <Box
@@ -115,46 +137,22 @@ const NavBar = () => {
         {pathname === "/" ||
         pathname === "/projects" ||
         pathname === "/creators" ? (
-          <Box
-            display={{
-              base: "none",
-              sm: "none",
-              md: "none",
-              lg: "flex",
-              xl: "flex",
-              "2xl": "flex",
-            }}
-            marginLeft="15rem"
-            alignItems="center"
-            padding={3}
-            borderColor="#E9EAEA"
-            borderWidth="1px"
-            borderRadius="90px"
-            height="2.5rem"
-            width="17.25rem"
-            gap="1rem"
-          >
-            <Image src={SearchIcon.src} w="1.25rem" height="1.25rem" alt="" />
-            <Input
-              variant="unstyled"
-              placeholder="Search"
-              _placeholder={{ color: "#B8BAB9" }}
-            />
-          </Box>
+                <ExploreProjects text="Explore Projects" link="/projects" />
         ) : null}
 
-        <Box ref={navRef} onClick={onOpen}>
+        <Box ref={navRef} onClick={onOpen}
+             display={{
+               base: "flex",
+               sm: "flex",
+               md: "flex",
+               lg: "none",
+               xl: "none",
+               "2xl": "none",
+             }}
+        >
           <Image
             src={MenuIcon.src}
             alt=""
-            display={{
-              base: "flex",
-              sm: "flex",
-              md: "flex",
-              lg: "none",
-              xl: "none",
-              "2xl": "none",
-            }}
           />
         </Box>
 

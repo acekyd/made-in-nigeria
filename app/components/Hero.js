@@ -1,5 +1,7 @@
 import { Box, Text } from '@chakra-ui/react';
 import SearchProject from './SearchProject';
+import ExploreProjects from "@/app/components/Buttons/ExploreProjects";
+import React from "react";
 
 const Hero = () => {
   return (
@@ -72,7 +74,9 @@ const Hero = () => {
           A curation of awesome tools and projects built by Nigerian developers.
         </Text>
 
-        <SearchProject mobileWidth="22.875rem" desktopWidth="30.063rem" />
+        {/*<SearchProject mobileWidth="22.875rem" desktopWidth="30.063rem" />*/}
+
+          <ExploreProjects color="#ffffff" text="Explore Projects" link="/projects" />
       </Box>
     </Box>
   );

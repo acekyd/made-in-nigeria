@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Flex, Text } from '@chakra-ui/react';
 import SearchProject from './SearchProject';
 
-const ProjectsHero = () => {
+const ProjectsHero = ({ searchText, setSearchText }) => {
   return (
     <Flex
       flexDirection="column"
@@ -56,7 +56,7 @@ const ProjectsHero = () => {
         A curation of awesome tools and projects built by Nigerian developers.
       </Text>
       <Box width="1rem" display="flex" justifyContent="center">
-        <SearchProject mobileWidth="19.875rem" desktopWidth="30.063rem" />
+        <SearchProject searchText={searchText} setSearchText={setSearchText} mobileWidth="19.875rem" desktopWidth="30.063rem" />
       </Box>
     </Flex>
   );

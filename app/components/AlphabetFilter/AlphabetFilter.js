@@ -79,7 +79,7 @@ const AlphabetFilter = ({selectedLetter, setSelectedLetter, isMobile = false, is
   }
 
   return (
-      <SimpleGrid columns={{ base: 8, md: 26 }} rowGap={6} background="#FFFFFF" pt="2rem" {...gridClasses}>
+      <SimpleGrid columns={{ base: 8, md: 26 }} rowGap={6} background="#FFFFFF" mt="0.5rem" pt="2rem" {...gridClasses}>
         {filterAlphabetsStrings.map((letter) => (
             <Center key={letter} borderLeft="1px solid #E2E3E3" padding="0rem 1rem">
               <Button
