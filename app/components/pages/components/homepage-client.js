@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { Box, Text, Flex, HStack, Heading, SimpleGrid } from "@chakra-ui/react";
 import Hero from "../../Hero";
 import ProjectCard from "../../ProjectCard";
@@ -10,9 +10,7 @@ import ArticleCard from "@/app/components/Blog/ArticleCard";
 import AcceptingContributions from "@/app/components/AcceptingContributions";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import featuredProjects from "@/app/assets/featured.json";
 import propTypes from "prop-types";
-import { useProjectStore } from "@/app/store";
 
 export const Home = ({ data, projects }) => {
   const splideRef = useRef();
@@ -25,8 +23,6 @@ export const Home = ({ data, projects }) => {
     splideRef.current.splide.go(">");
   };
 
-  console.log(featuredProjects);
-
   const articleCarouselOptions = {
     type: "loop",
     autoWidth: true,
@@ -34,12 +30,6 @@ export const Home = ({ data, projects }) => {
     arrows: false,
     pagination: false,
   };
-
-  const { addProjects: pushProjectsToStore } = useProjectStore();
-
-  React.useEffect(() => {
-    pushProjectsToStore({ data: projects });
-  }, [projects, pushProjectsToStore]);
 
   return (
     <main>

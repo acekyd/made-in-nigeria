@@ -1,5 +1,4 @@
 "use client";
-
 import { Box, Container, SimpleGrid } from "@chakra-ui/react";
 import AboutHero from "../AboutHero";
 import { useRef } from "react";
