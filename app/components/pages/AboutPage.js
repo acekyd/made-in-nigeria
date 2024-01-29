@@ -10,7 +10,7 @@ const AboutPage = (props) => {
     const [errorMessage, setErrorMessage] = React.useState('')
 
     useEffect(() => {
-        fetch('https://api.github.com/repos/acekyd/made-in-nigeria/contributors?per_page=100')
+        fetch('https://api.github.com/repos/acekyd/made-in-nigeria/contributors?per_page=100',  { cache: 'force-cache' })
             .then(response => response.json())
             .then(fetchedData => {
                 const mappedArray = fetchedData.map(item => ({
