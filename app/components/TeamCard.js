@@ -25,7 +25,7 @@ const TeamCard = (prop) => {
             <Stack spacing="0.5rem">
               <Heading fontSize="1rem" fontWeight="800" lineHeight="1.25rem">{ prop.data.name }</Heading>
               <Text fontSize="0.75rem" fontWeight="400" lineHeight="1.5rem" color="#949796">
-                <strong style={{ color: 'black' }}>+{ prop.data.role }</strong> contributions
+                <strong style={{ color: 'black' }}>+{ prop.data.role }</strong> {prop.data.role === 1 ?'Contribution' : 'Contributions'}
               </Text>
             </Stack>
           </Flex>

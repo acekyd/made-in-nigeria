@@ -134,11 +134,7 @@ const NavBar = () => {
           </Flex>
         </Box>
 
-        {pathname === "/" ||
-        pathname === "/projects" ||
-        pathname === "/creators" ? (
-                <ExploreProjects text="Explore Projects" link="/projects" />
-        ) : null}
+        <ExploreProjects text="Explore Projects" link="/projects" />
 
         <Box ref={navRef} onClick={onOpen}
              display={{
