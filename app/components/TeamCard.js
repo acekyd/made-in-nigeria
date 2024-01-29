@@ -17,34 +17,20 @@ import linkedin from "../../public/images/linkedin.png";
 
 const TeamCard = (prop) => {
   return (
-    <Card borderRadius="2xl">
-      <CardBody>
-        <Image src={prop.data.avatar_url} alt="matthew portrait" />
+      <Card w="23.75rem" px="1.25rem" py="0.75rem" borderRadius="2xl" border="1px" borderColor="#E9EAEA" boxShadow="none">
+        <CardBody>
+          <Flex gap="1rem" alignItems="center">
+            <Image h="4rem" w="4rem" rounded="50%" src={prop.data.avatar_url} alt={ prop.data.name } />
 
-        <Stack mt={6} spacing="3">
-          <Heading size="sm">{ prop.data.name }</Heading>
-          <Text fontSize="0.875rem" color="#949796">
-            { prop.data.role }
-          </Text>
-        </Stack>
-      </CardBody>
-      <Flex justifyContent="center">
-        <Divider width="21.188rem" />
-      </Flex>
-      <CardFooter>
-        <Flex gap={9} alignItems="center" width="9.5rem">
-          <Link href={prop.data.github} isExternal>
-            <Image src={github.src} alt="github icon" />
-          </Link>
-          <Link href={prop.data.twitter} isExternal>
-            <Image src={twitter.src} alt="twitter icon" />
-          </Link>
-          <Link href={prop.data.linkedin} isExternal>
-            <Image src={linkedin.src} alt="linkedin icon" />
-          </Link>
-        </Flex>
-      </CardFooter>
-    </Card>
+            <Stack spacing="0.5rem">
+              <Heading fontSize="1rem" fontWeight="800" lineHeight="1.25rem">{ prop.data.name }</Heading>
+              <Text fontSize="0.75rem" fontWeight="400" lineHeight="1.5rem" color="#949796">
+                <strong style={{ color: 'black' }}>+{ prop.data.role }</strong> contributions
+              </Text>
+            </Stack>
+          </Flex>
+        </CardBody>
+      </Card>
   );
 };
 
