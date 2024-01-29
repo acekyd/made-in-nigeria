@@ -99,8 +99,7 @@ const BuiltByNigerians = () => {
           }}
           fontSize="1rem"
         >
-          Risus hac integer tempor elementum ultricies maecenas lectus. Iaculis urna sit felis,
-          feugiat purus. Tincidunt netus blandit euismod eu. Faucibus eu ultrices arcu et donec.
+         Experience innovation with a touch of Nigerian excellence rooted in collaboration, community and impact that transcends borders through projects proudly built by Nigerians for the rest of the world.
         </Text>
         <PrimaryButton
           text="Read About Us"

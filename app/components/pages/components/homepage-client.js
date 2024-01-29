@@ -24,8 +24,6 @@ export const Home = ({ data }) => {
     splideRef.current.splide.go(">");
   };
 
-  console.log(featuredProjects);
-
   const articleCarouselOptions = {
     type: "loop",
     autoWidth: true,

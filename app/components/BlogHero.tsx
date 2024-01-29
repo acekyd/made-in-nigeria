@@ -33,7 +33,7 @@ const BlogHero = ({ onChange }: BlogHeroProps) => {
       }}
     >
       <Text color="#FFFFFF" fontSize="2rem" fontWeight="900">
-        Blog
+        Creators
       </Text>
       <Text
         color="#AADFD2"
@@ -57,8 +57,7 @@ const BlogHero = ({ onChange }: BlogHeroProps) => {
           "2xl": "30.438rem",
         }}
       >
-        Stories about the creators within the Nigerian Open Source community who
-        make this project possible.
+        Stories and learnings from Nigerian open source developers.
       </Text>
       <Box width="1rem" display="flex" justifyContent="center">
         <SearchArticles onChange={(e) => onChange(e)} />

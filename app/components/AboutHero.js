@@ -84,9 +84,8 @@ const AboutHero = () => {
             '2xl': '36.25rem',
           }}
         >
-          Hendrerit aliquam justo eu tincidunt mattis ultricies. Ut accumsan eu, id mi lacus,
-          egestas vivamus. In volutpat imperdiet tristique a augue. Consectetur tincidunt volutpat
-          risus massa nulla varius suscipit.
+          We are a community of Nigerian developers who are passionate about building open source tools and
+          resources for the rest of the world.
         </Text>
       </Box>
     </Box>
