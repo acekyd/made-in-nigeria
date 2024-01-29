@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Image, Input } from '@chakra-ui/react';
 import SearchIcon from '../../public/images/drawer-search.png';
 
