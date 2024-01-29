@@ -82,13 +82,10 @@ const BuiltByNigeriansAbout = () => {
         </Text>
 
         <Text lineHeight="1.75rem" color="#949796">
-          Hendrerit aliquam justo eu tincidunt mattis ultricies. Ut accumsan eu, id mi lacus,
-          egestas vivamus. In volutpat imperdiet tristique a augue. Consectetur tincidunt volutpat
-          risus massa nulla varius suscipit. Non sit nulla congue augue dignissim mattis facilisi.
-          Egestas volutpat felis at non, at vitae sed leo viverra. Aenean a eget tortor tincidunt
-          ultrices mi. Elit tristique nunc, erat arcu, amet sit vulputate blandit amet. Enim
-          ultrices magna urna eleifend diam elit, quam. Massa urna, cursus cum id venenatis, commodo
-          diam porta nunc.
+          Starting out in 2017 from a conversation claiming Nigerian developers only know how to consume existing libraries and projects - this project is living proof otherwise. Designed to inspire the next age of creators and builders from the Nigerian Developer Community, this project burns on the eternal flame of the Nigerian Open Source Community.
+
+          <br /> <br />
+          Find projects, developers and their stories to discover, learn and forge your own path.
         </Text>
 
         <ViewGithubRepo text="View Github Repo" link="https://github.com/acekyd/made-in-nigeria" />

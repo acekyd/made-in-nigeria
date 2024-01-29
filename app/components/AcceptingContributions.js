@@ -80,8 +80,7 @@ const AcceptingContributions = () => {
           fontSize="1rem"
           fontWeight="400"
         >
-          Risus hac integer tempor elementum ultricies maecenas lectus. Iaculis urna sit felis,
-          feugiat purus. Learn how to submit your project here.
+          The Made in Nigeria project is built on the back of builders that create and discover these amazing projects. Learn how to submit (your) projects here.
         </Text>
         <Box marginTop={3}>
           <SubmitProject text="Submit Project" link="https://github.com/acekyd/made-in-nigeria/blob/master/contributing.md" />
