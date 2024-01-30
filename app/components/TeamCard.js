@@ -23,7 +23,9 @@ const TeamCard = (prop) => {
             <Image h="4rem" w="4rem" rounded="50%" src={prop.data.avatar_url} alt={ prop.data.name } />
 
             <Stack spacing="0.5rem">
-              <Heading fontSize="1rem" fontWeight="800" lineHeight="1.25rem">{ prop.data.name }</Heading>
+              <Link href={prop.data.github} isExternal>
+                <Heading fontSize="1rem" fontWeight="500" lineHeight="1.25rem">{ prop.data.name }</Heading>
+              </Link>
               <Text fontSize="0.75rem" fontWeight="400" lineHeight="1.5rem" color="#949796">
                 <strong style={{ color: 'black' }}>+{ prop.data.role }</strong> {prop.data.role === 1 ?'Contribution' : 'Contributions'}
               </Text>
