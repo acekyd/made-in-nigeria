@@ -31,7 +31,8 @@
     "app/components/pages/components/homepage-client.js",
     "app/components/pages/HomePage.js",
     "app/components/mdx-components/mdx-remote.js",
-    "app/components/Buttons/SecondaryButton.js"
+    "app/components/Buttons/SecondaryButton.js",
+    "app/hooks/useProjects.js"
   ],
   "exclude": ["node_modules"]
 }

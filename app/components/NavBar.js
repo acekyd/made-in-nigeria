@@ -1,5 +1,5 @@
 "use client";
-import React, {useEffect, useRef, useState} from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   Box,
   Flex,
@@ -7,7 +7,6 @@ import {
   Container,
   Link,
   Text,
-  Input,
   useDisclosure,
   Stack,
   Drawer,
@@ -18,10 +17,8 @@ import {
   DrawerHeader,
 } from "@chakra-ui/react";
 import ColoredLogo from "../../public/images/colored-logo.png";
-import SearchIcon from "../../public/images/search.png";
 import SearchProject from "./SearchProject";
 import MenuIcon from "../../public/images/menu.png";
-import NextLink from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import ExploreProjects from "@/app/components/Buttons/ExploreProjects";
 
@@ -51,7 +48,7 @@ const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const navRef = useRef(null);
   const pathname = usePathname();
-  const [searchProjectsText, setSearchProjectsText] = useState('')
+  const [searchProjectsText, setSearchProjectsText] = useState("");
 
   const router = useRouter();
 
@@ -59,19 +56,21 @@ const NavBar = () => {
     e.preventDefault();
 
     // Redirect to the /project URL with the search term as a query parameter
-    router.replace(`/projects?search=${encodeURIComponent(searchProjectsText)}`, undefined, { shallow: true });
+    router.replace(
+      `/projects?search=${encodeURIComponent(searchProjectsText)}`,
+      undefined,
+      { shallow: true }
+    );
   };
 
   const handleKeyPress = (e) => {
     // Check if the pressed key is Enter (key code 13)
-    if (e.key === 'Enter') {
+    if (e.key === "Enter") {
       handleSearch(e);
     }
   };
 
-  useEffect(() => {
-
-  }, [searchProjectsText]);
+  useEffect(() => {}, [searchProjectsText]);
 
   return (
     <Box
@@ -97,7 +96,7 @@ const NavBar = () => {
       >
         <Box display="flex" justifyContent="space-between">
           <Box>
-            <Link as={NextLink} href="/">
+            <Link href="/">
               <Image src={ColoredLogo.src} alt="" />
             </Link>
           </Box>
@@ -121,7 +120,6 @@ const NavBar = () => {
                 <Link
                   key={id}
                   href={path}
-                  as={NextLink}
                   whiteSpace="nowrap"
                   isExternal={external}
                 >
@@ -136,20 +134,19 @@ const NavBar = () => {
 
         <ExploreProjects text="Explore Projects" link="/projects" />
 
-        <Box ref={navRef} onClick={onOpen}
-             display={{
-               base: "flex",
-               sm: "flex",
-               md: "flex",
-               lg: "none",
-               xl: "none",
-               "2xl": "none",
-             }}
+        <Box
+          ref={navRef}
+          onClick={onOpen}
+          display={{
+            base: "flex",
+            sm: "flex",
+            md: "flex",
+            lg: "none",
+            xl: "none",
+            "2xl": "none",
+          }}
         >
-          <Image
-            src={MenuIcon.src}
-            alt=""
-          />
+          <Image src={MenuIcon.src} alt="" />
         </Box>
 
         <Drawer

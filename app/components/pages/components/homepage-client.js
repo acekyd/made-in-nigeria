@@ -10,10 +10,9 @@ import ArticleCard from "@/app/components/Blog/ArticleCard";
 import AcceptingContributions from "@/app/components/AcceptingContributions";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import featuredProjects from "@/app/assets/featured.json";
 import propTypes from "prop-types";
 
-export const Home = ({ data }) => {
+export const Home = ({ data, projects }) => {
   const splideRef = useRef();
 
   const handlePrevClick = () => {
@@ -31,6 +30,7 @@ export const Home = ({ data }) => {
     arrows: false,
     pagination: false,
   };
+
   return (
     <main>
       <Hero />
@@ -41,7 +41,7 @@ export const Home = ({ data }) => {
         </Text>
 
         <SimpleGrid columns={{ sm: 1, md: 3 }}>
-          {featuredProjects.map((project) => (
+          {projects.slice(0, 4).map((project) => (
             <ProjectCard key={project.repoLink} project={project} />
           ))}
         </SimpleGrid>
