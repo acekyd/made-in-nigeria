@@ -43,7 +43,11 @@ function ProjectCard(props) {
       m={5}
     >
       <Flex alignItems="center" mx={4} my={3}>
-        <Text fontWeight="bold">{ props.project.repoName } </Text>
+        <Text fontWeight="bold">
+          <Link style={{ textDecoration: "none" }} href={props.project.repoLink} isExternal>
+          { props.project.repoName }
+          </Link>
+        </Text>
         <Spacer />
         <Menu placement="bottom-end">
           <MenuButton
