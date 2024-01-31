@@ -153,7 +153,9 @@ function ProjectCard(props) {
       <Flex mx={4} my={4} gap={2}>
         <Image borderRadius='full' boxSize='24px'  src={'https://avatars.githubusercontent.com/' + repoCreator + '?size=24'} alt="profile" />
         <Text fontWeight="semibold" fontSize="0.875rem">
-          { repoCreator }
+          <Link style={{ textDecoration: "none" }} href={`https://www.github.com/${repoCreator}`} isExternal>
+            { repoCreator }
+          </Link>
         </Text>
 
         {/*
