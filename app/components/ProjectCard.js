@@ -57,10 +57,10 @@ function ProjectCard(props) {
             variant="outline"
           />
           <MenuList fontSize="small" color="#949796">
-            <MenuItem icon={<MdOutlineVisibility style={{ fontSize: '1.3rem' }} />}>
+            <MenuItem colorScheme="none" as={Link} href={props.project.repoLink} _hover={{ textDecoration: 'none' }} style={{ textDecoration: 'none', backgroundColor: 'transparent' }} icon={<MdOutlineVisibility style={{ fontSize: '1.3rem' }} />} isExternal>
               View Project
             </MenuItem>
-            <MenuItem icon={<FiUser style={{ fontSize: '1.3rem' }} />}>
+            <MenuItem colorScheme="none" as={Link} href={props.project.repoAuthorLink} _hover={{ textDecoration: 'none' }} style={{ textDecoration: 'none', backgroundColor: 'transparent' }} icon={<FiUser style={{ fontSize: '1.3rem' }} />} isExternal>
               View Contributor Profile
             </MenuItem>
             <MenuItem onClick={onOpen} icon={<FiShare2 style={{ fontSize: '1.3rem' }} />}>
