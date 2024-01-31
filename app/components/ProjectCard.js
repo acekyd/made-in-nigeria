@@ -42,22 +42,18 @@ function ProjectCard(props) {
     provider: "www.madeinnigeria.dev",
   };
 
-  function objectToGetParams(object) {
-    const params = Object.entries(object)
-        .filter(([, value]) => value !== undefined && value !== null)
-        .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(String(value))}`);
+  const generateEmbedCode = () => {
+    const text = `<iframe src="${projectShare.url}" width="600" height="400"></iframe>`;
+    return copyToClipboard(text)
+  };
 
-    return params.length > 0 ? `?${params.join('&')}` : '';
-  }
-  function emailLink(url, { subject, body, separator }) {
-    return 'mailto:' + objectToGetParams({ subject, body: body ? body + separator + url : url });
-  }
+  const facebookShareUrl = `https://www.facebook.com/sharer.php?u=${encodeURIComponent(projectShare.url)}`;
 
-  const copyToClipboard = async () => {
+  const copyToClipboard = async (text) => {
     try {
       const permissions = await navigator.permissions.query({name: "clipboard-write"})
       if (permissions.state === "granted" || permissions.state === "prompt") {
-        await navigator.clipboard.writeText(props.project.repoLink);
+        await navigator.clipboard.writeText(text ?? props.project.repoLink);
         // alert('Text copied to clipboard!');
       } else {
         throw new Error("Can't access the clipboard. Check your browser permissions.")
@@ -142,7 +138,7 @@ function ProjectCard(props) {
                       </Flex>
                     </Link>
 
-                    <Link href={`https://www.facebook.com/sharer.php?u='+${projectShare.url},'sharer','toolbar=0,status=0,width=1200,height=630'`} style={{ textDecoration: 'none' }} isExternal>
+                    <Link onClick={() => window.open(facebookShareUrl, "sharer", "toolbar=0,status=0,width=1200,height=630")} style={{ textDecoration: 'none' }} isExternal>
                       <Flex flexDirection="column" alignItems="center">
                         <Image src="../images/share-icons/facebook.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
@@ -151,7 +147,7 @@ function ProjectCard(props) {
                       </Flex>
                     </Link>
 
-                    <Link href={`mailto:&subject=${projectShare.title}&body=${projectShare.text}`} style={{ textDecoration: 'none' }} isExternal>
+                    <Link href={`mailto:recipient@example.com?subject=${encodeURIComponent(projectShare.title)}&body=${encodeURIComponent(projectShare.text)}`} style={{ textDecoration: 'none' }} isExternal>
                       <Flex flexDirection="column" alignItems="center">
                         <Image src="../images/share-icons/mail.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
@@ -160,8 +156,8 @@ function ProjectCard(props) {
                       </Flex>
                     </Link>
 
-                    <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
-                      <Flex flexDirection="column" alignItems="center">
+                    <Link style={{ textDecoration: 'none' }} onClick={() => generateEmbedCode()}>
+                    <Flex flexDirection="column" alignItems="center">
                         <Image src="../images/share-icons/embed.png" alt=''/>
                         <Text color="#292F2E" fontSize="12px">
                           Embed
