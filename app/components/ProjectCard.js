@@ -33,6 +33,36 @@ import css3 from '../../public/images/css3.png';
 function ProjectCard(props) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const repoCreator = (props.project.repoLink.match(/github\.com\/([^/]+)/) || [])[1]
+
+  const projectShare = {
+    url: props.project.repoLink,
+    title: props.project.repoName,
+    text: `${props.project.repoName} is an open source project by ${repoCreator}. You can check out ${props.project.repoLink} for more information. Source: https://madeinnigeria.dev`,
+    hashtags: "#opensource,#madeinnigeria,#nigeria",
+    provider: "www.madeinnigeria.dev",
+  };
+
+  const generateEmbedCode = () => {
+    const text = `<iframe src="${projectShare.url}" width="600" height="400"></iframe>`;
+    return copyToClipboard(text)
+  };
+
+  const facebookShareUrl = `https://www.facebook.com/sharer.php?u=${encodeURIComponent(projectShare.url)}`;
+
+  const copyToClipboard = async (text) => {
+    try {
+      const permissions = await navigator.permissions.query({name: "clipboard-write"})
+      if (permissions.state === "granted" || permissions.state === "prompt") {
+        await navigator.clipboard.writeText(text ?? props.project.repoLink);
+        // alert('Text copied to clipboard!');
+      } else {
+        throw new Error("Can't access the clipboard. Check your browser permissions.")
+      }
+    } catch (error) {
+      alert('Error copying the project url', error);
+    }
+  };
+
   return (
     <Box
       borderColor="gray.100"
@@ -43,7 +73,11 @@ function ProjectCard(props) {
       m={5}
     >
       <Flex alignItems="center" mx={4} my={3}>
-        <Text fontWeight="bold">{ props.project.repoName } </Text>
+        <Text fontWeight="bold">
+          <Link style={{ textDecoration: "none" }} href={props.project.repoLink} isExternal>
+          { props.project.repoName }
+          </Link>
+        </Text>
         <Spacer />
         <Menu placement="bottom-end">
           <MenuButton
@@ -53,10 +87,10 @@ function ProjectCard(props) {
             variant="outline"
           />
           <MenuList fontSize="small" color="#949796">
-            <MenuItem icon={<MdOutlineVisibility style={{ fontSize: '1.3rem' }} />}>
+            <MenuItem colorScheme="none" as={Link} href={props.project.repoLink} _hover={{ textDecoration: 'none' }} style={{ textDecoration: 'none', backgroundColor: 'transparent' }} icon={<MdOutlineVisibility style={{ fontSize: '1.3rem' }} />} isExternal>
               View Project
             </MenuItem>
-            <MenuItem icon={<FiUser style={{ fontSize: '1.3rem' }} />}>
+            <MenuItem colorScheme="none" as={Link} href={props.project.repoAuthorLink} _hover={{ textDecoration: 'none' }} style={{ textDecoration: 'none', backgroundColor: 'transparent' }} icon={<FiUser style={{ fontSize: '1.3rem' }} />} isExternal>
               View Contributor Profile
             </MenuItem>
             <MenuItem onClick={onOpen} icon={<FiShare2 style={{ fontSize: '1.3rem' }} />}>
@@ -77,54 +111,54 @@ function ProjectCard(props) {
                 <ModalCloseButton />
                 <ModalBody padding="20px">
                   <Flex flexWrap="wrap" gap="1rem">
-                    <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
+                    <Link style={{ textDecoration: 'none' }} onClick={() => copyToClipboard()}>
                       <Flex flexDirection="column" alignItems="center">
-                        <Image src="../../public/images/share-icons/copy.png" alt='' />
+                        <Image src="../images/share-icons/copy.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
                           Copy Link
                         </Text>
                       </Flex>
                     </Link>
 
-                    <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
+                    <Link href={`https://twitter.com/intent/tweet?text=${projectShare.text}&hashtags=${projectShare.hashtags}&url=${projectShare.url}`} style={{ textDecoration: 'none' }} isExternal>
                       <Flex flexDirection="column" alignItems="center">
-                        <Image src="../../public/images/share-icons/twitter.png" alt='' />
+                        <Image src="../images/share-icons/twitter.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
                           Twitter
                         </Text>
                       </Flex>
                     </Link>
 
-                    <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
+                    <Link href={`https://www.linkedin.com/shareArticle?url=${projectShare.url}&title=${projectShare.title}&summary=${projectShare.text}&source=${projectShare.provider}`} style={{ textDecoration: 'none' }} isExternal>
                       <Flex flexDirection="column" alignItems="center">
-                        <Image src="../../public/images/share-icons/linkedin.png" alt='' />
+                        <Image w="64px" h="64px" src="../images/share-icons/linkedin.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
                           LinkedIn
                         </Text>
                       </Flex>
                     </Link>
 
-                    <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
+                    <Link onClick={() => window.open(facebookShareUrl, "sharer", "toolbar=0,status=0,width=1200,height=630")} style={{ textDecoration: 'none' }} isExternal>
                       <Flex flexDirection="column" alignItems="center">
-                        <Image src="../../public/images/share-icons/facebook.png" alt='' />
+                        <Image src="../images/share-icons/facebook.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
                           Facebook
                         </Text>
                       </Flex>
                     </Link>
 
-                    <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
+                    <Link href={`mailto:recipient@example.com?subject=${encodeURIComponent(projectShare.title)}&body=${encodeURIComponent(projectShare.text)}`} style={{ textDecoration: 'none' }} isExternal>
                       <Flex flexDirection="column" alignItems="center">
-                        <Image src="../../public/images/share-icons/mail.png" alt='' />
+                        <Image src="../images/share-icons/mail.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
                           Email
                         </Text>
                       </Flex>
                     </Link>
 
-                    <Link href="https://github.com/" style={{ textDecoration: 'none' }} isExternal>
-                      <Flex flexDirection="column" alignItems="center">
-                        <Image src="../../public/images/share-icons/embed.png" alt=''/>
+                    <Link style={{ textDecoration: 'none' }} onClick={() => generateEmbedCode()}>
+                    <Flex flexDirection="column" alignItems="center">
+                        <Image src="../images/share-icons/embed.png" alt=''/>
                         <Text color="#292F2E" fontSize="12px">
                           Embed
                         </Text>
@@ -149,7 +183,9 @@ function ProjectCard(props) {
       <Flex mx={4} my={4} gap={2}>
         <Image borderRadius='full' boxSize='24px'  src={'https://avatars.githubusercontent.com/' + repoCreator + '?size=24'} alt="profile" />
         <Text fontWeight="semibold" fontSize="0.875rem">
-          { repoCreator }
+          <Link style={{ textDecoration: "none" }} href={`https://www.github.com/${repoCreator}`} isExternal>
+            { repoCreator }
+          </Link>
         </Text>
 
         {/*

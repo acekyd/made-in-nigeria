@@ -22,13 +22,9 @@ export default async function RootLayout({
 }) {
   const { filterProjects } = await useProjects();
 
-  const nameFilter = filterProjects().byName("sta");
-  const alphabetFilter = filterProjects().byLetter("P");
-  const authorFilter = filterProjects().byAuthor("ace");
-
-  console.log("projects by ace:", nameFilter);
-  console.log("projects by author:", authorFilter);
-  console.log("projects matching P:", alphabetFilter);
+  // const nameFilter = filterProjects().byName("sta");
+  // const alphabetFilter = filterProjects().byLetter("P");
+  // const authorFilter = filterProjects().byAuthor("ace");
 
   return (
     <>
