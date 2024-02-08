@@ -96,7 +96,7 @@ const NavBar = () => {
       >
         <Box display="flex" justifyContent="space-between">
           <Box>
-            <Link href="/">
+            <Link href="/" aria-label="Home">
               <Image src={ColoredLogo.src} alt="" />
             </Link>
           </Box>

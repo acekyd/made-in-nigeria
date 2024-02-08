@@ -37,7 +37,7 @@ function ProjectCard(props) {
   const projectShare = {
     url: props.project.repoLink,
     title: props.project.repoName,
-    text: `${props.project.repoName} is an open source project by ${repoCreator}. You can check out ${props.project.repoLink} for more information. Source: https://madeinnigeria.dev`,
+    text: `Check out ${props.project.repoName} - ${props.project.repoDescription} By @${repoCreator} on madeinnigeria.dev. %0A %0A ${props.project.repoLink}`,
     hashtags: "#opensource,#madeinnigeria,#nigeria",
     provider: "www.madeinnigeria.dev",
   };
