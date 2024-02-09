@@ -41,8 +41,8 @@ export const Home = ({ data, projects }) => {
         </Text>
 
         <SimpleGrid columns={{ sm: 1, md: 3 }}>
-          {projects.slice(0, 4).map((project) => (
-            <ProjectCard key={project.repoLink} project={project} />
+          {[25, 55, 70, 91, 154, 200].map((index) => (
+            <ProjectCard key={projects[index].repoLink} project={projects[index]} />
           ))}
         </SimpleGrid>
 

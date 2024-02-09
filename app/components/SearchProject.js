@@ -28,7 +28,7 @@ const SearchProject = ({ mobileWidth, desktopWidth, searchText, setSearchText })
           variant="unstyled"
           placeholder="Search Projects"
           _placeholder={{ color: '#B8BAB9', fontSize: 'sm' }}
-          value={searchText}
+          value={searchText || ''}
           onChange={(e) => setSearchText(e.target.value)}
         />
       </Box>

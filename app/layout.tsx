@@ -6,6 +6,9 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import type { Metadata } from "next";
 import { useProjects } from "./utils/projects";
+import { GoogleAnalytics } from '@next/third-parties/google'
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +38,7 @@ export default async function RootLayout({
           <Providers>
             <NavBar />
             <main>{children}</main>
+            <GoogleAnalytics gaId="G-Y4V68HJ3QM" />
             <Footer />
           </Providers>
         </body>

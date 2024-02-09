@@ -64,7 +64,7 @@ const AcceptingContributions = () => {
           }}
           textAlign="center"
         >
-          We're constantly accepting Contributions.
+          We&apos;re constantly accepting Contributions.
         </Text>
         <Text
           width={{
