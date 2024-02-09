@@ -11,7 +11,6 @@ import {
   MenuItem,
   Flex,
   useDisclosure,
-  Center,
   Image,
   Link,
 } from '@chakra-ui/react';
@@ -22,17 +21,15 @@ import {
   ModalHeader,
   ModalBody,
   ModalCloseButton,
+  useToast
 } from '@chakra-ui/react';
 import { MdMoreHoriz, MdOutlineVisibility } from 'react-icons/md';
 import { FiUser, FiShare2 } from 'react-icons/fi';
-import codewonders from '../../public/images/codewonders.png';
-import js from '../../public/images/js.png';
-import html5 from '../../public/images/html5.png';
-import css3 from '../../public/images/css3.png';
-
 function ProjectCard(props) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const repoCreator = (props.project.repoLink.match(/github\.com\/([^/]+)/) || [])[1]
+  const toast = useToast()
+  const toastIdRef = React.useRef()
 
   const projectShare = {
     url: props.project.repoLink,
@@ -42,19 +39,39 @@ function ProjectCard(props) {
     provider: "www.madeinnigeria.dev",
   };
 
-  const generateEmbedCode = () => {
+  function addToast(message) {
+    if(toast.isActive(toastIdRef.current)) {
+      toast.close(toastIdRef.current)
+    }
+
+    toastIdRef.current = toast({ 
+      id:  crypto.randomUUID(),
+      status: 'success', 
+      description:  message ?? 'Project link copied', 
+      variant: 'top-accent', 
+      isClosable: true, 
+      duration: 3000,
+      position: 'top',
+      icon: '🇳🇬'
+    })
+  }
+
+  const generateEmbedCode = (e) => {
+    e?.preventDefault();
     const text = `<iframe src="${projectShare.url}" width="600" height="400"></iframe>`;
-    return copyToClipboard(text)
+    return copyToClipboard(e, text, 'Embed link has been copied to clipboard')
   };
 
   const facebookShareUrl = `https://www.facebook.com/sharer.php?u=${encodeURIComponent(projectShare.url)}`;
 
-  const copyToClipboard = async (text) => {
+  const copyToClipboard = async (e, text, message) => {
+    e?.preventDefault();
+
     try {
       const permissions = await navigator.permissions.query({name: "clipboard-write"})
       if (permissions.state === "granted" || permissions.state === "prompt") {
         await navigator.clipboard.writeText(text ?? props.project.repoLink);
-        // alert('Text copied to clipboard!');
+        addToast(message ?? 'Project link has been copied to clipboard');
       } else {
         throw new Error("Can't access the clipboard. Check your browser permissions.")
       }
@@ -111,7 +128,7 @@ function ProjectCard(props) {
                 <ModalCloseButton />
                 <ModalBody padding="20px">
                   <Flex flexWrap="wrap" gap="1rem">
-                    <Link style={{ textDecoration: 'none' }} onClick={() => copyToClipboard()}>
+                    <Link style={{ textDecoration: 'none' }} onClick={(e) => copyToClipboard(e)}>
                       <Flex flexDirection="column" alignItems="center">
                         <Image src="../images/share-icons/copy.png" alt='' />
                         <Text color="#292F2E" fontSize="12px">
@@ -156,7 +173,7 @@ function ProjectCard(props) {
                       </Flex>
                     </Link>
 
-                    <Link style={{ textDecoration: 'none' }} onClick={() => generateEmbedCode()}>
+                    <Link style={{ textDecoration: 'none' }} onClick={(e) => generateEmbedCode(e)}>
                     <Flex flexDirection="column" alignItems="center">
                         <Image src="../images/share-icons/embed.png" alt=''/>
                         <Text color="#292F2E" fontSize="12px">
