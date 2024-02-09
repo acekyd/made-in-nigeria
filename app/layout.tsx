@@ -31,9 +31,11 @@ export default async function RootLayout({
 
   return (
     <>
-      <title>Made In Nigeria</title>
-
       <html lang="en">
+        <head>
+        <title>Made In Nigeria</title>
+      <link  rel="icon" sizes="any" href="/favicon.ico" />
+        </head>
         <body className={inter.className}>
           <Providers>
             <NavBar />
