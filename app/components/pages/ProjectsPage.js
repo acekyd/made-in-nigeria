@@ -1,15 +1,19 @@
 "use client";
-
 import ProjectsHero from "../ProjectsHero";
 import { Box, Container, SimpleGrid } from "@chakra-ui/react";
 import AlphabetFilter from "../AlphabetFilter/AlphabetFilter";
 import ProjectCard from "../ProjectCard";
 import { useState, useRef, useEffect } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import SecondaryButton from "../Buttons/SecondaryButton";
 
 /*
   Notice: This is going to be the listing page for all projects
 */
+
+const PROJECTS_COUNT = 9;
+const INCREMENT_PROJECTS_BY = 9;
+
 // markup
 const ProjectsPage = (props) => {
   const [isStuck, setIsStuck] = useState(false);
@@ -18,6 +22,12 @@ const ProjectsPage = (props) => {
   const [selectedLetter, setSelectedLetter] = useState("");
   const [searchText, setSearchText] = useState("");
   const [data, setData] = useState(props.repositories);
+
+  const [initialProjects, setInitialProjects] = useState(PROJECTS_COUNT);
+
+  const fetchMoreProjects = () => {
+    setInitialProjects(PROJECTS_COUNT + INCREMENT_PROJECTS_BY);
+  };
 
   const searchParams = useSearchParams();
   const params = new URLSearchParams(searchParams);
@@ -124,11 +134,32 @@ const ProjectsPage = (props) => {
         />
       </Box>
 
-      <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacingX={{ sm: "0rem", md: "4rem" }} mt="1rem" mb="5rem">
-        {data.map((project, index) => (
+      {/* <InfiniteScroll
+        next={fetchMoreProjects}
+        hasMore={hasMore}
+        loader={<Spinner color="#008463" />}
+        endMessage="end of the road"
+        dataLength={data?.length}
+        style={{
+          border: "1px solid red",
+          padding: "0",
+        }}
+      > */}
+      <SimpleGrid
+        columns={{ sm: 1, md: 2, lg: 3 }}
+        spacingX={{ sm: "0rem", md: "4rem", lg: "2rem" }}
+        mt="1rem"
+        mb="5rem"
+        marginLeft="-1.2em"
+      >
+        {data.slice(0, initialProjects).map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
       </SimpleGrid>
+
+      <SecondaryButton text="load more" link="" onClick={fetchMoreProjects} />
+
+      {/* </InfiniteScroll> */}
     </Container>
   );
 };

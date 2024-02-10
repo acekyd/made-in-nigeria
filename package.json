@@ -36,6 +36,7 @@
     "react-dom": "18.2.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
+    "react-infinite-scroll-component": "^6.1.0",
     "react-share": "^5.0.3",
     "react-svg": "^16.1.32",
     "reading-time": "^1.5.0",

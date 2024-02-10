@@ -2,7 +2,7 @@ import { Button, Link } from "@chakra-ui/react";
 import NextLink from "next/link";
 import propTypes from "prop-types";
 
-const SecondaryButton = ({ text, link }) => {
+const SecondaryButton = ({ text, link, onClick }) => {
   return (
     <Button
       display="block"
@@ -16,6 +16,7 @@ const SecondaryButton = ({ text, link }) => {
       href={link}
       variant="outline"
       textTransform="capitalize"
+      onClick={onClick}
     >
       <Link href={link} as={NextLink} _hover={{ textDecoration: "none" }}>
         {text}
@@ -29,4 +30,5 @@ export default SecondaryButton;
 SecondaryButton.propTypes = {
   text: propTypes.string.isRequired,
   link: propTypes.string,
+  onClick: propTypes.func,
 };

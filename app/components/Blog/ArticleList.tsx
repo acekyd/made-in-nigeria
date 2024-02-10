@@ -2,13 +2,13 @@
 import ArticleCard from "@/app/components/Blog/ArticleCard";
 import BlogHero from "@/app/components/BlogHero";
 import {
-  VStack,
   Heading,
   Box,
   Center,
-  Stack,
+  VStack,
   Flex,
   Text,
+  SimpleGrid,
 } from "@chakra-ui/react";
 import { FrontMatter } from "@/app/utils/mdx";
 import FeaturedArticles from "../featured-articles";
@@ -33,6 +33,9 @@ export const ArticleList = ({ data }: ArticleProps) => {
   const onLoadMoreArticles = () => {
     setInitialArticles(INITIAL_ARTICLES + INCREMENT_ARTICLES_VALUE);
   };
+
+  console.log("total articles", filteredArticles.length);
+  console.log("initial art", initialArticles);
 
   const onSearch = React.useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -82,7 +85,10 @@ export const ArticleList = ({ data }: ArticleProps) => {
                 was found
               </Text>
             ) : (
-              <Stack direction="row" wrap="wrap">
+              <SimpleGrid
+                columns={{ sm: 1, md: 2, lg: 3 }}
+                spacingX={{ sm: "0rem", md: "4rem", lg: "2rem" }}
+              >
                 {filteredArticles
                   .slice(0, initialArticles)
                   ?.map(({ slug, title, excerpt, coverImage }) => {
@@ -96,14 +102,21 @@ export const ArticleList = ({ data }: ArticleProps) => {
                       />
                     );
                   })}
-              </Stack>
+              </SimpleGrid>
             )}
           </VStack>
         </Flex>
 
-        <Box as="button" onClick={onLoadMoreArticles}>
-          <SecondaryButton text="load more articles" link="" />
-        </Box>
+        {initialArticles < filteredArticles.length ? (
+          <SecondaryButton
+            text="load more articles"
+            link=""
+            onClick={onLoadMoreArticles}
+          />
+        ) : (
+          <Text>You&apos;re at the end of our articles list</Text>
+        )}
+
         <Box my="10rem">{/* <BlogNewsletter /> */}</Box>
       </Flex>
     </Box>
