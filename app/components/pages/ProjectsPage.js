@@ -37,8 +37,12 @@ const ProjectsPage = (props) => {
     if (loading) return;
     setLoading(true);
 
-    setInitialProjects((prev) => prev + INCREMENT_PROJECTS_BY);
-    setLoading(false);
+    // this happens almost instantly,
+    // so let's simulate the 'fetching' state with a very minute timeout
+    setTimeout(() => {
+      setInitialProjects((prev) => prev + INCREMENT_PROJECTS_BY);
+      setLoading(false);
+    }, 500);
   }, [loading]);
 
   const searchParams = useSearchParams();
@@ -133,8 +137,6 @@ const ProjectsPage = (props) => {
     const query = event.target.value;
     debouncedSearch(query);
   };
-
-  console.log(data);
 
   return (
     <Container maxW="container.xl" centerContent top>
