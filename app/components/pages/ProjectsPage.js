@@ -1,11 +1,17 @@
 "use client";
 import ProjectsHero from "../ProjectsHero";
-import { Box, Container, SimpleGrid } from "@chakra-ui/react";
+import {
+  Box,
+  Container,
+  Text,
+  Center,
+  Spinner,
+  SimpleGrid,
+} from "@chakra-ui/react";
 import AlphabetFilter from "../AlphabetFilter/AlphabetFilter";
 import ProjectCard from "../ProjectCard";
-import { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import SecondaryButton from "../Buttons/SecondaryButton";
 
 /*
   Notice: This is going to be the listing page for all projects
@@ -22,12 +28,17 @@ const ProjectsPage = (props) => {
   const [selectedLetter, setSelectedLetter] = useState("");
   const [searchText, setSearchText] = useState("");
   const [data, setData] = useState(props.repositories);
-
+  const [loading, setLoading] = React.useState(false);
+  const [searchError, setSearchError] = React.useState("");
   const [initialProjects, setInitialProjects] = useState(PROJECTS_COUNT);
 
-  const fetchMoreProjects = () => {
-    setInitialProjects(PROJECTS_COUNT + INCREMENT_PROJECTS_BY);
-  };
+  const fetchMoreProjects = React.useCallback(() => {
+    if (loading) return;
+    setLoading(true);
+
+    setInitialProjects((prev) => prev + INCREMENT_PROJECTS_BY);
+    setLoading(false);
+  }, [loading]);
 
   const searchParams = useSearchParams();
   const params = new URLSearchParams(searchParams);
@@ -57,6 +68,24 @@ const ProjectsPage = (props) => {
     return () => observer.disconnect();
   }, [isStuck]);
 
+  // get more projects on scroll
+  React.useEffect(() => {
+    const onScroll = () => {
+      const { scrollTop, clientHeight, scrollHeight } =
+        document.documentElement;
+
+      if (scrollTop + clientHeight >= scrollHeight - 50) {
+        fetchMoreProjects();
+      }
+    };
+
+    window.addEventListener("scroll", onScroll);
+
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, [fetchMoreProjects]);
+
   const filterByLetter = (letter) => {
     if (letter) {
       setData(
@@ -81,30 +110,28 @@ const ProjectsPage = (props) => {
     filterByLetter(selectedLetter);
   }, [selectedLetter]);
 
-  useEffect(() => {
-    if (searchText) {
-      const filteredData = props.repositories.filter(
-        (project) =>
-          project.repoName
-            .toLocaleLowerCase()
-            .includes(searchText.toLocaleLowerCase()) ||
-          project.repoDescription
-            .toLocaleLowerCase()
-            .includes(searchText.toLocaleLowerCase()) ||
-          project.repoAuthor
-            .toLocaleLowerCase()
-            .includes(searchText.toLocaleLowerCase())
+  const onSearch = React.useCallback(
+    (event) => {
+      setSearchText(event.target.value.toLowerCase());
+
+      const filtered = props.repositories?.filter((projects) =>
+        projects?.repoName?.toLowerCase()?.includes(searchText)
       );
-      setData(filteredData);
-    } else {
-      setData(props.repositories);
-    }
-  }, [searchText]);
+
+      if (filtered.length === 0) {
+        setSearchError(
+          "We couldn't find any Repository with that name. Consider contributing!"
+        );
+      }
+      setData(filtered);
+    },
+    [props.repositories, searchText]
+  );
 
   return (
     <Container maxW="container.xl" centerContent top>
       <Box ref={projectHeroRef} my={{ base: "3rem", md: "7rem" }}>
-        <ProjectsHero searchText={searchText} setSearchText={setSearchText} />
+        <ProjectsHero onChange={(event) => onSearch(event)} />
       </Box>
 
       <Box
@@ -134,32 +161,37 @@ const ProjectsPage = (props) => {
         />
       </Box>
 
-      {/* <InfiniteScroll
-        next={fetchMoreProjects}
-        hasMore={hasMore}
-        loader={<Spinner color="#008463" />}
-        endMessage="end of the road"
-        dataLength={data?.length}
-        style={{
-          border: "1px solid red",
-          padding: "0",
-        }}
-      > */}
       <SimpleGrid
         columns={{ sm: 1, md: 2, lg: 3 }}
-        spacingX={{ sm: "0rem", md: "4rem", lg: "2rem" }}
+        spacingX={{ sm: "0rem", md: "4rem" }}
         mt="1rem"
         mb="5rem"
-        marginLeft="-1.2em"
       >
-        {data.slice(0, initialProjects).map((project, index) => (
-          <ProjectCard key={index} project={project} />
-        ))}
+        <>
+          {loading ? (
+            <Center height="35vh">
+              <Spinner color="#008463" />
+            </Center>
+          ) : (
+            <>
+              {data.slice(0, initialProjects).map((project, index) => (
+                <ProjectCard key={index} project={project} />
+              ))}
+            </>
+          )}
+        </>
       </SimpleGrid>
 
-      <SecondaryButton text="load more" link="" onClick={fetchMoreProjects} />
-
-      {/* </InfiniteScroll> */}
+      {searchError ? (
+        <Center height="20vh">
+          <Text
+            fontSize={{ lg: "20px", md: "16px", base: "16px" }}
+            fontWeight="500"
+          >
+            {searchError}
+          </Text>
+        </Center>
+      ) : null}
     </Container>
   );
 };

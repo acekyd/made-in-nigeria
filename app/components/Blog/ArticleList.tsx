@@ -31,11 +31,8 @@ export const ArticleList = ({ data }: ArticleProps) => {
     React.useState<number>(INITIAL_ARTICLES);
 
   const onLoadMoreArticles = () => {
-    setInitialArticles(INITIAL_ARTICLES + INCREMENT_ARTICLES_VALUE);
+    setInitialArticles((prev) => prev + INCREMENT_ARTICLES_VALUE);
   };
-
-  console.log("total articles", filteredArticles.length);
-  console.log("initial art", initialArticles);
 
   const onSearch = React.useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
