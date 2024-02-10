@@ -12,6 +12,7 @@ import AlphabetFilter from "../AlphabetFilter/AlphabetFilter";
 import ProjectCard from "../ProjectCard";
 import React, { useState, useRef, useEffect } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import debounce from "lodash.debounce";
 
 /*
   Notice: This is going to be the listing page for all projects
@@ -110,23 +111,30 @@ const ProjectsPage = (props) => {
     filterByLetter(selectedLetter);
   }, [selectedLetter]);
 
-  const onSearch = React.useCallback(
-    (event) => {
-      setSearchText(event.target.value.toLowerCase());
+  const debouncedSearch = debounce((searchQuery) => {
+    setSearchText(searchQuery.toLowerCase());
 
-      const filtered = props.repositories?.filter((projects) =>
-        projects?.repoName?.toLowerCase()?.includes(searchText)
+    const filtered = props.repositories?.filter((projects) =>
+      projects?.repoName?.toLowerCase()?.includes(searchQuery)
+    );
+
+    if (filtered.length === 0) {
+      setSearchError(
+        "We couldn't find any Repository with that name. Consider contributing!"
       );
+    } else {
+      setSearchError("");
+    }
 
-      if (filtered.length === 0) {
-        setSearchError(
-          "We couldn't find any Repository with that name. Consider contributing!"
-        );
-      }
-      setData(filtered);
-    },
-    [props.repositories, searchText]
-  );
+    setData(filtered);
+  }, 400);
+
+  const onSearch = (event) => {
+    const query = event.target.value;
+    debouncedSearch(query);
+  };
+
+  console.log(data);
 
   return (
     <Container maxW="container.xl" centerContent top>
