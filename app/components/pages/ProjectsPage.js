@@ -33,8 +33,11 @@ const ProjectsPage = (props) => {
   const [searchError, setSearchError] = React.useState("");
   const [initialProjects, setInitialProjects] = useState(PROJECTS_COUNT);
 
+  // target to trigger fetchMore
+  const scrollRef = useRef(null);
+
   const fetchMoreProjects = React.useCallback(() => {
-    if (loading || searchText) return;
+    if (loading || searchText || initialProjects >= data.length) return;
     setLoading(true);
 
     // this happens almost instantly,
@@ -43,7 +46,7 @@ const ProjectsPage = (props) => {
       setInitialProjects((prev) => prev + INCREMENT_PROJECTS_BY);
       setLoading(false);
     }, 500);
-  }, [loading, searchText]);
+  }, [loading, searchText, initialProjects, data]);
 
   const searchParams = useSearchParams();
   const params = new URLSearchParams(searchParams);
@@ -75,35 +78,43 @@ const ProjectsPage = (props) => {
 
   // get more projects on scroll
   React.useEffect(() => {
-    const onScroll = (event) => {
-      const { scrollTop, clientHeight, scrollHeight } =
-        document.documentElement;
-
-      if (scrollTop + clientHeight >= scrollHeight - 50) {
-        event.preventDefault();
-
-        fetchMoreProjects();
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          fetchMoreProjects();
+        }
+      },
+      {
+        root: null,
+        threshold: 0.1,
+        rootMargin: "0px",
       }
-    };
+    );
 
-    window.addEventListener("scroll", onScroll);
+    if (scrollRef.current) {
+      observer.observe(scrollRef.current);
+    }
 
     return () => {
-      window.removeEventListener("scroll", onScroll);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+      observer.unobserve(scrollRef.current);
     };
   }, [fetchMoreProjects]);
 
-  const filterByLetter = (letter) => {
-    if (letter) {
-      setData(
-        props.repositories.filter((obj) =>
-          obj.repoName.toLowerCase().startsWith(letter.toLowerCase())
-        )
-      );
-    } else {
-      setData(props.repositories);
-    }
-  };
+  const filterByLetter = React.useCallback(
+    (letter) => {
+      if (letter) {
+        setData(
+          props.repositories.filter((obj) =>
+            obj.repoName.toLowerCase().startsWith(letter.toLowerCase())
+          )
+        );
+      } else {
+        setData(props.repositories);
+      }
+    },
+    [props.repositories]
+  );
 
   useEffect(() => {
     setSearchText(searchParams.get("search"));
@@ -115,7 +126,7 @@ const ProjectsPage = (props) => {
 
   useEffect(() => {
     filterByLetter(selectedLetter);
-  }, [selectedLetter]);
+  }, [filterByLetter, selectedLetter]);
 
   const debouncedSearch = debounce((searchQuery) => {
     setSearchText(searchQuery.toLowerCase());
@@ -178,15 +189,30 @@ const ProjectsPage = (props) => {
         spacingX={{ sm: "0rem", md: "4rem" }}
         mt="1rem"
         mb="5rem"
+        spacingY={{ base: "2rem", lg: "0rem", md: "0" }}
+        marginLeft="-1.2em"
       >
         {data.slice(0, initialProjects).map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
       </SimpleGrid>
 
-      {loading ? (
+      <Box ref={scrollRef} />
+
+      {loading && initialProjects < data.length ? (
         <Center height="35vh">
           <Spinner color="#008463" />
+        </Center>
+      ) : null}
+
+      {initialProjects >= data.length ? (
+        <Center height="10vh" mt="-3em" py="1.4em">
+          <Text
+            fontSize={{ lg: "20px", md: "16px", base: "16px" }}
+            fontWeight="500"
+          >
+            You have reached the end, Idan!
+          </Text>
         </Center>
       ) : null}
 
