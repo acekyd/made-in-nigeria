@@ -40,7 +40,7 @@ export const Home = ({ data, projects }) => {
           Featured Projects
         </Text>
 
-        <SimpleGrid columns={{ sm: 1, md: 3 }}>
+        <SimpleGrid columns={{ sm: 1, md: 2, xl: 3 }} spacing="1rem" my="1rem">
           {[25, 55, 70, 91, 154, 200].map((index) => (
             <ProjectCard key={projects[index].repoLink} project={projects[index]} />
           ))}
@@ -96,8 +96,9 @@ export const Home = ({ data, projects }) => {
           // gap="1rem"
           justifyContent="center"
           display={{ base: "none", sm: "none", md: "flex" }}
+          flexWrap="wrap"
         >
-          {data.slice(0, 3)?.map(({ slug, title, excerpt, coverImage }) => {
+          {data.slice(0, 4)?.map(({ slug, title, excerpt, coverImage }) => {
             return (
               <ArticleCard
                 slug={slug}
