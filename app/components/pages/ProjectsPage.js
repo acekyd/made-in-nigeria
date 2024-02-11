@@ -139,7 +139,7 @@ const ProjectsPage = (props) => {
   };
 
   return (
-    <Container maxW="container.xl" centerContent top>
+    <Container overflowX="hidden" maxW="container.xl" centerContent top>
       <Box ref={projectHeroRef} my={{ base: "3rem", md: "7rem" }}>
         <ProjectsHero onChange={(event) => onSearch(event)} />
       </Box>
@@ -177,20 +177,16 @@ const ProjectsPage = (props) => {
         mt="1rem"
         mb="5rem"
       >
-        <>
-          {loading ? (
-            <Center height="35vh">
-              <Spinner color="#008463" />
-            </Center>
-          ) : (
-            <>
-              {data.slice(0, initialProjects).map((project, index) => (
-                <ProjectCard key={index} project={project} />
-              ))}
-            </>
-          )}
-        </>
+        {data.slice(0, initialProjects).map((project, index) => (
+          <ProjectCard key={index} project={project} />
+        ))}
       </SimpleGrid>
+
+      {loading ? (
+        <Center height="35vh">
+          <Spinner color="#008463" />
+        </Center>
+      ) : null}
 
       {searchError ? (
         <Center height="20vh">
