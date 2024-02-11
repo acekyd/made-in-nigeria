@@ -205,7 +205,7 @@ const ProjectsPage = (props) => {
         </Center>
       ) : null}
 
-      {initialProjects >= data.length ? (
+      {initialProjects >= data.length && searchError === "" ? (
         <Center height="10vh" mt="-3em" py="1.4em">
           <Text
             fontSize={{ lg: "20px", md: "16px", base: "16px" }}
