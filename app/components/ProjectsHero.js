@@ -14,7 +14,7 @@ const ProjectsHero = ({ searchText, setSearchText }) => {
       width={{
         base: '22.875rem',
         sm: '22.875rem',
-        md: '22.875rem',
+        md: '45rem',
         lg: '74.938rem',
         xl: '74.938rem',
         '2xl': '74.938rem',

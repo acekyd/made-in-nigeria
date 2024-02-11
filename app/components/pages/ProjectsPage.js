@@ -124,7 +124,7 @@ const ProjectsPage = (props) => {
         />
       </Box>
 
-      <SimpleGrid p="0" columns={{ sm: 1, md: 2, xl: 3 }} spacingX={{ sm: "0rem", md: "1rem", xl: "4rem" }} mt="1rem" mb="5rem">
+      <SimpleGrid p="0" columns={{ sm: 1, md: 2, xl: 3 }} spacingY="1rem" spacingX={{ sm: "0rem", md: "1rem", xl: "4rem" }} mt="1rem" mb="5rem">
         {data.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
