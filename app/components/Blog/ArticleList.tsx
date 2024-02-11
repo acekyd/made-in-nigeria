@@ -30,7 +30,8 @@ export const ArticleList = ({ data }: ArticleProps) => {
   const [initialArticles, setInitialArticles] =
     React.useState<number>(INITIAL_ARTICLES);
 
-  const onLoadMoreArticles = () => {
+  const onLoadMoreArticles = (event: React.MouseEvent<HTMLButtonElement>) => {
+    event.preventDefault();
     setInitialArticles((prev) => prev + INCREMENT_ARTICLES_VALUE);
   };
 

@@ -34,7 +34,7 @@ const ProjectsPage = (props) => {
   const [initialProjects, setInitialProjects] = useState(PROJECTS_COUNT);
 
   const fetchMoreProjects = React.useCallback(() => {
-    if (loading) return;
+    if (loading || searchText) return;
     setLoading(true);
 
     // this happens almost instantly,
@@ -43,7 +43,7 @@ const ProjectsPage = (props) => {
       setInitialProjects((prev) => prev + INCREMENT_PROJECTS_BY);
       setLoading(false);
     }, 500);
-  }, [loading]);
+  }, [loading, searchText]);
 
   const searchParams = useSearchParams();
   const params = new URLSearchParams(searchParams);
@@ -75,11 +75,13 @@ const ProjectsPage = (props) => {
 
   // get more projects on scroll
   React.useEffect(() => {
-    const onScroll = () => {
+    const onScroll = (event) => {
       const { scrollTop, clientHeight, scrollHeight } =
         document.documentElement;
 
       if (scrollTop + clientHeight >= scrollHeight - 50) {
+        event.preventDefault();
+
         fetchMoreProjects();
       }
     };
