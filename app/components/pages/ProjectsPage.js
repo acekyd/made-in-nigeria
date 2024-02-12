@@ -131,8 +131,11 @@ const ProjectsPage = (props) => {
   const debouncedSearch = debounce((searchQuery) => {
     setSearchText(searchQuery.toLowerCase());
 
-    const filtered = props.repositories?.filter((projects) =>
-      projects?.repoName?.toLowerCase()?.includes(searchQuery)
+    const filtered = props.repositories?.filter(
+      (projects) =>
+        projects?.repoName?.toLowerCase()?.includes(searchQuery) ||
+        projects.repoDescription.toLowerCase()?.includes(searchQuery) ||
+        projects.repoAuthor?.toLowerCase()?.includes(searchQuery)
     );
 
     if (filtered.length === 0) {
@@ -209,7 +212,7 @@ const ProjectsPage = (props) => {
         <Center height="10vh" mt="-3em" py="1.4em">
           <Text
             fontSize={{ lg: "20px", md: "16px", base: "16px" }}
-            fontWeight="500"
+            fontWeight="normal"
           >
             You have reached the end, Idan!
           </Text>
@@ -220,7 +223,7 @@ const ProjectsPage = (props) => {
         <Center height="20vh">
           <Text
             fontSize={{ lg: "20px", md: "16px", base: "16px" }}
-            fontWeight="500"
+            fontWeight="normal"
           >
             {searchError}
           </Text>

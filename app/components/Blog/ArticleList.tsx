@@ -32,6 +32,8 @@ export const ArticleList = ({ data }: ArticleProps) => {
 
   const onLoadMoreArticles = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
+    event.stopPropagation();
+
     setInitialArticles((prev) => prev + INCREMENT_ARTICLES_VALUE);
   };
 
@@ -75,12 +77,11 @@ export const ArticleList = ({ data }: ArticleProps) => {
             </Heading>
 
             {filteredArticles.length === 0 ? (
-              <Text textAlign="center" fontSize="24px" my="3rem" px="1.2rem">
-                No article with this title:{" "}
-                <Text as="span" color="#008463" fontWeight="600">
+              <Text textAlign="center" fontSize="16px" my="3rem" px="1.2rem">
+                We couldn&apos;t find any article with this title:
+                <Text as="span" color="#008463">
                   {searchTerm}
-                </Text>{" "}
-                was found
+                </Text>
               </Text>
             ) : (
               <SimpleGrid
@@ -107,8 +108,9 @@ export const ArticleList = ({ data }: ArticleProps) => {
 
         {initialArticles < filteredArticles.length ? (
           <SecondaryButton
-            text="load more articles"
             link=""
+            type="button"
+            text="load more articles"
             onClick={onLoadMoreArticles}
           />
         ) : (

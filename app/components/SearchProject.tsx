@@ -37,7 +37,7 @@ const SearchProject = ({
         <Image src={SearchIcon.src} w="1.2rem" height="1.2rem" alt="" />
         <Input
           variant="unstyled"
-          placeholder="Search Projects"
+          placeholder="Search Projects. (tip: use the author's name or project description in the query)"
           _placeholder={{ color: "#B8BAB9", fontSize: "sm" }}
           onChange={(e) => onChange(e)}
         />
