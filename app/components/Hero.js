@@ -1,7 +1,5 @@
 import { Box, Text } from '@chakra-ui/react';
-import SearchProject from './SearchProject';
 import ExploreProjects from "@/app/components/Buttons/ExploreProjects";
-import React from "react";
 
 const Hero = () => {
   return (

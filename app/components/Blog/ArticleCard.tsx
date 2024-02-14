@@ -19,7 +19,7 @@ const ArticleCard = ({ image, slug, title, excerpt }: CardProps) => {
         borderWidth="1px"
         borderRadius="2xl"
         maxWidth="80vw"
-        w={{ sm: "21rem", lg:"23.7rem" }}
+        w={{ sm: "21rem", lg: "23.7rem" }}
         height="30.75rem"
       >
         <Flex flexDirection="column" mx={4} my={4} gap={3}>

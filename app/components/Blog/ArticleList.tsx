@@ -2,18 +2,17 @@
 import ArticleCard from "@/app/components/Blog/ArticleCard";
 import BlogHero from "@/app/components/BlogHero";
 import {
-  VStack,
   Heading,
   Box,
   Center,
-  Stack,
+  VStack,
   Flex,
   Text,
+  SimpleGrid,
 } from "@chakra-ui/react";
 import { FrontMatter } from "@/app/utils/mdx";
 import FeaturedArticles from "../featured-articles";
 import SecondaryButton from "../Buttons/SecondaryButton";
-import BlogNewsletter from "../BlogNewsletter";
 import React from "react";
 
 interface ArticleProps {
@@ -31,8 +30,11 @@ export const ArticleList = ({ data }: ArticleProps) => {
   const [initialArticles, setInitialArticles] =
     React.useState<number>(INITIAL_ARTICLES);
 
-  const onLoadMoreArticles = () => {
-    setInitialArticles(INITIAL_ARTICLES + INCREMENT_ARTICLES_VALUE);
+  const onLoadMoreArticles = (event: React.MouseEvent<HTMLButtonElement>) => {
+    event.preventDefault();
+    event.stopPropagation();
+
+    setInitialArticles((prev) => prev + INCREMENT_ARTICLES_VALUE);
   };
 
   const onSearch = React.useCallback(
@@ -61,7 +63,7 @@ export const ArticleList = ({ data }: ArticleProps) => {
           </Box>
         )}
 
-        <Flex width={{ base: "100%", md: "100%", lg: "50%" }} my="4rem" justifyContent="center" alignItems="center">
+        <Flex my="4rem" justifyContent="center" alignItems="center">
           <VStack alignItems="flex-start" justifyContent="center" gap="2.5rem">
             <Heading
               fontWeight="800"
@@ -75,15 +77,17 @@ export const ArticleList = ({ data }: ArticleProps) => {
             </Heading>
 
             {filteredArticles.length === 0 ? (
-              <Text textAlign="center" fontSize="24px" my="3rem" px="1.2rem">
-                No article with this title:{" "}
-                <Text as="span" color="#008463" fontWeight="600">
+              <Text textAlign="center" fontSize="16px" my="3rem" px="1.2rem">
+                We couldn&apos;t find any article with this title:
+                <Text as="span" color="#008463">
                   {searchTerm}
-                </Text>{" "}
-                was found
+                </Text>
               </Text>
             ) : (
-              <Stack direction="row" wrap="wrap">
+              <SimpleGrid
+                columns={{ sm: 1, md: 2, lg: 3 }}
+                spacingX={{ sm: "0rem", md: "4rem", lg: "2rem" }}
+              >
                 {filteredArticles
                   .slice(0, initialArticles)
                   ?.map(({ slug, title, excerpt, coverImage }) => {
@@ -97,17 +101,23 @@ export const ArticleList = ({ data }: ArticleProps) => {
                       />
                     );
                   })}
-              </Stack>
+              </SimpleGrid>
             )}
           </VStack>
         </Flex>
 
-        <Box as="button" onClick={onLoadMoreArticles}>
-          <SecondaryButton text="load more articles" link="" />
-        </Box>
-        <Box my="10rem">
-          {/* <BlogNewsletter /> */}
-        </Box>
+        {initialArticles < filteredArticles.length ? (
+          <SecondaryButton
+            link=""
+            type="button"
+            text="load more articles"
+            onClick={onLoadMoreArticles}
+          />
+        ) : (
+          <Text>You&apos;re at the end of our articles list</Text>
+        )}
+
+        <Box my="10rem">{/* <BlogNewsletter /> */}</Box>
       </Flex>
     </Box>
   );
