@@ -98,6 +98,7 @@
 - [GitProfile Manager](https://github.com/MeNsaaH/git-profile-manager) - A git extension to allow you manage multiple git profiles on your workstation with ease. **By [@iamMensaah](https://twitter.com/iamMensaah)**<span style="color: green; font-weight: 700;"> | 🏁 Archived </span>
 - [Gulp-Email-Workflow](https://github.com/ireade/gulp-email-workflow) - A Gulp workflow for building HTML emails. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [Grabity](https://github.com/e-oj/grabity) - Get preview data from a link. **By [@e-oj](https://github.com/e-oj)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
+- [Goignore](https://github.com/hacktivist123/goignore) - A lightweight CLI tool for generating .gitignore file in your project.  **By [@coder_blvck](https://twitter.com/coder_blvck)**
 - [Google Dictionary](https://github.com/chizoba/google-dictionary) - An android library that provides easy access to meanings of any word, phrase, or slang via Google, within any application. **By [@its_tobie](https://twitter.com/its_tobie)**
 - [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay. **By [@Adelowo](https://twitter.com/lanreadelowo)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [Goldmark PDF](https://github.com/stephenafamo/goldmark-pdf) - A PDF renderer for the Go goldmark markdown parser. **By [@stephenafamo](https://twitter.com/stephenafamo)**
