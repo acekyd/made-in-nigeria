@@ -166,9 +166,8 @@ const ProjectsPage = (props) => {
 
       <Box
         height={isStuck && "80px"}
-        mx={isStuck && { md: "0em", lg: "20em", xl: "40em" }}
         position={isStuck ? "fixed" : "static"}
-        top={isStuck ? { lg: "25px", md: "17px" } : "90px"}
+        top={isStuck ? { lg: "25px", md: "17px", xl: "17px" } : "90px"}
         zIndex={1}
         display={{ base: "none", md: "flex" }}
       >
