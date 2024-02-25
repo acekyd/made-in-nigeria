@@ -30,16 +30,16 @@
 
 ## <a name="B"> </a>B
 
-- [Blink Alert](https://github.com/obayomi96/blinkalert) - A Chrome Extension for 20-20-20 exercise of the eye. **By [@martinsobayomi](https://twitter.com/martinsobayomi)**
+- [BàngáJS](https://github.com/bangajs/banga-cli) - A CLI generator for bootstrapping ExpressJS applications and generating application layer files. **By [@saucecodee](https://twitter.com/saucecodee)**
+- [Blackmaria](https://github.com/Smyja/blackmaria) - A Python package for webscraping in Natural language. **By [@ogbonigwe1](https://twitter.com/ogbonigwe1)**
 - [Bob](https://github.com/stephenafamo/bob) - SQL Query Builder for Go that can be progressively adopted from raw SQL query strings, to fully typed queries and models generated for your database. **By [@stephenafamo](https://twitter.com/stephenafamo)**
 - [Breadcrumb For Codeigniter](https://github.com/iamuchejude/Breadcrumb-for-Codeigniter) - A Lightweight Library for generating Breadcrumb in Codeigniter. **By [@iamuchejude](https://twitter.com/iamuchejude)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
-- [Broad-state](https://github.com/adenekan41/broadstate) - Easy state manager for state values from one component to the other with useState and React Hooks in < 1KB! **By [@codewonders](https://twitter.com/code_wonders)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
-- [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device. **By [@isocroft](https://twitter.com/isocroft)**
-- [busser](https://github.com/codesplinta/busser) - A robust, opinionated, state management option for scalable and precise communication across ReactJS Components. **By [@isocroft](https://twitter.com/isocroft)**
 - [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator. **By [@tdscientist](https://twitter.com/tdscientist)**
-- [BàngáJS](https://github.com/bangajs/banga-cli) - A CLI generator for bootstrapping ExpressJS applications and generating application layer files. **By [@saucecodee](https://twitter.com/saucecodee)**
-- [buzz](https://github.com/chidiwilliams/buzz) - Buzz transcribes audio from your computer's microphones to text using OpenAI's Whisper. **By [@chidiwilliams_](https://twitter.com/@chidiwilliams_)**
-- [Blackmaria](https://github.com/Smyja/blackmaria) - A Python package for webscraping in Natural language. **By [@ogbonigwe1](https://twitter.com/ogbonigwe1)**
+- [Broad-state](https://github.com/adenekan41/broadstate) - Easy state manager for state values from one component to the other with useState and React Hooks in < 1KB! **By [@codewonders](https://twitter.com/code_wonders)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
+- [Blink Alert](https://github.com/obayomi96/blinkalert) - A Chrome Extension for 20-20-20 exercise of the eye. **By [@martinsobayomi](https://twitter.com/martinsobayomi)**
+- [buzz](https://github.com/chidiwilliams/buzz) - Buzz transcribes audio from your computer's microphones to text using OpenAI's Whisper. **By [@chidiwilliams\_](https://twitter.com/@chidiwilliams_)**
+- [busser](https://github.com/codesplinta/busser) - A robust, opinionated, state management option for scalable and precise communication across ReactJS Components. **By [@isocroft](https://twitter.com/isocroft)**
+- [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device. **By [@isocroft](https://twitter.com/isocroft)**
 
 ## <a name="C"> </a>C
 
@@ -98,7 +98,7 @@
 - [GitProfile Manager](https://github.com/MeNsaaH/git-profile-manager) - A git extension to allow you manage multiple git profiles on your workstation with ease. **By [@iamMensaah](https://twitter.com/iamMensaah)**<span style="color: green; font-weight: 700;"> | 🏁 Archived </span>
 - [Gulp-Email-Workflow](https://github.com/ireade/gulp-email-workflow) - A Gulp workflow for building HTML emails. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [Grabity](https://github.com/e-oj/grabity) - Get preview data from a link. **By [@e-oj](https://github.com/e-oj)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
-- [Goignore](https://github.com/hacktivist123/goignore) - A lightweight CLI tool for generating .gitignore file in your project.  **By [@coder_blvck](https://twitter.com/coder_blvck)**
+- [Goignore](https://github.com/hacktivist123/goignore) - A lightweight CLI tool for generating .gitignore file in your project. **By [@coder_blvck](https://twitter.com/coder_blvck)**
 - [Google Dictionary](https://github.com/chizoba/google-dictionary) - An android library that provides easy access to meanings of any word, phrase, or slang via Google, within any application. **By [@its_tobie](https://twitter.com/its_tobie)**
 - [Gbowo](https://github.com/adelowo/gbowo) - The easiest way to accept payments via Paystack and Amplifypay. **By [@Adelowo](https://twitter.com/lanreadelowo)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [Goldmark PDF](https://github.com/stephenafamo/goldmark-pdf) - A PDF renderer for the Go goldmark markdown parser. **By [@stephenafamo](https://twitter.com/stephenafamo)**
@@ -200,7 +200,7 @@
 - [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 - [Notes](https://github.com/rubbieKelvin/notes) - Distraction free notes app, minimal at its core. Create and share notes with ease. **By [@rubbiekelvin](https://twitter.com/KelvinRubbie)**
 - [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
-- [NUBAN Validator/Generator](https://github.com/emyu01/nuban) - Easily verify or generate valid account numbers for any Nigerian financial institution. **By [@iemyu_](https://twitter.com/iemyu_)**
+- [NUBAN Validator/Generator](https://github.com/emyu01/nuban) - Easily verify or generate valid account numbers for any Nigerian financial institution. **By [@iemyu\_](https://twitter.com/iemyu_)**
 
 ## <a name="O"> </a>O
 
@@ -248,8 +248,9 @@
 - [React Native okra webview](https://github.com/just1and0/React-Native-Okra-Webview) - React Native okra sdk. **By [@just1and0](https://twitter.com/just1and0)**
 
 ## <a name="S"> </a>S
+
 - [saido](https://github.com/bisohns/saido) - A yaml driven tool for easily monitoring metrics on multiple servers **By [@bisohns](https://twitter.com/_deven96)**
-- [sailboat](https://github.com/sailscastshq/sailboat) - Sailboat is a VS Code extension that enhances the Sails.js development experience by providing Visual Studio Code users with advanced features such as Commands to quicly access the Sails docs, Jump to Action, and Commands to lift Sails. **By [@Dominus_Kelvin](https://twitter.com/Dominus_Kelvin)
+- [sailboat](https://github.com/sailscastshq/sailboat) - Sailboat is a VS Code extension that enhances the Sails.js development experience by providing Visual Studio Code users with advanced features such as Commands to quicly access the Sails docs, Jump to Action, and Commands to lift Sails. \*\*By [@Dominus_Kelvin](https://twitter.com/Dominus_Kelvin)
 - [sails-hook-jsonwebtoken](https://github.com/Robophil/sails-hook-jsonwebtoken) - A sails hook for easily working with jsonwebtoken **By [@robophil\_](https://twitter.com/robophil_)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [sails-hook-swagger-generator](https://github.com/theo4u/sails-hook-swagger-generator) - A tool to help generate Swagger specification documentation for Sails APIs **By [@theo4me](https://twitter.com/theo4me)**
 - [ShelfView](https://github.com/tdscientist/ShelfView) - Android Library to display books on shelf **By [@tdscientist](https://twitter.com/tdscientist)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
@@ -269,10 +270,9 @@
 - [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [STX](https://github.com/lamarrr/STX) - C++17 & C++ 20 error-handling an utility. **By [@basit_ayantunde](https://twitter.com/basit_ayantunde)**
 - [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
-- [Suphle](https://github.com/nmeri17/suphle) - A PHP framework for building logic heavy full stack applications to be actively maintained over time. **by [Nmeri](https://twitter.com/mmayboy_)
+- [Suphle](https://github.com/nmeri17/suphle) - A PHP framework for building logic heavy full stack applications to be actively maintained over time. \*\*by [Nmeri](https://twitter.com/mmayboy_)
 - [Search Engine Parser](https://github.com/bisohns/search-engine-parser) - Lightweight package to query popular search engines and scrape for result titles, links and descriptions. **By [@\_deven96](https://twitter.com/_deven96) and [@iamMensaah](https://twitter.com/iamMensaah)**
 - [sms-nigeria-go](https://github.com/D-sense/sms-nigeria-go) - A Go client for sending SMS to any Nigeria phone-number with ease. **By [@D-sense](https://twitter.com/Delameh)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
-
 
 ## <a name="T"> </a>T
 
@@ -307,7 +307,7 @@
 ## <a name="W"> </a>W
 
 - [Waihona](https://github.com/bisohns/waihona) - Rust crates for performing cloud storage actions across AWS, GCP and Azure. **By [@deven96](https://twitter.com/_deven96)**
-- [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [@IzyPro_](https://twitter.com/IzyPro_)**
+- [WatchDog](https://github.com/IzyPro/WatchDog) - WatchDog is a Realtime HTTP (Request & Response) and Exception logger and viewer for ASP.Net Core Web Apps and APIs. **By [@IzyPro\_](https://twitter.com/IzyPro_)**
 - [WAFEDA](https://github.com/adejumoridwan/WAFEDA) - Simple Web App For Exploratory Data Analysis. **By [@abuuAishaaa](https://twitter.com/abuuAishaaa)**
 - [Whatsticker](https://github.com/deven96/whatsticker) - Automatically turn images/videos into stickers by using a caption. **By [@deven96](https://twitter.com/_deven96)**
 - [WhatsBot](https://github.com/Yusadolat/DicoBot) - WhatsApp DicoBot is a dictionary bot that enhances your messaging experience. **By [@yusadolat](https://twitter.com/yusadolat)**
@@ -326,4 +326,5 @@
 - [Yorlang](https://github.com/anoniscoding/yorlang) - A programming language with Yoruba language construct. **By [@anoniscoding](https://twitter.com/anoniscoding)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 
 ## <a name="Z"> </a>Z
+
 - [zag](https://github.com/chakra-ui/zag) - Finite state machines for building accessible design systems and UI components. **By [@thesegunadebayo](https://twitter.com/thesegunadebayo)**
