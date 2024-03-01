@@ -82,9 +82,10 @@
 ## <a name="F"> </a>F
 
 - [Face-detector](https://github.com/moyheen/face-detector) - An application containing all the code from the article on the FaceDetector API. **By [@moyheen](https://twitter.com/moyheen)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
+- [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
+- [Fastapi-mongo](https://github.com/Youngestdev/fastapi-mongo) - Template for building FastAPI applications with MongoDB. **By [@kvng_zeez](http://twitter.com/kvng_zeez)**
 - [Favico-generator](https://github.com/Youngestdev/favico-generator) - A npm module for generating favicons from image. **By [@kvng_zeez](http://twitter.com/kvng_zeez)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [Fawn](https://github.com/e-oj/Fawn) - A library for multi-document transactions in MongoDB via two-phase commits. **By [@e-oj](https://e-oj.com)**
-- [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [flair](https://github.com/mezielabs/flair) - AdonisJS 5 authentication scaffolding. **By [@ammezie](https://twitter.com/ammezie)**
 - [flargd](https://github.com/pmbanugo/flargd) - A fast & minimalist feature flag app that runs on Clouflare Workers. **By [@p_mbanugo](https://twitter.com/p_mbanugo)**
 - [folabelle](https://github.com/BolajiOlajide/folabelle) - A VSCode theme - Cross breed of Monokai + Palenight **By [@Bolaji\_\_\_](https://twitter.com/Bolaji___)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
