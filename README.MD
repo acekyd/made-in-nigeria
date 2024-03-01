@@ -181,11 +181,11 @@
 - [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By [@mykeels](https://twitter.com/mykeels)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [MobileVisionBarcodeScanner](https://github.com/KingsMentor/MobileVisionBarcodeScanner) - Mobile Vission Barcode Scanner. **By [@kingsmentor](https://twitter.com/kingsment)**
 - [Modern-Mean-Stack](https://github.com/Mozartted/Modern-Mean-Stack) - Functional stack of angular2, MongoDB, express all on nodejs, coupled with webpack and angular cli features. **By [@mozartted](https://github.com/Mozartted)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
+- [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A PHP library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
 - [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**<span style="color: green; font-weight: 700;"> | 🏁 Archived </span>
 - [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**<span style="color: green; font-weight: 700;"> | 🏁 Archived </span>
 - [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System \* Job Portal with Django API & Vuejs. **By [@timtech4u](https://twitter.com/timtech4u)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
-- [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A PHP library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
 - [Mythra](https://github.com/Go-phie/mythra) - Music search engine API and CLI downloader written in Rust. **By [@deven96](https://twitter.com/_deven96)**
 
 ## <a name="N"> </a>N
