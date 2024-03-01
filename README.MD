@@ -32,14 +32,14 @@
 
 - [BàngáJS](https://github.com/bangajs/banga-cli) - A CLI generator for bootstrapping ExpressJS applications and generating application layer files. **By [@saucecodee](https://twitter.com/saucecodee)**
 - [Blackmaria](https://github.com/Smyja/blackmaria) - A Python package for webscraping in Natural language. **By [@ogbonigwe1](https://twitter.com/ogbonigwe1)**
+- [Blink Alert](https://github.com/obayomi96/blinkalert) - A Chrome Extension for 20-20-20 exercise of the eye. **By [@martinsobayomi](https://twitter.com/martinsobayomi)**
 - [Bob](https://github.com/stephenafamo/bob) - SQL Query Builder for Go that can be progressively adopted from raw SQL query strings, to fully typed queries and models generated for your database. **By [@stephenafamo](https://twitter.com/stephenafamo)**
 - [Breadcrumb For Codeigniter](https://github.com/iamuchejude/Breadcrumb-for-Codeigniter) - A Lightweight Library for generating Breadcrumb in Codeigniter. **By [@iamuchejude](https://twitter.com/iamuchejude)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
-- [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator. **By [@tdscientist](https://twitter.com/tdscientist)**
 - [Broad-state](https://github.com/adenekan41/broadstate) - Easy state manager for state values from one component to the other with useState and React Hooks in < 1KB! **By [@codewonders](https://twitter.com/code_wonders)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
-- [Blink Alert](https://github.com/obayomi96/blinkalert) - A Chrome Extension for 20-20-20 exercise of the eye. **By [@martinsobayomi](https://twitter.com/martinsobayomi)**
-- [buzz](https://github.com/chidiwilliams/buzz) - Buzz transcribes audio from your computer's microphones to text using OpenAI's Whisper. **By [@chidiwilliams\_](https://twitter.com/@chidiwilliams_)**
-- [busser](https://github.com/codesplinta/busser) - A robust, opinionated, state management option for scalable and precise communication across ReactJS Components. **By [@isocroft](https://twitter.com/isocroft)**
-- [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device. **By [@isocroft](https://twitter.com/isocroft)**
+- [Browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device. **By [@isocroft](https://twitter.com/isocroft)**
+- [Busser](https://github.com/codesplinta/busser) - A robust, opinionated, state management option for scalable and precise communication across ReactJS Components. **By [@isocroft](https://twitter.com/isocroft)**
+- [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator. **By [@tdscientist](https://twitter.com/tdscientist)**
+- [Buzz](https://github.com/chidiwilliams/buzz) - Buzz transcribes audio from your computer's microphones to text using OpenAI's Whisper. **By [@chidiwilliams\_](https://twitter.com/@chidiwilliams_)**
 
 ## <a name="C"> </a>C
 
