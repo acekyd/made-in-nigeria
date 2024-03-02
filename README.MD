@@ -32,14 +32,14 @@
 
 - [BàngáJS](https://github.com/bangajs/banga-cli) - A CLI generator for bootstrapping ExpressJS applications and generating application layer files. **By [@saucecodee](https://twitter.com/saucecodee)**
 - [Blackmaria](https://github.com/Smyja/blackmaria) - A Python package for webscraping in Natural language. **By [@ogbonigwe1](https://twitter.com/ogbonigwe1)**
+- [Blink Alert](https://github.com/obayomi96/blinkalert) - A Chrome Extension for 20-20-20 exercise of the eye. **By [@martinsobayomi](https://twitter.com/martinsobayomi)**
 - [Bob](https://github.com/stephenafamo/bob) - SQL Query Builder for Go that can be progressively adopted from raw SQL query strings, to fully typed queries and models generated for your database. **By [@stephenafamo](https://twitter.com/stephenafamo)**
 - [Breadcrumb For Codeigniter](https://github.com/iamuchejude/Breadcrumb-for-Codeigniter) - A Lightweight Library for generating Breadcrumb in Codeigniter. **By [@iamuchejude](https://twitter.com/iamuchejude)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
-- [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator. **By [@tdscientist](https://twitter.com/tdscientist)**
 - [Broad-state](https://github.com/adenekan41/broadstate) - Easy state manager for state values from one component to the other with useState and React Hooks in < 1KB! **By [@codewonders](https://twitter.com/code_wonders)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
-- [Blink Alert](https://github.com/obayomi96/blinkalert) - A Chrome Extension for 20-20-20 exercise of the eye. **By [@martinsobayomi](https://twitter.com/martinsobayomi)**
-- [buzz](https://github.com/chidiwilliams/buzz) - Buzz transcribes audio from your computer's microphones to text using OpenAI's Whisper. **By [@chidiwilliams\_](https://twitter.com/@chidiwilliams_)**
-- [busser](https://github.com/codesplinta/busser) - A robust, opinionated, state management option for scalable and precise communication across ReactJS Components. **By [@isocroft](https://twitter.com/isocroft)**
-- [browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device. **By [@isocroft](https://twitter.com/isocroft)**
+- [Browsengine](https://github.com/isocroft/browsengine) - Rendering Engine Detection Script for Browsers on Any Device. **By [@isocroft](https://twitter.com/isocroft)**
+- [Busser](https://github.com/codesplinta/busser) - A robust, opinionated, state management option for scalable and precise communication across ReactJS Components. **By [@isocroft](https://twitter.com/isocroft)**
+- [Button4Android](https://github.com/tdscientist/button4Android) - Android button selector generator. **By [@tdscientist](https://twitter.com/tdscientist)**
+- [Buzz](https://github.com/chidiwilliams/buzz) - Buzz transcribes audio from your computer's microphones to text using OpenAI's Whisper. **By [@chidiwilliams\_](https://twitter.com/@chidiwilliams_)**
 
 ## <a name="C"> </a>C
 
@@ -82,9 +82,10 @@
 ## <a name="F"> </a>F
 
 - [Face-detector](https://github.com/moyheen/face-detector) - An application containing all the code from the article on the FaceDetector API. **By [@moyheen](https://twitter.com/moyheen)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
+- [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
+- [Fastapi-mongo](https://github.com/Youngestdev/fastapi-mongo) - Template for building FastAPI applications with MongoDB. **By [@kvng_zeez](http://twitter.com/kvng_zeez)**
 - [Favico-generator](https://github.com/Youngestdev/favico-generator) - A npm module for generating favicons from image. **By [@kvng_zeez](http://twitter.com/kvng_zeez)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [Fawn](https://github.com/e-oj/Fawn) - A library for multi-document transactions in MongoDB via two-phase commits. **By [@e-oj](https://e-oj.com)**
-- [Faker.ng](https://github.com/binkabir/faker.ng) - a library for generating Nigerian fake data such as names, addresses, and phone numbers. **By [@binkabir](https://github.com/binkabir)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [flair](https://github.com/mezielabs/flair) - AdonisJS 5 authentication scaffolding. **By [@ammezie](https://twitter.com/ammezie)**
 - [flargd](https://github.com/pmbanugo/flargd) - A fast & minimalist feature flag app that runs on Clouflare Workers. **By [@p_mbanugo](https://twitter.com/p_mbanugo)**
 - [folabelle](https://github.com/BolajiOlajide/folabelle) - A VSCode theme - Cross breed of Monokai + Palenight **By [@Bolaji\_\_\_](https://twitter.com/Bolaji___)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
@@ -181,17 +182,18 @@
 - [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By [@mykeels](https://twitter.com/mykeels)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [MobileVisionBarcodeScanner](https://github.com/KingsMentor/MobileVisionBarcodeScanner) - Mobile Vission Barcode Scanner. **By [@kingsmentor](https://twitter.com/kingsment)**
 - [Modern-Mean-Stack](https://github.com/Mozartted/Modern-Mean-Stack) - Functional stack of angular2, MongoDB, express all on nodejs, coupled with webpack and angular cli features. **By [@mozartted](https://github.com/Mozartted)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
+- [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A PHP library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
 - [moneywave-nodejs](https://github.com/CodebyOmar/moneywave-nodejs) - A client library for moneywave API. **By [@codebyomar](https://twitter.com/codebyomar)**<span style="color: green; font-weight: 700;"> | 🏁 Archived </span>
 - [Mui-data-table](https://github.com/andela-cdaniel/mui-data-table) - Data table for react material-ui. **By [@AustinSwaggz](https://twitter.com/AustinSwaggz)**<span style="color: green; font-weight: 700;"> | 🏁 Archived </span>
 - [Multi-tenant Employee Management System](https://github.com/Timtech4u/employee-manager) - Multi-tenant Employee Management System \* Job Portal with Django API & Vuejs. **By [@timtech4u](https://twitter.com/timtech4u)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [Mvrd](https://github.com/unicodeveloper/mvrd) - Motor Vehicle Registration Information Search Portal Library. **By [@unicodeveloper](https://twitter.com/unicodeveloper)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
-- [Money-To-Words-Converter](https://github.com/TNkemdilim/Money-To-Words-Converter) - A PHP library that converts any money value in digit [in any numeric system] to words in any language. **By [@TNkemdilim](https://twitter.com/tnkemdilim)**
 - [Mythra](https://github.com/Go-phie/mythra) - Music search engine API and CLI downloader written in Rust. **By [@deven96](https://twitter.com/_deven96)**
 
 ## <a name="N"> </a>N
 
 - [Naija Phone Number](https://github.com/Udokah/naija-phone-number) - A fast minimal module to validate Nigerian mobile phone numbers using Regular Expressions. **By [@thisisudo](https://twitter.com/thisisudo)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [Naija State And Local Government](https://github.com/atomicman57/naija-state-local-government) - A simple zero dependency npm package that lists Nigeria states and local governments. **By [@blessingadesina3](https://twitter.com/blessingadesin3)**
+- [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
 - [Newspaperjs](https://github.com/flickz/newspaperjs) - Nodejs: News extraction, scraping and article parsing module. **By [@flickzcode](https://twitter/flickzcode)**
 - [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in Nigeria. **By [@seyi\_\_adeleke](https://twitter.com/seyi__adeleke)**
 - [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
@@ -199,7 +201,6 @@
 - [Nodestorage.js](https://github.com/iamuchejude/nodestorage.js) - File system storage utility with `localStorage` like API. **By [@iamuchejude](https://twitter.com/iamuchejude)**<span style="color: green; font-weight: 700;"> | 🏁 Deleted </span>
 - [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
 - [Notes](https://github.com/rubbieKelvin/notes) - Distraction free notes app, minimal at its core. Create and share notes with ease. **By [@rubbiekelvin](https://twitter.com/KelvinRubbie)**
-- [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
 - [NUBAN Validator/Generator](https://github.com/emyu01/nuban) - Easily verify or generate valid account numbers for any Nigerian financial institution. **By [@iemyu\_](https://twitter.com/iemyu_)**
 
 ## <a name="O"> </a>O
