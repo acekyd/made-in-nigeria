@@ -58,7 +58,7 @@ export const ArticleList = ({ data }: ArticleProps) => {
 
       <Flex flexFlow="column" justifyContent="center" alignItems="center">
         {searchTerm ? null : (
-          <Box mt="5rem" mb="9rem">
+          <Box mt="5rem" mb="9rem" width="100%">
             <FeaturedArticles data={data} />
           </Box>
         )}

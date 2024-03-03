@@ -18,8 +18,8 @@ const BlogHero = ({ onChange }: BlogHeroProps) => {
       width={{
         base: "22.875rem",
         sm: "22.875rem",
-        md: "22.875rem",
-        lg: "74.938rem",
+        md: "44.875rem",
+        lg: "58.938rem",
         xl: "74.938rem",
         "2xl": "74.938rem",
       }}
