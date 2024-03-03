@@ -37,7 +37,7 @@ export const components = {
   blockquote: ({ children }: { children: React.ReactNode }) => (
     <blockquote
       style={{
-        borderLeft: "5px solid #ccc",
+        borderLeft: "5px solid #009E77",
         paddingLeft: "20px",
         fontStyle: "italic",
         marginTop: "20px",
@@ -110,7 +110,7 @@ export const components = {
 
   // Links
   a: ({ children, href }: { children: React.ReactNode; href: string }) => (
-    <a href={href} style={{ color: "#007bff" }}>
+    <a href={href} style={{ color: "#009E77" }} target="_blank">
       {children}
     </a>
   ),
