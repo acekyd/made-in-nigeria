@@ -16,6 +16,13 @@ export const metadata: Metadata = {
   title: "Made in Nigeria",
   description:
     "A curation of awesome open source tools built by Nigerians for the world.",
+  openGraph: {
+    type: "website",
+    siteName: "Made in Nigeria",
+    images: "https://madeinnigeria.dev/images/min-cover.png",
+    description:
+      "A curation of awesome open source tools built by Nigerians for the world.",
+  },
 };
 
 export default async function RootLayout({
