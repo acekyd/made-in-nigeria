@@ -40,6 +40,7 @@ const AlphabetFilter = ({
     gridClasses.borderBottom = "0.5px solid #E2E3E3";
     gridClasses.pb = "1rem";
     gridClasses.width = "100vw";
+    gridClasses.height = "280px";
   }
 
   const collapseCode = isExpanded ? (
@@ -76,6 +77,7 @@ const AlphabetFilter = ({
               key={letter}
               borderLeft="0.5px solid #E2E3E3"
               padding="0 0.2rem"
+              height="fit-content"
             >
               <Button
                 background="none"
