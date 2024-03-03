@@ -45,6 +45,7 @@ export const BlogPost = ({
           height={{ lg: "592px", base: "100%" }}
           alt="cover image"
           src={coverImage}
+          objectFit="cover"
         />
         <Box>
           <Text
