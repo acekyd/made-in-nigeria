@@ -28,6 +28,7 @@ const ArticleCard = ({ image, slug, title, excerpt }: CardProps) => {
             borderRadius="8px 8px 0 0"
             alt={`${title}'s cover image`}
             height="280px"
+            objectFit="cover"
           />
           <Text
             color="#292F2E"
