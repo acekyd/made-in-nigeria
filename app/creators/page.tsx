@@ -9,8 +9,9 @@ export const metadata: Metadata = {
     "Stories about the creators within the Nigerian Open Source community who make this project possible",
   openGraph: {
     type: "website",
-    siteName: "madeinnigeria.dev",
-    images: "https://madeinnigeria.dev/images/", // we'd need an image to use as a preview when this page is shared on the internet.
+    url: "https://madeinnigeria.dev/creators",
+    siteName: "Made in Nigeria",
+    images: "https://madeinnigeria.dev/images/min-cover.png",
     description:
       "Stories about the creators within the Nigerian Open Source community who make this project possible",
   },
