@@ -178,9 +178,10 @@ const ProjectsPage = (props) => {
       </Box>
 
       <Box
-        position="sticky"
-        top="90"
         zIndex={1}
+        height={isStuck && "80px"}
+        position={isStuck ? "fixed" : "static"}
+        top={isStuck ? { lg: "25px", md: "17px", xl: "17px" } : "90px"}
         display={{ base: "flex", md: "none" }}
       >
         <AlphabetFilter
