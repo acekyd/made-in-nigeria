@@ -159,13 +159,7 @@ const ProjectsPage = (props) => {
   };
 
   return (
-    <Container
-      overflowX="hidden"
-      maxW="container.xl"
-      centerContent
-      top
-      border="1px solid blue"
-    >
+    <Container overflowX="hidden" maxW="container.xl" centerContent top>
       <Box ref={projectHeroRef} my={{ base: "3rem", md: "7rem" }}>
         <ProjectsHero onChange={(event) => onSearch(event)} />
       </Box>
