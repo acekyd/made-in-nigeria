@@ -1,0 +1,44 @@
+[
+    {
+    "repoName": "Toast.js",
+    "repoLink": "https://github.com/ireade/Toast.js",
+    "repoDescription": "A library for Toast messages.",
+    "repoAuthor": "ireaderinokun",
+    "repoAuthorLink": "https://twitter.com/ireaderinokun"
+  },
+  {
+    "repoName": "Laravel Hackathon Starter",
+    "repoLink": "https://github.com/unicodeveloper/laravel-hackathon-starter",
+    "repoDescription": "A hackathon/MVP boilerplate for Laravel web applications. Start your hackathons without hassle.",
+    "repoAuthor": "unicodeveloper",
+    "repoAuthorLink": "https://twitter.com/unicodeveloper"
+  },
+  {
+    "repoName": "Gophie",
+    "repoLink": "https://github.com/Go-phie/gophie",
+    "repoDescription": "A CLI written in Golang for scraping movie download links and bypassing ads.",
+    "repoAuthor": "GophieTeam",
+    "repoAuthorLink": "https://twitter.com/GophieTeam"
+  },
+  {
+    "repoName": "ExpressWebJs",
+    "repoLink": "https://github.com/Alexigbokwe/ExpressWebJs",
+    "repoDescription": "ExpressWebJs is a NodeJS FrameWork with expressive and organised syntax that runs on all major operating systems. It provides the starting point for creating your node project, allowing you to focus more on developing your amazing solution.",
+    "repoAuthor": "EmekaIgbokwe",
+    "repoAuthorLink": "https://twitter.com/emekaigbokwe"
+  },
+  {
+    "repoName": "MLog",
+    "repoLink": "https://github.com/mykeels/MLog",
+    "repoDescription": "MLog is the simplest .NET library for data logging.",
+    "repoAuthor": "mykeels",
+    "repoAuthorLink": "https://twitter.com/mykeels"
+  },
+  {
+    "repoName": "ImageQ",
+    "repoLink": "https://github.com/bisohns/imageQ",
+    "repoDescription": "Reverse Image search engine powered by Django and Keras.",
+    "repoAuthor": "_deven96 & mensaah",
+    "repoAuthorLink": "https://twitter.com/_deven96"
+  }
+]
