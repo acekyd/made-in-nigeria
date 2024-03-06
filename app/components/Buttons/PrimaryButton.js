@@ -26,7 +26,7 @@ const PrimaryButton = ({ text, link, mobileWidth, desktopWidth }) => {
       }}
       height="3rem"
       href={link}
-      // variant="solid"
+      variant="solid"
     >
       <Link href={link} _hover={{ textDecoration: "none" }}>
         {text}
