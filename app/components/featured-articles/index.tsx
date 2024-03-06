@@ -8,6 +8,8 @@ export interface FeaturedArticleProps {
 }
 
 const FeaturedArticles = ({ data }: FeaturedArticleProps) => {
+  console.log("data of featured articles", data);
+
   return (
     <VStack
       alignItems="flex-start"

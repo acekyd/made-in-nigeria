@@ -6,9 +6,9 @@ const PrimaryButton = ({ text, link, mobileWidth, desktopWidth }) => {
       display="block"
       borderRadius={30}
       paddingY={3}
-      borderColor="#009E77"
+      border="1px solid #009E77"
       bg="#009E77"
-      color={"#FFFFFF"}
+      color="#009E77"
       _hover={{
         bg: "#FFFFFF",
         color: "#009E77",
@@ -26,7 +26,7 @@ const PrimaryButton = ({ text, link, mobileWidth, desktopWidth }) => {
       }}
       height="3rem"
       href={link}
-      variant="solid"
+      // variant="solid"
     >
       <Link href={link} _hover={{ textDecoration: "none" }}>
         {text}
