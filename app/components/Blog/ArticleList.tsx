@@ -117,7 +117,7 @@ export const ArticleList = ({ data }: ArticleProps) => {
           <Text>You&apos;re at the end of our articles list</Text>
         )}
 
-        <Box my="10rem">{/* <BlogNewsletter /> */}</Box>
+        <Box>{/* <BlogNewsletter /> */}</Box>
       </Flex>
     </Box>
   );
