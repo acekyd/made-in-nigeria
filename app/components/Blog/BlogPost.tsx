@@ -46,6 +46,7 @@ export const BlogPost = ({
           alt="cover image"
           src={coverImage}
           objectFit="cover"
+          objectPosition={{ lg: "top", base: "top" }}
         />
         <Box>
           <Text

@@ -74,7 +74,7 @@ export const Home = ({ data, projects }) => {
             color="#292F2E"
             textTransform="capitalize"
           >
-            articles
+            Creators
           </Heading>
 
           <Flex display={{ sm: "flex", md: "none" }}>
@@ -117,7 +117,7 @@ export const Home = ({ data, projects }) => {
         <HStack overflowX="auto" display={{ sm: "flex", md: "none" }}>
           <Splide
             // gap="1rem"
-            aria-label="Featured Articles"
+            aria-label="Featured Creators"
             options={articleCarouselOptions}
             ref={splideRef}
           >
@@ -137,7 +137,7 @@ export const Home = ({ data, projects }) => {
         </HStack>
 
         <Flex justifyContent="center" marginTop={3}>
-          <SecondaryButton text="See More Articles" link="/creators" />
+          <SecondaryButton text="See More Creators" link="/creators" />
         </Flex>
       </Flex>
 
