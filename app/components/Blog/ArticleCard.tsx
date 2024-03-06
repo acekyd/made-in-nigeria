@@ -29,6 +29,7 @@ const ArticleCard = ({ image, slug, title, excerpt }: CardProps) => {
             alt={`${title}'s cover image`}
             height="280px"
             objectFit="cover"
+            objectPosition={{ lg: "top", base: "top" }}
           />
           <Text
             color="#292F2E"

@@ -31,7 +31,7 @@ const SearchArticles = ({ onChange }: SearchProps) => {
         <Image src={SearchIcon.src} w="1.2rem" height="1.2rem" alt="" />
         <Input
           variant="unstyled"
-          placeholder="Search Articles"
+          placeholder="Search Creators"
           onChange={(e) => onChange(e)}
           _placeholder={{ color: "#B8BAB9", fontSize: "sm" }}
         />

@@ -73,12 +73,12 @@ export const ArticleList = ({ data }: ArticleProps) => {
               ml="1.2rem"
               textTransform="capitalize"
             >
-              all articles
+              all creators
             </Heading>
 
             {filteredArticles.length === 0 ? (
               <Text textAlign="center" fontSize="16px" my="3rem" px="1.2rem">
-                We couldn&apos;t find any article with this title:
+                We couldn&apos;t find any creators with this title:
                 <Text as="span" color="#008463">
                   {searchTerm}
                 </Text>
@@ -110,11 +110,11 @@ export const ArticleList = ({ data }: ArticleProps) => {
           <SecondaryButton
             link=""
             type="button"
-            text="load more articles"
+            text="load more creators"
             onClick={onLoadMoreArticles}
           />
         ) : (
-          <Text>You&apos;re at the end of our articles list</Text>
+          <Text>You&apos;re at the end of our creators list</Text>
         )}
 
         <Box>{/* <BlogNewsletter /> */}</Box>

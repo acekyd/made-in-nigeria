@@ -22,7 +22,7 @@ const FeaturedArticles = ({ data }: FeaturedArticleProps) => {
         color="#292F2E"
         px={{ md: ".8em", base: ".8em", lg: "" }}
       >
-        Featured Articles
+        Featured Creators
       </Heading>
       <Box
         px="1em"
