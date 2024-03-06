@@ -38,13 +38,15 @@ export const BlogPost = ({
         mb="8rem"
         flexFlow="column"
         justifyContent="center"
-        px={{ base: ".5rem", md: "22rem", lg: "32rem" }}
         mt={{ base: "-8rem", md: "-8rem", lg: "-20rem" }}
+        px={{ base: ".5rem", md: "8rem", lg: "12rem", xl: "32rem" }}
       >
         <Image
           height={{ lg: "592px", base: "100%" }}
           alt="cover image"
           src={coverImage}
+          objectFit="cover"
+          objectPosition={{ lg: "top", base: "top" }}
         />
         <Box>
           <Text

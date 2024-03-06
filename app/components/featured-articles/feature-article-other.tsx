@@ -71,6 +71,7 @@ const FeatureArticleOther = ({ slug, title, image, excerpt }: CardProps) => {
           "2xl": 8,
         }}
         objectFit="cover"
+        objectPosition={{ lg: "top", base: "top" }}
       />
 
       <VStack width={{ lg: "22.188rem", xl: "22.188rem", "2xl": "22.188rem" }}>

@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       description: `${excerpt}`,
       siteName: "madeinnigeria.dev",
-      images: `https://madeinnigeria.dev/images/${coverImage}`,
+      images: `https://madeinnigeria.dev${coverImage}`,
     },
   };
 }

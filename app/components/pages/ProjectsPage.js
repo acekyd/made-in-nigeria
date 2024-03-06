@@ -54,10 +54,14 @@ const ProjectsPage = (props) => {
   const { replace } = useRouter();
 
   const projectHeroRef = useRef(null);
-  const observerOptions = {
-    root: null,
-    rootMargin: "-80px",
-  };
+
+  const observerOptions = React.useMemo(
+    () => ({
+      root: null,
+      rootMargin: "-80px",
+    }),
+    []
+  );
 
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
@@ -74,7 +78,7 @@ const ProjectsPage = (props) => {
     // return () => observer.unobserve(projectHeroRef.current);
     // unobserve is causing the depth error, but disconnect removes everything. Will figure it out
     return () => observer.disconnect();
-  }, [isStuck]);
+  }, [isStuck, observerOptions]);
 
   // get more projects on scroll
   React.useEffect(() => {
@@ -161,8 +165,9 @@ const ProjectsPage = (props) => {
       </Box>
 
       <Box
-        position="sticky"
-        top="90"
+        height={isStuck && "80px"}
+        position={isStuck ? "fixed" : "static"}
+        top={isStuck ? { lg: "25px", md: "17px", xl: "17px" } : "90px"}
         zIndex={1}
         display={{ base: "none", md: "flex" }}
       >
@@ -173,9 +178,10 @@ const ProjectsPage = (props) => {
       </Box>
 
       <Box
-        position="sticky"
-        top="90"
         zIndex={1}
+        height={isStuck && "80px"}
+        position={isStuck ? "fixed" : "static"}
+        top={isStuck ? { lg: "25px", md: "17px", xl: "17px" } : "90px"}
         display={{ base: "flex", md: "none" }}
       >
         <AlphabetFilter
