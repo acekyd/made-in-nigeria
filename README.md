@@ -1,42 +1,34 @@
-# V2
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0. Read global installation and then cd to our folder and do `npm install`
+## Getting Started
 
-## DEMO
- [DEMO](https://theo4u.github.io/made-in-nigeria/)
+First, run the development server:
 
-## Resources
-- [Clarity UI](https://vmware.github.io/clarity)
-- [DEVICONS](http://konpa.github.io/devicon)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-## Development server
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Code scaffolding
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+## Learn More
 
-## Build
+To learn more about Next.js, take a look at the following resources:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Running unit tests
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Deploy on Vercel
 
-## Running end-to-end tests
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-
-## Deploy
-- ng build -prod --base-href "/made-in-nigeria/" inside **v2** folder
-- then perform this `git add -A && git commit -m "base url updated for deployment"`
-- Run `git push` to update **master** with **dist**
-- Run **git push origin `git subtree split --prefix dist master`:gh-pages --force**
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
