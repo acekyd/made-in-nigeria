@@ -39,7 +39,7 @@ export const BlogPost = ({
         flexFlow="column"
         justifyContent="center"
         mt={{ base: "-8rem", md: "-8rem", lg: "-20rem" }}
-        px={{ base: ".5rem", md: "8rem", lg: "12rem", xl: "32rem" }}
+        px={{ base: ".5rem", md: "8rem", lg: "12rem", xl: "22rem" }}
       >
         <Image
           height={{ lg: "592px", base: "100%" }}
