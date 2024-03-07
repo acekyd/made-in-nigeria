@@ -55,7 +55,7 @@ const Hero = () => {
           fontWeight="900"
           margin="0 0 -20px 0"
         >
-          Made in Nigeria.
+          Made in Nigeria
         </Text>
 
         <Text
