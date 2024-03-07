@@ -4,7 +4,7 @@ import * as cheerio from "cheerio";
 async function getData() {
   const res = await fetch(
     "https://raw.githubusercontent.com/acekyd/made-in-nigeria/main/README.MD",
-    { next: { revalidate: 5000 } }
+    { next: { revalidate: 5000 } },
   );
 
   if (!res.ok) {
@@ -35,6 +35,14 @@ function convertToJSON(repositories: string[]) {
     const repoName = $("a").first().text();
     const repoLink = $("a").first().attr("href");
 
+    // Status of the repo
+    const status = $("span").first().text();
+    console.log({
+      status,
+    });
+    const isInactive = status?.includes("Inactive");
+    const isArchived = status?.includes("Archived");
+
     // @ts-ignore
     let description = $("*").contents()[3].data; // I don't know why the fuck this works but if it's not broken, don't touch it.
     const repoDescription = description.replace(/^ - /, "");
@@ -48,6 +56,8 @@ function convertToJSON(repositories: string[]) {
       repoDescription,
       repoAuthor,
       repoAuthorLink,
+      isInactive,
+      isArchived,
     };
   });
 }
@@ -63,7 +73,7 @@ export const useProjects = async () => {
             projects.repoName
               .toLocaleLowerCase()
               .includes(input.toLocaleLowerCase()) ||
-            projects.repoName.toLocaleLowerCase() === input.toLocaleLowerCase()
+            projects.repoName.toLocaleLowerCase() === input.toLocaleLowerCase(),
         );
       },
 
@@ -74,7 +84,7 @@ export const useProjects = async () => {
               `@${input.toLocaleLowerCase()}` ||
             projects.repoAuthor
               .toLocaleLowerCase()
-              .includes(`@${input.toLocaleLowerCase()}`)
+              .includes(`@${input.toLocaleLowerCase()}`),
         );
       },
 
@@ -82,7 +92,7 @@ export const useProjects = async () => {
         return data.filter((projects) =>
           projects.repoName
             .toLocaleLowerCase()
-            .startsWith(input.toLocaleLowerCase())
+            .startsWith(input.toLocaleLowerCase()),
         );
       },
     };
