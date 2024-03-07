@@ -3,7 +3,7 @@ import * as cheerio from "cheerio";
 
 async function getData() {
   const res = await fetch(
-    "https://raw.githubusercontent.com/acekyd/made-in-nigeria/master/README.MD",
+    "https://raw.githubusercontent.com/acekyd/made-in-nigeria/main/README.MD",
     { next: { revalidate: 5000 } }
   );
 
