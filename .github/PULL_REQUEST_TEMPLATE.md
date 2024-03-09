@@ -2,7 +2,7 @@
 
 <!-- Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change. -->
 
-Fixes # (place issue number here without bracket)
+This PR [Fixes # (place issue number here without bracket)]
 
 <!-- Please provide a screenshots or upload a video for visual changes to speed up reviews -->
 
@@ -15,12 +15,11 @@ Fixes # (place issue number here without bracket)
 - [ ] Enhancement (small improvements)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change adds a new database migration
 - [ ] This change requires a documentation update
 
 ## How should this be tested?
 
-<!-- Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration -->
+<!-- Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. -->
 
 - Test A
 - Test B
@@ -34,10 +33,10 @@ Fixes # (place issue number here without bracket)
 - [ ] Filled out the "How to test" section in this PR
 - [ ] Self-reviewed my own code
 - [ ] Commented on my code in hard-to-understand bits
-- [ ] Ran `npm build`
+- [ ] Ran `npm run build`
 - [ ] Checked for warnings, there are none
 - [ ] Removed all `console.logs`
-- [ ] Merged the latest changes from main onto my branch with `git pull origin dev`
+- [ ] Merged the latest changes from main onto my branch with `git pull origin main`
 - [ ] My changes don't cause any responsiveness issues
 
 ### Appreciated
