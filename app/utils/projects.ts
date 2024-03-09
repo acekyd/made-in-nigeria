@@ -1,18 +1,11 @@
 import { marked } from "marked";
 import * as cheerio from "cheerio";
+import { promises as fs } from 'fs';
 
 async function getData() {
-  const res = await fetch(
-    "https://raw.githubusercontent.com/acekyd/made-in-nigeria/main/README.MD",
-    { next: { revalidate: 5000 } },
-  );
 
-  if (!res.ok) {
-    // This will activate the closest `error.js` Error Boundary
-    throw new Error("Failed to fetch data");
-  }
+  const markdownData = await fs.readFile(process.cwd() + '/README.MD', 'utf8');
 
-  const markdownData = await res.text();
   const html = marked(markdownData);
   const $ = cheerio.load(html); // load the html string into cheerio
 
@@ -37,9 +30,7 @@ function convertToJSON(repositories: string[]) {
 
     // Status of the repo
     const status = $("span").first().text();
-    console.log({
-      status,
-    });
+
     const isInactive = status?.includes("Inactive");
     const isArchived = status?.includes("Archived");
 
