@@ -1,10 +1,23 @@
 import { marked } from "marked";
 import * as cheerio from "cheerio";
 import { promises as fs } from 'fs';
+import { cache } from 'react'
 
-async function getData() {
+const getData = cache(async () => {
 
-  const markdownData = await fs.readFile(process.cwd() + '/README.MD', 'utf8');
+  const res = await fetch(
+    "https://raw.githubusercontent.com/acekyd/made-in-nigeria/main/README.MD",
+    { next: { revalidate: 5000 } },
+  );
+
+  if (!res.ok) {
+    // This will activate the closest `error.js` Error Boundary
+    throw new Error("Failed to fetch data");
+  }
+
+  const markdownData = await res.text();
+
+  // const markdownData = await fs.readFile(process.cwd() + '/README.MD', 'utf8');
 
   const html = marked(markdownData);
   const $ = cheerio.load(html); // load the html string into cheerio
@@ -18,7 +31,7 @@ async function getData() {
   const repositories = convertToJSON(liTextArray);
 
   return repositories;
-}
+});
 
 function convertToJSON(repositories: string[]) {
   return repositories.map((repository) => {
