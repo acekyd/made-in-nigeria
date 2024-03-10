@@ -1,9 +1,9 @@
 import { marked } from "marked";
 import * as cheerio from "cheerio";
 import { promises as fs } from 'fs';
+import { cache } from 'react'
 
-async function getData() {
-
+const getData = cache(async () => {
   const markdownData = await fs.readFile(process.cwd() + '/README.MD', 'utf8');
 
   const html = marked(markdownData);
@@ -18,7 +18,7 @@ async function getData() {
   const repositories = convertToJSON(liTextArray);
 
   return repositories;
-}
+});
 
 function convertToJSON(repositories: string[]) {
   return repositories.map((repository) => {
