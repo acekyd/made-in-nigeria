@@ -1,6 +1,14 @@
 "use client";
 import { useRef } from "react";
-import { Box, Text, Flex, HStack, Heading, SimpleGrid } from "@chakra-ui/react";
+import {
+  Box,
+  Text,
+  Flex,
+  HStack,
+  Heading,
+  SimpleGrid,
+  Container,
+} from "@chakra-ui/react";
 import Hero from "../../Hero";
 import ProjectCard from "../../ProjectCard";
 import SecondaryButton from "../../Buttons/SecondaryButton";
@@ -40,14 +48,23 @@ export const Home = ({ data, projects }) => {
           Featured Projects
         </Text>
 
-        <SimpleGrid columns={{ sm: 1, md: 2, xl: 3 }} spacing="1rem" my="1rem">
-          {[25, 55, 70, 91, 154, 200].map((index) => (
-            <ProjectCard
-              key={projects[index].repoLink}
-              project={projects[index]}
-            />
-          ))}
-        </SimpleGrid>
+        <Container overflowX="hidden" maxW="container.xl" centerContent top>
+          <SimpleGrid
+            columns={{ sm: 1, md: 2, xl: 3 }}
+            spacing="1rem"
+            spacingX={{ sm: "0rem", md: "2rem" }}
+            spacingY={{ base: "2rem", md: "2rem" }}
+            my="1rem"
+            maxWidth="1385px"
+          >
+            {[25, 55, 70, 91, 154, 200].map((index) => (
+              <ProjectCard
+                key={projects[index].repoLink}
+                project={projects[index]}
+              />
+            ))}
+          </SimpleGrid>
+        </Container>
 
         <SecondaryButton text="See All Projects" link="/projects" />
       </Flex>
