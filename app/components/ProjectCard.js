@@ -87,14 +87,7 @@ function ProjectCard(props) {
   };
 
   return (
-    <Box
-      borderColor="gray.100"
-      borderWidth="2px"
-      borderRadius="2xl"
-      w={{ sm: "21rem", lg: "25.7rem" }}
-      maxWidth="80vw"
-      m={{ sm: 2, lg: 5 }}
-    >
+    <Box borderColor="gray.100" borderWidth="2px" borderRadius="2xl">
       <Flex alignItems="center" mx={4} my={3}>
         <Text fontWeight="bold">
           <Link
