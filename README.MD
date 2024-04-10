@@ -275,6 +275,7 @@
 - [Suphle](https://github.com/nmeri17/suphle) - A PHP framework for building logic heavy full stack applications to be actively maintained over time. \*\*by [Nmeri](https://twitter.com/mmayboy_)
 - [Search Engine Parser](https://github.com/bisohns/search-engine-parser) - Lightweight package to query popular search engines and scrape for result titles, links and descriptions. **By [@\_deven96](https://twitter.com/_deven96) and [@iamMensaah](https://twitter.com/iamMensaah)**
 - [sms-nigeria-go](https://github.com/D-sense/sms-nigeria-go) - A Go client for sending SMS to any Nigeria phone-number with ease. **By [@D-sense](https://twitter.com/Delameh)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
+- [StartEase Cli](https://github.com/JC-Coder/startease) - StartEase is a command-line interface (CLI) tool designed to make project setup a breeze. Whether you're working with your favorite technologies or exploring new ones, StartEase is your companion for quickly and effortlessly scaffolding projects. **By [@jc_coder1](https://twitter.com/jc_coder1)**
 
 ## <a name="T"> </a>T
 
