@@ -62,9 +62,9 @@ export const ArticleList = ({ data }: ArticleProps) => {
             <FeaturedArticles
               data={data}
               slugs={[
+                "shalvah-adebayo",
                 "prosper-otemuyiwa",
                 "omolara-adejuwon",
-                "emisho-victor",
                 "shedrack-akintayo",
               ]}
             />

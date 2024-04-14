@@ -31,7 +31,7 @@ const FeaturedArticleMain = ({ image, slug, title, excerpt }: CardProps) => {
       <Box rounded="xl" overflow="hidden">
         <Image
           src={image}
-          alt="matthew sharp image"
+          alt="loading featured image"
           width={{
             base: "20.375rem",
             sm: "20.375rem",
