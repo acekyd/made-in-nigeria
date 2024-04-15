@@ -1,5 +1,5 @@
 "use client";
-import { Box, Flex, Text, Image, Stack } from "@chakra-ui/react";
+import { Box, Flex, Text, Image, Stack, extendTheme } from "@chakra-ui/react";
 import { Icon } from "../Icon";
 import {
   FacebookShareButton,
@@ -8,6 +8,17 @@ import {
 } from "react-share";
 import ArticleCard from "./ArticleCard";
 import { FrontMatter } from "@/app/utils/mdx";
+
+const breakpoints = {
+  base: '0px',
+  sm: '320px',
+  md: '768px',
+  lg: '960px',
+  xl: '1200px',
+  '2xl': '1800px',
+}
+
+const theme = extendTheme({ breakpoints })
 
 interface BlogPostProps {
   slug: string;
@@ -39,10 +50,10 @@ export const BlogPost = ({
         flexFlow="column"
         justifyContent="center"
         mt={{ base: "-8rem", md: "-8rem", lg: "-20rem" }}
-        px={{ base: ".5rem", md: "8rem", lg: "12rem", xl: "22rem" }}
+        px={{ base: ".5rem", md: "8rem", lg: "12rem", xl: "22rem", '2xl': "22%" }}
       >
         <Image
-          height={{ lg: "592px", base: "100%" }}
+          height={{ lg: "592px", base: "100%", xl: "700px" }}
           alt="cover image"
           src={coverImage}
           objectFit="cover"
@@ -138,6 +149,8 @@ export const BlogPost = ({
           })}
         </Stack>
       </Box>
+
+
     </>
   );
 };
