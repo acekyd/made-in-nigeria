@@ -62,6 +62,7 @@
 
 - [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risingodegua](https://twitter.com/risingodegua)**
 - [danfojs](https://github.com/javascriptdata/danfojs) - Danfo.js is an open source, JavaScript library providing high performance, intuitive, and easy to use data structures for manipulating and processing structured data. **By [@risingodegua](https://twitter.com/risingodegua) and [@steveoni](https://twitter.com/steveoni)**
+- [DevDb](https://github.com/damms005/devdb-vscode) - A zero-config VS Code extension that auto-loads your database and displays the data right inside VS Code. **By [@_damms005](https://twitter.com/_damms005)**
 - [DevOps-Toolkit](https://github.com/umegbewe/devops-toolkit) - Easily and quickly setup your Cloud & DevOps development environment. **By [@0xGreat](https://twitter.com/0xGreat)**
 - [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a WordPress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
 - [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
