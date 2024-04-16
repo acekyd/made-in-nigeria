@@ -1,13 +1,11 @@
 import { marked } from "marked";
 import * as cheerio from "cheerio";
-import { promises as fs } from 'fs';
-import { cache } from 'react'
+import { cache } from "react";
 
 const getData = cache(async () => {
-
   const res = await fetch(
     "https://raw.githubusercontent.com/acekyd/made-in-nigeria/main/README.MD",
-    { next: { revalidate: 5000 } },
+    { next: { revalidate: false } }
   );
 
   if (!res.ok) {
@@ -77,7 +75,7 @@ export const useProjects = async () => {
             projects.repoName
               .toLocaleLowerCase()
               .includes(input.toLocaleLowerCase()) ||
-            projects.repoName.toLocaleLowerCase() === input.toLocaleLowerCase(),
+            projects.repoName.toLocaleLowerCase() === input.toLocaleLowerCase()
         );
       },
 
@@ -88,7 +86,7 @@ export const useProjects = async () => {
               `@${input.toLocaleLowerCase()}` ||
             projects.repoAuthor
               .toLocaleLowerCase()
-              .includes(`@${input.toLocaleLowerCase()}`),
+              .includes(`@${input.toLocaleLowerCase()}`)
         );
       },
 
@@ -96,7 +94,7 @@ export const useProjects = async () => {
         return data.filter((projects) =>
           projects.repoName
             .toLocaleLowerCase()
-            .startsWith(input.toLocaleLowerCase()),
+            .startsWith(input.toLocaleLowerCase())
         );
       },
     };
