@@ -285,6 +285,7 @@
 - [TenseiJS](https://github.com/tenseijs/tensei) - Content management and distribution with a touch of elegance. **By [@bahdcoder](https://twitter.com/bahdcoder)**
 - [type-reverse](https://github.com/whizkydee/type-reverse) - 🦄 Lightweight reverse utility around strings, arrays, numbers and more. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [Toast.js](https://github.com/ireade/Toast.js) - A library for Toast messages. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**v
+- [TransformersPHP](https://github.com/CodeWithKyrian/transformers-php) - A toolkit for PHP developers to run state-of-the-art pretrained machine-learning models locally in PHP. **By [@CodeWithKyrian](https://twitter.com/CodeWithKyrian)**
 - [TweetThreader](https://github.com/Udokah/tweet-threader) - A tool to create threads on Twitter. **By [@thisisudo](https://twitter.com/thisisudo)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [TwittaSave](https://github.com/emmanuelkehinde/TwittaSave-Web) - Web, Android and Chrome Extension that enables you to download videos and gifs from tweets to your device easily; built using Twitter API. **By [@emmakoko96](https://twitter.com/emmakoko96)**
 - [Time](https://github.com/kizitonwose/Time) - Type-safe time calculations in Kotlin, powered by generics. **By [@kizitonwose](https://github.com/kizitonwose)**
