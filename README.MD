@@ -302,6 +302,7 @@
 ## <a name="V"> </a>V
 
 - [Video-Call-App](https://github.com/amirsanni/Video-Call-App) - A text, audio and video chat application built with webRTC and Ratchet (PHP WebSockets). **By [@amirsanni](https://twitter.com/amirsanni)**
+- [Vinyl-Component-Blocks](https://github.com/Vinyl-Davyl/vinyl-component-blocks) - 🧱 Reusable, Modular and Styled UI Component Library. Stop repeating work, install, call, use and modify. **By [@Vinylchi](https://twitter.com/Vinylchi)**
 - [VSCode Material Palenight Theme](https://github.com/whizkydee/vscode-material-palenight-theme) - 🍹🎨 An elegant and juicy material-like theme for Visual Studio Code. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [VSCode NestsJs Snippets](https://github.com/ashinzekene/vscode-nestjs-snippets) - A VScode extension for adding snippets for your [NestJS](https://github.com/nestjs/nest) code. **By [@ashinzekene](https://twitter.com/ashinzekene)**
 - [VSCode One Monokai](https://github.com/azemoh/vscode-one-monokai) - Beautiful dark theme for Visual Studio Code Editor. **By [@azemoh](https://twitter.com/josh_azemoh)**
