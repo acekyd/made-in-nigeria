@@ -197,6 +197,7 @@
 - [Naija State And Local Government](https://github.com/atomicman57/naija-state-local-government) - A simple zero dependency npm package that lists Nigeria states and local governments. **By [@blessingadesina3](https://twitter.com/blessingadesin3)**
 - [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
 - [Newspaperjs](https://github.com/flickz/newspaperjs) - Nodejs: News extraction, scraping and article parsing module. **By [@flickzcode](https://twitter/flickzcode)**
+- [Ngyn.rs](https://github.com/ngyn-rs/ngyn) - An opinionated rust framework for building scalable web servers. **By [@iamelcharitas](https://twitter.com/iamelcharitas)**
 - [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in Nigeria. **By [@seyi\_\_adeleke](https://twitter.com/seyi__adeleke)**
 - [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
 - [No-CAPTCHA-reCAPTCHA](https://github.com/collizo4sky/No-CAPTCHA-reCAPTCHA) - Protect WordPress login, registration and comment form from spam with the new No CAPTCHA reCAPTCHA. **By [@w3guy](https://twitter.com/w3guy)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
