@@ -114,6 +114,7 @@
 ## <a name="H"> </a>H
 
 - [H.php](https://github.com/devHammed/H.php) - The Minimalist PHP Framework! **By [@devhammed](https://profile.codersrank.io/user/devhammed)**<span style="color: green; font-weight: 700;"> | 🏁 Deleted </span>
+- [HearItFresh](https://github.com/Dun-sin/HearItFresh) -Discover new tracks with Hear It Fresh! This user-friendly web app generates personalized Spotify playlists based on your favourite artists or a Spotify playlist link. Explore fresh music. **By [@dun-sin](https://github.com/Dun-sin)**
 - [helpers](https://github.com/whizkydee/helpers) - Super-handy JavaScript utility functions for front-end development. **By [@mrolaolu](https://twitter.com/mrolaolu)**
 - [HUI.js](https://github.com/devHammed/HUI.js) - Lightweight JavaScript UI Library. **By [@devhammed](https://profile.codersrank.io/user/devhammed)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 
