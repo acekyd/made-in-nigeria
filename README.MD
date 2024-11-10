@@ -182,6 +182,8 @@
 - [MarkedIt](https://github.com/christiannwamba/markedit) - Simple markdown editor widget. **By [@codebeast](https://twitter.com/codebeast)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [Math Alarm Clock](https://github.com/t-regbs/MathAlarm) - Android Alarm app in which you solve math problems of varying difficulty to dismiss alarms. Built with jetpack compose. **By [@t-regbs](https://twitter.com/timiaregbs)**
 - [MediumUnooficialSDK](https://github.com/KingsMentor/medium-android-sdk-unofficial) - Unofficial implementation of medium API for android. Support Medium Oauth Sign in, retrieve users' post, make publications, and other medium supported features. **By [@kingsmentor](https://twitter.com/kingsmentor)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
+- [Meethub](https://github.com/iyanuashiri/meethub) - A web application for organizing meetups. **By [@iyanuashiri](https://github.com/iyanuashiri)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
+
 - [Mini-Inventory-and-Sales-Management-System](https://github.com/amirsanni/Mini-Inventory-and-Sales-Management-System) - An Inventory and Sales Management System written in PHP (codeIgniter) with support for MySQL and Sqlite3 databases. **By [@amirsanni](https://twitter.com/amirsanni)**
 - [MLog](https://github.com/mykeels/MLog) - MLog is the simplest .NET library for data logging. **By [@mykeels](https://twitter.com/mykeels)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [MobileVisionBarcodeScanner](https://github.com/KingsMentor/MobileVisionBarcodeScanner) - Mobile Vission Barcode Scanner. **By [@kingsmentor](https://twitter.com/kingsment)**
