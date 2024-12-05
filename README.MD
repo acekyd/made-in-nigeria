@@ -276,7 +276,7 @@
 - [status-modal](https://github.com/kaf-lamed-beyt/status-modal) - A react component that you can use to render current error or success messages from a particular API endpoint. **By [@kafLamed](https://twitter.com/kafLamed)**
 - [Stickynotes](https://github.com/Kolaposki/Stickynotes) - A functional note taking web application with alluring user interface. **By [@Kolaposki](https://twitter.com/KolapoOshodi)**
 - [StudyLog](https://github.com/codehakase/studyLog) - A tiny web application for Logging streaks and events. **By [@codehakase](https://twitter.com/codehakase)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
-- [Stream2Peer](https://github.com/tobySolutions/stream2peer) - Stream2Peer is a decentralized video stream management platform **By [@tobySolutions(https://twitter.com/toby_solutions), [@Emmanuel](https://twitter.com/official__ceo), [@Jumo](https://twitter.com/excellencyjumo)**
+- [Stream2Peer](https://github.com/tobySolutions/stream2peer) - Stream2Peer is a decentralized video stream management platform **By [@tobySolutions(https://twitter.com/toby_solutions)**
 - [STX](https://github.com/lamarrr/STX) - C++17 & C++ 20 error-handling an utility. **By [@basit_ayantunde](https://twitter.com/basit_ayantunde)**
 - [Suet](https://github.com/kehers/suet) - Detailed analytics and reporting for your transactional Mailgun emails. **By [@kehers](https://twitter.com/kehers)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [Suphle](https://github.com/nmeri17/suphle) - A PHP framework for building logic heavy full stack applications to be actively maintained over time. \*\*by [Nmeri](https://twitter.com/mmayboy_)
