@@ -56,6 +56,7 @@
 - [ClassroomIO](https://github.com/rotimi-best/classroomio) - Meet a better collaboration tool for teachers and students. ClassroomIO is a no-code tool that allows you build and scale your own teaching platform with ease. **By [@rotimi-best](https://twitter.com/rotimi-best)**
 - [Client_manager](https://github.com/timigod/client_manager) - API Client Manager is a mountable Rails (engine) gem that helps identify and authenticate your API clients' requests. **By [@timigod](https://twitter.com/timigod)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
 - [Cogent PHP](https://github.com/wilforlan/CogentPHP) - A Simple PHP MVC Framework for Fast and Minimal Applications. **By [@wilforlan](https://twitter.com/wilforlan)**<span style="color: red; font-weight: 700;"> | 🏁 Deprecated </span>
+- [colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup. **By [@abiosoft](https://twitter.com/abiosoft)**
 - [Composer-git-hook](https://github.com/BrainMaestro/composer-git-hooks) - Easily manage git hooks in your composer config. **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
 - [CountryPickerView](https://github.com/kizitonwose/CountryPickerView) - A simple, customizable view for efficiently collecting country information in iOS apps. **By [@kizitonwose](https://github.com/kizitonwose/CountryPickerView)**
 - [csv49](https://github.com/stigwue/csv49) - Comma Separated Values For Nigeria. **Maintained by [@stigwue](https://github.com/stigwue)**
