@@ -232,6 +232,7 @@
 - [PyDialogflow Fulfillment](https://github.com/Emmarex/dialogflow-fulfillment-python) - This library makes creating fulfillment for Dialogflow v2 agents easily with Python Backend. ( **By [@_emmarex_](https://twitter.com/_emmarex_)**
 - [PyFCM](https://github.com/olucurious/PyFCM) - Python client for FCM - Firebase Cloud Messaging (Android & iOS). **By [@olucurious](https://twitter.com/olucurious)**
 - [Pymvrd](https://github.com/othreecodes/pymvrd) - Motor Vehicle Registration Information Search Portal Library for python. **By [@othreecodes](https://twitter.com/othreecodes)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
+- [Python WhatsApp bot](https://github.com/Radi-dev/python-whatsapp-bot) - A Whatsapp Business Cloud API client Library for python. **By [@Radi-dev](https://twitter.com/Radi_dev)**
 
 ## <a name="Q"> </a>Q
 
