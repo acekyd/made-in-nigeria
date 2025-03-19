@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { Box, Text, Flex, Link, Image } from "@chakra-ui/react";
 import React from "react";
@@ -32,7 +32,12 @@ const Footer = () => {
           gap={{ base: "2em", sm: "2em", md: "2em", lg: "10em", xl: "10em" }}
         >
           <Flex flexDirection="column" gap="1.5rem">
-            <Image src={logo.src} width="117px" height="3rem" alt="made in nigeria" />
+            <Image
+              src={logo.src}
+              width="117px"
+              height="3rem"
+              alt="made in nigeria"
+            />
 
             <Text color="#949796" w={380} fontSize="sm" lineHeight="1.75rem">
               A curation of awesome open source tools and projects built by
@@ -92,8 +97,18 @@ const Footer = () => {
               >
                 Community
               </Text>
-              <Link href="https://github.com/acekyd/made-in-nigeria/graphs/contributors" isExternal>Contributors</Link>
-              <Link href="https://github.com/acekyd/made-in-nigeria/blob/master/contributing.md" isExternal>Make a Submission</Link>
+              <Link
+                href="https://github.com/acekyd/made-in-nigeria/graphs/contributors"
+                isExternal
+              >
+                Contributors
+              </Link>
+              <Link
+                href="https://github.com/acekyd/made-in-nigeria/blob/master/contributing.md"
+                isExternal
+              >
+                Make a Submission
+              </Link>
             </Flex>
 
             <Flex
@@ -117,7 +132,7 @@ const Footer = () => {
 
         <Flex mt="5rem" fontSize="sm" flexDirection="column">
           <Text color="#949796" mt={8} fontSize="sm">
-            © 2023 Made in Nigeria
+            © {new Date().getFullYear()} Made in Nigeria
           </Text>
         </Flex>
       </Flex>
