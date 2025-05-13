@@ -70,6 +70,7 @@
 - [DevOps-Toolkit](https://github.com/umegbewe/devops-toolkit) - Easily and quickly setup your Cloud & DevOps development environment. **By [@0xGreat](https://twitter.com/0xGreat)**
 - [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a WordPress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
 - [Dockward](https://github.com/abiosoft/dockward) - Port forwarding tool for Docker containers. **By [@abiosoft](https://twitter.com/abiosoft)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
+- [Dokugen](https://github.com/samueltuoyo15/Dokugen) - A command-line tool that effortlessly generates high-quality README.md files for your projects that makes your GitHub repo feel intuitive. **By [@samueltuoyo15](https://twitter.com/TuoyoS26091)**
 - [Dot Music Player](https://github.com/r4sh33d/musicslam) - 🎧 A light, feature-packed and very customisable material designed Android music player. **By [@srasheed](https://twitter.com/srasheed_)**
 - [DownloadThisVideo](https://github.com/shalvah/DownloadThisVideo) - Twitter bot for easily downloading videos/GIFs off tweets. **By [@theshalvah](https://twitter.com/theshalvah)**<span style="color: green; font-weight: 700;"> | 🏁 Archived </span>
 - [Dropd](https://github.com/whizkydee/dropd) - Zero-dependency minimalistic dropdown component for React and Vue. **By [@mrolaolu](https://twitter.com/mrolaolu)**
