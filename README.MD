@@ -61,6 +61,7 @@
 - [Composer-git-hook](https://github.com/BrainMaestro/composer-git-hooks) - Easily manage git hooks in your composer config. **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
 - [CountryPickerView](https://github.com/kizitonwose/CountryPickerView) - A simple, customizable view for efficiently collecting country information in iOS apps. **By [@kizitonwose](https://github.com/kizitonwose/CountryPickerView)**
 - [csv49](https://github.com/stigwue/csv49) - Comma Separated Values For Nigeria. **Maintained by [@stigwue](https://github.com/stigwue)**
+- [CodeOps Studio](https://github.com/euptron/CodeOps-Studio) - A mobile-based integrated development environment (IDE) and Code Editor for Android devices. **By [@euptron](https://x.com/euptron)**
 
 ## <a name="D"> </a>D
 
