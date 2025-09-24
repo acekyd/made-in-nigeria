@@ -206,8 +206,8 @@
 - [Narrative-Generator](https://github.com/thebolarin/narrative-generator) - An AI powered research tool that leverages OpenAI's API to extract and analyze key narratives, analyze their dominance, and track narrative evolution. **By [@Moses](https://www.linkedin.com/in/thebolarin), [@thebolarin](https://twitter.com/thebolarin)**
 - [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
 - [Newspaperjs](https://github.com/flickz/newspaperjs) - Nodejs: News extraction, scraping and article 
-parsing module. **By [@flickzcode](https://twitter/flickzcode)**
-* [Nexios](https://github.com/nexios-labs/Nexios) - A high-performance async Python web framework for building modern applications with simplicity and speed on per with fastapi. **By [@mrdunamix](https://x.com/mrdunamix)**
+parsing module. **By [@flickzcode](https://twitter.com/flickzcode)**
+- [Nexios](https://github.com/nexios-labs/Nexios) - A high-performance async Python web framework for building modern applications with simplicity and speed on per with fastapi. **By [@mrdunamix](https://x.com/mrdunamix)**
 - [Ngyn.rs](https://github.com/ngyn-rs/ngyn) - An opinionated rust framework for building scalable web servers. **By [@iamelcharitas](https://twitter.com/iamelcharitas)**
 - [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in Nigeria. **By [@seyi\_\_adeleke](https://twitter.com/seyi__adeleke)**
 - [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
