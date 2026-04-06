@@ -204,6 +204,7 @@
 - [Naija Phone Number](https://github.com/Udokah/naija-phone-number) - A fast minimal module to validate Nigerian mobile phone numbers using Regular Expressions. **By [@thisisudo](https://twitter.com/thisisudo)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [Naija State And Local Government](https://github.com/atomicman57/naija-state-local-government) - A simple zero dependency npm package that lists Nigeria states and local governments. **By [@blessingadesina3](https://twitter.com/blessingadesin3)**
 - [Narrative-Generator](https://github.com/thebolarin/narrative-generator) - An AI powered research tool that leverages OpenAI's API to extract and analyze key narratives, analyze their dominance, and track narrative evolution. **By [@Moses](https://www.linkedin.com/in/thebolarin), [@thebolarin](https://twitter.com/thebolarin)**
+- [NaijaSenti - A sentiment corpus for four Nigerian languages (Igbo, Hausa, Yoruba and Pidgin) for NLP research and sentiment analysis. By [@shmuhammadd](https://x.com/shmuhammadd)**
 - [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
 - [Newspaperjs](https://github.com/flickz/newspaperjs) - Nodejs: News extraction, scraping and article 
 parsing module. **By [@flickzcode](https://twitter.com/flickzcode)**
