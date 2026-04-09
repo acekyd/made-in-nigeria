@@ -204,6 +204,7 @@
 - [Naija Phone Number](https://github.com/Udokah/naija-phone-number) - A fast minimal module to validate Nigerian mobile phone numbers using Regular Expressions. **By [@thisisudo](https://twitter.com/thisisudo)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [Naija State And Local Government](https://github.com/atomicman57/naija-state-local-government) - A simple zero dependency npm package that lists Nigeria states and local governments. **By [@blessingadesina3](https://twitter.com/blessingadesin3)**
 - [Narrative-Generator](https://github.com/thebolarin/narrative-generator) - An AI powered research tool that leverages OpenAI's API to extract and analyze key narratives, analyze their dominance, and track narrative evolution. **By [@Moses](https://www.linkedin.com/in/thebolarin), [@thebolarin](https://twitter.com/thebolarin)**
+- [NativeDoctor](https://github.com/rubbieKelvin/nativedoctor) - A configurable API testing tool built in Rust, designed for easy YAML definition and seamless integration into CI/CD pipelines. **By [@rubbiekelvin](https://rubbietheone.com)**
 - [Netty-Finder](https://github.com/BolajiAyodeji/netty-finder) - This script checks a Nigerian Telephone number and detects which network it belongs to. **By [@iambolajiayo](https://twitter.com/iambolajiayo)**
 - [Newspaperjs](https://github.com/flickz/newspaperjs) - Nodejs: News extraction, scraping and article 
 parsing module. **By [@flickzcode](https://twitter.com/flickzcode)**
@@ -214,7 +215,7 @@ parsing module. **By [@flickzcode](https://twitter.com/flickzcode)**
 - [No-CAPTCHA-reCAPTCHA](https://github.com/collizo4sky/No-CAPTCHA-reCAPTCHA) - Protect WordPress login, registration and comment form from spam with the new No CAPTCHA reCAPTCHA. **By [@w3guy](https://twitter.com/w3guy)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [Nodestorage.js](https://github.com/iamuchejude/nodestorage.js) - File system storage utility with `localStorage` like API. **By [@iamuchejude](https://twitter.com/iamuchejude)**<span style="color: green; font-weight: 700;"> | 🏁 Deleted </span>
 - [Nojs](https://github.com/ifedapoolarewaju/nojs) - Library that helps minimize js you have to write. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**
-- [Notes](https://github.com/rubbieKelvin/notes) - Distraction free notes app, minimal at its core. Create and share notes with ease. **By [@rubbiekelvin](https://twitter.com/KelvinRubbie)**
+- [Notes](https://github.com/rubbieKelvin/notes) - Distraction free notes app, minimal at its core. Create and share notes with ease. **By [@rubbiekelvin](https://rubbietheone.com)**
 - [NUBAN Validator/Generator](https://github.com/emyu01/nuban) - Easily verify or generate valid account numbers for any Nigerian financial institution. **By [@iemyu\_](https://twitter.com/iemyu_)**
 
 ## <a name="O"> </a>O
