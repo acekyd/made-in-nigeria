@@ -30,11 +30,13 @@ jobs:
         run: node scripts/generate-readme.mjs
 
       - name: Open PR with updated README
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c # v6
         with:
           commit-message: "chore: regenerate README from projects.json"
           branch: chore/regenerate-readme
+          base: main
           delete-branch: true
+          add-paths: README.MD
           title: "chore: regenerate README from projects.json"
           body: |
             Automated README update triggered by changes to `data/projects.json`.

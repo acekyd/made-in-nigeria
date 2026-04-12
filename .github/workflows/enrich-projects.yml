@@ -30,11 +30,13 @@ jobs:
         run: node scripts/enrich-projects.mjs
 
       - name: Open PR with enriched data
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c # v6
         with:
           commit-message: "chore: update enriched project data"
           branch: chore/enrich-projects
+          base: main
           delete-branch: true
+          add-paths: data/projects.enriched.json
           title: "chore: update enriched project data"
           body: |
             Weekly automated update of `data/projects.enriched.json`.
