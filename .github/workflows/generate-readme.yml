@@ -17,6 +17,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BOT_PAT }}
 
       - uses: actions/setup-node@v4
         with:
@@ -33,7 +35,7 @@ jobs:
         run: |
           git diff --quiet README.MD && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
-      - name: Commit README
+      - name: Commit and push README
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
