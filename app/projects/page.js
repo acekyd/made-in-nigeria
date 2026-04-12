@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import ProjectsPage from "../components/pages/ProjectsPage";
 import { useProjects } from "../utils/projects";
 
@@ -7,7 +8,9 @@ export default async function Projects() {
   return (
     <main>
       <title>Projects | Made In Nigeria</title>
-      <ProjectsPage repositories={projects} />
+      <Suspense>
+        <ProjectsPage repositories={projects} />
+      </Suspense>
     </main>
   );
 }
