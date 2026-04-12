@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   enrich:
@@ -15,8 +16,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.BOT_PAT }}
 
       - uses: actions/setup-node@v4
         with:
@@ -27,19 +26,21 @@ jobs:
 
       - name: Run enrichment
         env:
-          GITHUB_TOKEN: ${{ secrets.BOT_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/enrich-projects.mjs
 
-      - name: Check for changes
-        id: diff
-        run: |
-          git diff --quiet data/projects.enriched.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+      - name: Open PR with enriched data
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: update enriched project data"
+          branch: chore/enrich-projects
+          delete-branch: true
+          title: "chore: update enriched project data"
+          body: |
+            Weekly automated update of `data/projects.enriched.json`.
 
-      - name: Commit and push enriched data
-        if: steps.diff.outputs.changed == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/projects.enriched.json
-          git commit -m "chore: update enriched project data [skip ci]"
-          git push
+            Pulls latest star counts, last-push dates, languages, and computed
+            statuses from the GitHub API for all tracked projects.
+
+            This PR was opened automatically and is safe to merge.
+          labels: automated

@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   generate:
@@ -17,8 +18,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.BOT_PAT }}
 
       - uses: actions/setup-node@v4
         with:
@@ -30,16 +29,15 @@ jobs:
       - name: Regenerate README
         run: node scripts/generate-readme.mjs
 
-      - name: Check for changes
-        id: diff
-        run: |
-          git diff --quiet README.MD && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+      - name: Open PR with updated README
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: regenerate README from projects.json"
+          branch: chore/regenerate-readme
+          delete-branch: true
+          title: "chore: regenerate README from projects.json"
+          body: |
+            Automated README update triggered by changes to `data/projects.json`.
 
-      - name: Commit and push README
-        if: steps.diff.outputs.changed == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.MD
-          git commit -m "chore: regenerate README from projects.json [skip ci]"
-          git push
+            This PR was opened automatically and is safe to merge.
+          labels: automated
