@@ -7,7 +7,7 @@
  * Usage: node scripts/enrich-projects.mjs
  */
 
-import { root, ENRICHED_PATH, readProjects, writeJSON } from "./utils.mjs";
+import { ENRICHED_PATH, readProjects, writeJSON } from "./utils.mjs";
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const TODAY = new Date().toISOString().split("T")[0];
@@ -34,7 +34,7 @@ async function getRateLimitRetryMs(res) {
 
   const remaining = res.headers.get("x-ratelimit-remaining");
   const reset = res.headers.get("x-ratelimit-reset");
-  if (remaining === "0" || reset) {
+  if (remaining === "0") {
     const resetSeconds = parseInt(reset, 10);
     if (!Number.isNaN(resetSeconds)) {
       return Math.max(0, resetSeconds * 1000 - Date.now()) + 1000;
