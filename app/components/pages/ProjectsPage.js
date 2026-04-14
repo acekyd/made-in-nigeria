@@ -1,175 +1,152 @@
 "use client";
-import ProjectsHero from "../ProjectsHero";
-import {
-  Box,
-  Container,
-  Text,
-  Center,
-  Spinner,
-  SimpleGrid,
-} from "@chakra-ui/react";
-import AlphabetFilter from "../AlphabetFilter/AlphabetFilter";
-import ProjectCard from "../ProjectCard";
-import React, { useState, useRef, useEffect } from "react";
+
+import { useState, useMemo, useEffect, useRef } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import debounce from "lodash.debounce";
+import {
+  Box,
+  Button,
+  Center,
+  Container,
+  Flex,
+  Select,
+  SimpleGrid,
+  Text,
+} from "@chakra-ui/react";
+import ProjectsHero from "../ProjectsHero";
+import AlphabetFilter from "../AlphabetFilter/AlphabetFilter";
+import ProjectCard from "../ProjectCard";
 
-/*
-  Notice: This is going to be the listing page for all projects
-*/
+const STATUS_OPTIONS = [
+  { value: "all",        label: "All statuses" },
+  { value: "active",     label: "Active" },
+  { value: "stale",      label: "Stale" },
+  { value: "inactive",   label: "Inactive" },
+  { value: "archived",   label: "Archived" },
+  { value: "deprecated", label: "Deprecated" },
+];
 
-const PROJECTS_COUNT = 9;
-const INCREMENT_PROJECTS_BY = 9;
+const SORT_OPTIONS = [
+  { value: "name",  label: "Name (A–Z)" },
+  { value: "stars", label: "Most stars" },
+];
 
-// markup
-const ProjectsPage = (props) => {
-  const [isStuck, setIsStuck] = useState(false);
-  const [isExpanded, setIsExpanded] = useState(false);
-  const [isNormal, setIsNormal] = useState(true);
+const ProjectsPage = ({ repositories }) => {
+  const [searchText, setSearchText]         = useState("");
   const [selectedLetter, setSelectedLetter] = useState("");
-  const [searchText, setSearchText] = useState("");
-  const [data, setData] = useState(props.repositories);
-  const [loading, setLoading] = React.useState(false);
-  const [searchError, setSearchError] = React.useState("");
-  const [initialProjects, setInitialProjects] = useState(PROJECTS_COUNT);
-
-  // target to trigger fetchMore
-  const scrollRef = useRef(null);
-
-  const fetchMoreProjects = React.useCallback(() => {
-    if (loading || searchText || initialProjects >= data.length) return;
-    setLoading(true);
-
-    // this happens almost instantly,
-    // so let's simulate the 'fetching' state with a very minute timeout
-    setTimeout(() => {
-      setInitialProjects((prev) => prev + INCREMENT_PROJECTS_BY);
-      setLoading(false);
-    }, 500);
-  }, [loading, searchText, initialProjects, data]);
+  const [selectedStatus, setSelectedStatus] = useState("all");
+  const [selectedLanguage, setSelectedLanguage] = useState("");
+  const [sortBy, setSortBy]                 = useState("stars");
+  const [isStuck, setIsStuck]               = useState(false);
 
   const searchParams = useSearchParams();
-  const params = new URLSearchParams(searchParams);
-  const pathname = usePathname();
-  const { replace } = useRouter();
+  const pathname     = usePathname();
+  const { replace }  = useRouter();
+  const heroRef      = useRef(null);
 
-  const projectHeroRef = useRef(null);
-
-  const observerOptions = React.useMemo(
-    () => ({
-      root: null,
-      rootMargin: "-80px",
-    }),
-    []
-  );
-
+  // Pick up ?search= from URL and clear it after 3s
   useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {
-      if (!entry.isIntersecting) {
-        setIsNormal(false);
-        setIsStuck(true);
-      } else {
-        setIsNormal(true);
-        setIsStuck(false);
-      }
-    }, observerOptions);
-
-    observer.observe(projectHeroRef.current);
-    // return () => observer.unobserve(projectHeroRef.current);
-    // unobserve is causing the depth error, but disconnect removes everything. Will figure it out
-    return () => observer.disconnect();
-  }, [isStuck, observerOptions]);
-
-  // get more projects on scroll
-  React.useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          fetchMoreProjects();
-        }
-      },
-      {
-        root: null,
-        threshold: 0.1,
-        rootMargin: "0px",
-      }
-    );
-
-    if (scrollRef.current) {
-      observer.observe(scrollRef.current);
-    }
-
-    return () => {
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-      observer.unobserve(scrollRef.current);
-    };
-  }, [fetchMoreProjects]);
-
-  const filterByLetter = React.useCallback(
-    (letter) => {
-      if (letter) {
-        setData(
-          props.repositories.filter((obj) =>
-            obj.repoName.toLowerCase().startsWith(letter.toLowerCase())
-          )
-        );
-      } else {
-        setData(props.repositories);
-      }
-    },
-    [props.repositories]
-  );
-
-  useEffect(() => {
-    setSearchText(searchParams.get("search"));
-    setTimeout(() => {
+    const q = searchParams.get("search");
+    if (!q) return;
+    setSearchText(q.toLowerCase());
+    const params = new URLSearchParams(searchParams);
+    const timer = setTimeout(() => {
       params.delete("search");
       replace(`${pathname}?${params.toString()}`);
     }, 3000);
-  }, [searchParams]);
+    return () => clearTimeout(timer);
+  }, [searchParams, pathname, replace]);
 
+  // Stick the A-Z filter when hero scrolls out of view
   useEffect(() => {
-    filterByLetter(selectedLetter);
-  }, [filterByLetter, selectedLetter]);
-
-  const debouncedSearch = debounce((searchQuery) => {
-    setSearchText(searchQuery.toLowerCase());
-
-    const filtered = props.repositories?.filter(
-      (projects) =>
-        projects?.repoName?.toLowerCase()?.includes(searchQuery) ||
-        projects.repoDescription.toLowerCase()?.includes(searchQuery) ||
-        projects.repoAuthor?.toLowerCase()?.includes(searchQuery)
+    if (!heroRef.current) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsStuck(!entry.isIntersecting),
+      { rootMargin: "-80px" }
     );
+    observer.observe(heroRef.current);
+    return () => observer.disconnect();
+  }, []);
 
-    if (filtered.length === 0) {
-      setSearchError(
-        "We couldn't find any Repository with that name. Consider contributing!"
+  // Unique languages derived from the full dataset
+  const languages = useMemo(
+    () =>
+      [...new Set(repositories.map((p) => p.computed?.language).filter(Boolean))].sort(),
+    [repositories]
+  );
+
+  // Apply all active filters then sort
+  const filteredData = useMemo(() => {
+    let result = repositories;
+
+    if (searchText) {
+      const q = searchText.toLowerCase();
+      result = result.filter(
+        (p) =>
+          p.repoName?.toLowerCase().includes(q) ||
+          p.repoDescription?.toLowerCase().includes(q) ||
+          p.repoAuthor?.toLowerCase().includes(q)
       );
-    } else {
-      setSearchError("");
     }
 
-    setData(filtered);
-  }, 400);
+    if (selectedLetter) {
+      result = result.filter((p) =>
+        p.repoName?.toLowerCase().startsWith(selectedLetter.toLowerCase())
+      );
+    }
 
-  const onSearch = (event) => {
-    const query = event.target.value;
-    debouncedSearch(query);
+    if (selectedStatus !== "all") {
+      result = result.filter((p) => p.computed?.status === selectedStatus);
+    }
+
+    if (selectedLanguage) {
+      result = result.filter((p) => p.computed?.language === selectedLanguage);
+    }
+
+    if (sortBy === "stars") {
+      result = [...result].sort(
+        (a, b) => (b.computed?.stars ?? 0) - (a.computed?.stars ?? 0)
+      );
+    }
+
+    return result;
+  }, [repositories, searchText, selectedLetter, selectedStatus, selectedLanguage, sortBy]);
+
+  const debouncedSearch = useMemo(
+    () => debounce((value) => setSearchText(value.toLowerCase()), 400),
+    []
+  );
+
+  const activeFilterCount = [
+    selectedStatus !== "all",
+    !!selectedLanguage,
+    !!selectedLetter,
+  ].filter(Boolean).length;
+
+  const clearFilters = () => {
+    setSelectedStatus("all");
+    setSelectedLanguage("");
+    setSelectedLetter("");
+    setSortBy("name");
   };
 
   return (
-    <Container overflowX="hidden" maxW="container.xl" centerContent top>
-      <Box ref={projectHeroRef} my={{ base: "3rem", md: "7rem" }}>
-        <ProjectsHero onChange={(event) => onSearch(event)} />
+    <Container overflowX="hidden" maxW="container.xl" centerContent>
+
+      {/* Hero + search */}
+      <Box ref={heroRef} my={{ base: "3rem", md: "7rem" }}>
+        <ProjectsHero onChange={(e) => debouncedSearch(e.target.value)} />
       </Box>
 
+      {/* Sticky A-Z filter */}
       <Box
-        height={isStuck && "80px"}
         position={isStuck ? "fixed" : "static"}
-        top={isStuck ? { lg: "25px", md: "17px", xl: "17px" } : "90px"}
-        zIndex={1}
-        display={{ base: "none", md: "flex" }}
+        top={isStuck ? 0 : undefined}
+        left={isStuck ? 0 : undefined}
+        right={isStuck ? 0 : undefined}
+        zIndex={10}
+        bg="white"
+        width="100%"
       >
         <AlphabetFilter
           selectedLetter={selectedLetter}
@@ -177,64 +154,110 @@ const ProjectsPage = (props) => {
         />
       </Box>
 
-      <Box
-        zIndex={1}
-        height={isStuck && "80px"}
-        position={isStuck ? "fixed" : "static"}
-        top={isStuck ? { lg: "25px", md: "17px", xl: "17px" } : "90px"}
-        display={{ base: "flex", md: "none" }}
+      {/* Layout spacer so content doesn't jump when filter becomes fixed */}
+      {isStuck && <Box height="56px" />}
+
+      {/* Filter bar */}
+      <Flex
+        gap={3}
+        flexWrap="wrap"
+        width="100%"
+        mt="2rem"
+        mb="1rem"
+        alignItems="center"
       >
-        <AlphabetFilter
-          selectedLetter={selectedLetter}
-          setSelectedLetter={setSelectedLetter}
-          isMobile="true"
-          isExpanded={isExpanded}
-          setIsExpanded={setIsExpanded}
-        />
-      </Box>
+        <Select
+          size="sm"
+          borderRadius="lg"
+          maxW="160px"
+          value={selectedStatus}
+          onChange={(e) => setSelectedStatus(e.target.value)}
+        >
+          {STATUS_OPTIONS.map((o) => (
+            <option key={o.value} value={o.value}>
+              {o.label}
+            </option>
+          ))}
+        </Select>
 
-      <SimpleGrid
-        columns={{ sm: 1, md: 2, lg: 3 }}
-        spacingX={{ sm: "0rem", md: "2rem" }}
-        mt="5rem"
-        mb="5rem"
-        spacingY={{ base: "2rem", md: "2rem" }}
-        w="100%"
-      >
-        {data.slice(0, initialProjects).map((project, index) => (
-          <ProjectCard key={index} project={project} />
-        ))}
-      </SimpleGrid>
+        <Select
+          size="sm"
+          borderRadius="lg"
+          maxW="160px"
+          value={selectedLanguage}
+          onChange={(e) => setSelectedLanguage(e.target.value)}
+        >
+          <option value="">All languages</option>
+          {languages.map((lang) => (
+            <option key={lang} value={lang}>
+              {lang}
+            </option>
+          ))}
+        </Select>
 
-      <Box ref={scrollRef} />
+        <Select
+          size="sm"
+          borderRadius="lg"
+          maxW="140px"
+          value={sortBy}
+          onChange={(e) => setSortBy(e.target.value)}
+        >
+          {SORT_OPTIONS.map((o) => (
+            <option key={o.value} value={o.value}>
+              {o.label}
+            </option>
+          ))}
+        </Select>
 
-      {loading && initialProjects < data.length ? (
-        <Center height="35vh">
-          <Spinner color="#008463" />
-        </Center>
-      ) : null}
-
-      {initialProjects >= data.length && !searchError ? (
-        <Center height="10vh" mt="-3em" py="1.4em">
-          <Text
-            fontSize={{ lg: "20px", md: "16px", base: "16px" }}
-            fontWeight="normal"
+        {activeFilterCount > 0 && (
+          <Button
+            size="sm"
+            variant="ghost"
+            color="gray.500"
+            onClick={clearFilters}
           >
-            You have reached the end, Idan!
-          </Text>
-        </Center>
-      ) : null}
+            Clear filters
+          </Button>
+        )}
 
-      {searchError ? (
-        <Center height="20vh">
-          <Text
-            fontSize={{ lg: "20px", md: "16px", base: "16px" }}
-            fontWeight="normal"
-          >
-            {searchError}
+        <Text ml="auto" fontSize="sm" color="gray.500">
+          {filteredData.length} project{filteredData.length !== 1 ? "s" : ""}
+        </Text>
+      </Flex>
+
+      {/* Results */}
+      {filteredData.length === 0 ? (
+        <Center height="30vh" flexDirection="column" gap={3}>
+          <Text fontSize="lg" color="gray.500" textAlign="center">
+            No projects match your filters.
           </Text>
+          <Button
+            size="sm"
+            variant="outline"
+            borderColor="#008463"
+            color="#008463"
+            onClick={clearFilters}
+          >
+            Clear filters
+          </Button>
         </Center>
-      ) : null}
+      ) : (
+        <>
+          <SimpleGrid
+            columns={{ sm: 1, md: 2, lg: 3 }}
+            spacingX={{ sm: "0rem", md: "2rem" }}
+            spacingY={{ base: "2rem", md: "2rem" }}
+            w="100%"
+            mt="1rem"
+            mb="3rem"
+          >
+            {filteredData.map((project) => (
+              <ProjectCard key={project.repoLink} project={project} />
+            ))}
+          </SimpleGrid>
+
+        </>
+      )}
     </Container>
   );
 };

@@ -20,7 +20,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import propTypes from "prop-types";
 
-export const Home = ({ data, projects }) => {
+export const Home = ({ data, featuredProjects }) => {
   const splideRef = useRef();
 
   const handlePrevClick = () => {
@@ -57,11 +57,8 @@ export const Home = ({ data, projects }) => {
             my="1rem"
             maxWidth="1385px"
           >
-            {[25, 55, 70, 91, 154, 200].map((index) => (
-              <ProjectCard
-                key={projects[index].repoLink}
-                project={projects[index]}
-              />
+            {featuredProjects.map((project) => (
+              <ProjectCard key={project.repoLink} project={project} />
             ))}
           </SimpleGrid>
         </Container>
