@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect, useRef } from "react";
+import { useState, useMemo, useEffect, useRef, useTransition } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import debounce from "lodash.debounce";
 import {
@@ -38,6 +38,7 @@ const ProjectsPage = ({ repositories }) => {
   const [selectedLanguage, setSelectedLanguage] = useState("");
   const [sortBy, setSortBy]                 = useState("stars");
   const [isStuck, setIsStuck]               = useState(false);
+  const [isPending, startTransition]        = useTransition();
 
   const searchParams = useSearchParams();
   const pathname     = usePathname();
@@ -113,7 +114,7 @@ const ProjectsPage = ({ repositories }) => {
   }, [repositories, searchText, selectedLetter, selectedStatus, selectedLanguage, sortBy]);
 
   const debouncedSearch = useMemo(
-    () => debounce((value) => setSearchText(value.toLowerCase()), 400),
+    () => debounce((value) => startTransition(() => setSearchText(value.toLowerCase())), 400),
     []
   );
 
@@ -124,10 +125,12 @@ const ProjectsPage = ({ repositories }) => {
   ].filter(Boolean).length;
 
   const clearFilters = () => {
-    setSelectedStatus("all");
-    setSelectedLanguage("");
-    setSelectedLetter("");
-    setSortBy("name");
+    startTransition(() => {
+      setSelectedStatus("all");
+      setSelectedLanguage("");
+      setSelectedLetter("");
+      setSortBy("stars");
+    });
   };
 
   return (
@@ -150,7 +153,7 @@ const ProjectsPage = ({ repositories }) => {
       >
         <AlphabetFilter
           selectedLetter={selectedLetter}
-          setSelectedLetter={setSelectedLetter}
+          setSelectedLetter={(l) => startTransition(() => setSelectedLetter(l))}
         />
       </Box>
 
@@ -171,7 +174,7 @@ const ProjectsPage = ({ repositories }) => {
           borderRadius="lg"
           maxW="160px"
           value={selectedStatus}
-          onChange={(e) => setSelectedStatus(e.target.value)}
+          onChange={(e) => startTransition(() => setSelectedStatus(e.target.value))}
         >
           {STATUS_OPTIONS.map((o) => (
             <option key={o.value} value={o.value}>
@@ -185,7 +188,7 @@ const ProjectsPage = ({ repositories }) => {
           borderRadius="lg"
           maxW="160px"
           value={selectedLanguage}
-          onChange={(e) => setSelectedLanguage(e.target.value)}
+          onChange={(e) => startTransition(() => setSelectedLanguage(e.target.value))}
         >
           <option value="">All languages</option>
           {languages.map((lang) => (
@@ -200,7 +203,7 @@ const ProjectsPage = ({ repositories }) => {
           borderRadius="lg"
           maxW="140px"
           value={sortBy}
-          onChange={(e) => setSortBy(e.target.value)}
+          onChange={(e) => startTransition(() => setSortBy(e.target.value))}
         >
           {SORT_OPTIONS.map((o) => (
             <option key={o.value} value={o.value}>
@@ -250,6 +253,8 @@ const ProjectsPage = ({ repositories }) => {
             w="100%"
             mt="1rem"
             mb="3rem"
+            opacity={isPending ? 0.5 : 1}
+            transition="opacity 0.2s"
           >
             {filteredData.map((project) => (
               <ProjectCard key={project.repoLink} project={project} />
