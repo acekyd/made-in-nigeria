@@ -122,7 +122,7 @@ export const Home = ({ data, featuredProjects }) => {
                 title={title}
                 excerpt={excerpt}
                 image={coverImage}
-                key={`${slug}-${crypto.randomUUID()}`}
+                key={slug}
               />
             );
           })}
@@ -137,7 +137,7 @@ export const Home = ({ data, featuredProjects }) => {
           >
             {data.slice(0, 3)?.map(({ slug, title, excerpt, coverImage }) => {
               return (
-                <SplideSlide key={`${slug}-${crypto.randomUUID()}`}>
+                <SplideSlide key={slug}>
                   <ArticleCard
                     slug={slug}
                     title={title}
@@ -171,4 +171,5 @@ Home.propTypes = {
       coverImage: propTypes.string.isRequired,
     })
   ),
+  featuredProjects: propTypes.arrayOf(propTypes.object),
 };

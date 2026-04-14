@@ -33,6 +33,7 @@ const SORT_OPTIONS = [
 
 const ProjectsPage = ({ repositories }) => {
   const [searchText, setSearchText]         = useState("");
+  const [searchKey, setSearchKey]           = useState(0);
   const [selectedLetter, setSelectedLetter] = useState("");
   const [selectedStatus, setSelectedStatus] = useState("all");
   const [selectedLanguage, setSelectedLanguage] = useState("");
@@ -122,10 +123,13 @@ const ProjectsPage = ({ repositories }) => {
     selectedStatus !== "all",
     !!selectedLanguage,
     !!selectedLetter,
+    !!searchText,
   ].filter(Boolean).length;
 
   const clearFilters = () => {
+    setSearchKey((k) => k + 1);
     startTransition(() => {
+      setSearchText("");
       setSelectedStatus("all");
       setSelectedLanguage("");
       setSelectedLetter("");
@@ -138,7 +142,7 @@ const ProjectsPage = ({ repositories }) => {
 
       {/* Hero + search */}
       <Box ref={heroRef} my={{ base: "3rem", md: "7rem" }}>
-        <ProjectsHero onChange={(e) => debouncedSearch(e.target.value)} />
+        <ProjectsHero key={searchKey} onChange={(e) => debouncedSearch(e.target.value)} />
       </Box>
 
       {/* Sticky A-Z filter */}
@@ -245,23 +249,20 @@ const ProjectsPage = ({ repositories }) => {
           </Button>
         </Center>
       ) : (
-        <>
-          <SimpleGrid
-            columns={{ sm: 1, md: 2, lg: 3 }}
-            spacingX={{ sm: "0rem", md: "2rem" }}
-            spacingY={{ base: "2rem", md: "2rem" }}
-            w="100%"
-            mt="1rem"
-            mb="3rem"
-            opacity={isPending ? 0.5 : 1}
-            transition="opacity 0.2s"
-          >
-            {filteredData.map((project) => (
-              <ProjectCard key={project.repoLink} project={project} />
-            ))}
-          </SimpleGrid>
-
-        </>
+        <SimpleGrid
+          columns={{ sm: 1, md: 2, lg: 3 }}
+          spacingX={{ sm: "0rem", md: "2rem" }}
+          spacingY={{ base: "2rem", md: "2rem" }}
+          w="100%"
+          mt="1rem"
+          mb="3rem"
+          opacity={isPending ? 0.5 : 1}
+          transition="opacity 0.2s"
+        >
+          {filteredData.map((project) => (
+            <ProjectCard key={project.repoLink} project={project} />
+          ))}
+        </SimpleGrid>
       )}
     </Container>
   );
