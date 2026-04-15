@@ -98,7 +98,7 @@ function ProjectCard(props) {
         throw new Error("Can't access the clipboard. Check your browser permissions.");
       }
     } catch (error) {
-      alert("Error copying the project url", error);
+      addToast(`Error copying the project url: ${error.message}`);
     }
   };
 

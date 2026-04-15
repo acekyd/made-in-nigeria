@@ -171,5 +171,5 @@ Home.propTypes = {
       coverImage: propTypes.string.isRequired,
     })
   ),
-  featuredProjects: propTypes.arrayOf(propTypes.object),
+  featuredProjects: propTypes.arrayOf(propTypes.object).isRequired,
 };

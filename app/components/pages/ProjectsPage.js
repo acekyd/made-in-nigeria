@@ -54,7 +54,8 @@ const ProjectsPage = ({ repositories }) => {
     const params = new URLSearchParams(searchParams);
     const timer = setTimeout(() => {
       params.delete("search");
-      replace(`${pathname}?${params.toString()}`);
+      const qs = params.toString();
+      replace(qs ? `${pathname}?${qs}` : pathname);
     }, 3000);
     return () => clearTimeout(timer);
   }, [searchParams, pathname, replace]);
@@ -109,6 +110,10 @@ const ProjectsPage = ({ repositories }) => {
       result = [...result].sort(
         (a, b) => (b.computed?.stars ?? 0) - (a.computed?.stars ?? 0)
       );
+    } else {
+      result = [...result].sort((a, b) =>
+        (a.repoName ?? "").localeCompare(b.repoName ?? "")
+      );
     }
 
     return result;
@@ -118,6 +123,8 @@ const ProjectsPage = ({ repositories }) => {
     () => debounce((value) => startTransition(() => setSearchText(value.toLowerCase())), 400),
     []
   );
+
+  useEffect(() => () => debouncedSearch.cancel(), [debouncedSearch]);
 
   const activeFilterCount = [
     selectedStatus !== "all",
