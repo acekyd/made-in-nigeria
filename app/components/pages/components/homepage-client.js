@@ -1,5 +1,5 @@
 "use client";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import {
   Box,
   Text,
@@ -20,8 +20,23 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import propTypes from "prop-types";
 
-export const Home = ({ data, featuredProjects }) => {
+function pickRandom(arr, count) {
+  const shuffled = [...arr];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled.slice(0, count);
+}
+
+export const Home = ({ data, activeProjects }) => {
   const splideRef = useRef();
+  // Server renders the first 6 deterministically; client randomizes after hydration.
+  const [featuredProjects, setFeaturedProjects] = useState(() => activeProjects.slice(0, 6));
+
+  useEffect(() => {
+    setFeaturedProjects(pickRandom(activeProjects, 6));
+  }, [activeProjects]);
 
   const handlePrevClick = () => {
     splideRef.current.splide.go("<");
@@ -171,5 +186,5 @@ Home.propTypes = {
       coverImage: propTypes.string.isRequired,
     })
   ),
-  featuredProjects: propTypes.arrayOf(propTypes.object).isRequired,
+  activeProjects: propTypes.arrayOf(propTypes.object).isRequired,
 };

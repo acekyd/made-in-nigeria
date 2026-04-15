@@ -121,7 +121,7 @@ const ProjectsPage = ({ repositories }) => {
 
   const debouncedSearch = useMemo(
     () => debounce((value) => startTransition(() => setSearchText(value.toLowerCase())), 400),
-    []
+    [startTransition]
   );
 
   useEffect(() => () => debouncedSearch.cancel(), [debouncedSearch]);

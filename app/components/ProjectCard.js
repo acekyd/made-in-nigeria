@@ -63,19 +63,19 @@ function ProjectCard(props) {
     provider: "www.madeinnigeria.dev",
   };
 
-  function addToast(message) {
+  function addToast(message, status = "success") {
     if (toast.isActive(toastIdRef.current)) {
       toast.close(toastIdRef.current);
     }
     toastIdRef.current = toast({
       id: crypto.randomUUID(),
-      status: "success",
+      status,
       description: message ?? "Project link copied",
       variant: "top-accent",
       isClosable: true,
       duration: 3000,
       position: "top",
-      icon: "🇳🇬",
+      ...(status === "success" && { icon: "🇳🇬" }),
     });
   }
 
@@ -98,7 +98,7 @@ function ProjectCard(props) {
         throw new Error("Can't access the clipboard. Check your browser permissions.");
       }
     } catch (error) {
-      addToast(`Error copying the project url: ${error.message}`);
+      addToast(`Error copying: ${error instanceof Error ? error.message : String(error)}`, "error");
     }
   };
 
