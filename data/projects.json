@@ -2678,6 +2678,17 @@
     ]
   },
   {
+    "name": "Traffik",
+    "repoUrl": "https://github.com/ti-oluwa/traffik",
+    "description": "Distributed rate limiting for FastAPI/Starlette applications.",
+    "authors": [
+      {
+        "name": "@ti_oluwa_",
+        "link": "https://twitter.com/ti_oluwa_"
+      }
+    ],
+  },
+  {
     "name": "TransformersPHP",
     "repoUrl": "https://github.com/CodeWithKyrian/transformers-php",
     "description": "A toolkit for PHP developers to run state-of-the-art pretrained machine-learning models locally in PHP.",
