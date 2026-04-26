@@ -208,6 +208,7 @@
 - [Newspaperjs](https://github.com/flickz/newspaperjs) - Nodejs: News extraction, scraping and article 
 parsing module. **By [@flickzcode](https://twitter.com/flickzcode)**
 - [Nexios](https://github.com/nexios-labs/Nexios) - A high-performance async Python web framework for building modern applications with simplicity and speed on per with fastapi. **By [@mrdunamix](https://x.com/mrdunamix)**
+- [Nexus UI](https://github.com/victorcodess/nexus-ui) - React component library of composable, copy-paste primitives for building AI interfaces (chat, voice, agents). **By [@victorcodess](https://x.com/victorwill__)**
 - [Ngyn.rs](https://github.com/ngyn-rs/ngyn) - An opinionated rust framework for building scalable web servers. **By [@iamelcharitas](https://twitter.com/iamelcharitas)**
 - [Nigerian states api](https://github.com/seyi-adeleke/Nigerian-states-api) - An api for basic information about all 36 states in Nigeria. **By [@seyi__adeleke](https://twitter.com/seyi__adeleke)**
 - [Nimble](https://github.com/neoighodaro/nimble) - Fast PHP framework made with very loose optional components. **By [@neoighodaro](https://twitter.com/neoighodaro)**
