@@ -11,6 +11,7 @@
 
 ## <a name="A"> </a>A
 
+- [another](https://github.com/Zfinix/another) - A desktop app for mirroring and controlling Android devices over USB. Built with Tauri, React, and Rust. **By [@chiziaruhoma](https://chizi.app)**
 - [Adonis Auth Scaffold](https://github.com/creatrixity/adonis-auth-scaffold) - Seamlessly scaffold a ready-to-use authentication system for your Adonis app with one neat command. **By [@creatrixity](https://twitter.com/creatrixity)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [Adonis Hexa](https://github.com/creatrixity/adonis-hexa) - An opinionated software development framework for maintaining a scalable Adonis application. **By [@creatrixity](https://twitter.com/creatrixity)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [Adonis Queue](https://github.com/stitchng/adonis-queue) - An addon/plugin package to provide driver-based job queueing services in AdonisJS 4.0+. **By [@isocroft](https://twitter.com/isocroft)**
