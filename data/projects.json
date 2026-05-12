@@ -1,5 +1,16 @@
 [
   {
+    "name": "another",
+    "repoUrl": "https://github.com/Zfinix/another",
+    "description": "A desktop app for mirroring and controlling Android devices over USB. Built with Tauri, React, and Rust.",
+    "authors": [
+      {
+        "name": "@chiziaruhoma",
+        "link": "https://chizi.app"
+      }
+    ]
+  },
+  {
     "name": "Adonis Auth Scaffold",
     "repoUrl": "https://github.com/creatrixity/adonis-auth-scaffold",
     "description": "Seamlessly scaffold a ready-to-use authentication system for your Adonis app with one neat command.",
