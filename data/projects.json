@@ -3008,5 +3008,16 @@
         "link": "https://twitter.com/thesegunadebayo"
       }
     ]
+  },
+  {
+    "name": "Corelens",
+    "repoUrl": "https://github.com/Varsilias/corelens",
+    "description": "Opinionated, high-performance observability SDK for Node.js application that provides logs, metrics, and traces with minimal setup, built with first class support for OpenTelemetry API specification",
+    "authors": [
+      {
+        "name": "@varsilias",
+        "link": "https://x.com/varsilias"
+      }
+    ]
   }
 ]
