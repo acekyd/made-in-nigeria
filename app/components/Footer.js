@@ -1,10 +1,8 @@
 "use client";
 
-import { Box, Text, Flex, Link, Image } from "@chakra-ui/react";
-import React from "react";
-import logo from "../../public/images/logo.svg";
+import { Box, Flex, Image, Link, Text } from "@chakra-ui/react";
 import github from "../../public/images/github.svg";
-import mail from "../../public/images/mail.svg";
+import logo from "../../public/images/logo.svg";
 import twitter from "../../public/images/twitter.svg";
 
 const Footer = () => {
@@ -104,7 +102,7 @@ const Footer = () => {
                 Contributors
               </Link>
               <Link
-                href="https://github.com/acekyd/made-in-nigeria/blob/master/contributing.md"
+                href="https://github.com/acekyd/made-in-nigeria/blob/master/CONTRIBUTING.MD"
                 isExternal
               >
                 Make a Submission

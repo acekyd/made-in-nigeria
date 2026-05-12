@@ -1,26 +1,26 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import ExploreProjects from "@/app/components/Buttons/ExploreProjects";
 import {
   Box,
-  Flex,
-  Image,
   Container,
-  Link,
-  Text,
-  useDisclosure,
-  Stack,
   Drawer,
   DrawerBody,
-  DrawerOverlay,
-  DrawerContent,
   DrawerCloseButton,
+  DrawerContent,
   DrawerHeader,
+  DrawerOverlay,
+  Flex,
+  Image,
+  Link,
+  Stack,
+  Text,
+  useDisclosure,
 } from "@chakra-ui/react";
-import ColoredLogo from "../../public/images/colored-logo.png";
-import SearchProject from "./SearchProject";
-import MenuIcon from "../../public/images/menu.png";
 import { usePathname, useRouter } from "next/navigation";
-import ExploreProjects from "@/app/components/Buttons/ExploreProjects";
+import { useEffect, useRef, useState } from "react";
+import ColoredLogo from "../../public/images/colored-logo.png";
+import MenuIcon from "../../public/images/menu.png";
+import SearchProject from "./SearchProject";
 
 const NAV_ITEMS = [
   {
@@ -33,7 +33,7 @@ const NAV_ITEMS = [
   {
     id: crypto.randomUUID(),
     name: "Make a Submission",
-    path: "https://github.com/acekyd/made-in-nigeria/blob/master/contributing.md",
+    path: "https://github.com/acekyd/made-in-nigeria/blob/master/CONTRIBUTING.MD",
     external: true,
   },
   {
@@ -59,7 +59,7 @@ const NavBar = () => {
     router.replace(
       `/projects?search=${encodeURIComponent(searchProjectsText)}`,
       undefined,
-      { shallow: true }
+      { shallow: true },
     );
   };
 
@@ -194,7 +194,7 @@ const NavBar = () => {
                   <Link href="/projects">Projects</Link>
                   <Link href="/about">About</Link>
                   <Link
-                    href="https://github.com/acekyd/made-in-nigeria/blob/master/contributing.md"
+                    href="https://github.com/acekyd/made-in-nigeria/blob/master/CONTRIBUTING.MD"
                     isExternal
                   >
                     Make a Submission
