@@ -161,6 +161,18 @@
     "manualStatus": "inactive"
   },
   {
+    "name": "anv",
+    "repoUrl": "https://github.com/slick-lab/.anv",
+    "description": "A CLI tool that kills `.env` files. Secrets stay encrypted, master key in system keyring, zero dependencies.",
+    "authors": [
+      {
+        "name": "@zen_drx",
+        "link": "https://x.com/zen_drx"
+      }
+    ],
+    "manualStatus": "active"
+  },
+  {
     "name": "AppFramer",
     "repoUrl": "https://github.com/olucurious/AppFramer",
     "description": "AppFramer helps to put your app screenshots in beautiful device frames with annotations by running a simple command.",
@@ -2642,6 +2654,18 @@
         "link": "https://twitter.com/bahdcoder"
       }
     ]
+  },
+  {
+    "name": "telegem",
+    "repoUrl": "https://github.com/slick-lab/telegem",
+    "description": "An async-first, modern Telegram bot framework for Ruby with full API coverage, session management, and easy plugin system.",
+    "authors": [
+      {
+        "name": "@zen_drx",
+        "link": "https://x.com/zen_drx"
+      }
+    ],
+    "manualStatus": "active"
   },
   {
     "name": "testkit",
