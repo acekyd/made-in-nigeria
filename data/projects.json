@@ -1599,6 +1599,17 @@
     "manualStatus": "inactive"
   },
   {
+    "name": "Marble",
+    "repoUrl": "https://github.com/usemarble/marble",
+    "description": "A Simple headless CMS for publishing articles.",
+    "authors": [
+      {
+        "name": "@taqh",
+        "link": "https://twitter.com/taqh"
+      }
+    ]
+  },
+  {
     "name": "Math Alarm Clock",
     "repoUrl": "https://github.com/t-regbs/MathAlarm",
     "description": "Android Alarm app in which you solve math problems of varying difficulty to dismiss alarms. Built with jetpack compose.",
