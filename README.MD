@@ -63,6 +63,7 @@
 - [Composer-git-hook](https://github.com/BrainMaestro/composer-git-hooks) - Easily manage git hooks in your composer config. **By [@BrainMaestro](https://twitter.com/BrainMaestro)**
 - [CountryPickerView](https://github.com/kizitonwose/CountryPickerView) - A simple, customizable view for efficiently collecting country information in iOS apps. **By [@kizitonwose](https://github.com/kizitonwose/CountryPickerView)**
 - [csv49](https://github.com/stigwue/csv49) - Comma Separated Values For Nigeria. **By [@stigwue](https://github.com/stigwue)**
+- [Corelens](https://github.com/Varsilias/corelens) - Opinionated, high-performance observability SDK for Node.js application that provides logs, metrics, and traces with minimal setup and first class support for OpenTelemetry API specification **By [@varsilias](https://x.com/varsilias)**
 
 ## <a name="D"> </a>D
 
