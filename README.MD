@@ -221,6 +221,7 @@ parsing module. **By [@flickzcode](https://twitter.com/flickzcode)**
 
 ## <a name="O"> </a>O
 
+- [OmniCoreAgent](https://github.com/omnirexflora-labs/omnicoreagent) - Open production agent harness for application builders, providing a Python runtime for model loops, tools, MCP integration, memory, workspace files, guardrails, subagents, background tasks, and serving APIs. **By [@abiorhmangana](https://x.com/abiorhmangana)**
 - [Omnipay 2Checkout](https://github.com/collizo4sky/omnipay-2checkout) - 2Checkout driver for the Omnipay PHP payment processing library. **By [@w3guy](https://twitter.com/w3guy)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [OpenWriter](https://github.com/ireade/openwriter) - A free theme for Ghost. **By [@ireaderinokun](https://twitter.com/ireaderinokun)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [Orchestra](https://github.com/stephenafamo/orchestra) - Orchestra is a library to manage long running go processes. **By [@stephenafamo](https://twitter.com/stephenafamo)**
