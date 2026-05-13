@@ -185,6 +185,7 @@
 - [Magic Grid](https://github.com/e-oj/Magic-Grid) - A simple, lightweight Javascript library for dynamic grid layouts. **By [@e-oj](https://e-oj.com)**
 - [Markdown Badges](https://github.com/Ileriayo/markdown-badges) - Badges for your personal developer branding, profile, and projects. **By [@ileriayooo](https://twitter.com/ileriayooo)**
 - [MarkedIt](https://github.com/christiannwamba/markedit) - Simple markdown editor widget. **By [@codebeast](https://twitter.com/codebeast)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
+- [Marble](https://github.com/usemarble/marble) - A Simple headless CMS for publishing articles. **By [@taqh](https://twitter.com/retaqib)**
 - [Math Alarm Clock](https://github.com/t-regbs/MathAlarm) - Android Alarm app in which you solve math problems of varying difficulty to dismiss alarms. Built with jetpack compose. **By [@t-regbs](https://twitter.com/timiaregbs)**
 - [MediumUnooficialSDK](https://github.com/KingsMentor/medium-android-sdk-unofficial) - Unofficial implementation of medium API for android. Support Medium Oauth Sign in, retrieve users' post, make publications, and other medium supported features. **By [@kingsmentor](https://twitter.com/kingsmentor)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [Meethub](https://github.com/iyanuashiri/meethub) - A web application for organizing meetups. **By [@iyanuashiri](https://github.com/iyanuashiri)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
