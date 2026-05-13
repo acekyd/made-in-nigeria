@@ -1933,6 +1933,17 @@
     ]
   },
   {
+    "name": "OmniCoreAgent",
+    "repoUrl": "https://github.com/omnirexflora-labs/omnicoreagent",
+    "description": "Open production agent harness for application builders, providing a Python runtime for model loops, tools, MCP integration, memory, workspace files, guardrails, subagents, background tasks, and serving APIs.",
+    "authors": [
+      {
+        "name": "@abiorhmangana",
+        "link": "https://x.com/abiorhmangana"
+      }
+    ]
+  },
+  {
     "name": "Omnipay 2Checkout",
     "repoUrl": "https://github.com/collizo4sky/omnipay-2checkout",
     "description": "2Checkout driver for the Omnipay PHP payment processing library.",
