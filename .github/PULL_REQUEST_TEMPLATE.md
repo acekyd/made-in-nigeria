@@ -1,45 +1,20 @@
 ## What does this PR do?
 
-<!-- Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change. -->
+<!-- Brief description of the changes -->
 
-This PR [Fixes # (place issue number here without bracket)]
+## For project submissions
 
-<!-- Please provide a screenshots or upload a video for visual changes to speed up reviews -->
+If you're adding a new project, please confirm:
 
-## Type of change
-
-<!-- Please mark the relevant points by using [x] -->
-
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] Chore (refactoring code, technical debt, workflow improvements)
-- [ ] Enhancement (small improvements)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
-
-## How should this be tested?
-
-<!-- Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. -->
-
-- Test A
-- Test B
+- [ ] **Made in Nigeria** — created/maintained by a Nigerian developer
+- [ ] **Open source** — public repository with clear license
+- [ ] **Global use** — useful beyond just a Nigerian audience
+- **Stars** — at least 20 GitHub stars <enter your number of stars>
+- Author link: <!-- e.g., https://twitter.com/yourhandle or personal site -->
 
 ## Checklist
 
-<!-- We're starting to get more and more contributions. Please help us making this efficient for all of us and go through this checklist. Please tick off what you did  -->
-
-### Required
-
-- [ ] Filled out the "How to test" section in this PR
-- [ ] Self-reviewed my own code
-- [ ] Commented on my code in hard-to-understand bits
-- [ ] Ran `npm run build`
-- [ ] Checked for warnings, there are none
-- [ ] Removed all `console.logs`
-- [ ] Merged the latest changes from main onto my branch with `git pull origin main`
-- [ ] My changes don't cause any responsiveness issues
-
-### Appreciated
-
-- [ ] If a UI change was made: Added a screen recording or screenshots to this PR
-- [ ] Updated the Docs if changes were necessary
+- [ ] Self-reviewed my code
+- [ ] Ran `npm run build` (no errors)
+- [ ] Added screenshots/video (if UI changes)
+- [ ] Updated documentation (if needed)
