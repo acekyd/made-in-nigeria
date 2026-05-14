@@ -11,6 +11,17 @@
     ]
   },
   {
+    "name": "Appshots",
+    "repoUrl": "https://github.com/oyeolamilekan/appshots",
+    "description": "A simple app that enables developers to generate app store screenshots",
+    "authors": [
+      {
+        "name": "@magicnull",
+        "link": "https://twitter.com/magicnull"
+      }
+    ]
+  },
+  {
     "name": "Adonis Auth Scaffold",
     "repoUrl": "https://github.com/creatrixity/adonis-auth-scaffold",
     "description": "Seamlessly scaffold a ready-to-use authentication system for your Adonis app with one neat command.",
