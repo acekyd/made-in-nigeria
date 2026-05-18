@@ -70,6 +70,7 @@
 
 - [danfojs](https://github.com/javascriptdata/danfojs) - Danfo.js is an open source, JavaScript library providing high performance, intuitive, and easy to use data structures for manipulating and processing structured data. **By [@risingodegua](https://twitter.com/risingodegua), [@steveoni](https://twitter.com/steveoni)**
 - [Datasist](https://github.com/risenW/datasist) - Python library for easy data analysis, visualization, exploration and modeling. **By [@risingodegua](https://twitter.com/risingodegua)**
+- [DB Mover](https://github.com/JC-Coder/db-mover) - An open-source tool for simplifying database migrations across providers without manual dump handling or connection string wrestling. **By [@jc_coder1](https://twitter.com/jc_coder1)**
 - [DevDb](https://github.com/damms005/devdb-vscode) - A zero-config VS Code extension that auto-loads your database and displays the data right inside VS Code. **By [@_damms005](https://twitter.com/_damms005)**
 - [DevOps-Toolkit](https://github.com/umegbewe/devops-toolkit) - Easily and quickly setup your Cloud & DevOps development environment. **By [@0xGreat](https://twitter.com/0xGreat)**
 - [Display Medium Posts](https://github.com/acekyd/display-medium-posts) - Display Medium Posts is a WordPress plugin that allows users display posts from medium.com on any part of their website. Available on the WordPress store. **By [@acekyd](https://twitter.com/ace_kyd)**
