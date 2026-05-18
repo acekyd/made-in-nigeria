@@ -576,6 +576,17 @@
     ]
   },
   {
+    "name": "DB Mover",
+    "repoUrl": "https://github.com/JC-Coder/db-mover",
+    "description": "An open-source tool for simplifying database migrations across providers without manual dump handling or connection string wrestling.",
+    "authors": [
+      {
+        "name": "@jc_coder1",
+        "link": "https://twitter.com/jc_coder1"
+      }
+    ]
+  },
+  {
     "name": "DevDb",
     "repoUrl": "https://github.com/damms005/devdb-vscode",
     "description": "A zero-config VS Code extension that auto-loads your database and displays the data right inside VS Code.",
