@@ -2688,6 +2688,17 @@
     "manualStatus": "inactive"
   },
   {
+    "name": "Tablesmit",
+    "repoUrl": "https://github.com/Olayiwola72/tablesmit",
+    "description": "A minimalist, open source table builder for analytical writing. Build clean structured tables with full control over headers, column types, and formatting. Supports drag-to-resize, merge cells, smart clipboard paste from Excel, and export to PDF, Excel, CSV, and PNG. No signup required.",
+    "authors": [
+      {
+        "name": "@OlayiwolaAkinn1",
+        "link": "https://x.com/OlayiwolaAkinn1"
+      }
+    ]
+  },
+  {
     "name": "TenseiJS",
     "repoUrl": "https://github.com/tenseijs/tensei",
     "description": "Content management and distribution with a touch of elegance.",
