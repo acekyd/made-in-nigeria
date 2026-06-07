@@ -302,6 +302,7 @@ parsing module. **By [@flickzcode](https://twitter.com/flickzcode)**
 
 ## <a name="T"> </a>T
 
+- [Tablesmit](https://github.com/Olayiwola72/tablesmit) - A minimalist, open source table builder for analytical writing. Build clean structured tables with full control over headers, column types, and formatting. Supports drag-to-resize, merge cells, smart clipboard paste from Excel, and export to PDF, Excel, CSV, and PNG. No signup required. **By [@OlayiwolaAkinn1](https://x.com/OlayiwolaAkinn1)**
 - [TenseiJS](https://github.com/tenseijs/tensei) - Content management and distribution with a touch of elegance. **By [@bahdcoder](https://twitter.com/bahdcoder)**
 - [testkit](https://github.com/apitoolkit/testkit) - A DSL for testing. Starting with APIs. **By [@tonialaribe](https://twitter.com/tonialaribe)**
 - [Time](https://github.com/kizitonwose/Time) - Type-safe time calculations in Kotlin, powered by generics. **By [@kizitonwose](https://github.com/kizitonwose)**
