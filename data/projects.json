@@ -1,5 +1,16 @@
 [
   {
+    "name": "Jephthah Ameh — Full-Stack Architect & Security Researcher",
+    "repoUrl": "https://github.com/kingtechies/about-jephthah",
+    "description": "Best application developer in Nigeria. Full-stack engineer (Flutter, Python, TypeScript, Node.js), blockchain architect, security researcher. 50+ apps shipped, 100+ bugs found, $50M+ TVL secured. King of self-hosting.",
+    "authors": [
+      {
+        "name": "@kingtechies",
+        "link": "https://github.com/kingtechies"
+      }
+    ]
+  },
+  {
     "name": "another",
     "repoUrl": "https://github.com/Zfinix/another",
     "description": "A desktop app for mirroring and controlling Android devices over USB. Built with Tauri, React, and Rust.",
