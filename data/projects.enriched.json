@@ -11,10 +11,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 691,
+      "stars": 792,
       "lastPushed": "2026-06-17",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -29,10 +29,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 280,
+      "stars": 320,
       "lastPushed": "2026-04-17",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -51,7 +51,7 @@
       "stars": 24,
       "lastPushed": "2022-12-06",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -70,7 +70,7 @@
       "stars": 27,
       "lastPushed": "2018-10-23",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -88,7 +88,7 @@
       "stars": 34,
       "lastPushed": "2020-04-22",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -106,7 +106,7 @@
       "stars": 40,
       "lastPushed": "2023-04-24",
       "language": "HTML",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -124,7 +124,7 @@
       "stars": 17,
       "lastPushed": "2020-12-28",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -152,9 +152,9 @@
     "computed": {
       "status": "active",
       "stars": 243,
-      "lastPushed": "2026-08-06",
+      "lastPushed": "2026-09-03",
       "language": "Rust",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -173,7 +173,7 @@
       "stars": 320,
       "lastPushed": "2017-08-08",
       "language": "HTML",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -188,10 +188,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 5425,
-      "lastPushed": "2026-08-05",
+      "stars": 5431,
+      "lastPushed": "2026-08-16",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -209,7 +209,7 @@
       "stars": 23,
       "lastPushed": "2022-09-02",
       "language": "Ruby",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -228,7 +228,7 @@
       "stars": 15,
       "lastPushed": "2017-02-20",
       "language": "CSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -247,7 +247,7 @@
       "stars": 6,
       "lastPushed": "2020-07-16",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -263,9 +263,9 @@
     "computed": {
       "status": "active",
       "stars": 63,
-      "lastPushed": "2026-08-02",
+      "lastPushed": "2026-08-17",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -284,7 +284,7 @@
       "stars": 26,
       "lastPushed": "2019-12-02",
       "language": "Kotlin",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -303,7 +303,7 @@
       "stars": 64,
       "lastPushed": "2021-10-13",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -322,7 +322,7 @@
       "stars": 46,
       "lastPushed": "2024-05-30",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -338,9 +338,9 @@
     "computed": {
       "status": "active",
       "stars": 236,
-      "lastPushed": "2026-03-20",
+      "lastPushed": "2026-08-17",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -359,7 +359,7 @@
       "stars": 16,
       "lastPushed": "2016-07-09",
       "language": "CoffeeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -378,7 +378,7 @@
       "stars": 23,
       "lastPushed": "2017-08-21",
       "language": "CSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -393,10 +393,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 163,
+      "stars": 164,
       "lastPushed": "2023-01-24",
       "language": "EJS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -414,7 +414,7 @@
       "stars": 151,
       "lastPushed": "2023-10-28",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -432,7 +432,7 @@
       "stars": 13,
       "lastPushed": "2025-06-08",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -450,7 +450,7 @@
       "stars": 7,
       "lastPushed": "2024-07-23",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -465,10 +465,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 1768,
-      "lastPushed": "2026-08-04",
+      "stars": 1779,
+      "lastPushed": "2026-08-31",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -487,7 +487,7 @@
       "stars": 9,
       "lastPushed": "2018-06-06",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -502,11 +502,11 @@
     ],
     "manualStatus": "inactive",
     "computed": {
-      "status": "active",
-      "stars": 25,
-      "lastPushed": "2026-07-23",
-      "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "status": "inactive",
+      "stars": null,
+      "lastPushed": null,
+      "language": null,
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -524,7 +524,7 @@
       "stars": 26,
       "lastPushed": "2026-06-21",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -542,7 +542,7 @@
       "stars": 36,
       "lastPushed": "2026-04-30",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -560,7 +560,7 @@
       "stars": 15,
       "lastPushed": "2017-09-22",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -575,10 +575,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 20865,
-      "lastPushed": "2026-08-09",
+      "stars": 21359,
+      "lastPushed": "2026-09-06",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -601,7 +601,7 @@
       "stars": 9,
       "lastPushed": "2017-04-18",
       "language": "C#",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -619,7 +619,7 @@
       "stars": 787,
       "lastPushed": "2021-12-21",
       "language": "Shell",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -635,10 +635,10 @@
     "manualStatus": "inactive",
     "computed": {
       "status": "inactive",
-      "stars": 207,
+      "stars": 206,
       "lastPushed": "2019-12-04",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -656,7 +656,7 @@
       "stars": 344,
       "lastPushed": "2024-02-27",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -674,7 +674,7 @@
       "stars": 11,
       "lastPushed": "2021-05-04",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -689,10 +689,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 40567,
-      "lastPushed": "2026-08-09",
+      "stars": 40632,
+      "lastPushed": "2026-09-05",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -707,10 +707,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 48,
+      "stars": 47,
       "lastPushed": "2023-01-20",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -729,7 +729,7 @@
       "stars": 15,
       "lastPushed": "2018-10-29",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -744,10 +744,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 1643,
-      "lastPushed": "2026-08-09",
+      "stars": 1678,
+      "lastPushed": "2026-09-07",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -766,7 +766,7 @@
       "stars": 59,
       "lastPushed": "2017-04-12",
       "language": "Ruby",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -781,10 +781,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 47,
+      "stars": 48,
       "lastPushed": "2026-06-05",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -803,7 +803,7 @@
       "stars": 40,
       "lastPushed": "2017-01-22",
       "language": "CSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -818,10 +818,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 30301,
-      "lastPushed": "2026-08-08",
+      "stars": 30670,
+      "lastPushed": "2026-08-31",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -836,10 +836,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 1085,
+      "stars": 1084,
       "lastPushed": "2024-06-22",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -857,7 +857,7 @@
       "stars": 512,
       "lastPushed": "2023-10-16",
       "language": "Swift",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -875,7 +875,7 @@
       "stars": 40,
       "lastPushed": "2020-12-13",
       "language": null,
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -894,10 +894,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 5055,
+      "stars": 5057,
       "lastPushed": "2026-04-15",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -912,10 +912,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 159,
+      "stars": 158,
       "lastPushed": "2022-12-08",
       "language": "Jupyter Notebook",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -930,10 +930,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 66,
-      "lastPushed": "2026-08-09",
+      "stars": 71,
+      "lastPushed": "2026-09-02",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -948,10 +948,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 1425,
-      "lastPushed": "2026-08-09",
+      "stars": 1433,
+      "lastPushed": "2026-09-03",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -969,7 +969,7 @@
       "stars": 58,
       "lastPushed": "2023-10-12",
       "language": "Shell",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -987,7 +987,7 @@
       "stars": 85,
       "lastPushed": "2022-03-10",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1006,7 +1006,7 @@
       "stars": 138,
       "lastPushed": "2018-04-16",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1024,7 +1024,7 @@
       "stars": 24,
       "lastPushed": "2022-06-16",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1043,7 +1043,7 @@
       "stars": 666,
       "lastPushed": "2023-09-05",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1061,7 +1061,7 @@
       "stars": 73,
       "lastPushed": "2023-03-13",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1080,7 +1080,7 @@
       "stars": 7,
       "lastPushed": "2017-04-26",
       "language": "Ruby",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1098,7 +1098,7 @@
       "stars": null,
       "lastPushed": null,
       "language": null,
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1116,7 +1116,7 @@
       "stars": 178,
       "lastPushed": "2022-05-16",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1134,7 +1134,7 @@
       "stars": 14,
       "lastPushed": "2020-04-21",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1153,7 +1153,7 @@
       "stars": 50,
       "lastPushed": "2019-11-20",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1171,7 +1171,7 @@
       "stars": 245,
       "lastPushed": "2023-02-04",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1189,7 +1189,7 @@
       "stars": 35,
       "lastPushed": "2020-06-01",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1207,7 +1207,7 @@
       "stars": 134,
       "lastPushed": "2025-12-14",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1226,7 +1226,7 @@
       "stars": 139,
       "lastPushed": "2018-10-24",
       "language": "Kotlin",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1245,7 +1245,7 @@
       "stars": 32,
       "lastPushed": "2017-09-08",
       "language": "HTML",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1260,10 +1260,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 545,
+      "stars": 546,
       "lastPushed": "2024-08-07",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1282,7 +1282,7 @@
       "stars": 17,
       "lastPushed": "2022-12-08",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1300,7 +1300,7 @@
       "stars": 486,
       "lastPushed": "2023-04-17",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1318,7 +1318,7 @@
       "stars": 19,
       "lastPushed": "2022-06-23",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1336,7 +1336,7 @@
       "stars": 79,
       "lastPushed": "2026-01-21",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1355,7 +1355,7 @@
       "stars": 33,
       "lastPushed": "2018-11-07",
       "language": null,
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1373,7 +1373,7 @@
       "stars": 338,
       "lastPushed": "2023-04-13",
       "language": "CSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1392,7 +1392,7 @@
       "stars": 12,
       "lastPushed": "2017-12-17",
       "language": "CSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1411,7 +1411,7 @@
       "stars": 22,
       "lastPushed": "2022-05-05",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1430,7 +1430,7 @@
       "stars": 55,
       "lastPushed": "2019-09-24",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1448,7 +1448,7 @@
       "stars": 22,
       "lastPushed": "2021-12-29",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1466,7 +1466,7 @@
       "stars": 24,
       "lastPushed": "2023-03-03",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1485,7 +1485,7 @@
       "stars": 22,
       "lastPushed": "2020-06-06",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1503,7 +1503,7 @@
       "stars": 26,
       "lastPushed": "2024-05-30",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1518,10 +1518,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 145,
+      "stars": 147,
       "lastPushed": "2026-05-30",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1536,10 +1536,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 47,
+      "stars": 46,
       "lastPushed": "2020-04-24",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1554,10 +1554,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 329,
+      "stars": 330,
       "lastPushed": "2023-05-22",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1575,7 +1575,7 @@
       "stars": 53,
       "lastPushed": "2024-01-09",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1594,7 +1594,7 @@
       "stars": 290,
       "lastPushed": "2022-12-07",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1610,10 +1610,10 @@
     "manualStatus": "inactive",
     "computed": {
       "status": "inactive",
-      "stars": 156,
+      "stars": 155,
       "lastPushed": "2018-12-02",
       "language": "HTML",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1632,7 +1632,7 @@
       "stars": null,
       "lastPushed": null,
       "language": null,
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1648,9 +1648,9 @@
     "computed": {
       "status": "active",
       "stars": 57,
-      "lastPushed": "2026-08-05",
+      "lastPushed": "2026-09-05",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1668,7 +1668,7 @@
       "stars": 40,
       "lastPushed": "2023-07-11",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1687,7 +1687,7 @@
       "stars": 16,
       "lastPushed": "2018-09-17",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1706,7 +1706,7 @@
       "stars": 224,
       "lastPushed": "2017-01-23",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1721,10 +1721,10 @@
     ],
     "computed": {
       "status": "stale",
-      "stars": 1985,
+      "stars": 1986,
       "lastPushed": "2025-10-03",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1743,7 +1743,7 @@
       "stars": null,
       "lastPushed": null,
       "language": null,
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1758,10 +1758,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 8876,
+      "stars": 8882,
       "lastPushed": "2024-08-03",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1783,7 +1783,7 @@
       "stars": 19,
       "lastPushed": "2020-03-31",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1802,7 +1802,7 @@
       "stars": 12,
       "lastPushed": "2016-09-28",
       "language": "C#",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1821,7 +1821,7 @@
       "stars": 306,
       "lastPushed": "2016-12-03",
       "language": "HTML",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1836,10 +1836,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 41,
+      "stars": 42,
       "lastPushed": "2024-02-23",
       "language": "CSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1858,7 +1858,7 @@
       "stars": 12,
       "lastPushed": "2015-12-21",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1877,7 +1877,7 @@
       "stars": 52,
       "lastPushed": "2016-11-01",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1892,10 +1892,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 176,
+      "stars": 177,
       "lastPushed": "2026-08-08",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1910,10 +1910,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 1765,
+      "stars": 1758,
       "lastPushed": "2023-10-08",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1931,7 +1931,7 @@
       "stars": 32,
       "lastPushed": "2023-07-08",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1949,7 +1949,7 @@
       "stars": 57,
       "lastPushed": "2022-12-21",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1967,7 +1967,7 @@
       "stars": 24,
       "lastPushed": "2026-04-09",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -1985,7 +1985,7 @@
       "stars": 34,
       "lastPushed": "2020-07-14",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2000,10 +2000,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 336,
+      "stars": 337,
       "lastPushed": "2023-04-18",
       "language": "Kotlin",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2022,7 +2022,7 @@
       "stars": 119,
       "lastPushed": "2019-01-15",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2041,7 +2041,7 @@
       "stars": 29,
       "lastPushed": "2016-10-11",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2059,7 +2059,7 @@
       "stars": 77,
       "lastPushed": "2023-11-01",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2077,7 +2077,7 @@
       "stars": 14,
       "lastPushed": "2026-07-21",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2096,7 +2096,7 @@
       "stars": 8,
       "lastPushed": "2015-11-09",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2114,7 +2114,7 @@
       "stars": 64,
       "lastPushed": "2024-04-01",
       "language": "CSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2133,7 +2133,7 @@
       "stars": 23,
       "lastPushed": "2016-01-12",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2152,7 +2152,7 @@
       "stars": 208,
       "lastPushed": "2019-09-09",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2171,7 +2171,7 @@
       "stars": 177,
       "lastPushed": "2016-05-05",
       "language": null,
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2190,7 +2190,7 @@
       "stars": 22,
       "lastPushed": "2017-11-03",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2205,10 +2205,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 1693,
+      "stars": 1685,
       "lastPushed": "2023-12-14",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2227,7 +2227,7 @@
       "stars": 193,
       "lastPushed": "2019-11-20",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2246,7 +2246,7 @@
       "stars": 8,
       "lastPushed": "2019-11-12",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2265,7 +2265,7 @@
       "stars": 63,
       "lastPushed": "2016-08-09",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2283,7 +2283,7 @@
       "stars": 425,
       "lastPushed": "2020-12-30",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2302,7 +2302,7 @@
       "stars": 13,
       "lastPushed": "2017-08-08",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2317,10 +2317,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 647,
+      "stars": 649,
       "lastPushed": "2024-06-14",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2338,7 +2338,7 @@
       "stars": 137,
       "lastPushed": "2024-04-01",
       "language": "Blade",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2357,7 +2357,7 @@
       "stars": 10,
       "lastPushed": "2018-03-11",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2372,10 +2372,10 @@
     ],
     "computed": {
       "status": "stale",
-      "stars": 55,
+      "stars": 54,
       "lastPushed": "2025-03-04",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2394,7 +2394,7 @@
       "stars": 24,
       "lastPushed": "2016-06-01",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2413,7 +2413,7 @@
       "stars": 89,
       "lastPushed": "2017-07-02",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2432,7 +2432,7 @@
       "stars": 31,
       "lastPushed": "2018-03-14",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2450,7 +2450,7 @@
       "stars": 39,
       "lastPushed": "2021-11-17",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2468,7 +2468,7 @@
       "stars": 43,
       "lastPushed": "2026-07-21",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2486,7 +2486,7 @@
       "stars": 28,
       "lastPushed": "2020-10-12",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2505,7 +2505,7 @@
       "stars": 7,
       "lastPushed": "2018-06-13",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2524,7 +2524,7 @@
       "stars": 47,
       "lastPushed": "2017-04-13",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2542,7 +2542,7 @@
       "stars": 43,
       "lastPushed": "2026-01-30",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2556,11 +2556,11 @@
       }
     ],
     "computed": {
-      "status": "stale",
-      "stars": 3154,
+      "status": "inactive",
+      "stars": 3152,
       "lastPushed": "2024-09-04",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2575,10 +2575,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 16922,
-      "lastPushed": "2026-08-09",
+      "stars": 17018,
+      "lastPushed": "2026-08-11",
       "language": "SCSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2597,7 +2597,7 @@
       "stars": null,
       "lastPushed": null,
       "language": null,
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2612,10 +2612,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 378,
-      "lastPushed": "2026-08-07",
+      "stars": 384,
+      "lastPushed": "2026-09-04",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2631,9 +2631,9 @@
     "computed": {
       "status": "active",
       "stars": 20,
-      "lastPushed": "2026-07-25",
+      "lastPushed": "2026-09-07",
       "language": "Kotlin",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2652,7 +2652,7 @@
       "stars": 15,
       "lastPushed": "2016-09-29",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2671,7 +2671,7 @@
       "stars": 464,
       "lastPushed": "2025-07-17",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2686,10 +2686,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 561,
+      "stars": 560,
       "lastPushed": "2026-06-05",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2708,7 +2708,7 @@
       "stars": 9,
       "lastPushed": "2016-11-10",
       "language": "C#",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2726,7 +2726,7 @@
       "stars": 531,
       "lastPushed": "2020-10-26",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2745,7 +2745,7 @@
       "stars": 9,
       "lastPushed": "2018-03-10",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2763,7 +2763,7 @@
       "stars": 43,
       "lastPushed": "2021-06-21",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2782,7 +2782,7 @@
       "stars": 16,
       "lastPushed": "2018-07-23",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2801,7 +2801,7 @@
       "stars": 82,
       "lastPushed": "2018-07-01",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2820,7 +2820,7 @@
       "stars": 21,
       "lastPushed": "2022-12-08",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2839,7 +2839,7 @@
       "stars": 51,
       "lastPushed": "2017-02-12",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2857,7 +2857,7 @@
       "stars": 52,
       "lastPushed": "2023-04-21",
       "language": "Rust",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2876,7 +2876,7 @@
       "stars": 47,
       "lastPushed": "2018-03-08",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2894,7 +2894,7 @@
       "stars": 80,
       "lastPushed": "2026-02-09",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2916,7 +2916,7 @@
       "stars": 23,
       "lastPushed": "2025-07-28",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2934,7 +2934,7 @@
       "stars": 27,
       "lastPushed": "2026-05-29",
       "language": "Rust",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2952,7 +2952,7 @@
       "stars": 61,
       "lastPushed": "2021-07-29",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2970,7 +2970,7 @@
       "stars": 74,
       "lastPushed": "2023-03-04",
       "language": "HTML",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -2985,10 +2985,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 255,
-      "lastPushed": "2026-08-09",
+      "stars": 267,
+      "lastPushed": "2026-09-06",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3003,10 +3003,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 129,
+      "stars": 131,
       "lastPushed": "2026-06-16",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3021,10 +3021,10 @@
     ],
     "computed": {
       "status": "stale",
-      "stars": 46,
+      "stars": 47,
       "lastPushed": "2025-09-15",
       "language": "Rust",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3042,7 +3042,7 @@
       "stars": 26,
       "lastPushed": "2023-02-01",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3060,7 +3060,7 @@
       "stars": 51,
       "lastPushed": "2023-02-01",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3079,7 +3079,7 @@
       "stars": 3,
       "lastPushed": "2019-01-07",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3098,7 +3098,7 @@
       "stars": null,
       "lastPushed": null,
       "language": null,
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3113,10 +3113,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 133,
+      "stars": 134,
       "lastPushed": "2021-05-31",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3134,7 +3134,7 @@
       "stars": 24,
       "lastPushed": "2023-08-07",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3152,7 +3152,7 @@
       "stars": 14,
       "lastPushed": "2023-08-22",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3167,10 +3167,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 246,
+      "stars": 245,
       "lastPushed": "2026-05-29",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3189,7 +3189,7 @@
       "stars": 28,
       "lastPushed": "2019-10-21",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3208,7 +3208,7 @@
       "stars": 48,
       "lastPushed": "2016-09-17",
       "language": "HTML",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3226,7 +3226,7 @@
       "stars": 153,
       "lastPushed": "2024-06-03",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3241,10 +3241,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 1142,
-      "lastPushed": "2026-06-28",
+      "stars": 1138,
+      "lastPushed": "2026-09-02",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3263,7 +3263,7 @@
       "stars": 39,
       "lastPushed": "2019-04-03",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3282,7 +3282,7 @@
       "stars": 87,
       "lastPushed": "2018-04-10",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3296,11 +3296,11 @@
       }
     ],
     "computed": {
-      "status": "active",
+      "status": "stale",
       "stars": 45,
       "lastPushed": "2026-03-09",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3318,7 +3318,7 @@
       "stars": 32,
       "lastPushed": "2024-04-12",
       "language": "Ruby",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3334,10 +3334,10 @@
     "manualStatus": "inactive",
     "computed": {
       "status": "inactive",
-      "stars": 157,
+      "stars": 158,
       "lastPushed": "2023-08-09",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3355,7 +3355,7 @@
       "stars": 24,
       "lastPushed": "2024-03-17",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3369,11 +3369,11 @@
       }
     ],
     "computed": {
-      "status": "active",
-      "stars": 47,
-      "lastPushed": "2026-08-05",
-      "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "status": "unknown",
+      "stars": null,
+      "lastPushed": null,
+      "language": null,
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3391,7 +3391,7 @@
       "stars": 12,
       "lastPushed": "2020-12-19",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3410,7 +3410,7 @@
       "stars": 68,
       "lastPushed": "2018-09-02",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3428,7 +3428,7 @@
       "stars": 37,
       "lastPushed": "2023-07-15",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3442,11 +3442,11 @@
       }
     ],
     "computed": {
-      "status": "stale",
-      "stars": 815,
-      "lastPushed": "2026-01-16",
+      "status": "active",
+      "stars": 814,
+      "lastPushed": "2026-08-18",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3465,7 +3465,7 @@
       "stars": 14,
       "lastPushed": "2017-05-14",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3479,11 +3479,11 @@
       }
     ],
     "computed": {
-      "status": "active",
-      "stars": 33,
+      "status": "stale",
+      "stars": 32,
       "lastPushed": "2026-02-18",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3499,9 +3499,9 @@
     "computed": {
       "status": "active",
       "stars": 100,
-      "lastPushed": "2026-07-31",
+      "lastPushed": "2026-08-17",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3520,7 +3520,7 @@
       "stars": 227,
       "lastPushed": "2019-07-24",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3538,7 +3538,7 @@
       "stars": 19,
       "lastPushed": "2023-05-26",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3557,7 +3557,7 @@
       "stars": 28,
       "lastPushed": "2018-10-27",
       "language": "CSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3576,7 +3576,7 @@
       "stars": 128,
       "lastPushed": "2021-06-20",
       "language": "C",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3595,7 +3595,7 @@
       "stars": 45,
       "lastPushed": "2017-01-30",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3613,7 +3613,7 @@
       "stars": 23,
       "lastPushed": "2022-03-01",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3629,9 +3629,9 @@
     "computed": {
       "status": "active",
       "stars": 199,
-      "lastPushed": "2026-08-05",
+      "lastPushed": "2026-09-06",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3649,7 +3649,7 @@
       "stars": 162,
       "lastPushed": "2023-03-02",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3663,11 +3663,11 @@
       }
     ],
     "computed": {
-      "status": "active",
+      "status": "stale",
       "stars": 18,
       "lastPushed": "2026-02-12",
       "language": "HTML",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3685,7 +3685,7 @@
       "stars": null,
       "lastPushed": null,
       "language": null,
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3701,9 +3701,9 @@
     "computed": {
       "status": "active",
       "stars": 49,
-      "lastPushed": "2026-05-12",
+      "lastPushed": "2026-08-11",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3722,7 +3722,7 @@
       "stars": 9,
       "lastPushed": "2017-06-15",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3741,7 +3741,7 @@
       "stars": 88,
       "lastPushed": "2018-12-03",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3759,7 +3759,7 @@
       "stars": 54,
       "lastPushed": "2023-05-05",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3778,7 +3778,7 @@
       "stars": 419,
       "lastPushed": "2023-09-05",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3797,7 +3797,7 @@
       "stars": 12,
       "lastPushed": "2017-01-21",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3816,7 +3816,7 @@
       "stars": 36,
       "lastPushed": "2016-07-28",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3834,7 +3834,7 @@
       "stars": 59,
       "lastPushed": "2023-01-09",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3852,7 +3852,7 @@
       "stars": 18,
       "lastPushed": "2023-07-18",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3871,7 +3871,7 @@
       "stars": 11,
       "lastPushed": "2017-07-06",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3886,10 +3886,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 82,
+      "stars": 83,
       "lastPushed": "2023-01-12",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3908,10 +3908,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 489,
+      "stars": 491,
       "lastPushed": "2026-06-23",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3930,7 +3930,7 @@
       "stars": 101,
       "lastPushed": "2017-09-24",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3945,10 +3945,10 @@
     ],
     "computed": {
       "status": "inactive",
-      "stars": 57,
+      "stars": 58,
       "lastPushed": "2021-04-02",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3971,7 +3971,7 @@
       "stars": 58,
       "lastPushed": "2019-09-01",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -3994,7 +3994,7 @@
       "stars": 37,
       "lastPushed": "2019-07-21",
       "language": "Python",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4013,7 +4013,7 @@
       "stars": 27,
       "lastPushed": "2017-03-03",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4032,7 +4032,7 @@
       "stars": 39,
       "lastPushed": "2018-10-08",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4051,7 +4051,7 @@
       "stars": null,
       "lastPushed": null,
       "language": null,
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4070,7 +4070,7 @@
       "stars": 149,
       "lastPushed": "2018-11-12",
       "language": "Java",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4088,7 +4088,7 @@
       "stars": 31,
       "lastPushed": "2021-05-11",
       "language": "Kotlin",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4107,7 +4107,7 @@
       "stars": 14,
       "lastPushed": "2019-10-05",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4125,7 +4125,7 @@
       "stars": 134,
       "lastPushed": "2023-08-28",
       "language": "Shell",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4143,7 +4143,7 @@
       "stars": 18,
       "lastPushed": "2023-06-29",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4161,7 +4161,7 @@
       "stars": 79,
       "lastPushed": "2024-12-28",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4179,7 +4179,7 @@
       "stars": 13,
       "lastPushed": "2022-11-07",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4197,7 +4197,7 @@
       "stars": 44,
       "lastPushed": "2024-04-17",
       "language": "CSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4215,7 +4215,7 @@
       "stars": 42,
       "lastPushed": "2025-05-07",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4234,7 +4234,7 @@
       "stars": 18,
       "lastPushed": "2020-10-01",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4249,10 +4249,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 634,
+      "stars": 633,
       "lastPushed": "2026-06-29",
       "language": "C++",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4271,7 +4271,7 @@
       "stars": 3,
       "lastPushed": "2025-07-20",
       "language": null,
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4287,9 +4287,9 @@
     "computed": {
       "status": "active",
       "stars": 36,
-      "lastPushed": "2026-07-24",
+      "lastPushed": "2026-09-03",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4308,7 +4308,7 @@
       "stars": 102,
       "lastPushed": "2017-03-08",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4323,10 +4323,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 33,
+      "stars": 35,
       "lastPushed": "2026-07-19",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4340,11 +4340,11 @@
       }
     ],
     "computed": {
-      "status": "active",
-      "stars": 567,
+      "status": "stale",
+      "stars": 568,
       "lastPushed": "2026-02-12",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4362,7 +4362,7 @@
       "stars": 69,
       "lastPushed": "2025-11-28",
       "language": "Rust",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4380,7 +4380,7 @@
       "stars": 984,
       "lastPushed": "2022-06-16",
       "language": "Kotlin",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4399,7 +4399,7 @@
       "stars": 9,
       "lastPushed": "2015-12-07",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4417,7 +4417,7 @@
       "stars": 197,
       "lastPushed": "2018-09-25",
       "language": "HTML",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4432,10 +4432,10 @@
     ],
     "computed": {
       "status": "stale",
-      "stars": 760,
+      "stars": 765,
       "lastPushed": "2025-09-15",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4454,7 +4454,7 @@
       "stars": 9,
       "lastPushed": "2017-08-30",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4472,7 +4472,7 @@
       "stars": 29,
       "lastPushed": "2022-02-26",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4490,7 +4490,7 @@
       "stars": 33,
       "lastPushed": "2023-03-13",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4504,11 +4504,11 @@
       }
     ],
     "computed": {
-      "status": "inactive",
+      "status": "active",
       "stars": 21,
-      "lastPushed": "2024-02-03",
+      "lastPushed": "2026-08-19",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4526,7 +4526,7 @@
       "stars": 22,
       "lastPushed": "2024-09-19",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4540,11 +4540,11 @@
       }
     ],
     "computed": {
-      "status": "inactive",
+      "status": "active",
       "stars": 17,
-      "lastPushed": "2023-10-27",
+      "lastPushed": "2026-08-19",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4562,7 +4562,7 @@
       "stars": 16,
       "lastPushed": "2024-04-23",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4580,7 +4580,7 @@
       "stars": 57,
       "lastPushed": "2024-06-14",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4598,7 +4598,7 @@
       "stars": 23,
       "lastPushed": "2023-01-01",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4613,10 +4613,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 241,
+      "stars": 242,
       "lastPushed": "2026-06-05",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4631,10 +4631,10 @@
     ],
     "computed": {
       "status": "stale",
-      "stars": 445,
+      "stars": 446,
       "lastPushed": "2024-10-20",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4652,7 +4652,7 @@
       "stars": 112,
       "lastPushed": "2020-08-11",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4666,11 +4666,11 @@
       }
     ],
     "computed": {
-      "status": "stale",
-      "stars": 416,
+      "status": "inactive",
+      "stars": 415,
       "lastPushed": "2024-08-19",
       "language": "SCSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4688,7 +4688,7 @@
       "stars": 124,
       "lastPushed": "2025-10-06",
       "language": "Vue",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4706,7 +4706,7 @@
       "stars": 137,
       "lastPushed": "2023-07-28",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4724,7 +4724,7 @@
       "stars": 41,
       "lastPushed": "2023-01-06",
       "language": "CSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4742,7 +4742,7 @@
       "stars": 8,
       "lastPushed": "2022-06-28",
       "language": "R",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4760,7 +4760,7 @@
       "stars": 52,
       "lastPushed": "2022-03-26",
       "language": "Rust",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4778,7 +4778,7 @@
       "stars": 21,
       "lastPushed": "2022-10-25",
       "language": "Rust",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4793,10 +4793,10 @@
     ],
     "computed": {
       "status": "stale",
-      "stars": 898,
+      "stars": 899,
       "lastPushed": "2024-12-21",
       "language": "C#",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4814,7 +4814,7 @@
       "stars": 21,
       "lastPushed": "2026-01-28",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4832,7 +4832,7 @@
       "stars": 116,
       "lastPushed": "2025-12-27",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4850,7 +4850,7 @@
       "stars": 17,
       "lastPushed": "2026-07-20",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4868,7 +4868,7 @@
       "stars": 117,
       "lastPushed": "2023-01-20",
       "language": "Go",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4886,7 +4886,7 @@
       "stars": 91,
       "lastPushed": "2024-03-10",
       "language": "PHP",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4904,7 +4904,7 @@
       "stars": 71,
       "lastPushed": "2022-08-26",
       "language": "CSS",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4920,10 +4920,10 @@
     "manualStatus": "inactive",
     "computed": {
       "status": "stale",
-      "stars": 457,
+      "stars": 459,
       "lastPushed": "2026-01-12",
       "language": "JavaScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4938,10 +4938,10 @@
     ],
     "computed": {
       "status": "active",
-      "stars": 5182,
-      "lastPushed": "2026-08-10",
+      "stars": 5204,
+      "lastPushed": "2026-09-07",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   },
   {
@@ -4959,7 +4959,7 @@
       "stars": 25,
       "lastPushed": "2026-07-26",
       "language": "TypeScript",
-      "checkedAt": "2026-08-10"
+      "checkedAt": "2026-09-07"
     }
   }
 ]
