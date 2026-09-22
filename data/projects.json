@@ -3085,5 +3085,16 @@
         "link": "https://x.com/varsilias"
       }
     ]
+  },
+  {
+    "name": "react-native-openwakeword",
+    "repoUrl": "https://github.com/Incognitol07/react-native-openwakeword",
+    "description": "High-performance, offline wake word detection for React Native.",
+    "authors": [
+      {
+        "name": "@Incognitol07",
+        "link": "https://abrahamadelodun.com/"
+      }
+    ]
   }
 ]
