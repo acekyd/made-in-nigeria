@@ -11,6 +11,14 @@
     ]
   },
   {
+  "name": "Odify",
+  "repoUrl": "https://github.com/callmidavid/odify",
+  "description": "odify finds google businesses with no website and gives you their phone & email",
+  "authors": [
+    { "name": "@callmidavid", "link": "https://x.com/callmidavid" }
+  ]
+},
+  {
     "name": "Appshots",
     "repoUrl": "https://github.com/oyeolamilekan/appshots",
     "description": "A simple app that enables developers to generate app store screenshots",
