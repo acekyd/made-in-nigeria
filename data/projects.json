@@ -2493,6 +2493,17 @@
     "manualStatus": "inactive"
   },
   {
+    "name": "Sillo",
+    "repoUrl": "https://github.com/sillohq/core",
+    "description": "The Buildsmith framework for fast, async APIs, real-time systems, and production backends.",
+    "authors": [
+      {
+        "name": "@_dnmx",
+        "link": "https://twitter.com/_dnmx"
+      }
+    ]
+  },
+  {
     "name": "Simple-DB",
     "repoUrl": "https://github.com/shalvah/simple-db",
     "description": "Get your Android app's SQLite database set up in five minutes!",
