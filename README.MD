@@ -289,6 +289,7 @@ parsing module. **By [@flickzcode](https://twitter.com/flickzcode)**
 - [SlidingUpMenu](https://github.com/r4sh33d/SlidingUpMenu) - 🚀A very customizable Android library that allows you to present menu items (from menu resource and/or other sources) to users as a bottom sheet. **By [@srasheed](https://twitter.com/srasheed_)**
 - [sms-nigeria-go](https://github.com/D-sense/sms-nigeria-go) - A Go client for sending SMS to any Nigeria phone-number with ease. **By [@D-sense](https://twitter.com/Delameh)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [stacks](https://github.com/nerdeveloper/stacks) - A tool for setting up your stack quickly for Local development, on-prem and Bare metal servers. **By [@nerdeveloper](https://github.com/nerdeveloper)**
+- [Sanwo](https://github.com/Sanwohq) - Open-source universal payment SDK. One interface for every payment provider, on every platform. Native SDKs for React, Vue, Svelte, React Native, Flutter, iOS, and Android. **By [@just1and0](https://twitter.com/justaborin)**
 - [Stargazer](https://github.com/kaf-lamed-beyt/stargazer) - Get notified when someone stars or "unstars" your OSS project. **By [@kafLamed](https://twitter.com/kafLamed)**
 - [StartEase Cli](https://github.com/JC-Coder/startease) - StartEase is a command-line interface (CLI) tool designed to make project setup a breeze. Whether you're working with your favorite technologies or exploring new ones, StartEase is your companion for quickly and effortlessly scaffolding projects. **By [@jc_coder1](https://twitter.com/jc_coder1)**
 - [status-modal](https://github.com/kaf-lamed-beyt/status-modal) - A react component that you can use to render current error or success messages from a particular API endpoint. **By [@kafLamed](https://twitter.com/kafLamed)**
@@ -352,4 +353,3 @@ parsing module. **By [@flickzcode](https://twitter.com/flickzcode)**
 ## <a name="Z"> </a>Z
 
 - [zag](https://github.com/chakra-ui/zag) - Finite state machines for building accessible design systems and UI components. **By [@thesegunadebayo](https://twitter.com/thesegunadebayo)**
-
