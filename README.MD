@@ -270,6 +270,7 @@ parsing module. **By [@flickzcode](https://twitter.com/flickzcode)**
 - [RemindMeOfThisTweet](https://github.com/shalvah/RemindMeOfThisTweet) - Twitter bot to set reminders for tweets. **By [@theshalvah](https://twitter.com/theshalvah)**<span style="color: green; font-weight: 700;"> | 🏁 Archived </span>
 - [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By [@abiosoft](https://twitter.com/abiosoft)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
+- [react-native-openwakeword](https://github.com/Incognitol07/react-native-openwakeword) - High-performance, offline wake word detection for React Native. **By [@Incognitol07](https://abrahamadelodun.com/)**
 
 ## <a name="S"> </a>S
 
