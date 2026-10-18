@@ -11,6 +11,28 @@
     ]
   },
   {
+    "name": "Aster",
+    "repoUrl": "https://github.com/zfinix/aster",
+    "description": "An open-source coding agent you run yourself, with the model you choose. Reads your code, edits files, runs commands and reviews your changes from the terminal, VS Code or a desktop app.",
+    "authors": [
+      {
+        "name": "@chiziaruhoma",
+        "link": "https://chizi.app"
+      }
+    ]
+  },
+  {
+    "name": "Eleven",
+    "repoUrl": "https://github.com/Zfinix/eleven",
+    "description": "An agent-first reverse-engineering app for macOS, Windows and Linux. Drop in a binary, an Android APK or a GPU kernel and let any ACP agent read, rename and patch it next to you.",
+    "authors": [
+      {
+        "name": "@chiziaruhoma",
+        "link": "https://chizi.app"
+      }
+    ]
+  },
+  {
     "name": "Appshots",
     "repoUrl": "https://github.com/oyeolamilekan/appshots",
     "description": "A simple app that enables developers to generate app store screenshots",
