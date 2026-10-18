@@ -12,6 +12,7 @@
 ## <a name="A"> </a>A
 
 - [another](https://github.com/Zfinix/another) - A desktop app for mirroring and controlling Android devices over USB. Built with Tauri, React, and Rust. **By [@chiziaruhoma](https://chizi.app)**
+- [Aster](https://github.com/zfinix/aster) - An open-source coding agent you run yourself, with the model you choose. Reads your code, edits files, runs commands and reviews your changes from the terminal, VS Code or a desktop app. **By [@chiziaruhoma](https://chizi.app)**
 - [Appshots](https://github.com/oyeolamilekan/appshots) - A simple app that enables developers to generate app store screenshots **By [@magicnull](https://twitter.com/magicnull)**
 - [Adonis Auth Scaffold](https://github.com/creatrixity/adonis-auth-scaffold) - Seamlessly scaffold a ready-to-use authentication system for your Adonis app with one neat command. **By [@creatrixity](https://twitter.com/creatrixity)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [Adonis Hexa](https://github.com/creatrixity/adonis-hexa) - An opinionated software development framework for maintaining a scalable Adonis application. **By [@creatrixity](https://twitter.com/creatrixity)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
@@ -83,6 +84,7 @@
 
 ## <a name="E"> </a>E
 
+- [Eleven](https://github.com/Zfinix/eleven) - An agent-first reverse-engineering app for macOS, Windows and Linux. Drop in a binary, an Android APK or a GPU kernel and let any ACP agent read, rename and patch it next to you. **By [@chiziaruhoma](https://chizi.app)**
 - [Early Access](https://github.com/neoighodaro/laravel-early-access) - This package makes it easy to add early access mode to your existing application. **By [@neoighodaro](https://twitter.com/neoighodaro)**
 - [esgit — easy-git](https://github.com/dillionmegida/esgit) - CLI package with simplified aliases for git commands. **By [Dillion Megida](https://twitter.com/iamdillion)**
 - [Essential Kit](https://github.com/ichtrojan/essential-kit) - A Boilerplate for NodeJS with all the essential tools. **By [@ichtrojan](https://twitter.com/ichtrojan)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
@@ -270,6 +272,7 @@ parsing module. **By [@flickzcode](https://twitter.com/flickzcode)**
 - [RemindMeOfThisTweet](https://github.com/shalvah/RemindMeOfThisTweet) - Twitter bot to set reminders for tweets. **By [@theshalvah](https://twitter.com/theshalvah)**<span style="color: green; font-weight: 700;"> | 🏁 Archived </span>
 - [Reuq](https://github.com/ifedapoolarewaju/reuq) - Frontend Javascript framework. **By [@ifedapolarewaju](https://twitter.com/ifedapolarewaju)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
 - [River](https://github.com/abiosoft/river) - Lightweight REST framework for Go. **By [@abiosoft](https://twitter.com/abiosoft)**<span style="color: red; font-weight: 700;"> | 🏁 Inactive </span>
+- [react-native-openwakeword](https://github.com/Incognitol07/react-native-openwakeword) - High-performance, offline wake word detection for React Native. **By [@Incognitol07](https://abrahamadelodun.com/)**
 
 ## <a name="S"> </a>S
 
