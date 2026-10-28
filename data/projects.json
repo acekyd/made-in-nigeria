@@ -22,6 +22,14 @@
     ]
   },
   {
+  "name": "Legenda",
+  "repoUrl": "https://github.com/callmidavid/legenda",
+  "description": "Legenda is a Nothing OS-like rice for Hyprland + Quickshell",
+  "authors": [
+    { "name": "@callmidavid", "link": "https://x.com/callmidavid" }
+  ]
+},
+  {
     "name": "Eleven",
     "repoUrl": "https://github.com/Zfinix/eleven",
     "description": "An agent-first reverse-engineering app for macOS, Windows and Linux. Drop in a binary, an Android APK or a GPU kernel and let any ACP agent read, rename and patch it next to you.",
